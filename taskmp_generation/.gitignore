@@ -1,0 +1,5 @@
+__pychache__
+shared/compiled_protobufs
+shared/file_system/taskmap_generation/*
+
+*.pyc

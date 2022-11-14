@@ -1,7 +1,8 @@
 
 import sys
-sys.path.insert(0, '/shared')
-sys.path.insert(0, '/shared/compiled_protobufs')
+sys.path.insert(0, './shared')
+sys.path.insert(0, './shared/compiled_protobufs')
+print(sys.path)
 
 from task_graph import *
 from convertors.abstract_convertor import AbstractConvertor

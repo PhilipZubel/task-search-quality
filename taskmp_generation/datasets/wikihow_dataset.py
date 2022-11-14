@@ -1,6 +1,6 @@
 
 import sys
-sys.path.insert(0, '/shared')
+sys.path.insert(0, './shared')
 
 from datasets.abstract_dataset import AbstractDataset
 import json
@@ -15,7 +15,7 @@ class WikihowDataset(AbstractDataset):
 
     def __get_documents(self):
         """ Read documents from dataset. """
-        requirements_path = os.path.join(os.getcwd().shared(), 'taskmap_generation', 'wikihow', 'wikihow_upen_req.jsonl')
+        requirements_path = os.path.join(os.getcwd(), 'shared', 'file_system', 'taskmap_generation', 'wikihow', 'wikihow_upen_req.jsonl')
         requirements_mapping = {}
         with open(requirements_path, 'r') as f_req:
             for line in f_req:
@@ -23,7 +23,7 @@ class WikihowDataset(AbstractDataset):
                 url = url_req['url']
                 requirements_mapping[url] = url_req['requirements']
 
-        path = os.path.join(os.getcwd().shared(), 'taskmap_generation', 'wikihow', 'wikihow_upen.jsonl')
+        path = os.path.join(os.getcwd(), 'shared', 'file_system', 'taskmap_generation', 'wikihow', 'wikihow_upen.jsonl')
         documents = []
         with open(path, 'r') as f:
             for line in f:

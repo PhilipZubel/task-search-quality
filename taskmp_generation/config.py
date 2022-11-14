@@ -1,7 +1,7 @@
 import sys
-sys.path.insert(0, '/shared')
+sys.path.insert(0, './shared')
 
-import os
+from utils import get_file_system
 
 # --- Wikihow ---
 from datasets.wikihow_dataset import WikihowDataset
@@ -39,7 +39,7 @@ seriouseats_config = {
 
 ################ Config  #################
 config_dict = {
-    'file_system_path': os.path.join(os.getcwd(), 'shared'),
+    'file_system_path': get_file_system(),
     'version': "0.3.1",
     'datasets': [wikihow_config, seriouseats_config],
     'IndexBuilder': PyseriniIndexBuilder,

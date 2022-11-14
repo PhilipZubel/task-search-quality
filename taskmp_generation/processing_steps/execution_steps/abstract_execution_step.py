@@ -2,8 +2,8 @@
 import sys
 import os
 import json
-sys.path.insert(0, '/shared')
-sys.path.insert(0, '/shared/compiled_protobufs')
+sys.path.insert(0, './shared')
+sys.path.insert(0, './shared/compiled_protobufs')
 
 from task_graph.task_graph import TaskGraph
 from taskmap_pb2 import OutputInteraction, ScreenInteraction, Image
