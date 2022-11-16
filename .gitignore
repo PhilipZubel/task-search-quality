@@ -1,2 +1,4 @@
-pysernini_OAT/indexes
-pysernini_OAT/lookup_files
+compiled_protobufs/
+bin/
+indexes/
+temp/

@@ -1,3 +1,0 @@
-pyserini==0.16.0
-faiss-cpu==1.7.2
-torch==1.10.1
