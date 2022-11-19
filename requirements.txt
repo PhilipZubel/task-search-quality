@@ -21,4 +21,5 @@ sentencepiece
 pyserini==0.16.0
 grpcio
 grpcio_tools
+marqo
 # gevent
