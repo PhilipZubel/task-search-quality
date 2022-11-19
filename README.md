@@ -18,4 +18,4 @@ docker rm -f marqo;
 docker run --name marqo -it --privileged -p 8882:8882 --add-host host.docker.internal:host-gateway marqoai/marqo:0.0.6 
 ```
 
-4. Either run `python3 main.py` or run the files inside `main.ipynb`
+4. Either run `python3 main.py` or run the files inside `main.ipynb`.
