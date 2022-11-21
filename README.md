@@ -4,11 +4,15 @@
 
 1. Create a virtual environment and install all packages in `requirements.txt`:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 2. Complie protobuffs:
 
-```bash compile_protos.sh```
+```
+bash compile_protos.sh
+```
 
 3. Marqo requires (Docker)[https://docs.docker.com/get-docker/]. Use docker to run Marqo:
 
