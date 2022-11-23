@@ -105,9 +105,9 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
 
     def __build_marqo_index(self, input_dir, output_dir):
         self.mq = marqo.Client(url='http://localhost:8882')
-        # self.mq.create_index("my-first-index")
+        # self.mq.create_index("index-name")
         print(self.docs_list[0])
-        self.mq.index("my-first-index").add_documents(self.docs_list)
+        self.mq.index("index-name").add_documents(self.docs_list)
           
     def __build_marqo_index_dense(self, input_dir, output_dir, cpu=True):
         pass
@@ -142,8 +142,8 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
     #                                     output_dir=output_dir)
     
     def query_index(self, q):
-        return self.mq.index("my-first-index").search(q, searchable_attributes=['Desription', 'Title'])
+        return self.mq.index("index-name").search(q, searchable_attributes=['Desription', 'Title'])
     
     def get_index_stats(self):
-        return self.mq.index("my-first-index").get_stats()
+        return self.mq.index("index-name").get_stats()
     
