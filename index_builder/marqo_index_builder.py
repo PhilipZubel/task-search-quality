@@ -18,33 +18,15 @@ import marqo
 
 
 class MarqoIndexBuilder(AbstractIndexBuilder):
-
-    def __parse_title(self, proto_message):
-        """ Extract text contents from proto title and requirements """
-        return proto_message.title
-
-    def __parse_title_and_requirements(self, proto_message):
-        """ Extract text contents from proto title and requirements """
-        contents = ''
-        contents += proto_message.title + '. '
-        for requirement in proto_message.requirement_list:
-            contents += requirement.name + ' '
-
-        return contents
-
-    def __parse_all(self, proto_message):
-        """ Extract text content from proto. """
-        contents = ''
-        contents += proto_message.title + '. '
-        for requirement in proto_message.requirement_list:
-            contents += requirement.name + ' '
-        for tag in proto_message.tags:
-            contents += tag + ' '
-        contents += proto_message.description + ''
-        for step in proto_message.steps:
-            contents += step.response.speech_text + ' '
-
-        return contents
+    
+    def __parse_tags(self, proto_message):
+         return " ".join([tag for tag in proto_message.tags])
+    
+    def __parse_steps(self, proto_message):
+        return " ".join([step.response.speech_text for step in proto_message.steps])
+    
+    def __parse_requirements(self, proto_message):
+        return " ".join([requirement.name for requirement in proto_message.requirement_list])
 
     def __get_protobuf_list_messages(self, path, proto_message):
         """ Retrieve list of protocol buffer messages from binary fire """
@@ -52,29 +34,26 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
 
     def __build_doc(self, taskmap, how='all', dense=False):
         """ Build pyserini document from taskmap message. """
-        if how == 'all':
-            contents = self.__parse_all(taskmap)
-            title = self.__parse_title(taskmap)
-        elif how == 'title':
-            contents = self.__parse_title(taskmap)
-        elif how == 'title+ingredients':
-            contents = self.__parse_title_and_requirements(taskmap)
-        else:
-            print('error - not set how correctly')
-            contents = self.__parse_all(taskmap)
-        if not dense:
-            return {
-                "_id": taskmap.taskmap_id,
-                "Title": title,
-                "Description": contents,
-                # "__recipe_document_json": MessageToDict(taskmap), doesn't work with this
-            }
-        else:
-            return {
-                "_id": taskmap.taskmap_id,
-                "text": contents,
-                "Description": contents,
-            }
+        print(taskmap)
+        return {
+            "_id": taskmap.taskmap_id,
+            "Title": taskmap.title,
+            "Date": taskmap.date,
+            "Steps": self.__parse_steps(taskmap),
+            "Tags": self.__parse_tags(taskmap),
+            "Requirements": self.__parse_requirements(taskmap),
+            "Domain": taskmap.domain_name,
+            "Description": taskmap.description,
+            "Difficulty": taskmap.difficulty,
+        }
+        
+    def build_json_docs(self, input_dir, output_dir, dataset_name):
+        """ Build index given directory of files containing taskmaps. """
+        # Write Pyserini readable documents (i.e. json) to temporary folder.
+        self.__write_doc_file_from_lucene_indexing(input_dir=input_dir,
+                                                output_dir=output_dir,
+                                                dataset_name=dataset_name,
+                                                how='all')
 
     def __write_doc_file_from_lucene_indexing(self, input_dir, output_dir, dataset_name, how='all', dense=False):
         """ Write folder of pyserini json documents that represent taskmaps. """
@@ -94,55 +73,23 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
             self.docs_list = [self.__build_doc(taskmap, how=how, dense=dense)
                          for taskmap in taskmap_list]
 
-            # Write to file.
-            # with open(out_path, 'w') as f:
-            #     for doc in docs_list:
-            #         if 'text' in doc:
-            #             if len(doc['text']) > 0:
-            #                 f.write(json.dumps(doc) + '\n')
-            #         else:
-            #             f.write(json.dumps(doc) + '\n')
-
     def __build_marqo_index(self, input_dir, output_dir):
         self.mq = marqo.Client(url='http://localhost:8882')
         # self.mq.create_index("index-name")
         print(self.docs_list[0])
         self.mq.index("index-name").add_documents(self.docs_list)
-          
-    def __build_marqo_index_dense(self, input_dir, output_dir, cpu=True):
-        pass
-
-
-    def build_json_docs(self, input_dir, output_dir, dataset_name):
-        """ Build index given directory of files containing taskmaps. """
-        # Write Pyserini readable documents (i.e. json) to temporary folder.
-        self.__write_doc_file_from_lucene_indexing(input_dir=input_dir,
-                                                   output_dir=output_dir,
-                                                   dataset_name=dataset_name,
-                                                   how='all',
-                                                   dense=False)
-
-    # def build_json_docs_dense(self, input_dir, output_dir, dataset_name):
-    #     """ Build index given directory of files containing taskmaps. """
-
-    #     self.__write_doc_file_from_lucene_indexing(input_dir=input_dir,
-    #                                                output_dir=output_dir,
-    #                                                dataset_name=dataset_name,
-    #                                                how='title',
-    #                                                dense=True)
 
     def build_index(self, input_dir, output_dir):
         # Build Pyserini index.
         self.__build_marqo_index(input_dir=input_dir,
                                   output_dir=output_dir)
 
-    # def build_index_dense(self, input_dir,  output_dir):
-    #     # Build Pyserini index.
-    #     self.__build_lucene_index_dense(input_dir=input_dir,
-    #                                     output_dir=output_dir)
     
     def query_index(self, q):
-        return self.mq.index("index-name").search(q, searchable_attributes=['Desription', 'Title'])
+        return self.mq.index("index-name").search(q, searchable_attributes=['Desription', 'Title', "Tags", "Steps", "Requirements"])
+    
+    def query_index_filter(self, q:str, filter:str):
+        return self.mq.index("index-name").search(q=q, filter_string=filter)
     
     def get_index_stats(self):
         return self.mq.index("index-name").get_stats()
