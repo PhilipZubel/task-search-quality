@@ -77,7 +77,15 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
         self.mq = marqo.Client(url='http://localhost:8882')
         # self.mq.create_index("index-name")
         print(self.docs_list[0])
-        self.mq.index("index-name").add_documents(self.docs_list)
+        settings = {
+            "index_defaults": {
+                "treat_urls_and_pointers_as_images": False,
+                "model": "flax-sentence-embeddings/all_datasets_v4_MiniLM-L6", # good starting point
+                # "model" : "flax-sentence-embeddings/all_datasets_v4_mpnet-base" # provides the best relevancy (in general)
+                "normalize_embeddings": True,
+            },
+        }
+        self.mq.index("index-name", **settings).add_documents(self.docs_list)
 
     def build_index(self, input_dir, output_dir):
         # Build Pyserini index.
