@@ -1,3 +1,4 @@
+raw query,target query,domain
 how do I make a sponge cake,sponge cake,cooking
 I want to make cheesecake,cheesecake,cooking
 how to make pumpkin soup,pumpkin soup,cooking
@@ -8,7 +9,7 @@ vegetarian meatballs, vegeterian meatballs,cooking
 how to make lentil salad,lentil salad,cooking
 perfect soft cooked egg,soft cooked egg,cooking
 how can I make squash and bean burritos,squash and bean burritos,cooking
-pecan pie,pecan pie,pecan pie,cooking
+pecan pie,pecan pie,cooking
 how to prepare banana smooothie,banana smoothie,cooking
 I want strawberry ice cream,stawberry ice cream,cooking
 how to fry ribeye steak,ribeye steak,cooking
@@ -18,8 +19,8 @@ I want a strawberry almond smoothie,strawberry almond smooothie,cooking
 I want chocolate-pumpkin cheesecake bars,chocolate-pumpkin cheesecake bars,cooking
 How to make chipotle pea salad,chipotle pea salad,cooking
 How do I make beetroot feta burgers,beetroot feta burgers,cooking
-help me out with shrimp scampi with pasta,shrimp scampi with pasta
-how do I make a breaded chicken wing,breaded chicken wing
+help me out with shrimp scampi with pasta,shrimp scampi with pasta,cooking
+how do I make a breaded chicken wing,breaded chicken wing,cooking
 banana nut muffins,banana nut muffins,cooking
 help me with chipotle baked eggs,chipotle baked eggs,cooking
 how to make rye sourdough bread,sourdough bread,cooking
@@ -65,7 +66,7 @@ vegetable pakora with mint chutney,vegetable pakora with mint chutney,cooking
 tiramisu doughnuts,tiramisu doughnuts,cooking
 I want to make creamy jalapeno dip,creamy jalapeno dip,cooking
 cilantro yougurt chutney,cilantro yougurt chutney,cooking
-cookie dough pizza,cookie dough pizza,cooking,cooking
+cookie dough pizza,cookie dough pizza,cooking
 chilli chocolate cookies,chilli chocolate cookies,cooking
 lemon garlic salmon,lemon garlic salmon,cooking
 halibut tacos,halibut tacos,cooking
