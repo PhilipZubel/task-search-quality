@@ -1,4 +1,3 @@
-
 import sys
 sys.path.insert(0, '/shared')
 sys.path.insert(0, '/shared/compiled_protobufs')
@@ -14,9 +13,8 @@ import json
 import time
 import os
 
-
-class PyseriniIndexBuilder(AbstractIndexBuilder):
-
+class PyseriniBM25Builder(AbstractIndexBuilder):
+    
     def __parse_title(self, proto_message):
         """ Extract text contents from proto title and requirements """
         return proto_message.title
@@ -27,7 +25,6 @@ class PyseriniIndexBuilder(AbstractIndexBuilder):
         contents += proto_message.title + '. '
         for requirement in proto_message.requirement_list:
             contents += requirement.name + ' '
-
         return contents
 
     def __parse_all(self, proto_message):
@@ -71,7 +68,7 @@ class PyseriniIndexBuilder(AbstractIndexBuilder):
                 "text": contents,
                 "contents": contents,
             }
-
+    
     def __write_doc_file_from_lucene_indexing(self, input_dir, output_dir, dataset_name, how='all', dense=False):
         """ Write folder of pyserini json documents that represent taskmaps. """
         # Get list of files from 'in_directory'.
@@ -99,6 +96,22 @@ class PyseriniIndexBuilder(AbstractIndexBuilder):
                     else:
                         f.write(json.dumps(doc) + '\n')
 
+    
+    
+    def build_json_docs(self, input_dir, output_dir, dataset_name):
+        """ Build index given directory of files containing taskmaps. """
+        # Write Pyserini readable documents (i.e. json) to temporary folder.
+        self.__write_doc_file_from_lucene_indexing(input_dir=input_dir,
+                                                   output_dir=output_dir,
+                                                   dataset_name=dataset_name,
+                                                   how='all',
+                                                   dense=False)
+    
+    def build_index(self, input_dir, output_dir):
+        # Build Pyserini index.
+        self.__build_lucene_index(input_dir=input_dir,
+                                  output_dir=output_dir)
+        
     def __build_lucene_index(self, input_dir, output_dir):
         """ Builds an index with Pyserini """
         subprocess.run(["python3", "-m", "pyserini.index",
@@ -108,47 +121,3 @@ class PyseriniIndexBuilder(AbstractIndexBuilder):
                         "-input", input_dir,
                         "-index", output_dir,
                         "-storePositions", "-storeContents", "-storeRaw", "-storeDocvectors"])
-
-    def __build_lucene_index_dense(self, input_dir, output_dir, cpu=True):
-        """ Builds an index with Pyserini """
-
-        if cpu:
-            subprocess.run(["python3", "-m", "pyserini.encode", "input", "--corpus", input_dir, "--fields", "text",
-                            "output", "--embedding", output_dir, "--to-faiss",
-                            "encoder", "--encoder", "castorini/ance-msmarco-passage", "--fields", "text",
-                            "--batch", "16", "--device", "cpu",
-                            ])
-        else:
-            subprocess.run(["python3", "-m", "pyserini.encode", "input", "--corpus", input_dir, "--fields", "text",
-                            "output", "--embedding", output_dir, "--to-faiss",
-                            "encoder", "--encoder", "castorini/ance-msmarco-passage", "--fields", "text",
-                            "--batch", "16",
-                            ])
-
-    def build_json_docs(self, input_dir, output_dir, dataset_name):
-        """ Build index given directory of files containing taskmaps. """
-        # Write Pyserini readable documents (i.e. json) to temporary folder.
-        self.__write_doc_file_from_lucene_indexing(input_dir=input_dir,
-                                                   output_dir=output_dir,
-                                                   dataset_name=dataset_name,
-                                                   how='all',
-                                                   dense=False)
-
-    def build_json_docs_dense(self, input_dir, output_dir, dataset_name):
-        """ Build index given directory of files containing taskmaps. """
-
-        self.__write_doc_file_from_lucene_indexing(input_dir=input_dir,
-                                                   output_dir=output_dir,
-                                                   dataset_name=dataset_name,
-                                                   how='title',
-                                                   dense=True)
-
-    def build_index(self, input_dir, output_dir):
-        # Build Pyserini index.
-        self.__build_lucene_index(input_dir=input_dir,
-                                  output_dir=output_dir)
-
-    def build_index_dense(self, input_dir,  output_dir):
-        # Build Pyserini index.
-        self.__build_lucene_index_dense(input_dir=input_dir,
-                                        output_dir=output_dir)
