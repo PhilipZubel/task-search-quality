@@ -1,7 +1,6 @@
 
 import sys
-sys.path.insert(0, '/shared')
-sys.path.insert(0, '/shared/compiled_protobufs')
+sys.path.insert(0, './../compiled_protobufs')
 
 from index_builder.abstract_index_builder import AbstractIndexBuilder
 
