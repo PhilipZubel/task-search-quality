@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, '../../compiled_protobufs')
+
+
 from taskmap_pb2 import TaskMap, TaskState, Connection, ExtraInfo
 from typing import List, Dict, Optional, Tuple, Set
 import uuid
