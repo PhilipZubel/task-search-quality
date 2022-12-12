@@ -8,6 +8,7 @@ from task_graph.task_graph import TaskGraph
 def get_taskmap_id(doc_type, dataset, url) -> str:
     """ Generate taskmap_id using MD5 hash. """
     import hashlib
+    print(doc_type)
     md5 = hashlib.md5(url.encode('utf-8')).hexdigest()
     return doc_type + '+' + dataset + '+' + md5
 
