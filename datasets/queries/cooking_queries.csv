@@ -1,101 +1,101 @@
-raw query,target query,domain
-how do I make a sponge cake,sponge cake,cooking
-I want to make cheesecake,cheesecake,cooking
-how to make pumpkin soup,pumpkin soup,cooking
-make tomato soup,tomato soup,cooking
-lemonade,lemonade,cooking
-help me make egg fried rice,egg fried rice,cooking
-vegetarian meatballs, vegeterian meatballs,cooking
-how to make lentil salad,lentil salad,cooking
-perfect soft cooked egg,soft cooked egg,cooking
-how can I make squash and bean burritos,squash and bean burritos,cooking
-pecan pie,pecan pie,cooking
-how to prepare banana smooothie,banana smoothie,cooking
-I want strawberry ice cream,stawberry ice cream,cooking
-how to fry ribeye steak,ribeye steak,cooking
-I would like to make korean barbecue chicken,korean barbecue chicken,cooking
-get recipes for icebox cake,icebox cake,cooking
-I want a strawberry almond smoothie,strawberry almond smooothie,cooking
-I want chocolate-pumpkin cheesecake bars,chocolate-pumpkin cheesecake bars,cooking
-How to make chipotle pea salad,chipotle pea salad,cooking
-How do I make beetroot feta burgers,beetroot feta burgers,cooking
-help me out with shrimp scampi with pasta,shrimp scampi with pasta,cooking
-how do I make a breaded chicken wing,breaded chicken wing,cooking
-banana nut muffins,banana nut muffins,cooking
-help me with chipotle baked eggs,chipotle baked eggs,cooking
-how to make rye sourdough bread,sourdough bread,cooking
-I want to learn to make lime cheese salad,lime cheese salad,cooking
-delmonico's stake,delmonico steak,cooking
-how do I do a california roll,california roll,cooking
-how to make parmesan sweet potato wedges,parmesan sweet potato wedges,cooking
-I want a recipe for loaded waffle fries,loaded waffle fries,cooking
-veggie pizza with aubergine and goat cheese,veggie pizza with aubergine and goat cheese,cooking
-show me a creamy mushroom stroganoff recipe,creamy mushroom stroganoff,cooking
-greek salad with halloumi,greek salad with halloumi,cooking
-I want a pot roast brisket, pot roast brisket,cooking
-caramel sauce churros recipe,caramel sauce churros,cooking
-how do I make tofu lettuce wraps with peanut sauce,tofu lettuce wraps with peanut sauce,cooking
-I want beef and broccoli,beef and broccoli,cooking
-how do I make a flourless carrot cake,flourless carrot cake,cooking
-vegan lemon cheesecake,vegan lemon cheesecake,cooking
-a lamb skwewers with pickled cabagge,lamb skwewers with pickled cabagge,cooking
-jamaican ginger cake with malasses,jamaican ginger cake with malasses,cooking
-help me with coconut taro cake,coconut taro cake,cooking
-vietnamese vegetable hot pot,vietnamese vegetable hot pot,cooking
-a caprese chicken saltimbocca,caprese chicken saltimbocca,cooking
-I would like a risotto with lemon and peas,risotto with lemon and peas,cooking
-I want grilled peaches with burrata and honey,grilled peaches with burrata and honey,cooking
-air fryer parmesan zucchini fries,air fryer parmesan zucchini fries,cooking
-halloween themed cake,halloween cake,cooking
-I would like to make a turkey with apple sauce stuffing,urkey with apple sauce stuffing,cooking
-rustic pork apricot and chestnut terrine, pork apricot and chestnut terrine,cooking
-pearl barly casserole,pearl barly casserole,cooking
-turkish chicken shish kebab, turkish chicken shish kebab,cooking
-apple sandwiches with almond butter and granola,apple sandwiches with almond butter and granola,cooking
-cauliflower soup with cheese,cauliflower soup with cheese,cooking
-borscht with cabbage,borscht with cabbage,cooking
-cottage cheese dumplings with bacon,cottage cheese dumplings with bacon,cooking
-asparagus soup with poached egg,asparagus soup with poached egg,cooking
-thai red curry butternut squash soup,Thai red curry butternut squash soup,cooking
-pierogi with onions,pierogi with onions,cooking
-garlic roast potatoes with bay leaves,garlic roast potatoes with bay leaves,cooking
-chocolate mousse with truffles,chocolate mousse with truffles,cooking
-I would like some chai latte,chai latte,cooking
-vegetarian stuffed mushrooms,vegetarian stuffed mushrooms,cooking
-vegetable pakora with mint chutney,vegetable pakora with mint chutney,cooking
-tiramisu doughnuts,tiramisu doughnuts,cooking
-I want to make creamy jalapeno dip,creamy jalapeno dip,cooking
-cilantro yougurt chutney,cilantro yougurt chutney,cooking
-cookie dough pizza,cookie dough pizza,cooking
-chilli chocolate cookies,chilli chocolate cookies,cooking
-lemon garlic salmon,lemon garlic salmon,cooking
-halibut tacos,halibut tacos,cooking
-johnny marzetti,johnny marzetti,cooking
-yakamein noodle soup,yakamein noodle soup,cooking
-watermelon agua fresca,watermelon agua fresca,cooking
-cheesecake milkshake,cheesecake milkshake,cooking
-a smoothie with pinapple and cucumber,pinapple and cucumber smoothie,cooking
-blueberry nut smoothie,blueberry nut smoothie,cooking
-chocolate protein smoothie,chocolate protein smoothie,cooking
-chinese steamed cod fish,chinese steamed cod fish,cooking
-creamy zucchini lasagne,creamy zucchini lasagne,cooking
-herb crusted lamb rack,herb crusted lamb rack,cooking
-egg free chicken nuggets,egg free chicken nuggets,cooking
-cheese and onion rolls,cheese and onion rolls,cooking
-garlic bread pizza,garlic bread pizza,cooking
-honey smoked salmon,honey smoked salmon,cooking
-baked lobster mac and cheese,baked lobster mac and cheese,cooking
-potato and chorizo stew,potato and chorizo stew,cooking
-spanish wrinkled potatoes,spanish wrinkled potatoes,cooking
-french fries with cheese,french fries with cheese,cooking
-louisiana seafood gumbo,louisiana seafood gumbo,cooking
-fried yellow tomatoes,fried yellow tomatoes,cooking
-tuna quinoa salad,tuna quinoa salad,cooking
-poached eggs with avocado and salmon,poached eggs with avocado and salmon,cooking
-scallion noodles,scallion noodles,cooking
-vegan mango yogurt,vegan mango yogurt,cooking
-vegetable thai green curry,vegetable thai green curry,cooking
-baked butternut squash,baked butternut squash,cooking
-hash browns,hash browns,cooking
-spinach and pesto soup,spinach and pesto soup,cooking
-beignets,beignets,cooking
+raw query,target query,domain,knowledge,reasoning
+I would like risotto without mushrooms,risotto without mushrooms,cooking,y,n
+I want to make a salty vegan cheesecake,salty vegan cheesecake,cooking,y,y
+how do I make a fluffy chocolate cake by a famous cook,fluffy chocolate cake famous cook,cooking,y,y
+how to make pumpkin soup without a blender,pumpkin soup without blender,cooking,y,n
+can you give me Robuchon's tomato soup recipe, Robuchon tomato soup,cooking,n,y
+lime lemonade without lemons,lime lemonade without lemons,cooking,y,n
+help me make Uncle Roger's egg fried rice, uncle roger egg fried rice,cooking,n,y
+pescatarian friendly meatballs,pescatarian friendly meatballs,cooking,n,y
+please suggest a light greek dinner,light greek dinner,cooking,y,y
+how to prepare a pre workout banana smooothie,pre workout banana smoothie,cooking,y,y
+perfect soft cooked egg,soft cooked egg,cooking,,
+how can I make squash and bean burritos,squash and bean burritos,cooking,,
+pecan pie,pecan pie,cooking,,
+I want strawberry ice cream,stawberry ice cream,cooking,,
+how to fry ribeye steak,ribeye steak,cooking,,
+I would like to make korean barbecue chicken,korean barbecue chicken,cooking,,
+get recipes for icebox cake,icebox cake,cooking,,
+I want a strawberry almond smoothie,strawberry almond smooothie,cooking,,
+I want chocolate-pumpkin cheesecake bars,chocolate-pumpkin cheesecake bars,cooking,,
+How to make chipotle pea salad,chipotle pea salad,cooking,,
+How do I make beetroot feta burgers,beetroot feta burgers,cooking,,
+help me out with shrimp scampi with pasta,shrimp scampi with pasta,cooking,,
+how do I make a breaded chicken wing,breaded chicken wing,cooking,,
+banana nut muffins,banana nut muffins,cooking,,
+help me with chipotle baked eggs,chipotle baked eggs,cooking,,
+how to make rye sourdough bread,sourdough bread,cooking,,
+I want to learn to make lime cheese salad,lime cheese salad,cooking,,
+delmonico's stake,delmonico steak,cooking,,
+how do I do a california roll,california roll,cooking,,
+how to make parmesan sweet potato wedges,parmesan sweet potato wedges,cooking,,
+I want a recipe for loaded waffle fries,loaded waffle fries,cooking,,
+veggie pizza with aubergine and goat cheese,veggie pizza with aubergine and goat cheese,cooking,,
+show me a creamy mushroom stroganoff recipe,creamy mushroom stroganoff,cooking,,
+greek salad with halloumi,greek salad with halloumi,cooking,,
+I want a pot roast brisket," pot roast brisket",cooking,,
+caramel sauce churros recipe,caramel sauce churros,cooking,,
+how do I make tofu lettuce wraps with peanut sauce,tofu lettuce wraps with peanut sauce,cooking,,
+I want beef and broccoli,beef and broccoli,cooking,,
+how do I make a flourless carrot cake,flourless carrot cake,cooking,,
+vegan lemon cheesecake,vegan lemon cheesecake,cooking,,
+a lamb skwewers with pickled cabagge,lamb skwewers with pickled cabagge,cooking,,
+jamaican ginger cake with malasses,jamaican ginger cake with malasses,cooking,,
+help me with coconut taro cake,coconut taro cake,cooking,,
+vietnamese vegetable hot pot,vietnamese vegetable hot pot,cooking,,
+a caprese chicken saltimbocca,caprese chicken saltimbocca,cooking,,
+I would like a risotto with lemon and peas,risotto with lemon and peas,cooking,,
+I want grilled peaches with burrata and honey,grilled peaches with burrata and honey,cooking,,
+air fryer parmesan zucchini fries,air fryer parmesan zucchini fries,cooking,,
+halloween themed cake,halloween cake,cooking,,
+I would like to make a turkey with apple sauce stuffing,urkey with apple sauce stuffing,cooking,,
+rustic pork apricot and chestnut terrine," pork apricot and chestnut terrine",cooking,,
+pearl barly casserole,pearl barly casserole,cooking,,
+turkish chicken shish kebab," turkish chicken shish kebab",cooking,,
+apple sandwiches with almond butter and granola,apple sandwiches with almond butter and granola,cooking,,
+cauliflower soup with cheese,cauliflower soup with cheese,cooking,,
+borscht with cabbage,borscht with cabbage,cooking,,
+cottage cheese dumplings with bacon,cottage cheese dumplings with bacon,cooking,,
+asparagus soup with poached egg,asparagus soup with poached egg,cooking,,
+thai red curry butternut squash soup,Thai red curry butternut squash soup,cooking,,
+pierogi with onions,pierogi with onions,cooking,,
+garlic roast potatoes with bay leaves,garlic roast potatoes with bay leaves,cooking,,
+chocolate mousse with truffles,chocolate mousse with truffles,cooking,,
+I would like some chai latte,chai latte,cooking,,
+vegetarian stuffed mushrooms,vegetarian stuffed mushrooms,cooking,,
+vegetable pakora with mint chutney,vegetable pakora with mint chutney,cooking,,
+tiramisu doughnuts,tiramisu doughnuts,cooking,,
+I want to make creamy jalapeno dip,creamy jalapeno dip,cooking,,
+cilantro yougurt chutney,cilantro yougurt chutney,cooking,,
+cookie dough pizza,cookie dough pizza,cooking,,
+chilli chocolate cookies,chilli chocolate cookies,cooking,,
+lemon garlic salmon,lemon garlic salmon,cooking,,
+halibut tacos,halibut tacos,cooking,,
+johnny marzetti,johnny marzetti,cooking,,
+yakamein noodle soup,yakamein noodle soup,cooking,,
+watermelon agua fresca,watermelon agua fresca,cooking,,
+cheesecake milkshake,cheesecake milkshake,cooking,,
+a smoothie with pinapple and cucumber,pinapple and cucumber smoothie,cooking,,
+blueberry nut smoothie,blueberry nut smoothie,cooking,,
+chocolate protein smoothie,chocolate protein smoothie,cooking,,
+chinese steamed cod fish,chinese steamed cod fish,cooking,,
+creamy zucchini lasagne,creamy zucchini lasagne,cooking,,
+herb crusted lamb rack,herb crusted lamb rack,cooking,,
+egg free chicken nuggets,egg free chicken nuggets,cooking,,
+cheese and onion rolls,cheese and onion rolls,cooking,,
+garlic bread pizza,garlic bread pizza,cooking,,
+honey smoked salmon,honey smoked salmon,cooking,,
+baked lobster mac and cheese,baked lobster mac and cheese,cooking,,
+potato and chorizo stew,potato and chorizo stew,cooking,,
+spanish wrinkled potatoes,spanish wrinkled potatoes,cooking,,
+french fries with cheese,french fries with cheese,cooking,,
+louisiana seafood gumbo,louisiana seafood gumbo,cooking,,
+fried yellow tomatoes,fried yellow tomatoes,cooking,,
+tuna quinoa salad,tuna quinoa salad,cooking,,
+poached eggs with avocado and salmon,poached eggs with avocado and salmon,cooking,,
+scallion noodles,scallion noodles,cooking,,
+vegan mango yogurt,vegan mango yogurt,cooking,,
+vegetable thai green curry,vegetable thai green curry,cooking,,
+baked butternut squash,baked butternut squash,cooking,,
+hash browns,hash browns,cooking,,
+spinach and pesto soup,spinach and pesto soup,cooking,,

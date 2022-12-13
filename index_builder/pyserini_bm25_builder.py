@@ -76,27 +76,44 @@ class PyseriniBM25Builder(AbstractIndexBuilder):
 
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
-
+        
         for file_name in file_names:
             # Build in and out paths for file processing.
             in_path = os.path.join(input_dir, file_name)
             out_path = os.path.join(output_dir, dataset_name + '-' + file_name[:len(file_name) - 4] + '.jsonl')
 
             # Build list of pyserini documents.
+            print("Get messages")
             taskmap_list = self.__get_protobuf_list_messages(path=in_path, proto_message=TaskMap)
-            docs_list = [self.__build_doc(taskmap, how=how, dense=dense)
-                         for taskmap in taskmap_list]
+            print("Retrieved messages")
 
-            # Write to file.
-            with open(out_path, 'w') as f:
+            docs_list = []
+            for idx, taskmap in enumerate(taskmap_list):
+                docs_list.append(self.__build_doc(taskmap, how=how, dense=dense))
+                if idx % 100000 == 0:
+                    print(f"Taskmap: {idx}/{len(taskmap_list)}")
+                    # Write to file
+                    with open(out_path, 'a') as f:
+                        for doc in docs_list:
+                            if 'text' in doc:
+                                if len(doc['text']) > 0:
+                                    f.write(json.dumps(doc) + '\n')
+                            else:
+                                f.write(json.dumps(doc) + '\n')
+                    docs_list = []
+            # [self.__build_doc(taskmap, how=how, dense=dense)
+                        #  for taskmap in taskmap_list]
+
+            with open(out_path, 'a') as f:
                 for doc in docs_list:
                     if 'text' in doc:
                         if len(doc['text']) > 0:
                             f.write(json.dumps(doc) + '\n')
                     else:
                         f.write(json.dumps(doc) + '\n')
+ 
 
-    
+
     
     def build_json_docs(self, input_dir, output_dir, dataset_name):
         """ Build index given directory of files containing taskmaps. """

@@ -1,101 +1,101 @@
-raw query,target query,domain
-how to choose a good hirstyle,choose good hairstyle,diy
-how to learn a new language,learn new language,diy
-how to clean carpet,clean carpet,diy
-how to wash a car,wash car,diy
-how do I decorate an office,decorate office,diy
-help me paint a wall,paint a wall,diy
-how do you remove crown mold from a wall,remove crown molding wall,diy
-how to make homemade toothpaste,homemade toothpaste,diy
-how do I clean the fridge,clean fridge,diy
-how can I screw in a nail,screw nail,diy
-how to style curly hair,style curly hair,diy
-how to write a book,write a book,diy
-how to grow apples,grow apples,diy
-how to grow strawberries,grow strawberries,diy
-how to grow cherry tomatoes,grow cherry tomatoes,diy
-how to grow blueberries,grow blueberries,diy
-how to plant tulips,plant tulips,diy
-how to wash a cutting board,wash a cutting board,diy
-help me learn how to knit,learn knitting,diy
-how to properly wash a pan,wash pan,diy
-cut tempered glass,cut tempered glass,diy
-check if wall is straight,check straight wall,diy
-build a water well,build water well,diy
-build a kite,build kite,diy
-learn how to juggle,learn juggle,diy
-cut an avocado,cut avocado,diy
-how to whitle,whistle,diy
-how to change a tire,change tire,diy
-fix a zipper,fix zipper,diy
-paint a gate,paint gate,diy
-create a fireplace,create fireplace,diy
-how to replant a tree,replant tree,diy
-nail a signpost,nail signpost,diy
-make a gravel garden path,make gravel garden path,diy
-how to fix a blocked shower drain,fix blocked shower drain,diy
-how to repaint a bed,repaint bed,diy
-how to wash your face,wash face,diy
-how to eat healthy,eat healthy,diy
-how to gain musle,gain muscle,diy
-fix a cracked phone screen,fix cracked phone screen,diy
-how to plan a christmas party,plan christmas party,diy
-how to solve a rubik's cube,solve rubik's cube,diy
-how to play chess,play chess,diy
-how to replace a window,replace window,diy
-how to iron a shirt,iron shirt,diy
-how to warm up before a run,warm up before run,diy
-how to open a champagne bottle,open champagne bottle,diy
-how to water a garden,water garden,diy
-how to change a diaper,change diaper,diy
-how to make a bubble bath,make bubble bath,diy
-how to remove a permanent marker from a whiteboard,remove permanent marker from whiteboard,diy
-how to change a light bulb,change light bulb,diy
-fix a leaking tap, fix leaking tap,diy
-how to put up wallpaper,put up wallpaper,diy
-put up a shelf,put up shelf,diy
-put up a painting,put up painting,diy
-how to make a keychain,make keychain,diy
-how to make a bath bomb,bath bomb,diy
-how to make a candle,make candle,diy
-how to build a toy for a pet,build toy for pet,diy
-how to make napkins,make napkins,diy
-how to make a coaster,make coaster,diy
-how to draw a birthday card,draw birthday card,diy
-how to build a cat tent,cat tent,diy
-how to knit mittens,knit mittens,diy
-how to ride a bike,ride bike,diy
-how to make stickers,make stickers,diy
-how to make my own fridge magnets,make fridge magnets,diy
-how to organize kitchen,organize kitchen,diy
-how to make christmas ornaments,christmas ornaments,diy
-how to build a dog house,dog house,diy
-help me clean the oven,clean oven, diy
-how to clean the windows,clean windows,diy
-how to open a lock,open lock,diy
-how to cut my own hair,cut own hair,diy
-how to build a PC,build PC,diy
-how to write a CV,write CV,diy
-how to make a garden toolbox,make garden toolbox,diy
-how to train a dog,train dog,diy
-how to clean the garden,clean garden,diy
-how to make book covers,book covers,diy
-how to paint on ceramic,paint on ceramic,diy
-how to catch a snowflake,catch snowflake,diy
-how to make a paper fortune teller,paper fortune teller,diy
-how to make a paper airplane,paper airplane,diy
-how to make a paper hat,paper hat,diy
-how to make finger puppets,finger puppets,diy
-how to repaint wooden furniture,repaint wooden furniture,diy
-how to make a bookshelf,make a bookshelf,diy
-how to redo the flooring,redo flooring,diy
-how to make a lantern,make lantern,diy
-how to make paper flowers,make paper flowers,diy
-how to set up a grill,set up grill,diy
-how to clean a rug,clean rug,diy
-how to remove stains from clothing,remove stains from clothing,diy
-how to replace a door,replace door,diy
-how to fix a door handle,fix door handle,diy
-how to make curtains,make curatins,diy
-how to grow lemons,grow lemons,diy
-how to grow grapes,grow grapes,diy
+raw query,target query,domain,knowledge,reasoning
+how to choose a good hirstyle,choose good hairstyle,diy,,
+how to learn a new language,learn new language,diy,,
+how to clean carpet,clean carpet,diy,,
+how to wash a car,wash car,diy,,
+how do I decorate an office,decorate office,diy,,
+help me paint a wall,paint a wall,diy,,
+how do you remove crown mold from a wall,remove crown molding wall,diy,,
+how to make homemade toothpaste,homemade toothpaste,diy,,
+how do I clean the fridge,clean fridge,diy,,
+how can I screw in a nail,screw nail,diy,,
+how to style curly hair,style curly hair,diy,,
+how to write a book,write a book,diy,,
+how to grow apples,grow apples,diy,,
+how to grow strawberries,grow strawberries,diy,,
+how to grow cherry tomatoes,grow cherry tomatoes,diy,,
+how to grow blueberries,grow blueberries,diy,,
+how to plant tulips,plant tulips,diy,,
+how to wash a cutting board,wash a cutting board,diy,,
+help me learn how to knit,learn knitting,diy,,
+how to properly wash a pan,wash pan,diy,,
+cut tempered glass,cut tempered glass,diy,,
+check if wall is straight,check straight wall,diy,,
+build a water well,build water well,diy,,
+build a kite,build kite,diy,,
+learn how to juggle,learn juggle,diy,,
+cut an avocado,cut avocado,diy,,
+how to whitle,whistle,diy,,
+how to change a tire,change tire,diy,,
+fix a zipper,fix zipper,diy,,
+paint a gate,paint gate,diy,,
+create a fireplace,create fireplace,diy,,
+how to replant a tree,replant tree,diy,,
+nail a signpost,nail signpost,diy,,
+make a gravel garden path,make gravel garden path,diy,,
+how to fix a blocked shower drain,fix blocked shower drain,diy,,
+how to repaint a bed,repaint bed,diy,,
+how to wash your face,wash face,diy,,
+how to eat healthy,eat healthy,diy,,
+how to gain musle,gain muscle,diy,,
+fix a cracked phone screen,fix cracked phone screen,diy,,
+how to plan a christmas party,plan christmas party,diy,,
+how to solve a rubik's cube,solve rubik's cube,diy,,
+how to play chess,play chess,diy,,
+how to replace a window,replace window,diy,,
+how to iron a shirt,iron shirt,diy,,
+how to warm up before a run,warm up before run,diy,,
+how to open a champagne bottle,open champagne bottle,diy,,
+how to water a garden,water garden,diy,,
+how to change a diaper,change diaper,diy,,
+how to make a bubble bath,make bubble bath,diy,,
+how to remove a permanent marker from a whiteboard,remove permanent marker from whiteboard,diy,,
+how to change a light bulb,change light bulb,diy,,
+fix a leaking tap," fix leaking tap",diy,,
+how to put up wallpaper,put up wallpaper,diy,,
+put up a shelf,put up shelf,diy,,
+put up a painting,put up painting,diy,,
+how to make a keychain,make keychain,diy,,
+how to make a bath bomb,bath bomb,diy,,
+how to make a candle,make candle,diy,,
+how to build a toy for a pet,build toy for pet,diy,,
+how to make napkins,make napkins,diy,,
+how to make a coaster,make coaster,diy,,
+how to draw a birthday card,draw birthday card,diy,,
+how to build a cat tent,cat tent,diy,,
+how to knit mittens,knit mittens,diy,,
+how to ride a bike,ride bike,diy,,
+how to make stickers,make stickers,diy,,
+how to make my own fridge magnets,make fridge magnets,diy,,
+how to organize kitchen,organize kitchen,diy,,
+how to make christmas ornaments,christmas ornaments,diy,,
+how to build a dog house,dog house,diy,,
+help me clean the oven,clean oven," diy",,
+how to clean the windows,clean windows,diy,,
+how to open a lock,open lock,diy,,
+how to cut my own hair,cut own hair,diy,,
+how to build a PC,build PC,diy,,
+how to write a CV,write CV,diy,,
+how to make a garden toolbox,make garden toolbox,diy,,
+how to train a dog,train dog,diy,,
+how to clean the garden,clean garden,diy,,
+how to make book covers,book covers,diy,,
+how to paint on ceramic,paint on ceramic,diy,,
+how to catch a snowflake,catch snowflake,diy,,
+how to make a paper fortune teller,paper fortune teller,diy,,
+how to make a paper airplane,paper airplane,diy,,
+how to make a paper hat,paper hat,diy,,
+how to make finger puppets,finger puppets,diy,,
+how to repaint wooden furniture,repaint wooden furniture,diy,,
+how to make a bookshelf,make a bookshelf,diy,,
+how to redo the flooring,redo flooring,diy,,
+how to make a lantern,make lantern,diy,,
+how to make paper flowers,make paper flowers,diy,,
+how to set up a grill,set up grill,diy,,
+how to clean a rug,clean rug,diy,,
+how to remove stains from clothing,remove stains from clothing,diy,,
+how to replace a door,replace door,diy,,
+how to fix a door handle,fix door handle,diy,,
+how to make curtains,make curatins,diy,,
+how to grow lemons,grow lemons,diy,,
+how to grow grapes,grow grapes,diy,,
