@@ -67,8 +67,9 @@ class PyseriniAnceBuilder(AbstractIndexBuilder):
         else:
             return {
                 "id": taskmap.taskmap_id,
-                "text": contents,
+                # "text": contents,
                 "contents": contents,
+                "recipe_document_json": MessageToDict(taskmap),
             }
 
     def __write_doc_file_from_lucene_indexing(self, input_dir, output_dir, dataset_name, how='all', dense=False):
@@ -85,12 +86,23 @@ class PyseriniAnceBuilder(AbstractIndexBuilder):
             out_path = os.path.join(output_dir, dataset_name + '-' + file_name[:len(file_name) - 4] + '.jsonl')
 
             # Build list of pyserini documents.
-            taskmap_list = self.__get_protobuf_list_messages(path=in_path, proto_message=TaskMap)
-            docs_list = [self.__build_doc(taskmap, how=how, dense=dense)
-                         for taskmap in taskmap_list]
+            taskmap_list = self.__get_protobuf_list_messages(path=in_path, proto_message=TaskMap)            
+            docs_list = []
+            for idx, taskmap in enumerate(taskmap_list):
+                docs_list.append(self.__build_doc(taskmap, how=how, dense=dense))
+                if idx % 100000 == 0:
+                    print(f"Taskmap: {idx}/{len(taskmap_list)}")
+                    # Write to file
+                    with open(out_path, 'a') as f:
+                        for doc in docs_list:
+                            if 'text' in doc:
+                                if len(doc['text']) > 0:
+                                    f.write(json.dumps(doc) + '\n')
+                            else:
+                                f.write(json.dumps(doc) + '\n')
+                    docs_list = []
 
-            # Write to file.
-            with open(out_path, 'w') as f:
+            with open(out_path, 'a') as f:
                 for doc in docs_list:
                     if 'text' in doc:
                         if len(doc['text']) > 0:

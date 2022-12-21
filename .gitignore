@@ -1,6 +1,9 @@
 compiled_protobufs/
 bin/
+bin2/
+task_datasets/
 indexes/
+indexes2/
 temp/
 env/
 __pycache__
