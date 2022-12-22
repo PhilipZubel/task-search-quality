@@ -64,13 +64,9 @@ class AnceModel(AbstractModel):
         # retrieve results
         lines = []
         for idx, query in pd_queries.iterrows():
-            hits = searcher.search(q=query["target query"], k=50)
-            for rank, hit in enumerate(hits):
-                doc_json = json.loads(hit.raw)
-                taskmap_json = doc_json['recipe_document_json']
-                taskmap = Parse(json.dumps(taskmap_json), TaskMap())
-                doc_id = taskmap.taskmap_id
-                line = f'query-{idx} Q0 {doc_id} {rank+1} {hit.score} {self.model_name}\n'
+            hits = searcher.search(query["target query"], k=50)
+            for rank, hit in enumerate(hits[:50]):
+                line = f'query-{idx} Q0 {hit.docid} {rank+1} {hit.score} {self.model_name}\n'
                 lines.append(line)
         lines[-1] = lines[-1].replace("\n","")
         
