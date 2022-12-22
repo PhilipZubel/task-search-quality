@@ -18,7 +18,7 @@ class AbstractModel(ABC):
         pass
     
     @abstractmethod
-    def search(self):
+    def search(self, query):
         pass
     
     def get_dataset_model(self, domain):

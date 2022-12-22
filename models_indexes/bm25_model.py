@@ -136,12 +136,36 @@ class BM25Model(AbstractModel):
             dict_writer.writerows(empty_judgments)
 
     
-    def get_measurements(self, judgments_path):
+    def get_measurements(self, judgments_path:str):
         qrles = ir_measures.read_trec_qrels(judgments_path)
         run = ir_measures.read_trec_run(self.run_path)
         accuracy = ir_measures.calc_aggregate([nDCG@3, Precision@3, Recall@3], qrles, run)
         return accuracy
     
-    def search(self):
-        pass
+    def search(self, query:str):
+        searcher = LuceneSearcher(index_dir=self.output_index_dir)
+        searcher.set_bm25(b=0.4, k1=0.9)
+        
+        hits = searcher.search(q=query, k=10)
+        for hit in hits:
+            doc_json = json.loads(hit.raw)
+            taskmap_json = doc_json['recipe_document_json']
+            taskmap = Parse(json.dumps(taskmap_json), TaskMap())
+            # empty_judgment = {
+            #     # "doc-id" : taskmap.taskmap_id, 
+            #     # "doc-title" : taskmap.title, 
+            #     # "doc-url" : taskmap.source_url, 
+            #     # "score": round(float(hit.score),3),
+            #     # "query-id": query_id,
+            #     # "query": query,
+            #     # "taskgraph" : taskmap,
+            #     "raw-query": query["raw query"],
+            #     "html_link": taskmap.source_url,
+            #     "relevance": "",
+            #     "usability": "",
+            #     "quality": "",
+            # }
+            
+            print(f'Judgment: {query} {taskmap.source_url}')
+        
     

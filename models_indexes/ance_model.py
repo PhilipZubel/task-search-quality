@@ -129,6 +129,6 @@ class AnceModel(AbstractModel):
         accuracy = ir_measures.calc_aggregate([nDCG@3, Precision@3, Recall@3], qrles, run)
         return accuracy
     
-    def search(self):
+    def search(self, query):
         pass
     
