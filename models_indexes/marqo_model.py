@@ -34,19 +34,19 @@ class MarqoModel(AbstractModel):
         if not os.path.isdir(self.output_temp_dir):
             os.makedirs(self.output_temp_dir)
             
-        if not overwrite and len(os.listdir(self.output_temp_dir)) > 0:
-            print("Marqo index already built. Call overwrite=True in build_index() to rebuild the index again.")
-            return
+        # if not overwrite and len(os.listdir(self.output_temp_dir)) > 0:
+        #     print("Marqo index already built. Call overwrite=True in build_index() to rebuild the index again.")
+        #     return
             
         index_builder = MarqoIndexBuilder()
         
         print("Build documents...")
         print(f"Saving documents to {self.output_temp_dir}...")
         taskmap_dir = self.dataset_model.get_taskgraphs_path()
-        dataset_name = self.dataset_model.get_dataset_name()
-        index_builder.build_json_docs(input_dir=taskmap_dir,
-                                        output_dir=self.output_temp_dir,
-                                        dataset_name=dataset_name)
+        # dataset_name = self.dataset_model.get_dataset_name()
+        # index_builder.build_json_docs(input_dir=taskmap_dir,
+        #                                 output_dir=self.output_temp_dir,
+        #                                 dataset_name=dataset_name)
         
         print("Generate index...")
         # print(f"Saving documents to {self.output_index_dir}...")

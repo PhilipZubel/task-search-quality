@@ -47,7 +47,7 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
             "Domain": taskmap.domain_name,
             "Description": taskmap.description,
             "Difficulty": taskmap.difficulty,
-            "DocumentAsString": str(taskmap.SerializeToString()),
+            # "DocumentAsString": str(taskmap.SerializeToString()),
         }
         
     def build_json_docs(self, input_dir, output_dir, dataset_name):
@@ -92,11 +92,11 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
             docs_list = []
             for idx, taskmap in enumerate(taskmap_list):
                 docs_list.append(self.__build_doc(taskmap, how=how, dense=dense))
-                if idx % 100000 == 0:
+                if idx % 5000 == 0:
                     print(f"Taskmap: {idx}/{len(taskmap_list)}")
                     # Write to file
                     if idx != 0:
-                        with open(f'{out_path}_{idx//100000}.jsonl', 'w') as f:
+                        with open(f'{out_path}_{idx//5000}.jsonl', 'w') as f:
                             for doc in docs_list:
                                 if 'text' in doc:
                                     if len(doc['text']) > 0:
@@ -114,17 +114,15 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
                         f.write(json.dumps(doc) + '\n')
 
     def __build_marqo_index(self, input_dir, domain):
-        print("Building marqo index")
         self.mq = marqo.Client(url='http://localhost:8882')
         self.mq.index(domain).delete()
         self.mq.create_index(domain)
         file_names = [f for f in os.listdir(input_dir) if '.jsonl' in f]
 
-        for file in file_names:
+        for file in file_names[0:1]:
             with open(os.path.join(input_dir, file)) as json_file:
                 docs_list = [json.loads(doc) for doc in json_file]
 
-            print(docs_list)
             print("length", len(docs_list))
             self.mq.index(domain).add_documents(docs_list)
 
