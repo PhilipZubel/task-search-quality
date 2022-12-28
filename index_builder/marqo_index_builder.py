@@ -92,11 +92,11 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
             docs_list = []
             for idx, taskmap in enumerate(taskmap_list):
                 docs_list.append(self.__build_doc(taskmap, how=how, dense=dense))
-                if idx % 5000 == 0:
+                if idx % 1000 == 0:
                     print(f"Taskmap: {idx}/{len(taskmap_list)}")
                     # Write to file
                     if idx != 0:
-                        with open(f'{out_path}_{idx//5000}.jsonl', 'w') as f:
+                        with open(f'{out_path}_{idx//1000}.jsonl', 'w') as f:
                             for doc in docs_list:
                                 if 'text' in doc:
                                     if len(doc['text']) > 0:
@@ -119,7 +119,7 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
         self.mq.create_index(domain)
         file_names = [f for f in os.listdir(input_dir) if '.jsonl' in f]
 
-        for file in file_names[0:1]:
+        for file in file_names:
             with open(os.path.join(input_dir, file)) as json_file:
                 docs_list = [json.loads(doc) for doc in json_file]
 
