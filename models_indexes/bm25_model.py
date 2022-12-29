@@ -82,7 +82,7 @@ class BM25Model(AbstractModel):
                 taskmap_json = doc_json['recipe_document_json']
                 taskmap = Parse(json.dumps(taskmap_json), TaskMap())
                 doc_id = taskmap.taskmap_id
-                line = f'query-{idx} Q0 {doc_id} {rank+1} {hit.score} {self.model_name}\n'
+                line = f'{query["id"]} Q0 {doc_id} {rank+1} {hit.score} {self.model_name}\n'
                 lines.append(line)
         lines[-1] = lines[-1].replace("\n","")
         

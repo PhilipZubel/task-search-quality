@@ -4,7 +4,7 @@ import csv
 import sys
 from google.protobuf.json_format import Parse
 
-from index_builder.pyserini_ance_builder import PyseriniAnceBuilder
+from index_builder.pyserini_colbert_builder import PyseriniColbertBuilder
 from models_datasets.abstract_model_dataset import AbstractModelDataset
 from models_indexes.abstract_model import AbstractModel
 
@@ -14,8 +14,6 @@ import ir_measures
 from ir_measures import *
 
 from taskmap_pb2 import TaskMap
-
-
 
 class ColbertModel(AbstractModel):
 
@@ -37,7 +35,7 @@ class ColbertModel(AbstractModel):
             print("Colbert dense index already built. Call overwrite=True in build_index() to rebuild the index again.")
             return
             
-        index_builder = PyseriniAnceBuilder()
+        index_builder = PyseriniColbertBuilder()
         
         print("Build documents...")
         print(f"Saving documents to {self.output_temp_dir}...")
@@ -66,7 +64,7 @@ class ColbertModel(AbstractModel):
         for idx, query in pd_queries.iterrows():
             hits = searcher.search(query["target query"], k=50)
             for rank, hit in enumerate(hits[:50]):
-                line = f'query-{idx} Q0 {hit.docid} {rank+1} {hit.score} {self.model_name}\n'
+                line = f'{query["id"]} Q0 {hit.docid} {rank+1} {hit.score} {self.model_name}\n'
                 lines.append(line)
         lines[-1] = lines[-1].replace("\n","")
         
@@ -84,6 +82,7 @@ class ColbertModel(AbstractModel):
             index_dir = self.output_index_dir,
             query_encoder= encoder,
         )
+        lucene_searcher = self.get_lucene_searcher(self.dataset_model)
         
         # retrieve results
         # fieldnames = ["raw query", "html_link", "relevance", "usability", "quality"]
@@ -91,7 +90,8 @@ class ColbertModel(AbstractModel):
         for idx, query in pd_queries.iterrows():
             hits = searcher.search(q=query["target query"], k=k)
             for hit in hits:
-                doc_json = json.loads(hit.raw)
+                raw_taskgraph = lucene_searcher.doc(hit.docid)
+                doc_json = json.loads(raw_taskgraph.raw())
                 taskmap_json = doc_json['recipe_document_json']
                 taskmap = Parse(json.dumps(taskmap_json), TaskMap())
                 empty_judgment = {
@@ -122,7 +122,6 @@ class ColbertModel(AbstractModel):
             dict_writer.writeheader()
             dict_writer.writerows(empty_judgments)
 
-    
     def get_measurements(self, judgments_path):
         qrles = ir_measures.read_trec_qrels(judgments_path)
         run = ir_measures.read_trec_run(self.run_path)
@@ -135,6 +134,12 @@ class ColbertModel(AbstractModel):
             index_dir = self.output_index_dir,
             query_encoder= encoder,
         )
+        lucene_searcher = self.get_lucene_searcher(self.dataset_model)
         hits = searcher.search(query=query, k=5)
-        print(hits)
+        for hit in hits:    
+            raw_taskgraph = lucene_searcher.doc(hit.docid)
+            doc_json = json.loads(raw_taskgraph.raw())
+            taskmap_json = doc_json['recipe_document_json']
+            taskmap = Parse(json.dumps(taskmap_json), TaskMap())
+            print(f'{query}, {taskmap.source_url}')
     

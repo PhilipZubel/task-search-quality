@@ -2,6 +2,11 @@ from abc import ABC, abstractmethod
 
 from models_datasets.recipe_1m_model import Recipe1MModel
 from models_datasets.wikihow_model import WikihowModel
+from models_datasets.abstract_model_dataset import AbstractModelDataset
+
+from pyserini.search import LuceneSearcher
+
+import os
 
 class AbstractModel(ABC):
     
@@ -30,6 +35,14 @@ class AbstractModel(ABC):
             "DIY": WikihowModel,
         }
         return dataset_models[domain]
+    
+    def get_lucene_searcher(self, dataset_model: AbstractModelDataset):
+        output_index_dir = os.path.join(dataset_model.get_index_path(), "system_index_sparse")
+        searcher = LuceneSearcher(index_dir=output_index_dir)
+        return searcher
+        
+        
+        
 
 
     

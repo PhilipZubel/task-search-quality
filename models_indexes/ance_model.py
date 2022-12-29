@@ -66,7 +66,7 @@ class AnceModel(AbstractModel):
         for idx, query in pd_queries.iterrows():
             hits = searcher.search(query["target query"], k=50)
             for rank, hit in enumerate(hits[:50]):
-                line = f'query-{idx} Q0 {hit.docid} {rank+1} {hit.score} {self.model_name}\n'
+                line = f'{query["id"]} Q0 {hit.docid} {rank+1} {hit.score} {self.model_name}\n'
                 lines.append(line)
         lines[-1] = lines[-1].replace("\n","")
         
@@ -84,14 +84,15 @@ class AnceModel(AbstractModel):
             index_dir = self.output_index_dir,
             query_encoder= encoder,
         )
-        
+        lucene_searcher = self.get_lucene_searcher(self.dataset_model)
         # retrieve results
         # fieldnames = ["raw query", "html_link", "relevance", "usability", "quality"]
         empty_judgments = []
         for idx, query in pd_queries.iterrows():
             hits = searcher.search(q=query["target query"], k=k)
             for hit in hits:
-                doc_json = json.loads(hit.raw)
+                raw_taskgraph = lucene_searcher.doc(hit.docid)
+                doc_json = json.loads(raw_taskgraph.raw())
                 taskmap_json = doc_json['recipe_document_json']
                 taskmap = Parse(json.dumps(taskmap_json), TaskMap())
                 empty_judgment = {
@@ -130,5 +131,17 @@ class AnceModel(AbstractModel):
         return accuracy
     
     def search(self, query):
-        pass
+        encoder = AnceQueryEncoder("castorini/ance-msmarco-passage")
+        searcher = FaissSearcher(
+            index_dir = self.output_index_dir,
+            query_encoder= encoder,
+        )
+        lucene_searcher = self.get_lucene_searcher(self.dataset_model)
+        hits = searcher.search(query=query, k=5)
+        for hit in hits:    
+            raw_taskgraph = lucene_searcher.doc(hit.docid)
+            doc_json = json.loads(raw_taskgraph.raw())
+            taskmap_json = doc_json['recipe_document_json']
+            taskmap = Parse(json.dumps(taskmap_json), TaskMap())
+            print(f'{query}, {taskmap.source_url}')
     

@@ -62,14 +62,14 @@ class PyseriniAnceBuilder(AbstractIndexBuilder):
             return {
                 "id": taskmap.taskmap_id,
                 "contents": contents,
-                "recipe_document_json": MessageToDict(taskmap),
+                # "recipe_document_json": MessageToDict(taskmap),
             }
         else:
             return {
                 "id": taskmap.taskmap_id,
                 # "text": contents,
                 "contents": contents,
-                "recipe_document_json": MessageToDict(taskmap),
+                # "recipe_document_json": MessageToDict(taskmap),
             }
 
     def __write_doc_file_from_lucene_indexing(self, input_dir, output_dir, dataset_name, how='all', dense=False):
