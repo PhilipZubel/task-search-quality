@@ -1,101 +1,101 @@
-id,raw query,target query,domain,knowledge,reasoning,seasonal,region
-query-0,how to spatchcock a turkey,spatchcock turkey,cooking,n,y,y,usa
-query-1,I want an easy dessert for christmas,easy christmas dessert,cooking,y,y,y,-
-query-2,Any recommendations for a gluten free appetizer,gluten free appetizer,cooking,y,y,n,-
-query-3,how to make a green goddess salad,green goddess salad,cooking,y,n,n,usa
-query-4,how to make a classic english trifle,classic english trifle,cooking,n,y,y,uk
-query-5,I want a scary pumpkin pie,scary pumpkin pie,cooking,y,y,y,-
-query-6,ideas for tailgate food,tailgate food,cooking,y,y,y,usa
-query-7,I want to make halloween candy,halloween candy,cooking,y,y,y,-
-query-8,how to make a gluten free peach crisp,gluten free peach crisp,cooking,y,y,n,-
-query-9,low calorie zucchini bread,low calorie zucchini bread,cooking,y,y,n,-
-query-10,recommend some asian street foods,asian street food,cooking,y,y,n,asia
-query-11,batali dinners,batali dinner,cooking,y,y,n,-
-query-12,seafood sidhes by roux,seafood roux,cooking,y,y,n,-
-query-13,how to make singaporean chicken lunch,singaporean chicken lunch,cooking,y,y,n,singapore
-query-14,a romantic dinner,romantic dinner,cooking,y,y,n,-
-query-15,mexican fiesta recipees,mexican fiesta,cooking,y,y,y,mexico
-query-16,a modern icebox cake,modern icebox cake,cooking,n,n,n,-
-query-17,food for diwali,diwali food,cooking,y,y,y,india
-query-18,i want a fancy eggs recipe,fancy eggs,cooking,y,y,n,-
-query-19,how to make low fat ice cream,low fat ice cream,cooking,n,y,n,-
-query-20,how to prepare napoletana pizza dough,napoletana pizza dough,cooking,n,y,n,italy
-query-21,make vegetarian tikka masala,vegetarian tikka masala,cooking,y,n,n,india
-query-22,i want to make chia pudding recipe low carb,chia pudding recipe low carb,cooking,y,y,n,australia
-query-23,how to make overnight oats,overnight oats,cooking,y,n,n,australia
-query-24,can i have classic dairy free scones,classic dairy free scones,cooking,y,y,n,uk
-query-25,how to make spiked eggnog,spiked eggnog,cooking,y,y,n,canada
-query-26,how to prepare spicy oysters,spicy oysters,cooking,n,y,n,japan
-query-27,how to quickly make baby food,quick baby food,cooking,y,y,n,-
-query-28,make lunch meal prep fast," lunch meal prep fast",cooking,y,y,n,-
-query-29,make vegetarian eintopf,vegetarian eintopf,cooking,n,y,n,germany
-query-30,how to make light muffins,light muffins,cooking,n,y,n,-
-query-31,make fried halloumi bites,fried halloumi bites,cooking,n,n,n,greece
-query-32,show me a creamy mushroom stroganoff recipe,creamy mushroom stroganoff,cooking,y,y,n,russia
-query-33,can i have tender cooked pork,tender cooked pork,cooking,y,n,n,-
-query-34,can i have soup good for the summer,soup summer,cooking,y,y,y,-
-query-35,how to make boiled easter eggs,boil easter eggs,cooking,y,y,y,-
-query-36,suggestions for road trip food,road trip,cooking,y,y,n,-
-query-37,how to make polish pierogi with cheese,polish pierogi with cheese,cooking,y,n,n,poland
-query-38,how can i make one pot ramen,one pot ramen,cooking,y,n,n,japan
-query-39,how to make a traditional greek dinner,traditional greek dinner,cooking,y,y,n,greece
-query-40,how to make salty brownies,salty brownies,cooking,y,n,n,-
-query-41,gingerbread cookies,gingerbread cookies,cooking,y,n,y,-
-query-42,how to make a mango and avocado salad,mango and avocado salad,cooking,n,n,n,-
-query-43,easy granola recipe,easy granola recipe,cooking,n,y,n,-
-query-44,smoked chili,smoked chili,cooking,y,n,n,mexico
-query-45,make a french croissant,french croissant,cooking,y,n,n,france
-query-46,how to make medium rare salmon,medium rare salmon,cooking,n,y,n,-
-query-47,a recipe with a whole chicken,whole chicken,cooking,y,y,n,-
-query-48,how to make a refreshing sweet smoothie,refreshing sweet smoothie,cooking,y,y,n,-
-query-49,make fish and chips,fish and chips,cooking,n,n,n,-
-query-50,-,-,cooking,,,,
-query-51,pearl barly casserole,pearl barly casserole,cooking,,,,
-query-52,turkish chicken shish kebab," turkish chicken shish kebab",cooking,,,,
-query-53,apple sandwiches with almond butter and granola,apple sandwiches with almond butter and granola,cooking,,,,
-query-54,cauliflower soup with cheese,cauliflower soup with cheese,cooking,,,,
-query-55,borscht with cabbage,borscht with cabbage,cooking,,,,
-query-56,cottage cheese dumplings with bacon,cottage cheese dumplings with bacon,cooking,,,,
-query-57,asparagus soup with poached egg,asparagus soup with poached egg,cooking,,,,
-query-58,thai red curry butternut squash soup,Thai red curry butternut squash soup,cooking,,,,
-query-59,pierogi with onions,pierogi with onions,cooking,,,,
-query-60,garlic roast potatoes with bay leaves,garlic roast potatoes with bay leaves,cooking,,,,
-query-61,chocolate mousse with truffles,chocolate mousse with truffles,cooking,,,,
-query-62,I would like some chai latte,chai latte,cooking,,,,
-query-63,vegetarian stuffed mushrooms,vegetarian stuffed mushrooms,cooking,,,,
-query-64,vegetable pakora with mint chutney,vegetable pakora with mint chutney,cooking,,,,
-query-65,tiramisu doughnuts,tiramisu doughnuts,cooking,,,,
-query-66,I want to make creamy jalapeno dip,creamy jalapeno dip,cooking,,,,
-query-67,cilantro yougurt chutney,cilantro yougurt chutney,cooking,,,,
-query-68,cookie dough pizza,cookie dough pizza,cooking,,,,
-query-69,chilli chocolate cookies,chilli chocolate cookies,cooking,,,,
-query-70,lemon garlic salmon,lemon garlic salmon,cooking,,,,
-query-71,halibut tacos,halibut tacos,cooking,,,,
-query-72,johnny marzetti,johnny marzetti,cooking,,,,
-query-73,yakamein noodle soup,yakamein noodle soup,cooking,,,,
-query-74,watermelon agua fresca,watermelon agua fresca,cooking,,,,
-query-75,cheesecake milkshake,cheesecake milkshake,cooking,,,,
-query-76,a smoothie with pinapple and cucumber,pinapple and cucumber smoothie,cooking,,,,
-query-77,blueberry nut smoothie,blueberry nut smoothie,cooking,,,,
-query-78,chocolate protein smoothie,chocolate protein smoothie,cooking,,,,
-query-79,chinese steamed cod fish,chinese steamed cod fish,cooking,,,,
-query-80,creamy zucchini lasagne,creamy zucchini lasagne,cooking,,,,
-query-81,herb crusted lamb rack,herb crusted lamb rack,cooking,,,,
-query-82,egg free chicken nuggets,egg free chicken nuggets,cooking,,,,
-query-83,cheese and onion rolls,cheese and onion rolls,cooking,,,,
-query-84,garlic bread pizza,garlic bread pizza,cooking,,,,
-query-85,honey smoked salmon,honey smoked salmon,cooking,,,,
-query-86,baked lobster mac and cheese,baked lobster mac and cheese,cooking,,,,
-query-87,potato and chorizo stew,potato and chorizo stew,cooking,,,,
-query-88,spanish wrinkled potatoes,spanish wrinkled potatoes,cooking,,,,
-query-89,french fries with cheese,french fries with cheese,cooking,,,,
-query-90,louisiana seafood gumbo,louisiana seafood gumbo,cooking,,,,
-query-91,fried yellow tomatoes,fried yellow tomatoes,cooking,,,,
-query-92,tuna quinoa salad,tuna quinoa salad,cooking,,,,
-query-93,poached eggs with avocado and salmon,poached eggs with avocado and salmon,cooking,,,,
-query-94,scallion noodles,scallion noodles,cooking,,,,
-query-95,vegan mango yogurt,vegan mango yogurt,cooking,,,,
-query-96,vegetable thai green curry,vegetable thai green curry,cooking,,,,
-query-97,baked butternut squash,baked butternut squash,cooking,,,,
-query-98,hash browns,hash browns,cooking,,,,
-query-99,spinach and pesto soup,spinach and pesto soup,cooking,,,,
+id,raw query,domain,knowledge,reasoning,seasonal,region,target query
+query-0,how to spatchcock a turkey,cooking,n,y,y,usa,spatchcock turkey
+query-1,I want an easy dessert for christmas,cooking,y,y,y,-,easi dessert christma
+query-2,Any recommendations for a gluten free appetizer,cooking,y,y,n,-,gluten free appet
+query-3,how to make a green goddess salad,cooking,y,n,n,usa,green goddess salad
+query-4,how to make a classic english trifle,cooking,n,y,y,uk,classic english trifl
+query-5,I want a scary pumpkin pie,cooking,y,y,y,-,scari pumpkin pie
+query-6,ideas for tailgate food,cooking,y,y,y,usa,tailgat food
+query-7,I want to make halloween candy,cooking,y,y,y,-,halloween candi
+query-8,how to make a gluten free peach crisp,cooking,y,y,n,-,gluten free peach crisp
+query-9,low calorie zucchini bread,cooking,y,y,n,-,low calori zucchini bread
+query-10,recommend some asian street foods,cooking,y,y,n,asia,asian street food
+query-11,batali dinners,cooking,y,y,n,-,battl dinner
+query-12,seafood sidhes by roux,cooking,y,y,n,-,seafood side roux
+query-13,how to make singaporean chicken lunch,cooking,y,y,n,singapore,singapor chicken lunch
+query-14,a romantic dinner,cooking,y,y,n,-,romant dinner
+query-15,mexican fiesta recipees,cooking,y,y,y,mexico,mexican fiesta recip
+query-16,a modern icebox cake,cooking,n,n,n,-,modern icebox cake
+query-17,food for diwali,cooking,y,y,y,india,food diwali
+query-18,i want a fancy eggs recipe,cooking,y,y,n,-,fanci egg
+query-19,how to make low fat ice cream,cooking,n,y,n,-,low fat ice cream
+query-20,how to prepare napoletana pizza dough,cooking,n,y,n,italy,napoletana pizza dough
+query-21,make vegetarian tikka masala,cooking,y,n,n,india,vegetarian tikka masala
+query-22,i want to make chia pudding recipe low carb,cooking,y,y,n,australia,chia pud low carb
+query-23,how to make overnight oats,cooking,y,n,n,australia,overnight oat
+query-24,can i have classic dairy free scones,cooking,y,y,n,uk,classic dairi free scone
+query-25,how to make spiked eggnog,cooking,y,y,n,canada,spike eggnog
+query-26,how to prepare spicy oysters,cooking,n,y,n,japan,spici oyster
+query-27,how to quickly make baby food,cooking,y,y,n,-,babi food
+query-28,make lunch meal prep fast,cooking,y,y,n,-,lunch meal prep
+query-29,make vegetarian eintopf,cooking,n,y,n,germany,vegetarian eintopf
+query-30,how to make light muffins,cooking,n,y,n,-,light muffin
+query-31,make fried halloumi bites,cooking,n,n,n,greece,fri halloumi bite
+query-32,show me a creamy mushroom stroganoff recipe,cooking,y,y,n,russia,creami mushroom stroganoff
+query-33,can i have tender cooked pork,cooking,y,n,n,-,tender cook pork
+query-34,can i have soup good for the summer,cooking,y,y,y,-,soup good summer
+query-35,how to make boiled easter eggs,cooking,y,y,y,-,boil easter egg
+query-36,suggestions for road trip food,cooking,y,y,n,-,road trip food
+query-37,how to make polish pierogi with cheese,cooking,y,n,n,poland,polish pierogi chees
+query-38,how can i make one pot ramen,cooking,y,n,n,japan,one pot ramen
+query-39,how to make a traditional greek dinner,cooking,y,y,n,greece,tradit greek dinner
+query-40,how to make salty brownies,cooking,y,n,n,-,salti browni
+query-41,gingerbread cookies,cooking,y,n,y,-,gingerbread cooki
+query-42,how to make a mango and avocado salad,cooking,n,n,n,-,mango avocado salad
+query-43,easy granola recipe,cooking,n,y,n,-,easi granola
+query-44,smoked chili,cooking,y,n,n,mexico,smoke chili
+query-45,make a french croissant,cooking,y,n,n,france,french croissant
+query-46,how to make medium rare salmon,cooking,n,y,n,-,medium rare salmon
+query-47,a recipe with a whole chicken,cooking,y,y,n,-,chicken
+query-48,how to make a refreshing sweet smoothie,cooking,y,y,n,-,refresh sweet smoothi
+query-49,make fish and chips,cooking,n,n,n,-,fish chip
+query-50,-,cooking,,,,,
+query-51,pearl barly casserole,cooking,,,,,pearl earli casserol
+query-52,turkish chicken shish kebab,cooking,,,,,turkish chicken shish kebab
+query-53,apple sandwiches with almond butter and granola,cooking,,,,,appl sandwich almond butter granola
+query-54,cauliflower soup with cheese,cooking,,,,,cauliflow soup chees
+query-55,borscht with cabbage,cooking,,,,,borscht cabbag
+query-56,cottage cheese dumplings with bacon,cooking,,,,,cottag chees dumpl bacon
+query-57,asparagus soup with poached egg,cooking,,,,,asparagus soup poach egg
+query-58,thai red curry butternut squash soup,cooking,,,,,thai red curri butternut squash soup
+query-59,pierogi with onions,cooking,,,,,pierogi onion
+query-60,garlic roast potatoes with bay leaves,cooking,,,,,garlic roast potato bay leav
+query-61,chocolate mousse with truffles,cooking,,,,,chocol mouss truffl
+query-62,I would like some chai latte,cooking,,,,,chai latt
+query-63,vegetarian stuffed mushrooms,cooking,,,,,vegetarian stuf mushroom
+query-64,vegetable pakora with mint chutney,cooking,,,,,veget para mint chutney
+query-65,tiramisu doughnuts,cooking,,,,,tiramisu doughnut
+query-66,I want to make creamy jalapeno dip,cooking,,,,,creami jalapeno dip
+query-67,cilantro yougurt chutney,cooking,,,,,cilantro yogurt chutney
+query-68,cookie dough pizza,cooking,,,,,cooki dough pizza
+query-69,chilli chocolate cookies,cooking,,,,,chilli chocol cooki
+query-70,lemon garlic salmon,cooking,,,,,lemon garlic salmon
+query-71,halibut tacos,cooking,,,,,halibut taco
+query-72,johnny marzetti,cooking,,,,,johnni moretti
+query-73,yakamein noodle soup,cooking,,,,,yakamein noodl soup
+query-74,watermelon agua fresca,cooking,,,,,watermelon agua fresco
+query-75,cheesecake milkshake,cooking,,,,,cheesecak milkshak
+query-76,a smoothie with pinapple and cucumber,cooking,,,,,smoothi pineappl cucumb
+query-77,blueberry nut smoothie,cooking,,,,,blueberri nut smoothi
+query-78,chocolate protein smoothie,cooking,,,,,chocol protein smoothi
+query-79,chinese steamed cod fish,cooking,,,,,chines steam cod fish
+query-80,creamy zucchini lasagne,cooking,,,,,creami zucchini lasagn
+query-81,herb crusted lamb rack,cooking,,,,,herb crust lamb rack
+query-82,egg free chicken nuggets,cooking,,,,,egg free chicken nugget
+query-83,cheese and onion rolls,cooking,,,,,chees onion roll
+query-84,garlic bread pizza,cooking,,,,,garlic bread pizza
+query-85,honey smoked salmon,cooking,,,,,honey smoke salmon
+query-86,baked lobster mac and cheese,cooking,,,,,bake lobster mac chees
+query-87,potato and chorizo stew,cooking,,,,,potato chorizo stew
+query-88,spanish wrinkled potatoes,cooking,,,,,spanish wrinkl potato
+query-89,french fries with cheese,cooking,,,,,french fri chees
+query-90,louisiana seafood gumbo,cooking,,,,,louisiana seafood gumbo
+query-91,fried yellow tomatoes,cooking,,,,,fri yellow tomato
+query-92,tuna quinoa salad,cooking,,,,,tuna quinoa salad
+query-93,poached eggs with avocado and salmon,cooking,,,,,poach egg avocado salmon
+query-94,scallion noodles,cooking,,,,,scallion noodl
+query-95,vegan mango yogurt,cooking,,,,,vegan mango yogurt
+query-96,vegetable thai green curry,cooking,,,,,veget thai green curri
+query-97,baked butternut squash,cooking,,,,,bake butternut squash
+query-98,hash browns,cooking,,,,,hash brown
+query-99,spinach and pesto soup,cooking,,,,,spinach pesto soup
