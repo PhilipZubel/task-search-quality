@@ -35,7 +35,6 @@ class StepWikihowRequirements(AbstractRequirementsStep):
         """ Add Wikihow requirements to task_graph. """
         try:
             requirements = document['requirements']
-            print(requirements)
 
             for r in requirements:
                 node = RequirementNode(

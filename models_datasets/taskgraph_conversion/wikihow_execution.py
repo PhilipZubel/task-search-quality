@@ -48,6 +48,23 @@ class StepExecutionWikihow(AbstractExecutionStep):
                             image = ''
                         steps.append((text, description, image))
                 return steps
+        
+        if 'methods' in document and type(document['methods']) == list:
+            if len(document['methods'])>0 and 'steps' in document['methods'][0]:
+                if len(document['methods'][0]['steps']) > 0:
+                    for step in document['methods'][0]['steps']:
+                        text = step['headline']
+                        text = self.__clean_wikihowSteps(step=text)
+                        if text:
+                            description = step['description']
+                            description = self.__clean_wikihowSteps(step=description)
+                            text, description = self.__merge_steps_sentence(text, description)
+                            if step['img']:
+                                image = step['img']
+                            else:
+                                image = ''
+                            steps.append((text, description, image))
+                    return steps
 
         if 'parts' in document:
             for part in document['parts']:
@@ -65,6 +82,7 @@ class StepExecutionWikihow(AbstractExecutionStep):
                         steps.append((text, description, image))
 
         return steps
+    
 
     def update_task_graph(self, document, task_graph: TaskGraph) -> TaskGraph:
         """ Add Wikihow execution to task_graph. """

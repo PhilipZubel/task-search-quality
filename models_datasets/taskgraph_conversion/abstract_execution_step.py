@@ -8,7 +8,7 @@ from taskmap_pb2 import OutputInteraction, ScreenInteraction, Image
 from .task_graph.nodes.execution_node import ExecutionNode
 from abc import ABC, abstractmethod
 # from utils import get_file_system
-# from ..step_requirements_linkers import StepRequirementLinker
+# from step_requirements_linkers import StepRequirementLinker
 
 from typing import List, Optional
 
@@ -26,7 +26,6 @@ requirements_lookup_dict = {}
 
 # print("lookup dict loaded")
 task_content = []
-requirements_lookup_dict = {}
 
 
 class AbstractExecutionStep(ABC):
@@ -35,33 +34,33 @@ class AbstractExecutionStep(ABC):
         """ Update task_graph given steps, i.e. list of (text, image url) tuples representing each execution graph. """
         prev_node_id: Optional[str] = None
         
-        requirement_node_list = []
-        for _, node in task_graph.node_set.items():
-            if node.__class__.__name__ == "RequirementNode":
-                requirement_node_list.append(node)
+        # requirement_node_list = []
+        # for _, node in task_graph.node_set.items():
+        #     if node.__class__.__name__ == "RequirementNode":
+        #         requirement_node_list.append(node)
 
-        if requirements_lookup_dict.get(task_graph.taskmap_id):
+        # if requirements_lookup_dict.get(task_graph.taskmap_id):
 
-            # retrieve requirements/step for task
-            assert task_graph.title == requirements_lookup_dict[task_graph.taskmap_id]['title']
-            assert task_graph.source_url == requirements_lookup_dict[task_graph.taskmap_id]['url']
+        #     # retrieve requirements/step for task
+        #     assert task_graph.title == requirements_lookup_dict[task_graph.taskmap_id]['title']
+        #     assert task_graph.source_url == requirements_lookup_dict[task_graph.taskmap_id]['url']
 
-            linked_requirements: List[List[str]] = requirements_lookup_dict[task_graph.taskmap_id]['requirements_per_step']
-            linked_requirement_ids: List[List[str]] = []
+        #     linked_requirements: List[List[str]] = requirements_lookup_dict[task_graph.taskmap_id]['requirements_per_step']
+        #     linked_requirement_ids: List[List[str]] = []
 
-            # map requirement text to ids of requirement nodes
-            for requirement_list in linked_requirements:
-                requirement_list_ids = [
-                    requirement_node.node_id for requirement_node in requirement_node_list if requirement_node.name in requirement_list
-                ]
+        #     # map requirement text to ids of requirement nodes
+        #     for requirement_list in linked_requirements:
+        #         requirement_list_ids = [
+        #             requirement_node.node_id for requirement_node in requirement_node_list if requirement_node.name in requirement_list
+        #         ]
 
-                linked_requirement_ids.append(requirement_list_ids)
+        #         linked_requirement_ids.append(requirement_list_ids)
 
-        else:
+        # else:
 
-            linked_requirement_ids = [[] for i in range(len(requirement_node_list))]
+        #     linked_requirement_ids = [[] for i in range(len(requirement_node_list))]
 
-        for step, requirement_node_list in zip(steps, linked_requirement_ids):
+        for step in steps:
 
             # Unpack step
             text, description, image = step
@@ -86,8 +85,8 @@ class AbstractExecutionStep(ABC):
             current_node_id: str = task_graph.add_node(node)
 
             # add requirements
-            for requirement_node_id in requirement_node_list:
-                task_graph.add_connection(requirement_node_id, current_node_id)
+            # for requirement_node_id in requirement_node_list:
+            #     task_graph.add_connection(requirement_node_id, current_node_id)
             
             if prev_node_id is not None:
                 task_graph.add_connection(prev_node_id, current_node_id)

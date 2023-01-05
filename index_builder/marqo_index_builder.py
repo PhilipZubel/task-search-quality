@@ -1,5 +1,6 @@
 
 import sys
+import subprocess
 
 from index_builder.abstract_index_builder import AbstractIndexBuilder
 
@@ -46,7 +47,6 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
             "Requirements": self.__parse_requirements(taskmap),
             "Domain": taskmap.domain_name,
             "Description": taskmap.description,
-            "Difficulty": taskmap.difficulty,
             # "DocumentAsString": str(taskmap.SerializeToString()),
         }
         
@@ -89,47 +89,88 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
 
             # Build list of documents.
             taskmap_list = self.__get_protobuf_list_messages(path=in_path, proto_message=TaskMap)            
-            docs_list = []
-            for idx, taskmap in enumerate(taskmap_list):
-                docs_list.append(self.__build_doc(taskmap, how=how, dense=dense))
-                if idx % 1000 == 0:
-                    print(f"Taskmap: {idx}/{len(taskmap_list)}")
-                    # Write to file
-                    if idx != 0:
-                        with open(f'{out_path}_{idx//1000}.jsonl', 'w') as f:
-                            for doc in docs_list:
-                                if 'text' in doc:
-                                    if len(doc['text']) > 0:
-                                        f.write(json.dumps(doc) + '\n')
-                                else:
-                                    f.write(json.dumps(doc) + '\n')
-                        docs_list = []
+            docs_list = [self.__build_doc(taskmap, how=how, dense=dense) for taskmap in taskmap_list]
+            with open(out_path+".json", 'w') as f:
+                # f.write('[\n')
+                f.write(json.dumps(docs_list, indent=4))
+                # for doc in docs_list:
+                #     f.write(json.dumps(doc, indent=4) + ',\n')
+                # f.write(']')
+                
 
-            with open(out_path+".jsonl", 'w') as f:
-                for doc in docs_list:
-                    if 'text' in doc:
-                        if len(doc['text']) > 0:
-                            f.write(json.dumps(doc) + '\n')
-                    else:
-                        f.write(json.dumps(doc) + '\n')
+
+            # for idx, taskmap in enumerate(taskmap_list):
+            #     docs_list.append(self.__build_doc(taskmap, how=how, dense=dense))
+            #     if idx % 1000 == 0:
+            #         print(f"Taskmap: {idx}/{len(taskmap_list)}")
+            #         # Write to file
+            #         if idx != 0:
+            #             with open(f'{out_path}_{idx//1000}.jsonl', 'w') as f:
+            #                 for doc in docs_list:
+            #                     if 'text' in doc:
+            #                         if len(doc['text']) > 0:
+            #                             f.write(json.dumps(doc) + '\n')
+            #                     else:
+            #                         f.write(json.dumps(doc) + '\n')
+            #             docs_list = []
+
+            # with open(out_path+".jsonl", 'w') as f:
+            #     for doc in docs_list:
+            #         if 'text' in doc:
+            #             if len(doc['text']) > 0:
+            #                 f.write(json.dumps(doc) + '\n')
+            #         else:
+            #             f.write(json.dumps(doc) + '\n')
 
     def __build_marqo_index(self, input_dir, domain):
-        self.mq = marqo.Client(url='http://localhost:8882')
+        
+        if not self.mq:
+            self.mq = marqo.Client(url='http://localhost:8882')
         self.mq.index(domain).delete()
         self.mq.create_index(domain)
-        file_names = [f for f in os.listdir(input_dir) if '.jsonl' in f]
+        # input_file = os.path.join(input_dir, "wikihow-taskmaps_108_v2.jsonl")
+        for file in os.listdir(input_dir):
+            input_file = os.path.join(input_dir, file)
+            print(input_file)
+            subprocess.run(["curl", "-XPOST", f"http://localhost:8882/indexes/{domain}/documents?batch_size=20&processes=8",
+                            "-H", "Content-Type: application/json", 
+                            "-T", input_file,
+                            ])
 
-        for file in file_names:
-            with open(os.path.join(input_dir, file)) as json_file:
-                docs_list = [json.loads(doc) for doc in json_file]
 
-            print("length", len(docs_list))
-            self.mq.index(domain).add_documents(docs_list)
+        # file_names = [f for f in os.listdir(input_dir) if '.jsonl' in f]
 
+        # for i,file in enumerate(file_names):
+        #     print(file)
+        #     with open(os.path.join(input_dir, file)) as json_file:
+        #         docs_list = [json.loads(doc) for doc in json_file]
+        #     self.mq.index(domain).add_documents(
+        #         docs_list,
+        #         batch_size=20,
+        #     )
+
+        #     # print("doc", i, "taskgraph count", len(docs_list))
+        #     # print(docs_list[0])
+        
+        #     # doc_chunk_size = 100
+        #     # idx = 0
+        #     # while idx * doc_chunk_size < len(docs_list):
+        #     #     print("chunk", idx, "size", doc_chunk_size)
+        #     #     if (idx + 1)  * doc_chunk_size >= len(docs_list):
+        #     #         doc_chunk = docs_list[idx*doc_chunk_size:]
+        #     #     else:
+        #     #         end_idx = (idx + 1)  * doc_chunk_size 
+        #     #         doc_chunk = docs_list[idx*doc_chunk_size:end_idx]
+                
+        #     #     print(len(doc_chunk))
+        #     #     self.mq.index(domain).add_documents(doc_chunk)
+        #     #     idx+=1
+                
     def build_index(self, input_dir, domain):
         # Build Pyserini index.
         self.__build_marqo_index(input_dir=input_dir,
                                   domain=domain)
+        
     
     def query_index(self, domain, q):
         if not self.mq:

@@ -1,101 +1,101 @@
-raw query,domain,knowledge,reasoning,seasonal,region
-how to spatchcock a turkey,cooking,n,y,y,usa
-I want an easy dessert for christmas,cooking,y,y,y,-
-Any recommendations for a gluten free appetizer,cooking,y,y,n,-
-how to make a green goddess salad,cooking,y,n,n,usa
-how to make a classic english trifle,cooking,n,y,y,uk
-I want a scary pumpkin pie,cooking,y,y,y,-
-ideas for tailgate food,cooking,y,y,y,usa
-I want to make halloween candy,cooking,y,y,y,-
-how to make a gluten free peach crisp,cooking,y,y,n,-
-low calorie zucchini bread,cooking,y,y,n,-
-recommend some asian street foods,cooking,y,y,n,asia
-batali dinners,cooking,y,y,n,-
-seafood sidhes by roux,cooking,y,y,n,-
-how to make singaporean chicken lunch,cooking,y,y,n,singapore
-a romantic dinner,cooking,y,y,n,-
-mexican fiesta recipees,cooking,y,y,y,mexico
-a modern icebox cake,cooking,n,n,n,-
-food for diwali,cooking,y,y,y,india
-i want a fancy eggs recipe,cooking,y,y,n,-
-how to make low fat ice cream,cooking,n,y,n,-
-how to prepare napoletana pizza dough,cooking,n,y,n,italy
-make vegetarian tikka masala,cooking,y,n,n,india
-i want to make chia pudding recipe low carb,cooking,y,y,n,australia
-how to make overnight oats,cooking,y,n,n,australia
-can i have classic dairy free scones,cooking,y,y,n,uk
-how to make spiked eggnog,cooking,y,y,n,canada
-how to prepare spicy oysters,cooking,n,y,n,japan
-how to quickly make baby food,cooking,y,y,n,-
-make lunch meal prep fast,cooking,y,y,n,-
-make vegetarian eintopf,cooking,n,y,n,germany
-how to make light muffins,cooking,n,y,n,-
-make fried halloumi bites,cooking,n,n,n,greece
-show me a creamy mushroom stroganoff recipe,cooking,y,y,n,russia
-can i have tender cooked pork,cooking,y,n,n,-
-can i have soup good for the summer,cooking,y,y,y,-
-how to make boiled easter eggs,cooking,y,y,y,-
-suggestions for road trip food,cooking,y,y,n,-
-how to make polish pierogi with cheese,cooking,y,n,n,poland
-how can i make one pot ramen,cooking,y,n,n,japan
-how to make a traditional greek dinner,cooking,y,y,n,greece
-how to make salty brownies,cooking,y,n,n,-
-gingerbread cookies,cooking,y,n,y,-
-how to make a mango and avocado salad,cooking,n,n,n,-
-easy granola recipe,cooking,n,y,n,-
-smoked chili,cooking,y,n,n,mexico
-make a french croissant,cooking,y,n,n,france
-how to make medium rare salmon,cooking,n,y,n,-
-a recipe with a whole chicken,cooking,y,y,n,-
-how to make a refreshing sweet smoothie,cooking,y,y,n,-
-make fish and chips,cooking,n,n,n,-
--,cooking,,,,
-pearl barly casserole,cooking,,,,
-turkish chicken shish kebab,cooking,,,,
-apple sandwiches with almond butter and granola,cooking,,,,
-cauliflower soup with cheese,cooking,,,,
-borscht with cabbage,cooking,,,,
-cottage cheese dumplings with bacon,cooking,,,,
-asparagus soup with poached egg,cooking,,,,
-thai red curry butternut squash soup,cooking,,,,
-pierogi with onions,cooking,,,,
-garlic roast potatoes with bay leaves,cooking,,,,
-chocolate mousse with truffles,cooking,,,,
-I would like some chai latte,cooking,,,,
-vegetarian stuffed mushrooms,cooking,,,,
-vegetable pakora with mint chutney,cooking,,,,
-tiramisu doughnuts,cooking,,,,
-I want to make creamy jalapeno dip,cooking,,,,
-cilantro yougurt chutney,cooking,,,,
-cookie dough pizza,cooking,,,,
-chilli chocolate cookies,cooking,,,,
-lemon garlic salmon,cooking,,,,
-halibut tacos,cooking,,,,
-johnny marzetti,cooking,,,,
-yakamein noodle soup,cooking,,,,
-watermelon agua fresca,cooking,,,,
-cheesecake milkshake,cooking,,,,
-a smoothie with pinapple and cucumber,cooking,,,,
-blueberry nut smoothie,cooking,,,,
-chocolate protein smoothie,cooking,,,,
-chinese steamed cod fish,cooking,,,,
-creamy zucchini lasagne,cooking,,,,
-herb crusted lamb rack,cooking,,,,
-egg free chicken nuggets,cooking,,,,
-cheese and onion rolls,cooking,,,,
-garlic bread pizza,cooking,,,,
-honey smoked salmon,cooking,,,,
-baked lobster mac and cheese,cooking,,,,
-potato and chorizo stew,cooking,,,,
-spanish wrinkled potatoes,cooking,,,,
-french fries with cheese,cooking,,,,
-louisiana seafood gumbo,cooking,,,,
-fried yellow tomatoes,cooking,,,,
-tuna quinoa salad,cooking,,,,
-poached eggs with avocado and salmon,cooking,,,,
-scallion noodles,cooking,,,,
-vegan mango yogurt,cooking,,,,
-vegetable thai green curry,cooking,,,,
-baked butternut squash,cooking,,,,
-hash browns,cooking,,,,
-spinach and pesto soup,cooking,,,,
+raw query,domain,knowledge,complex,many points of view,different key entities,seasonal,regional
+how to spatchcock a turkey,cooking,n,y,n,n,y,usa
+I want an easy to make dessert for christmas,cooking,n,y,y,n,y,-
+any recommendations for a gluten free appetizer,cooking,y,n,y,y,n,-
+how to make a green goddess salad,cooking,y,y,n,y,n,usa
+how to make a classic english trifle,cooking,y,n,n,y,y,uk
+I want a scary pumpkin pie,cooking,n,y,y,n,y,-
+ideas for easy to carry tailgate food,cooking,y,y,y,n,y,usa
+I want to make halloween candy,cooking,n,n,y,n,y,-
+how to make a gluten free peach crisp,cooking,y,y,n,y,n,-
+healthy zucchini bread,cooking,y,y,y,n,n,-
+recommend some asian street foods,cooking,y,y,n,y,n,asia
+dinners by batali,cooking,n,y,n,y,n,-
+traditional japanese soup,cooking,y,y,n,n,n,japan
+how to make singaporean chicken lunch,cooking,y,y,n,y,n,singapore
+a romantic dinner,cooking,n,y,n,y,n,-
+mexican fiesta recipees,cooking,y,y,y,y,y,mexico
+a modern icebox cake,cooking,y,y,y,n,n,-
+food for diwali,cooking,y,y,y,y,y,india
+i want a fancy eggs recipe,cooking,n,n,y,n,n,-
+how to make low fat ice cream,cooking,y,y,y,n,n,-
+how to prepare napoletana pizza dough,cooking,n,n,n,y,n,italy
+make vegetarian tikka masala,cooking,n,n,n,y,n,india
+i want to make chia pudding recipe low carb,cooking,n,n,n,y,n,australia
+how to make overnight oats,cooking,y,n,n,n,n,australia
+can i have classic dairy free scones,cooking,y,y,n,y,n,uk
+how to make spiked eggnog,cooking,y,n,n,y,n,canada
+how to prepare spicy oysters,cooking,n,y,y,n,n,japan
+how to quickly make baby food,cooking,y,y,y,n,n,-
+make lunch meal prep fast,cooking,y,n,y,y,n,-
+make vegetarian eintopf,cooking,y,y,n,n,n,germany
+how to make light muffins,cooking,n,y,n,y,n,-
+make fried halloumi bites,cooking,n,n,n,y,n,greece
+show me a creamy mushroom stroganoff recipe,cooking,n,y,n,y,n,russia
+can i have tender cooked pork,cooking,y,y,y,n,n,-
+can i have soup good for the summer,cooking,n,y,y,n,y,-
+how to make boiled easter eggs,cooking,y,n,n,y,y,-
+suggestions for road trip food,cooking,y,n,y,n,n,-
+how to make polish pierogi with cheese,cooking,n,n,n,y,n,poland
+how can i make one pot ramen,cooking,y,n,y,y,n,japan
+how to make a traditional greek dinner,cooking,y,y,y,n,n,greece
+how to make salty brownies,cooking,y,n,y,n,n,-
+gingerbread cookies,cooking,y,n,n,n,y,-
+how to make a mango and avocado salad,cooking,n,n,n,y,n,-
+easy granola recipe,cooking,n,y,y,n,n,-
+chili sin carne,cooking,y,y,n,n,n,mexico
+savory belgian waffles,cooking,y,n,y,n,n,belgium
+how to make medium rare salmon,cooking,y,y,y,n,n,-
+a recipe with a whole chicken,cooking,y,n,n,n,n,-
+how to make a refreshing sweet smoothie,cooking,y,y,y,n,n,-
+a beefy burger,cooking,n,y,n,n,n,usa
+-,cooking,,,,,,
+pearl barly casserole,cooking,,,,,,
+turkish chicken shish kebab,cooking,,,,,,
+apple sandwiches with almond butter and granola,cooking,,,,,,
+cauliflower soup with cheese,cooking,,,,,,
+borscht with cabbage,cooking,,,,,,
+cottage cheese dumplings with bacon,cooking,,,,,,
+asparagus soup with poached egg,cooking,,,,,,
+thai red curry butternut squash soup,cooking,,,,,,
+pierogi with onions,cooking,,,,,,
+garlic roast potatoes with bay leaves,cooking,,,,,,
+chocolate mousse with truffles,cooking,,,,,,
+I would like some chai latte,cooking,,,,,,
+vegetarian stuffed mushrooms,cooking,,,,,,
+vegetable pakora with mint chutney,cooking,,,,,,
+tiramisu doughnuts,cooking,,,,,,
+I want to make creamy jalapeno dip,cooking,,,,,,
+cilantro yougurt chutney,cooking,,,,,,
+cookie dough pizza,cooking,,,,,,
+chilli chocolate cookies,cooking,,,,,,
+lemon garlic salmon,cooking,,,,,,
+halibut tacos,cooking,,,,,,
+johnny marzetti,cooking,,,,,,
+yakamein noodle soup,cooking,,,,,,
+watermelon agua fresca,cooking,,,,,,
+cheesecake milkshake,cooking,,,,,,
+a smoothie with pinapple and cucumber,cooking,,,,,,
+blueberry nut smoothie,cooking,,,,,,
+chocolate protein smoothie,cooking,,,,,,
+chinese steamed cod fish,cooking,,,,,,
+creamy zucchini lasagne,cooking,,,,,,
+herb crusted lamb rack,cooking,,,,,,
+egg free chicken nuggets,cooking,,,,,,
+cheese and onion rolls,cooking,,,,,,
+garlic bread pizza,cooking,,,,,,
+honey smoked salmon,cooking,,,,,,
+baked lobster mac and cheese,cooking,,,,,,
+potato and chorizo stew,cooking,,,,,,
+spanish wrinkled potatoes,cooking,,,,,,
+french fries with cheese,cooking,,,,,,
+louisiana seafood gumbo,cooking,,,,,,
+fried yellow tomatoes,cooking,,,,,,
+tuna quinoa salad,cooking,,,,,,
+poached eggs with avocado and salmon,cooking,,,,,,
+scallion noodles,cooking,,,,,,
+vegan mango yogurt,cooking,,,,,,
+vegetable thai green curry,cooking,,,,,,
+baked butternut squash,cooking,,,,,,
+hash browns,cooking,,,,,,
+spinach and pesto soup,cooking,,,,,,

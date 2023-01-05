@@ -41,6 +41,9 @@ class BM25Model(AbstractModel):
         
     def build_index(self, overwrite=False):
         
+        if not os.path.isdir(self.output_index_dir):
+            os.makedirs(self.output_index_dir)
+            
         if not overwrite and len(os.listdir(self.output_index_dir)) > 0:
             print("Index already built. Call overwrite=True in build_index() to rebuild the index again.")
             return
@@ -108,18 +111,16 @@ class BM25Model(AbstractModel):
                 taskmap_json = doc_json['recipe_document_json']
                 taskmap = Parse(json.dumps(taskmap_json), TaskMap())
                 empty_judgment = {
-                    # "doc-id" : taskmap.taskmap_id, 
+                    
                     # "doc-title" : taskmap.title, 
                     # "doc-url" : taskmap.source_url, 
                     # "score": round(float(hit.score),3),
-                    # "query-id": query_id,
-                    # "query": query,
-                    # "taskgraph" : taskmap,
+                    "query-id": query['id'],
                     "raw-query": query["raw query"],
                     "html_link": taskmap.source_url,
+                    "doc-id" : taskmap.taskmap_id, 
+                    "title": taskmap.title,
                     "relevance": "",
-                    "usability": "",
-                    "quality": "",
                 }
                 empty_judgments.append(empty_judgment)
         
@@ -128,8 +129,8 @@ class BM25Model(AbstractModel):
         if not os.path.isdir(annotations_path):
             os.makedirs(annotations_path)
         
-        print(f"Empty judgments file saved at {annotations_path}/{self.model_name}_empty.csv")
-        keys = ["raw-query", "html_link", "relevance", "usability", "quality"]
+        print(f"Empty judgments file saved at {annotations_path}/{self.model_name}judgments.csv")
+        keys = ["query-id", "doc-id", "raw-query", "html_link", "title", "relevance"]
         with open(os.path.join(annotations_path, f"{self.model_name}-judgments.csv"), 'w', newline='') as f:
             dict_writer = csv.DictWriter(f, keys)
             dict_writer.writeheader()
@@ -146,7 +147,7 @@ class BM25Model(AbstractModel):
         searcher = LuceneSearcher(index_dir=self.output_index_dir)
         searcher.set_bm25(b=0.4, k1=0.9)
         
-        hits = searcher.search(q=query, k=10)
+        hits = searcher.search(q=query, k=5)
         for hit in hits:
             doc_json = json.loads(hit.raw)
             taskmap_json = doc_json['recipe_document_json']

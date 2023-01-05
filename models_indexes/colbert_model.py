@@ -136,10 +136,11 @@ class ColbertModel(AbstractModel):
         )
         lucene_searcher = self.get_lucene_searcher(self.dataset_model)
         hits = searcher.search(query=query, k=5)
-        for hit in hits:    
+        for hit in hits[0:1]:    
             raw_taskgraph = lucene_searcher.doc(hit.docid)
             doc_json = json.loads(raw_taskgraph.raw())
             taskmap_json = doc_json['recipe_document_json']
             taskmap = Parse(json.dumps(taskmap_json), TaskMap())
-            print(f'{query}, {taskmap.source_url}')
+            print(taskmap)
+            # print(f'{query}, {taskmap.source_url}')
     

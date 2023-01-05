@@ -40,9 +40,9 @@ class MarqoModel(AbstractModel):
             
         index_builder = MarqoIndexBuilder()
         
-        print("Build documents...")
-        print(f"Saving documents to {self.output_temp_dir}...")
-        taskmap_dir = self.dataset_model.get_taskgraphs_path()
+        # print("Build documents...")
+        # print(f"Saving documents to {self.output_temp_dir}...")
+        # taskmap_dir = self.dataset_model.get_taskgraphs_path()
         # dataset_name = self.dataset_model.get_dataset_name()
         # index_builder.build_json_docs(input_dir=taskmap_dir,
         #                                 output_dir=self.output_temp_dir,
