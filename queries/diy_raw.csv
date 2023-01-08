@@ -1,101 +1,101 @@
-raw query,domain,knowledge,reasoning
-how to choose a good hirstyle for men,diy,,
-how to learn a new language,diy,,
-how to remove food stains from a carpet,diy,,
-how to wash a car with less water,diy,,
-how do I decorate an office,diy,,
-help me paint an interior wall,diy,,
-how do you remove crown mold from a wall,diy,,
-how to make homemade toothpaste,diy,,
-how do I clean the fridge,diy,,
-how can I screw in a nail,diy,,
-how to style curly hair,diy,,
-how to write a biography for a book,diy,,
-how to grow apples,diy,,
-how to grow strawberries,diy,,
-how to grow cherry tomatoes,diy,,
-how to grow blueberries,diy,,
-how to plant tulips,diy,,
-how to wash a cutting board,diy,,
-help me learn how to knit clothes,diy,,
-how to wash a stainless steel pan,diy,,
-cut tempered glass,diy,,
-put on a bike chain,diy,,
-fix a water heater,diy,,
-build a simple kite,diy,,
-learn how to juggle three balls,diy,,
-chop an onion like a pro,diy,,
-how to hand whistle,diy,,
-how to change a car tire,diy,,
-fix a stuck zipper,diy,,
-paint a metal fence,diy,,
-create an outdoor fireplace,diy,,
-how to remove a tree,diy,,
-paint nails with patterns,diy,,
-make a gravel garden path,diy,,
-how to fix a blocked shower drain,diy,,
-how to teach a cat to do tricks,diy,,
-how to build a hamster cage,diy,,
-how to run  marathon,diy,,
-how to gain musle,diy,,
-fix a cracked phone screen,diy,,
-how to plan a christmas party,diy,,
-how to solve a rubik's cube,diy,,
-learn a chess opening,diy,,
-how to replace a window,diy,,
-how to iron a suit,diy,,
-how to warm up before a run,diy,,
-how to open a champagne bottle,diy,,
-how to install a sprinkler system,diy,,
-how to change a child's diaper,diy,,
-how to make a bubble bath,diy,,
-how to remove a permanent marker from a whiteboard,diy,,
-how to replace a toilet seat,diy,,
-fix a leaking shower,diy,,
-how to put up wallpaper,diy,,
-hang a shelf,diy,,
-sell my paintings,diy,,
-how to make a keychain,diy,,
-how to make a bath bomb,diy,,
-how to make a candles that smell well,diy,,
-how to build a toy for a pet,diy,,
-how to make napkin designs,diy,,
-how to make a coaster,diy,,
-how to draw a birthday card,diy,,
-how to set up a tent,diy,,
-how to knit mittens,diy,,
-how to learn to ice skate,diy,,
-how to make stickers,diy,,
-how to make my own fridge magnets,diy,,
-how to organize kitchen,diy,,
-how to make christmas ornaments,diy,,
-how to build a dog house,diy,,
-help me clean the oven,diy,,
-how to clean the windows,diy,,
-how to pick a lock with paper clips,diy,,
-how to cut my own hair,diy,,
-how to build a gaming computer,diy,,
-how to write a resume for a job,diy,,
-how to make a garden toolbox,diy,,
-how to train a dog,diy,,
-how to clean garden tools,diy,,
-how to make a professional book covers,diy,,
-how to paint on ceramic,diy,,
-how to make a snowman,diy,,
-how to make a paper fortune teller,diy,,
-how to fold a paper airplane,diy,,
-how to find my stolen phone,diy,,
-how to make finger puppets,diy,,
-how to repaint wooden furniture,diy,,
-how to catch a fly,diy,,
-how to repair a chipped tile,diy,,
-how to make an asian lantern,diy,,
-how to make paper flowers,diy,,
-how to start a grill,diy,,
-how to motivate my child,diy,,
-how to sail a boat,diy,,
-how to replace a door,diy,,
-how to fix a door handle,diy,,
-how to make kitchen curtains,diy,,
-how to grow lemons,diy,,
-how to grow grapes,diy,,
+raw query,domain,knowledge,complexity,many points of view,multiple key entities,subfield
+how to choose a good hirstyle for men,diy,y,y,y,n,appearance
+how to learn a new language,diy,n,n,y,n,self improvement
+how to remove food stains from a carpet,diy,n,y,n,y,maintanence
+how to wash a car with less water,diy,n,n,y,y,maintanence
+how do I decorate an office,diy,n,y,y,n,home improvement
+help me paint an interior wall,diy,y,y,n,n,maintanence
+how do you remove crown mold from a wall,diy,y,n,n,y,home improvement
+how to make homemade toothpaste,diy,n,n,n,y,appearance
+how do I clean the fridge,diy,n,n,y,n,maintanence
+how can I screw in a nail,diy,n,y,y,n,maintanence
+how to style curly hair,diy,y,y,y,n,appearance
+how to write a biography for a book,diy,y,n,y,n,self improvement
+how to grow apples,diy,n,y,n,n,gardening
+how to grow strawberries,diy,n,y,n,n,gardening
+how to grow cherry tomatoes,diy,n,y,n,n,gardening
+how to grow blueberries,diy,n,y,n,n,gardening
+how to plant tulips,diy,n,y,n,n,gardening
+how to wash a cutting board,diy,y,y,y,n,maintanence
+help me learn how to knit clothes,diy,n,y,y,n,home improvement
+how to wash a stainless steel pan,diy,y,y,n,y,maintanence
+cut tempered glass,diy,n,y,n,n,home improvement
+put on a bike chain,diy,n,n,n,y,maintanence
+fix a water heater,diy,y,y,n,n,maintanence
+build a simple kite,diy,n,y,y,y,crafts
+learn how to juggle three balls,diy,n,n,n,y,self improvement
+chop an onion like a pro,diy,y,y,n,y,self improvement
+how to hand whistle,diy,n,n,n,y,self improvement
+how to change a car tire,diy,y,n,n,n,maintanence
+fix a stuck zipper,diy,y,n,n,n,maintanence
+paint a metal fence,diy,n,y,n,n,maintanence
+create an outdoor fireplace,diy,y,y,n,n,home improvement
+how to remove a tree,diy,n,y,y,n,gardening
+paint nails with patterns,diy,n,n,n,y,appearance
+make a gravel garden path,diy,y,y,y,y,home improvement
+how to fix a blocked shower drain,diy,y,n,n,n,maintanence
+how to teach a cat to do tricks,diy,y,n,y,n,pets
+how to build a hamster cage,diy,n,y,n,n,pets
+how to run  marathon,diy,y,y,y,n,self improvement
+how to gain musle,diy,n,y,n,n,self improvement
+fix a cracked phone screen,diy,y,n,y,n,maintanence
+how to plan a christmas party,diy,n,n,y,n,home improvement
+how to solve a rubik's cube,diy,y,n,n,n,problem solving
+learn a chess opening,diy,y,n,y,n,self improvement
+how to replace a window,diy,y,n,n,n,maintanence
+how to iron a suit,diy,n,n,y,n,appearance
+how to warm up before a run,diy,y,y,y,n,self improvement
+how to open a champagne bottle,diy,y,n,n,n,problem solving
+how to install a sprinkler system,diy,y,y,n,n,gardening
+how to change a child's diaper,diy,n,y,n,n,childcare
+how to make a bubble bath,diy,n,n,n,y,appearance
+how to remove a permanent marker from a whiteboard,diy,y,y,n,y,maintanence
+how to replace a toilet seat,diy,y,n,n,n,maintanence
+fix a leaking shower,diy,n,y,y,n,maintanence
+how to put up wallpaper,diy,n,y,y,n,home improvement
+hang a shelf,diy,n,n,y,n,home improvement
+sell my paintings on the internet,diy,n,y,n,n,crafts
+how to make a keychain,diy,n,y,n,n,crafts
+how to make a bath bomb,diy,n,y,n,n,crafts
+how to make a candles that smell well,diy,y,y,y,y,crafts
+how to build a toy for a pet,diy,y,n,y,n,pets
+how to make napkin designs,diy,n,y,n,n,crafts
+how to make a coaster,diy,n,y,y,n,crafts
+how to draw a birthday card,diy,n,y,y,n,crafts
+how to set up a tent,diy,y,n,n,n,maintanence
+how to knit mittens,diy,n,y,n,n,crafts
+how to learn to ice skate,diy,y,n,y,n,self improvement
+how to make stickers,diy,y,n,n,n,crafts
+how to make my own fridge magnets,diy,y,n,n,n,crafts
+how to organize a kitchen,diy,y,n,n,n,maintanence
+how to make christmas ornaments,diy,n,y,y,n,crafts
+how to build a dog house,diy,y,y,n,n,pets
+help me clean the oven,diy,n,y,y,n,maintanence
+how to clean the windows,diy,n,y,y,n,maintanence
+how to pick a lock with paper clips,diy,n,y,y,n,self improvement
+how to cut my own hair,diy,y,y,y,n,appearance
+how to build a gaming computer,diy,y,y,y,n,home improvement
+how to write a resume for a job,diy,n,y,y,n,self improvement
+how to wash a newborn baby,diy,y,y,n,n,childcare
+how to train a dog to behave outside,diy,y,n,y,y,pets
+how to clean garden tools,diy,n,y,y,n,gardening
+how to make a professional book cover,diy,y,n,y,n,crafts
+how to paint on ceramic,diy,n,y,n,n,crafts
+how to build a snowman,diy,n,y,y,n,self improvement
+how to make a paper fortune teller,diy,n,y,n,n,crafts
+how to fold a paper airplane,diy,n,y,n,n,crafts
+how to find my stolen phone,diy,y,n,y,n,maintanence
+how to make finger puppets,diy,n,y,n,n,crafts
+how to repaint wooden furniture,diy,y,y,y,y,home improvement
+how to catch a fly,diy,y,n,n,n,home improvement
+how to repair a chipped tile,diy,y,n,n,y,maintanence
+how to make an asian lantern,diy,n,y,y,n,crafts
+how to make paper flowers,diy,n,y,n,n,crafts
+how to start a grill,diy,n,y,n,n,gardening
+how to motivate my child,diy,n,y,y,n,self improvement
+how to sail a boat,diy,n,y,n,n,self improvement
+how to replace a door,diy,n,y,n,n,maintanence
+how to fix a door handle,diy,n,y,y,n,maintanence
+how to make kitchen curtains,diy,y,y,y,n,crafts
+how to grow lemons,diy,n,y,n,n,gardening
+how to grow grapes,diy,n,y,n,n,gardening

@@ -143,11 +143,11 @@ class BM25Model(AbstractModel):
         accuracy = ir_measures.calc_aggregate([nDCG@3, Precision@3, Recall@3], qrles, run)
         return accuracy
     
-    def search(self, query:str):
+    def search(self, query:str, k=5):
         searcher = LuceneSearcher(index_dir=self.output_index_dir)
         searcher.set_bm25(b=0.4, k1=0.9)
         
-        hits = searcher.search(q=query, k=5)
+        hits = searcher.search(q=query, k=k)
         for hit in hits:
             doc_json = json.loads(hit.raw)
             taskmap_json = doc_json['recipe_document_json']
