@@ -96,18 +96,26 @@ class BM25Model(AbstractModel):
         with open(os.path.join(self.run_path, f"{self.model_name}.run"), "w") as f:
             f.writelines(lines)
             
-    def create_empty_judgments(self, pd_queries, k):
+    def create_empty_judgments(self, pd_queries, k, n):
         # Initialize searcher
         searcher = LuceneSearcher(index_dir=self.output_index_dir)
         searcher.set_bm25(b=0.4, k1=0.9)
+        
+        if self.rm3 == True:
+            searcher.set_rm3(fb_terms=10, fb_docs=10, original_query_weight=0.5)
         
         # retrieve results
         # fieldnames = ["raw query", "html_link", "relevance", "usability", "quality"]
         empty_judgments = []
         for idx, query in pd_queries.iterrows():
             hits = searcher.search(q=query["target query"], k=k)
-            for hit in hits:
-                doc_json = json.loads(hit.raw)
+            if self.t5:
+                hits = self.reranker.rerank(Query(query["target query"]), hits_to_texts(hits))
+            for hit in hits[:n]:
+                if type(hit) == Text:
+                    doc_json = json.loads(hit.text)
+                else:
+                    doc_json = json.loads(hit.raw)
                 taskmap_json = doc_json['recipe_document_json']
                 taskmap = Parse(json.dumps(taskmap_json), TaskMap())
                 empty_judgment = {
@@ -168,5 +176,17 @@ class BM25Model(AbstractModel):
             # }
             
             print(f'Judgment: {query} {taskmap.source_url}')
+            
+    def search_best(self, query:str):
+        searcher = LuceneSearcher(index_dir=self.output_index_dir)
+        searcher.set_bm25(b=0.4, k1=0.9)
+        hits = searcher.search(q=query, k=1)
+        doc_json = json.loads(hits[0].raw)
+        taskmap_json = doc_json['recipe_document_json']
+        taskmap = Parse(json.dumps(taskmap_json), TaskMap())
+        return taskmap
+            
+        
+        
         
     

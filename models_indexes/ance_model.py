@@ -77,7 +77,7 @@ class AnceModel(AbstractModel):
         with open(os.path.join(self.run_path, f"{self.model_name}.run"), "w") as f:
             f.writelines(lines)
             
-    def create_empty_judgments(self, pd_queries, k):
+    def create_empty_judgments(self, pd_queries, k, n):
         # Initialize searcher
         encoder = AnceQueryEncoder("castorini/ance-msmarco-passage")
         searcher = FaissSearcher(
@@ -89,8 +89,8 @@ class AnceModel(AbstractModel):
         # fieldnames = ["raw query", "html_link", "relevance", "usability", "quality"]
         empty_judgments = []
         for idx, query in pd_queries.iterrows():
-            hits = searcher.search(q=query["target query"], k=k)
-            for hit in hits:
+            hits = searcher.search(query=query["target query"], k=k)
+            for hit in hits[:n]:
                 raw_taskgraph = lucene_searcher.doc(hit.docid)
                 doc_json = json.loads(raw_taskgraph.raw())
                 taskmap_json = doc_json['recipe_document_json']
