@@ -8,14 +8,10 @@ from index_builder.marqo_index_builder import MarqoIndexBuilder
 from models_datasets.abstract_model_dataset import AbstractModelDataset
 from models_indexes.abstract_model import AbstractModel
 
-from pyserini.search.faiss import FaissSearcher, AnceQueryEncoder
-
 import ir_measures
 from ir_measures import *
 
 from taskmap_pb2 import TaskMap
-
-
 
 class MarqoModel(AbstractModel):
 
@@ -134,6 +130,14 @@ class MarqoModel(AbstractModel):
     
     def search(self, query):
         index_builder = MarqoIndexBuilder() 
-        return index_builder.query_index(domain = self.dataset_model.get_dataset_name(), q=query)
+        return index_builder.search(domain = self.dataset_model.get_dataset_name(), q=query, limit=50, offset=0)
+
+    def get_stats(self):
+        index_builder = MarqoIndexBuilder() 
+        return index_builder.get_index_stats(domain = self.dataset_model.get_dataset_name())
+
+    def get_single_document(self, doc_id):
+        index_builder = MarqoIndexBuilder() 
+        return index_builder.get_single_document(domain = self.dataset_model.get_dataset_name(), doc_id=doc_id)
 
     

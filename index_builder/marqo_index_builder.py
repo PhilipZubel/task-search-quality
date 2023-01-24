@@ -21,34 +21,77 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
     def __init__(self):
         self.mq = None
     
-    def __parse_tags(self, proto_message):
-         return " ".join([tag for tag in proto_message.tags])
+    # def __parse_tags(self, proto_message):
+    #      return " ".join([tag for tag in proto_message.tags])
     
-    def __parse_steps(self, proto_message):
-        return " ".join([step.response.speech_text for step in proto_message.steps])
+    # def __parse_steps(self, proto_message):
+    #     return " ".join([step.response.speech_text for step in proto_message.steps])
     
-    def __parse_requirements(self, proto_message):
-        return " ".join([requirement.name for requirement in proto_message.requirement_list])
+    # def __parse_requirements(self, proto_message):
+    #     return " ".join([requirement.name for requirement in proto_message.requirement_list])
+    def __parse_title(self, proto_message):
+        """ Extract text contents from proto title and requirements """
+        return proto_message.title
+
+    def __parse_title_and_requirements(self, proto_message):
+        """ Extract text contents from proto title and requirements """
+        contents = ''
+        contents += proto_message.title + '. '
+        for requirement in proto_message.requirement_list:
+            contents += requirement.name + ' '
+
+        return contents
+    
+    def __parse_all(self, proto_message):
+        """ Extract text content from proto. """
+        contents = ''
+        contents += proto_message.title + '. '
+        for requirement in proto_message.requirement_list:
+            contents += requirement.name + ' '
+        for tag in proto_message.tags:
+            contents += tag + ' '
+        contents += proto_message.description + ''
+        for step in proto_message.steps:
+            contents += step.response.speech_text + ' '
+
+        return contents
+    
 
     def __get_protobuf_list_messages(self, path, proto_message):
         """ Retrieve list of protocol buffer messages from binary fire """
         return [d for d in stream.parse(path, proto_message)]
 
-    def __build_doc(self, taskmap:TaskMap, how='all', dense=False):
+    # def __build_doc(self, taskmap:TaskMap, how='all', dense=False):
+    #     """ Build pyserini document from taskmap message. """
+    #     # print(type(taskmap))
+    #     # print(type(taskmap.SerializeToString()))
+    #     return {
+    #         "_id": taskmap.taskmap_id,
+    #         "Title": taskmap.title,
+    #         "Date": taskmap.date,
+    #         "Steps": self.__parse_steps(taskmap),
+    #         "Tags": self.__parse_tags(taskmap),
+    #         "Requirements": self.__parse_requirements(taskmap),
+    #         "Domain": taskmap.domain_name,
+    #         "Description": taskmap.description,
+    #         # "DocumentAsString": str(taskmap.SerializeToString()),
+    #     }
+    def __build_doc(self, taskmap, how='all', dense=False):
         """ Build pyserini document from taskmap message. """
-        # print(type(taskmap))
-        # print(type(taskmap.SerializeToString()))
+        if how == 'all':
+            contents = self.__parse_all(taskmap)
+        elif how == 'title':
+            contents = self.__parse_title(taskmap)
+        elif how == 'title+ingredients':
+            contents = self.__parse_title_and_requirements(taskmap)
+        else:
+            print('error - not set how correctly')
+            contents = self.__parse_all(taskmap)
         return {
-            "_id": taskmap.taskmap_id,
-            "Title": taskmap.title,
-            "Date": taskmap.date,
-            "Steps": self.__parse_steps(taskmap),
-            "Tags": self.__parse_tags(taskmap),
-            "Requirements": self.__parse_requirements(taskmap),
-            "Domain": taskmap.domain_name,
-            "Description": taskmap.description,
-            # "DocumentAsString": str(taskmap.SerializeToString()),
-        }
+                "_id": taskmap.taskmap_id,
+                "Contents": contents
+            }
+
         
     def build_json_docs(self, input_dir, output_dir, dataset_name):
         """ Build index given directory of files containing taskmaps. """
@@ -126,16 +169,24 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
         
         if not self.mq:
             self.mq = marqo.Client(url='http://localhost:8882')
-        self.mq.index(domain).delete()
-        self.mq.create_index(domain)
+        # self.mq.index(domain).delete()
+        # self.mq.create_index(domain)
         # input_file = os.path.join(input_dir, "wikihow-taskmaps_108_v2.jsonl")
         for file in os.listdir(input_dir):
             input_file = os.path.join(input_dir, file)
             print(input_file)
-            subprocess.run(["curl", "-XPOST", f"http://localhost:8882/indexes/{domain}/documents?batch_size=20&processes=8",
-                            "-H", "Content-Type: application/json", 
-                            "-T", input_file,
-                            ])
+            # subprocess.run(["curl", "-XPOST", f"http://localhost:8882/indexes/{domain}/documents?batch_size=20&processes=8",
+            #                 "-H", "Content-Type: application/json", 
+            #                 "-T", input_file,
+            #                 ])
+            subprocess.run(["curl", "-XPOST", f"http://localhost:8882/indexes/{domain}/documents?batch_size=20",
+                "-H", "Content-Type: application/json", 
+                "-T", input_file,
+                ])            
+            # subprocess.run(["curl", "-XPUT", f"http://localhost:8882/indexes/{domain}/documents?batch_size=20",
+            #     "-H", "Content-Type: application/json", 
+            #     "-T", input_file,
+            #     ])
 
 
         # file_names = [f for f in os.listdir(input_dir) if '.jsonl' in f]
@@ -175,7 +226,7 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
     def query_index(self, domain, q):
         if not self.mq:
             self.mq = marqo.Client(url='http://localhost:8882')
-        return self.mq.index(domain).search(q, searchable_attributes=['Desription', 'Title', "Tags", "Steps", "Requirements"])
+        return self.mq.index(domain).search(q, searchable_attributes=['Contents'])
     
     def query_index_filter(self, q:str, filter:str):
         return self.mq.index("index-name").search(q=q, filter_string=filter)
@@ -185,3 +236,7 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
             self.mq = marqo.Client(url='http://localhost:8882')
         return self.mq.index(domain).get_stats()
     
+    def get_single_document(self, domain, doc_id):
+        if not self.mq:
+            self.mq = marqo.Client(url='http://localhost:8882')
+        return self.mq.index(domain).get_document(document_id=doc_id, expose_facets=True)
