@@ -8,7 +8,7 @@
 # -a arg - flag stores all artefacts in the offline bucket
 # arg - either keyword upload or download
 
-BUCKET_NAME=gs://task-search-bucket
+BUCKET_NAME=s3://task-search
 
 # $1 - local folder name
 # $2 - name of zipped file
@@ -20,15 +20,16 @@ upload () {
   
   # Remove folder in offline storage
   REMOTE_PATH=$BUCKET_NAME/$2.zip
-  gsutil -q stat $REMOTE_PATH
-  status=$?
-  if [[ $status == 0 ]]; then
+  # gsutil -q stat $REMOTE_PATH
+  status=$(aws s3 ls $REMOTE_PATH)
+  if [[ -z $status ]]; then
     echo "Removing $REMOTE_PATH..."
     gsutil -q rm -r $REMOTE_PATH
   fi
 
   echo "Uploading ${PWD}/$1/ to $REMOTE_PATH"
-  gsutil -m cp -Z $PWD/$2.zip $REMOTE_PATH
+  # gsutil -m cp -Z $PWD/$2.zip $REMOTE_PATH
+  aws s3 cp  $PWD/$2.zip $REMOTE_PATH
   
   # Delete zipped folder
   rm $2.zip
@@ -38,9 +39,9 @@ download () {
   echo "Downlaod started!"
   # Check if remote file exists
   REMOTE_PATH=$BUCKET_NAME/$2.zip
-  gsutil -q stat $REMOTE_PATH
-  status=$?
-  if [[ $status == 1 ]]; then
+  # gsutil -q stat $REMOTE_PATH
+  status=$(aws s3 ls $REMOTE_PATH)
+  if [[ -z $status ]]; then
   echo "Remote file $REMOTE_PATH does not exist..."
   exit 1
   fi
@@ -53,7 +54,7 @@ download () {
       read -r -p "Are you sure? [y/N] " response
       case "$response" in
           [yY][eE][sS]|[yY]) 
-              gsutil -m cp $BUCKET_NAME/$2.zip $PWD/$2.zip
+              aws s3 cp $BUCKET_NAME/$2.zip $PWD/$2.zip
               echo "Deleting local offline directory..."
               rm -r $LOCAL_PATH
               ;;
@@ -63,7 +64,8 @@ download () {
               ;;
       esac
   else
-      gsutil -m cp $BUCKET_NAME/$2.zip $PWD/$2.zip
+      # gsutil -m cp $BUCKET_NAME/$2.zip $PWD/$2.zip
+     aws s3 cp $BUCKET_NAME/$2.zip $PWD/$2.zip
   fi
 
   echo "Unzipping $PWD/$2/ to $LOCAL_PATH "
