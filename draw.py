@@ -130,9 +130,9 @@ def get_visualization(parsed_taskgraph):
     edge = pydot.Edge(-2, 0, color="white")
     graph.add_edge(edge)
     
-    graph.write_raw('taskgraph.dot')
-    graph.write_png('taskgraph.png')
-    # view_pydot(graph)
+    # graph.write_raw('taskgraph.dot')
+    # graph.write_png('taskgraph.png')
+    view_pydot(graph)
 
 def delete_downloaded_images():
     # Getting All Files List

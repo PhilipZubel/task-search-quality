@@ -4,8 +4,6 @@ import subprocess
 
 from index_builder.abstract_index_builder import AbstractIndexBuilder
 
-
-from google.protobuf.json_format import MessageToDict
 from taskmap_pb2 import TaskMap
 import subprocess
 import stream
