@@ -15,9 +15,13 @@ from taskmap_pb2 import TaskMap
 
 class MarqoModel(AbstractModel):
 
-    def __init__(self, domain:str):
+    def __init__(self, domain:str, model = ""):
         
-        self.model_name = "marqo"
+        if model:
+            self.model_name = model
+        else:
+            self.model_name = "marqo"
+        
         self.dataset_model: AbstractModelDataset = self.get_dataset_model(domain)()
 
         
@@ -34,7 +38,7 @@ class MarqoModel(AbstractModel):
         #     print("Marqo index already built. Call overwrite=True in build_index() to rebuild the index again.")
         #     return
             
-        index_builder = MarqoIndexBuilder()
+        index_builder = MarqoIndexBuilder(model = self.model_name)
         
         # print("Build documents...")
         # print(f"Saving documents to {self.output_temp_dir}...")
@@ -50,30 +54,28 @@ class MarqoModel(AbstractModel):
                                     domain = self.dataset_model.get_dataset_name())
 
     
-    def convert_search_results_to_run(self, pd_queries):
-        pass
-        # # Initialize searcher
-        # encoder = AnceQueryEncoder("castorini/ance-msmarco-passage")
-        # searcher = FaissSearcher(
-        #     index_dir = self.output_index_dir,
-        #     query_encoder= encoder,
-        # )
+    def convert_search_results_to_run(self, pd_queries, raw=False):
+        index_builder = MarqoIndexBuilder() 
         
-        # # retrieve results
-        # lines = []
-        # for idx, query in pd_queries.iterrows():
-        #     hits = searcher.search(query["target query"], k=50)
-        #     for rank, hit in enumerate(hits[:50]):
-        #         line = f'query-{idx} Q0 {hit.docid} {rank+1} {hit.score} {self.model_name}\n'
-        #         lines.append(line)
-        # lines[-1] = lines[-1].replace("\n","")
+        # retrieve results
+        lines = []
+        for idx, query in pd_queries.iterrows():
+            if raw:
+                q = query["raw query"]
+            else:
+                 q = query["target query"]
+            hits = index_builder.query_index(domain = self.dataset_model.get_dataset_name(), q=q, limit=50, offset=0)
+            for rank, hit in enumerate(hits["hits"]):
+                line = f'query-{idx} Q0 {hit["_id"]} {rank+1} {hit["_score"]} {self.model_name}\n'
+                lines.append(line)
+        lines[-1] = lines[-1].replace("\n","")
         
         # if not os.path.isdir(self.run_path):
         #     os.makedirs(self.run_path)
         
-        # print(f"Run file saved at {self.run_path}/{self.model_name}.run")
-        # with open(os.path.join(self.run_path, f"{self.model_name}.run"), "w") as f:
-        #     f.writelines(lines)
+        print(f"Run file saved at {self.run_path}/{self.model_name}-target.run")
+        with open(os.path.join(self.run_path, f"{self.model_name}-target.run"), "w") as f:
+            f.writelines(lines)
             
     def create_empty_judgments(self, pd_queries, k):
         pass
@@ -130,7 +132,7 @@ class MarqoModel(AbstractModel):
     
     def search(self, query):
         index_builder = MarqoIndexBuilder() 
-        return index_builder.search(domain = self.dataset_model.get_dataset_name(), q=query, limit=50, offset=0)
+        return index_builder.query_index(domain = self.dataset_model.get_dataset_name(), q=query, limit=50, offset=0)
 
     def get_stats(self):
         index_builder = MarqoIndexBuilder() 

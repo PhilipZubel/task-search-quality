@@ -48,7 +48,7 @@ download () {
   
   # Download zipped folder and delete local folder if exists
   LOCAL_PATH=$PWD/$1
-  mkdir=$PWD/test
+  mkdir=$PWD
   if [ -d "$LOCAL_PATH" ]; then
       echo "Are you sure you want to delete ${LOCAL_PATH}? [Y/n]"
       read -r -p "Are you sure? [y/N] " response
@@ -69,7 +69,7 @@ download () {
   fi
 
   echo "Unzipping $PWD/$2/ to $LOCAL_PATH "
-  unzip ${PWD}/$2.zip -d $PWD/test/
+  unzip ${PWD}/$2.zip -d $PWD/
 
   # Remove zipped file
   rm ${PWD}/$2.zip
