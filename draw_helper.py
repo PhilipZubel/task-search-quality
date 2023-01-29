@@ -1,5 +1,6 @@
 from taskmap_pb2 import TaskMap
 import os
+import glob
 
 from IPython.display import Image, display
 from PIL import Image as Im
@@ -13,15 +14,18 @@ def parse_taskgraph(taskmap:TaskMap):
     parsed_info["thumbnail"] = taskmap.thumbnail_url
     parsed_info["steps"] = taskmap.steps
     parsed_info["conditions"] = taskmap.condition_list
+    parsed_info["conditions_dict"] = {condition.unique_id:condition.text for condition in taskmap.condition_list}
     
     # requirements in the form (id, name+amount)
     parsed_info["requirements_dict"] = {requirements.unique_id :f'{requirements.name}, amount: {requirements.amount}' for requirements in taskmap.requirement_list}
+    parsed_info["extra_info_list"] = [str(info.type) + " " + info.text for info in taskmap.extra_information]
 
     parsed_info["first_step_id"] = get_first_taskgraph_step(taskmap.connection_list, taskmap.steps)
     parsed_info["requirements_step_links"] = get_links_step_ingredients(taskmap.connection_list, parsed_info["requirements_dict"].keys())
     parsed_info["step_links"] = get_step_links(taskmap.connection_list, taskmap.steps)
     parsed_info["all_links"] = get_all_links(taskmap.connection_list)
     parsed_info["logic_nodes_ids"] = {node.unique_id : node.type for node in taskmap.logic_nodes_list}
+    parsed_info["action_nodes_ids"] = {node.unique_id for node in taskmap.actions_list}
     parsed_info["visited_nodes"] = set()
     # steps = [step.response.screen.paragraphs[0] for step in taskmap.steps]
     # steps_urls = [step.response.transcript.image_url for step in taskmap.steps]
@@ -109,12 +113,28 @@ def scale_img_by_width(filename):
     
 def download_image(url, filename):
     import requests
+    try:
+        img_data = requests.get(url).content
+        # print(requests.get(url).status_code)
+        with open(filename, 'wb') as handler:
+            handler.write(img_data)
+        scale_img_by_width(filename)
+        return True
+    except IOError:
+        return False
+
+def delete_downloaded_images():
+    # Getting All Files List
+    fileList = glob.glob('image-*.jpg', recursive=False)
     
-    img_data = requests.get(url).content
-    # print(requests.get(url).status_code)
-    with open(filename, 'wb') as handler:
-        handler.write(img_data)
-    scale_img_by_width(filename)
+    
+    # Remove all files one by one
+    for file in fileList:
+        try:
+            os.remove(file)
+        except OSError:
+            print("Error while deleting file")
+    
     
 def delete_image(filename):
     try:
@@ -122,7 +142,9 @@ def delete_image(filename):
     except OSError:
         print("Error while deleting file")
 
-def get_task_visualization(parsed_taskgraph, jupyter_notebook = True):
+def get_task_visualization(taskgraph, jupyter_notebook = True, png_filename=""):
+    
+    parsed_taskgraph = parse_taskgraph(taskgraph)
     
     graph = pydot.Dot(parsed_taskgraph["title"], graph_type='digraph', format="jpg", strict=True)
     
@@ -136,11 +158,15 @@ def get_task_visualization(parsed_taskgraph, jupyter_notebook = True):
     
     node = add_requirements(graph, parsed_taskgraph, prev_nodes)
     prev_nodes = [node]
+    node = add_extra_info(graph, parsed_taskgraph, prev_nodes)
     
     add_step(graph, step_id, parsed_taskgraph, prev_nodes)
     
     if jupyter_notebook:
         view_pydot(graph)
+    if len(png_filename) > 0:
+        graph.write_png(png_filename+'.png')
+    delete_downloaded_images()
         
 def add_heading(graph, parsed_taskgraph):
     title = parsed_taskgraph["title"]
@@ -158,7 +184,7 @@ def add_heading(graph, parsed_taskgraph):
     }
     
 def add_thumbnail(graph, parsed_taskgraph):
-    img_name = "thumbnail.jpg"
+    img_name = "image-thumbnail.jpg"
     download_image(parsed_taskgraph["thumbnail"], img_name)
     
     imgNode = pydot.Node("thumbnail", label="",)
@@ -193,6 +219,24 @@ def add_requirements(graph, parsed_taskgraph, prev_nodes):
         "show_edge" : False
     }
     
+def add_extra_info(graph, parsed_taskgraph, prev_nodes):
+    if len(parsed_taskgraph["extra_info_list"]) == 0:
+        return 
+
+    extra_info = []
+    extra_info.append("Requirements:")
+    for idx, info in enumerate(parsed_taskgraph["extra_info_list"]):
+        extra_info.append(f"{idx+1}. {info}")
+    extra_info = "\l".join(info)
+    
+    add_prev_edges(graph, "extra-info", prev_nodes)
+    
+    return {
+        "id" : "requirements",
+        "extra-info" : False
+    }
+    
+    
     
 def add_step(graph, step_id, parsed_taskgraph, prev_nodes):
     
@@ -203,21 +247,38 @@ def add_step(graph, step_id, parsed_taskgraph, prev_nodes):
     # print(len(steps))
     # print("steps", [step.unique_id for step in steps])
     
+    if step_id in parsed_taskgraph["conditions_dict"]:
+        if " timer " in parsed_taskgraph["conditions_dict"][step_id]:
+            return
     if step_id == "05a0e671-1b98-4099-a61f-420c81fa32a5":
-        return
+        print(step_id)
+        print(parsed_taskgraph["action_nodes_ids"])
+        
+    # print(step_id)
     
     if len(steps) == 0:
         if step_id in parsed_taskgraph["logic_nodes_ids"] and parsed_taskgraph["logic_nodes_ids"][step_id] ==  "AnyNode":
             nextStep = parsed_taskgraph["all_links"][step_id][0]
-            # print("next_step",nextStep)
             add_step(graph, nextStep, parsed_taskgraph, prev_nodes)
             return 
     
-    
     step = steps[0]
     
-    text_label = shorten_text(step.response.speech_text)
-      
+    text_count = 0
+    text_label = ""
+    if len(step.response.description) > 0:
+        text_label += shorten_text("description: " + step.response.description) 
+        text_count += 1
+    if text_count > 0:
+        text_label += '\n'
+    if len(step.response.speech_text) > 0:
+        text_label += shorten_text("speech_text: " + step.response.speech_text)
+        text_count += 1
+    if text_count > 0:
+        text_label += '\n'
+    if len(step.response.screen.video.title) > 0:
+        text_label += shorten_text("video: " + step.response.screen.video.title + "mp4_link: " + step.response.screen.video.hosted_mp4)
+        
     pydot_node = pydot.Node(step_id, label=text_label)
     pydot_node.set_fontsize(14)
     graph.add_node(pydot_node)
@@ -229,6 +290,29 @@ def add_step(graph, step_id, parsed_taskgraph, prev_nodes):
         "show_edge" : True
     })
     
+    images = step.response.screen.image_list
+    if images:
+        # print(images[0])
+        image_url = images[0].path
+        img_name = f"image-{step_id}"
+        is_downloadable = download_image(image_url, img_name+".jpg")
+        if is_downloadable:
+            imgNode = pydot.Node(img_name, label="",)
+            imgNode.set_image(os.path.join(os.getcwd(), img_name+".jpg"))
+            imgNode.set_shape("plaintext")
+            graph.add_node(imgNode)
+            
+            for prev_node in prev_nodes:
+                prev_node["show_edge"] = False
+        
+            add_prev_edges(graph, img_name, prev_nodes)
+
+            prev_n.append({
+                "id" : img_name,
+                "show_edge" : False
+            })
+
+    
     next_nodes_dict = parsed_taskgraph["step_links"]
     
     if step_id in next_nodes_dict:
@@ -239,6 +323,9 @@ def add_step(graph, step_id, parsed_taskgraph, prev_nodes):
         # print(step_id)
         # print(next_node)
         # check if condition comes next
+        
+        if len(next_node) == 0:
+            return 
         if len(next_node) == 1 and next_node[0] in conditions_step_ids:
             add_condtion(graph, next_node[0], parsed_taskgraph, prev_n) 
         # find future nodes
@@ -253,14 +340,12 @@ def add_condtion(graph, condition_id, parsed_taskgraph, prev_nodes):
     # print("ADD condition")
     condition = [condition for condition in parsed_taskgraph["conditions"] if condition_id == condition.unique_id][0]
     
-    pydot_node = pydot.Node(condition_id, label=f"{condition.text}")
+    pydot_node = pydot.Node(condition_id, label=shorten_text(condition.text, breakpoint = 5))
     pydot_node.set_fontsize(14)
     pydot_node.set_shape("diamond")
     graph.add_node(pydot_node)
     
     add_prev_edges(graph, condition_id, prev_nodes)
-    
-
     
     next_id_1, next_id_2 = parsed_taskgraph["all_links"][condition_id]
 
@@ -269,8 +354,6 @@ def add_condtion(graph, condition_id, parsed_taskgraph, prev_nodes):
     else:
         yesNode, notNode = next_id_1, next_id_2
     
-    # yesNode
-    # print("YES")
     yesNode = parsed_taskgraph["all_links"][yesNode][0]
     notNode = parsed_taskgraph["all_links"][notNode][0]
     
@@ -291,10 +374,8 @@ def add_condtion(graph, condition_id, parsed_taskgraph, prev_nodes):
     })
     add_step(graph, notNode, parsed_taskgraph, prev_n)
     
-    # notNode
-    
-def shorten_text(step_text):
-    breakpoint = 10
+
+def shorten_text(step_text, breakpoint = 10):
     words = step_text.split(" ")
     shortened_text = "\n".join([' '.join(words[i:i+breakpoint]) for i in range(0,len(words),breakpoint)])
     return shortened_text
@@ -307,7 +388,7 @@ def add_prev_edges(graph, id, prev_nodes):
                 edge = pydot.Edge(node["id"], id, label = node["label"], fontsize="14")
             else:
                 edge = pydot.Edge(node["id"], id)
-            # edge = pydot.Edge(node["id"], id)
         else:
             edge = pydot.Edge(node["id"], id, color="white")
+            # edge = pydot.Edge(node["id"], id)
         graph.add_edge(edge)

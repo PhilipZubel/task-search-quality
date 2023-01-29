@@ -159,5 +159,5 @@ wrapt==1.12.1
 zipp==3.11.0
 zope.event==4.5.0
 zope.interface==5.5.2
-textblob=0.17.1
+textblob==0.17.1
 pyqtgraph
