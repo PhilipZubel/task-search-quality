@@ -27,6 +27,9 @@ def parse_taskgraph(taskmap:TaskMap):
     parsed_info["logic_nodes_ids"] = {node.unique_id : node.type for node in taskmap.logic_nodes_list}
     parsed_info["action_nodes_ids"] = {node.unique_id for node in taskmap.actions_list}
     parsed_info["visited_nodes"] = set()
+    
+    print(parsed_info["requirements_dict"])
+    print(parsed_info["requirements_step_links"])
     # steps = [step.response.screen.paragraphs[0] for step in taskmap.steps]
     # steps_urls = [step.response.transcript.image_url for step in taskmap.steps]
     # # steps_urls[-1] = "https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2011/06/Dianes-pasta-410x271.jpg"
@@ -264,6 +267,15 @@ def add_step(graph, step_id, parsed_taskgraph, prev_nodes):
     
     step = steps[0]
     
+    ingredients = []
+    print("step", step_id)
+    if step_id in parsed_taskgraph["requirements_step_links"]:
+        ingredient_ids = parsed_taskgraph["requirements_step_links"][step_id]
+        print("ingredient_ids")
+        print(ingredient_ids)
+        for ingredient_id in ingredient_ids:
+            ingredients.append(parsed_taskgraph["requirements_dict"][ingredient_id])
+    
     text_count = 0
     text_label = ""
     if len(step.response.description) > 0:
@@ -278,7 +290,13 @@ def add_step(graph, step_id, parsed_taskgraph, prev_nodes):
         text_label += '\n'
     if len(step.response.screen.video.title) > 0:
         text_label += shorten_text("video: " + step.response.screen.video.title + "mp4_link: " + step.response.screen.video.hosted_mp4)
-        
+        text_count += 1
+    if text_count > 0:
+        text_label += '\n'
+    if len(ingredients) > 0:
+        text_label += "Linked ingredients: \n" + '\n'.join(ingredients)
+    
+    
     pydot_node = pydot.Node(step_id, label=text_label)
     pydot_node.set_fontsize(14)
     graph.add_node(pydot_node)
