@@ -64,7 +64,7 @@ class AnceModel(AbstractModel):
         # retrieve results
         lines = []
         for idx, query in pd_queries.iterrows():
-            hits = searcher.search(query["short query"], k=50)
+            hits = searcher.search(query["raw query"], k=50)
             for rank, hit in enumerate(hits[:50]):
                 line = f'{query["id"]} Q0 {hit.docid} {rank+1} {hit.score} {self.model_name}\n'
                 lines.append(line)

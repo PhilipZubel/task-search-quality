@@ -28,8 +28,24 @@ def parse_taskgraph(taskmap:TaskMap):
     parsed_info["action_nodes_ids"] = {node.unique_id for node in taskmap.actions_list}
     parsed_info["visited_nodes"] = set()
     
-    print(parsed_info["requirements_dict"])
-    print(parsed_info["requirements_step_links"])
+    task_info = {}
+    if taskmap.rating_count:
+        task_info["rating count"] = taskmap.rating_count
+    if taskmap.domain_name:
+        task_info["domain"] = taskmap.domain_name
+    if taskmap.author:
+        task_info["author"] = taskmap.author
+    if taskmap.difficulty:
+        task_info["difficulty"] = taskmap.difficulty
+    if taskmap.views:
+        task_info["views"] = taskmap.view
+    if taskmap.date:
+        task_info["date"] = taskmap.date
+
+    parsed_info["task_info"] = task_info
+    
+    # print(parsed_info["requirements_dict"])
+    # print(parsed_info["requirements_step_links"])
     # steps = [step.response.screen.paragraphs[0] for step in taskmap.steps]
     # steps_urls = [step.response.transcript.image_url for step in taskmap.steps]
     # # steps_urls[-1] = "https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2011/06/Dianes-pasta-410x271.jpg"
@@ -159,11 +175,17 @@ def get_task_visualization(taskgraph, jupyter_notebook = True, png_filename=""):
     
     step_id = parsed_taskgraph["first_step_id"] 
     
+    prev_nodes2 = []
+    
+    if parsed_taskgraph["task_info"] != {}:
+        node = add_task_info(graph, parsed_taskgraph, prev_nodes)
+        prev_nodes2 = [node]
+    
     node = add_requirements(graph, parsed_taskgraph, prev_nodes)
-    prev_nodes = [node]
+    prev_nodes2 += [node]
     node = add_extra_info(graph, parsed_taskgraph, prev_nodes)
     
-    add_step(graph, step_id, parsed_taskgraph, prev_nodes)
+    add_step(graph, step_id, parsed_taskgraph, prev_nodes2)
     
     if jupyter_notebook:
         view_pydot(graph)
@@ -222,6 +244,24 @@ def add_requirements(graph, parsed_taskgraph, prev_nodes):
         "show_edge" : False
     }
     
+def add_task_info(graph, parsed_taskgraph, prev_nodes):
+    task_info = parsed_taskgraph["task_info"]
+    task_description = "Task info: \n"
+    task_description += "\n".join([f"{info_descr}: {info_val}" for info_descr, info_val in task_info.items()])
+    print(task_description)
+    
+    task_node = pydot.Node("task-info", label=f"{task_description}\l")
+    task_node.set_fontsize(10)
+    task_node.set_shape("note")
+    graph.add_node(task_node)
+    
+    add_prev_edges(graph, "task-info", prev_nodes)
+    
+    return {
+        "id" : "task-info",
+        "show_edge" : False
+    }
+    
 def add_extra_info(graph, parsed_taskgraph, prev_nodes):
     if len(parsed_taskgraph["extra_info_list"]) == 0:
         return 
@@ -253,9 +293,9 @@ def add_step(graph, step_id, parsed_taskgraph, prev_nodes):
     if step_id in parsed_taskgraph["conditions_dict"]:
         if " timer " in parsed_taskgraph["conditions_dict"][step_id]:
             return
-    if step_id == "05a0e671-1b98-4099-a61f-420c81fa32a5":
-        print(step_id)
-        print(parsed_taskgraph["action_nodes_ids"])
+    # if step_id == "05a0e671-1b98-4099-a61f-420c81fa32a5":
+    #     print(step_id)
+    #     print(parsed_taskgraph["action_nodes_ids"])
         
     # print(step_id)
     
@@ -268,11 +308,11 @@ def add_step(graph, step_id, parsed_taskgraph, prev_nodes):
     step = steps[0]
     
     ingredients = []
-    print("step", step_id)
+    # print("step", step_id)
     if step_id in parsed_taskgraph["requirements_step_links"]:
         ingredient_ids = parsed_taskgraph["requirements_step_links"][step_id]
-        print("ingredient_ids")
-        print(ingredient_ids)
+        # print("ingredient_ids")
+        # print(ingredient_ids)
         for ingredient_id in ingredient_ids:
             ingredients.append(parsed_taskgraph["requirements_dict"][ingredient_id])
     
