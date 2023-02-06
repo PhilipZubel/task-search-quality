@@ -15,18 +15,15 @@ from taskmap_pb2 import TaskMap
 
 class MarqoModel(AbstractModel):
 
-    def __init__(self, domain:str, model = ""):
+    def __init__(self, domain:str, doc_build = "all"):
         
-        if model:
-            self.model_name = model
-        else:
-            self.model_name = "marqo"
+        self.doc_build = doc_build
+        self.model_name = "marqo"
         
         self.dataset_model: AbstractModelDataset = self.get_dataset_model(domain)()
-
         
-        self.output_temp_dir = os.path.join(self.dataset_model.get_index_temp_path(), "system_index_marqo")
-        self.output_index_dir = os.path.join(self.dataset_model.get_index_path(), "system_index_marqo")
+        self.output_temp_dir = os.path.join(self.dataset_model.get_index_temp_path(), "system_index_marqo", doc_build)
+        self.output_index_dir = os.path.join(self.dataset_model.get_index_path(), "system_index_marqo", doc_build)
         self.run_path = os.path.join(self.dataset_model.get_measurements_path(), "run_files")
         
     def build_index(self, overwrite=False):
@@ -38,20 +35,22 @@ class MarqoModel(AbstractModel):
         #     print("Marqo index already built. Call overwrite=True in build_index() to rebuild the index again.")
         #     return
             
-        index_builder = MarqoIndexBuilder(model = self.model_name)
+        index_builder = MarqoIndexBuilder()
         
-        # print("Build documents...")
-        # print(f"Saving documents to {self.output_temp_dir}...")
-        # taskmap_dir = self.dataset_model.get_taskgraphs_path()
-        # dataset_name = self.dataset_model.get_dataset_name()
-        # index_builder.build_json_docs(input_dir=taskmap_dir,
-        #                                 output_dir=self.output_temp_dir,
-        #                                 dataset_name=dataset_name)
+        print("Build documents...")
+        print(f"Saving documents to {self.output_temp_dir}...")
+        taskmap_dir = self.dataset_model.get_taskgraphs_path()
+        dataset_name = self.dataset_model.get_dataset_name()
+        index_builder.build_json_docs(input_dir=taskmap_dir,
+                                        output_dir=self.output_temp_dir,
+                                        dataset_name=dataset_name,
+                                        doc_build = self.doc_build)
         
         print("Generate index...")
         # print(f"Saving documents to {self.output_index_dir}...")
         index_builder.build_index(input_dir=self.output_temp_dir,
-                                    domain = self.dataset_model.get_dataset_name())
+                                    domain = self.dataset_model.get_dataset_name(),
+                                    how = self.doc_build)
 
     
     def convert_search_results_to_run(self, pd_queries, raw=False):
@@ -64,7 +63,7 @@ class MarqoModel(AbstractModel):
                 q = query["raw query"]
             else:
                  q = query["target query"]
-            hits = index_builder.query_index(domain = self.dataset_model.get_dataset_name(), q=q, limit=50, offset=0)
+            hits = index_builder.query_index(domain = self.dataset_model.get_dataset_name(), q=q, limit=50, offset=0, how=self.doc_build)
             for rank, hit in enumerate(hits["hits"]):
                 line = f'query-{idx} Q0 {hit["_id"]} {rank+1} {hit["_score"]} {self.model_name}\n'
                 lines.append(line)
