@@ -15,18 +15,30 @@ from ir_measures import *
 
 from taskmap_pb2 import TaskMap
 
+from pygaggle.rerank.base import Query, Text
+from pygaggle.rerank.transformer import MonoT5
+
 
 
 class AnceModel(AbstractModel):
 
-    def __init__(self, domain:str, rm3:bool=False, t5:bool=False):
+    def __init__(self, domain:str,  t5:bool=False):
         self.model_name = "ance"
+        
+        if t5:
+            self.model_name += "+t5"
+            
+        self.t5 = t5
         self.dataset_model: AbstractModelDataset = self.get_dataset_model(domain)()
-
         
         self.output_temp_dir = os.path.join(self.dataset_model.get_index_temp_path(), "system_index_ance")
         self.output_index_dir = os.path.join(self.dataset_model.get_index_path(), "system_index_ance")
         self.run_path = os.path.join(self.dataset_model.get_measurements_path(), "run_files")
+        
+        if t5:
+            self.reranker = MonoT5()
+        else:
+            self.reranker = None
         
     def build_index(self, overwrite=False):
         
@@ -52,6 +64,16 @@ class AnceModel(AbstractModel):
         index_builder.build_index(input_dir=self.output_temp_dir,
                                     output_dir=self.output_index_dir)
 
+    def dense_hits_to_text(self, hits, scores, ids):
+        texts = []
+        for i in range(0, len(hits)):
+            
+            doc = json.loads(hits[i].raw())
+            t = doc["contents"]
+            metadata = {'raw': doc["contents"], 'docid': ids[i]}
+
+            texts.append(Text(t, metadata, scores[i]))
+        return texts
     
     def convert_search_results_to_run(self, pd_queries):
         # Initialize searcher
@@ -60,13 +82,23 @@ class AnceModel(AbstractModel):
             index_dir = self.output_index_dir,
             query_encoder= encoder,
         )
+        lucene_searcher = self.get_lucene_searcher(self.dataset_model)
         
         # retrieve results
         lines = []
         for idx, query in pd_queries.iterrows():
             hits = searcher.search(query["raw query"], k=50)
+            if self.t5:
+                scores = [res.score for res in hits]
+                ids = [hit.docid for hit in hits]
+                retrived_hits = [lucene_searcher.doc(hit.docid) for hit in hits]
+                hits = self.reranker.rerank(Query(query["target query"]), self.dense_hits_to_text(retrived_hits, scores, ids))
             for rank, hit in enumerate(hits[:50]):
-                line = f'{query["id"]} Q0 {hit.docid} {rank+1} {hit.score} {self.model_name}\n'
+                if type(hit) == Text:
+                    id = hit.metadata["docid"]
+                    line = f'{query["id"]} Q0 {id} {rank+1} {hit.score} {self.model_name}\n'
+                else:
+                    line = f'{query["id"]} Q0 {hit.docid} {rank+1} {hit.score} {self.model_name}\n'
                 lines.append(line)
         lines[-1] = lines[-1].replace("\n","")
         
@@ -74,7 +106,7 @@ class AnceModel(AbstractModel):
             os.makedirs(self.run_path)
         
         print(f"Run file saved at {self.run_path}/{self.model_name}.run")
-        with open(os.path.join(self.run_path, f"{self.model_name}.run"), "w") as f:
+        with open(os.path.join(self.run_path, f"{self.model_name}-contents.run"), "w") as f:
             f.writelines(lines)
             
     def create_empty_judgments(self, pd_queries, k, n):

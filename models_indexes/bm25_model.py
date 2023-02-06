@@ -63,6 +63,7 @@ class BM25Model(AbstractModel):
         index_builder.build_index(input_dir=self.output_temp_dir,
                                     output_dir=self.output_index_dir)
 
+
     
     def convert_search_results_to_run(self, pd_queries):
         # Initialize searcher
@@ -76,6 +77,8 @@ class BM25Model(AbstractModel):
         for idx, query in pd_queries.iterrows():
             hits = searcher.search(q=query["target query"], k=50)
             if self.t5:
+                # print(type(hits[0].raw))
+                # print(hits[0].raw)
                 hits = self.reranker.rerank(Query(query["target query"]), hits_to_texts(hits))
             for rank, hit in enumerate(hits):
                 if type(hit) == Text:
@@ -92,7 +95,7 @@ class BM25Model(AbstractModel):
         if not os.path.isdir(self.run_path):
             os.makedirs(self.run_path)
         
-        print(f"Run file saved at {self.run_path}/{self.model_name}.run")
+        # print(f"Run file saved at {self.run_path}/{self.model_name}.run")
         with open(os.path.join(self.run_path, f"{self.model_name}.run"), "w") as f:
             f.writelines(lines)
             
