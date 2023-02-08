@@ -1,88 +1,87 @@
 0,1,2
 query-23,build a simple kite,marqo+t5
 query-24,learn how to juggle three balls,marqo+t5
-query-34,how to fix a blocked shower drain,marqo+t5
+query-37,how to run  marathon,marqo+t5
+query-40,how to plan a christmas party,marqo+t5
+query-49,how to make a bubble bath,marqo+t5
 query-52,fix a leaking shower,marqo+t5
+query-54,hang a shelf,marqo+t5
+query-55,sell my paintings on the internet,marqo+t5
 query-67,how to make my own fridge magnets,marqo+t5
-query-72,how to clean the windows,marqo+t5
+query-68,how to organize a kitchen,marqo+t5
 query-73,how to pick a lock with paper clips,marqo+t5
 query-82,how to build a snowman,marqo+t5
 query-85,how to find my stolen phone,marqo+t5
+query-94,how to sail a boat,marqo+t5
+query-96,how to fix a door handle,marqo+t5
 query-98,how to grow lemons,marqo+t5
+query-12,how to grow apples,bm25+rm3
 query-18,help me learn how to knit clothes,bm25+rm3
 query-26,how to hand whistle,bm25+rm3
 query-27,how to change a car tire,bm25+rm3
 query-4,how do I decorate an office,bm25+rm3
-query-40,how to plan a christmas party,bm25+rm3
 query-41,how to solve a rubik's cube,bm25+rm3
+query-53,how to put up wallpaper,bm25+rm3
 query-57,how to make a bath bomb,bm25+rm3
 query-6,how do you remove crown mold from a wall,bm25+rm3
 query-62,how to draw a birthday card,bm25+rm3
-query-71,help me clean the oven,bm25+rm3
+query-76,how to write a resume for a job,bm25+rm3
 query-81,how to paint on ceramic,bm25+rm3
 query-84,how to fold a paper airplane,bm25+rm3
 query-86,how to make finger puppets,bm25+rm3
-query-94,how to sail a boat,bm25+rm3
-query-1,how to learn a new language,marqo
 query-16,how to plant tulips,marqo
 query-19,how to wash a stainless steel pan,marqo
+query-20,cut tempered glass,marqo
 query-30,create an outdoor fireplace,marqo
 query-48,how to change a child's diaper,marqo
-query-49,how to make a bubble bath,marqo
-query-55,sell my paintings on the internet,marqo
 query-74,how to cut my own hair,marqo
-query-77,how to wash a newborn baby,marqo
-query-87,how to repaint wooden furniture,marqo
 query-88,how to catch a fly,marqo
 query-90,how to make an asian lantern,marqo
-query-0,how to choose a good hairstyle for men,bm25+rm3+t5
 query-10,how to style curly hair,bm25+rm3+t5
 query-15,how to grow blueberries,bm25+rm3+t5
 query-17,how to wash a cutting board,bm25+rm3+t5
 query-24,learn how to juggle three balls,bm25+rm3+t5
 query-28,fix a stuck zipper,bm25+rm3+t5
 query-3,how to wash a car with less water,bm25+rm3+t5
-query-32,paint nails with patterns,bm25+rm3+t5
 query-35,how to teach a cat to do tricks,bm25+rm3+t5
 query-36,how to build a hamster cage,bm25+rm3+t5
-query-37,how to run  marathon,bm25+rm3+t5
 query-38,how to gain musle,bm25+rm3+t5
 query-41,how to solve a rubik's cube,bm25+rm3+t5
 query-43,how to replace a window,bm25+rm3+t5
 query-46,how to open a champagne bottle,bm25+rm3+t5
-query-47,how to install a sprinkler system,bm25+rm3+t5
 query-51,how to replace a toilet seat,bm25+rm3+t5
-query-53,how to put up wallpaper,bm25+rm3+t5
-query-54,hang a shelf,bm25+rm3+t5
 query-58,how to make a candles that smell well,bm25+rm3+t5
 query-59,how to build a toy for a pet,bm25+rm3+t5
+query-71,help me clean the oven,bm25+rm3+t5
 query-89,how to repair a chipped tile,bm25+rm3+t5
-query-93,how to motivate my child,bm25+rm3+t5
 query-99,how to grow grapes,bm25+rm3+t5
+query-1,how to learn a new language,ance+t5
 query-11,how to write a biography for a book,ance+t5
+query-34,how to fix a blocked shower drain,ance+t5
 query-39,fix a cracked phone screen,ance+t5
 query-5,help me paint an interior wall,ance+t5
 query-56,how to make a keychain,ance+t5
 query-7,how to make homemade toothpaste,ance+t5
+query-87,how to repaint wooden furniture,ance+t5
 query-91,how to make paper flowers,ance+t5
+query-0,how to choose a good hairstyle for men,ance
+query-45,how to warm up before a run,ance
 query-75,how to build a gaming computer,ance
 query-92,how to start a grill,ance
-query-96,how to fix a door handle,ance
-query-20,cut tempered glass,TCT-ColBERTv2+t5
 query-25,chop an onion like a pro,TCT-ColBERTv2+t5
 query-42,learn a chess opening,TCT-ColBERTv2+t5
+query-47,how to install a sprinkler system,TCT-ColBERTv2+t5
 query-50,how to remove a permanent marker from a whiteboard,TCT-ColBERTv2+t5
 query-64,how to knit mittens,TCT-ColBERTv2+t5
 query-70,how to build a dog house,TCT-ColBERTv2+t5
+query-72,how to clean the windows,TCT-ColBERTv2+t5
+query-77,how to wash a newborn baby,TCT-ColBERTv2+t5
+query-78,how to train a dog to behave outside,TCT-ColBERTv2+t5
 query-79,how to clean garden tools,TCT-ColBERTv2+t5
 query-9,how can I screw in a nail,TCT-ColBERTv2+t5
-query-12,how to grow apples,bm25
+query-93,how to motivate my child,TCT-ColBERTv2+t5
 query-13,how to grow strawberries,bm25
 query-31,how to remove a tree,bm25
-query-45,how to warm up before a run,bm25
-query-68,how to organize a kitchen,bm25
-query-76,how to write a resume for a job,bm25
-query-78,how to train a dog to behave outside,bm25
 query-8,how do I clean the fridge,bm25
 query-83,how to make a paper fortune teller,bm25
 query-84,how to fold a paper airplane,bm25
@@ -92,16 +91,15 @@ query-2,how to remove food stains from a carpet,bm25+t5
 query-24,learn how to juggle three balls,bm25+t5
 query-28,fix a stuck zipper,bm25+t5
 query-29,paint a metal fence,bm25+t5
+query-32,paint nails with patterns,bm25+t5
 query-33,make a gravel garden path,bm25+t5
 query-36,how to build a hamster cage,bm25+t5
 query-41,how to solve a rubik's cube,bm25+t5
 query-43,how to replace a window,bm25+t5
-query-46,how to open a champagne bottle,bm25+t5
-query-47,how to install a sprinkler system,bm25+t5
 query-51,how to replace a toilet seat,bm25+t5
 query-65,how to learn to ice skate,bm25+t5
 query-69,how to make christmas ornaments,bm25+t5
-query-93,how to motivate my child,bm25+t5
+query-71,help me clean the oven,bm25+t5
 query-95,how to replace a door,bm25+t5
 query-21,put on a bike chain,TCT-ColBERTv2
 query-22,fix a water heater,TCT-ColBERTv2
