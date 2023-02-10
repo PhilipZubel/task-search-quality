@@ -40,7 +40,6 @@ query-0,how to spatchcock a turkey,cooking+recipe1m+f1b2ed3553340d8cf6e585a1cbdc
 query-0,how to spatchcock a turkey,cooking+recipe1m+fbde67acb46e28dd711d79c5b4162822
 query-1,I want an easy to make dessert for christmas,cooking+recipe1m+039cf6282abd3990598b14e2c3f97e02
 query-1,I want an easy to make dessert for christmas,cooking+recipe1m+03ea2f5b31241bfa3dc838e88a8f89fb
-query-1,I want an easy to make dessert for christmas,cooking+recipe1m+0a505bd23988514f750263121fa663b1
 query-1,I want an easy to make dessert for christmas,cooking+recipe1m+0d50d93f76c656634513d5543be76a4a
 query-1,I want an easy to make dessert for christmas,cooking+recipe1m+108c2e1223b2307b1026c5b6a5116162
 query-1,I want an easy to make dessert for christmas,cooking+recipe1m+12b055dfb96e055417cf5a15b78ac142
@@ -61,7 +60,6 @@ query-1,I want an easy to make dessert for christmas,cooking+recipe1m+3920d356a5
 query-1,I want an easy to make dessert for christmas,cooking+recipe1m+46bee43d53a0609478f84b1e4b451dfd
 query-1,I want an easy to make dessert for christmas,cooking+recipe1m+480f4d6c779f5cb876280c04a82a993f
 query-1,I want an easy to make dessert for christmas,cooking+recipe1m+4ad02fcd5c8b16b0589a2d9c14a22c04
-query-1,I want an easy to make dessert for christmas,cooking+recipe1m+4c5b7871d5bf0c5d1327ae94516dad06
 query-1,I want an easy to make dessert for christmas,cooking+recipe1m+4df191a53aaa07058e9ae7541459acc1
 query-1,I want an easy to make dessert for christmas,cooking+recipe1m+4ffcf31dd15dc64c2c9b4311059d0955
 query-1,I want an easy to make dessert for christmas,cooking+recipe1m+557353206759fefdcaf5a85563a34daa
@@ -102,7 +100,6 @@ query-1,I want an easy to make dessert for christmas,cooking+recipe1m+fa0b595575
 query-1,I want an easy to make dessert for christmas,cooking+recipe1m+fdd4dfa0b2928397e94fc7e879d969b1
 query-10,recommend some asian street foods,cooking+recipe1m+011eda2396c66422d6b9ba6f819fe397
 query-10,recommend some asian street foods,cooking+recipe1m+036ed812d42578312e3be3a3932d00b3
-query-10,recommend some asian street foods,cooking+recipe1m+05e3dc42acfea49fafe03f6ae5341671
 query-10,recommend some asian street foods,cooking+recipe1m+06e9bd677cb66e8d54a5fefd75783c13
 query-10,recommend some asian street foods,cooking+recipe1m+096e6681212b0cbb376c6f1125323282
 query-10,recommend some asian street foods,cooking+recipe1m+0975359e3885bb38005f7691d152c1e1
@@ -130,7 +127,6 @@ query-10,recommend some asian street foods,cooking+recipe1m+5ef53ea531e515672afb
 query-10,recommend some asian street foods,cooking+recipe1m+5f5bbb82fc1239766dac342952e88a2b
 query-10,recommend some asian street foods,cooking+recipe1m+680a06b54201417347678c2b1dc0ec59
 query-10,recommend some asian street foods,cooking+recipe1m+69ba36bfe55ad2608956e58c445bf9f9
-query-10,recommend some asian street foods,cooking+recipe1m+6e3aa6a0585d8facd72159b046365dc4
 query-10,recommend some asian street foods,cooking+recipe1m+706d92df7b5c4c7f523c5b55b69c71ea
 query-10,recommend some asian street foods,cooking+recipe1m+73963cb503d8060ae1cb422cb65e709e
 query-10,recommend some asian street foods,cooking+recipe1m+73b590546c2ac9624d0cfe47d5f6521c
@@ -140,7 +136,6 @@ query-10,recommend some asian street foods,cooking+recipe1m+7f77093f84755d0be093
 query-10,recommend some asian street foods,cooking+recipe1m+801deb3849302617d7358e9278ab5c27
 query-10,recommend some asian street foods,cooking+recipe1m+88b1d1da1560fd96e1944172baa8161c
 query-10,recommend some asian street foods,cooking+recipe1m+8e693c283319642876cc609abb9d34bd
-query-10,recommend some asian street foods,cooking+recipe1m+90f2b4cb7d8b89b529b77ab8b159f7f2
 query-10,recommend some asian street foods,cooking+recipe1m+91937748060c1de9392e766f04339f01
 query-10,recommend some asian street foods,cooking+recipe1m+9335e40a73a47aae70b9aa6f711fc2cd
 query-10,recommend some asian street foods,cooking+recipe1m+a34882e82b78c9c1fba51f819c997c45
@@ -162,7 +157,6 @@ query-10,recommend some asian street foods,cooking+recipe1m+c466f39c5b37e70ffbf3
 query-10,recommend some asian street foods,cooking+recipe1m+c4f0fa89e40bd848630623b16591da51
 query-10,recommend some asian street foods,cooking+recipe1m+c5832833ed5342d6820cc0293adfa0d1
 query-10,recommend some asian street foods,cooking+recipe1m+d1964e3df8c130e83f04097f9c05fdbf
-query-10,recommend some asian street foods,cooking+recipe1m+d2cbc09117b955a683a2161e335156fd
 query-10,recommend some asian street foods,cooking+recipe1m+d3e517f70692fecfe58941ba767e3ca4
 query-10,recommend some asian street foods,cooking+recipe1m+df76e0d660ac05180c3351966e4dab27
 query-10,recommend some asian street foods,cooking+recipe1m+df794606ec0507203f5b4749c35d7cbe
@@ -175,13 +169,11 @@ query-10,recommend some asian street foods,cooking+recipe1m+ecb4d1b859cc91b9d1ba
 query-10,recommend some asian street foods,cooking+recipe1m+ef070826506437debaf635d941dc12ad
 query-10,recommend some asian street foods,cooking+recipe1m+f3cd88299eecaee9d1daff5195d07b21
 query-10,recommend some asian street foods,cooking+recipe1m+f6d400f20e35fbd1b95122b76118cf6a
-query-10,recommend some asian street foods,cooking+recipe1m+fbbfa5af56968fd5393e59e97ca48b46
 query-10,recommend some asian street foods,cooking+recipe1m+fbde49478da81839a5ad2dcc23be8124
 query-11,dinners by batali,cooking+recipe1m+054d6a83830abca47fe223535d813f42
 query-11,dinners by batali,cooking+recipe1m+0904e98cba0cec1e95821508461536e2
 query-11,dinners by batali,cooking+recipe1m+090d4c6ef349a5c7c5645e12a28b018e
 query-11,dinners by batali,cooking+recipe1m+0cc98c89497f60284e4cccf675bad818
-query-11,dinners by batali,cooking+recipe1m+11974d49575bae536ccd1d7f26e7056b
 query-11,dinners by batali,cooking+recipe1m+1273d8501a7a413b0ffd59db1377017e
 query-11,dinners by batali,cooking+recipe1m+23804bdf40a0aed0268051a0284a81e1
 query-11,dinners by batali,cooking+recipe1m+28b839ab5d7c31ec12dce691fc6df057
@@ -196,7 +188,6 @@ query-11,dinners by batali,cooking+recipe1m+4ab51436fbf91bde5f3839124785330f
 query-11,dinners by batali,cooking+recipe1m+4dfdec4102b9961c0472092847aede79
 query-11,dinners by batali,cooking+recipe1m+50e185133691a25aff7ef35c0374b47f
 query-11,dinners by batali,cooking+recipe1m+5143c64bcb738b2206e56b7e4128bdd0
-query-11,dinners by batali,cooking+recipe1m+53e32d21c56b602eeebf0366cc51c029
 query-11,dinners by batali,cooking+recipe1m+591861b0226837aa554840945710589a
 query-11,dinners by batali,cooking+recipe1m+5a67e41ab7afe8a33db556f38e7b4dc9
 query-11,dinners by batali,cooking+recipe1m+5c1cbdfb09a881ec54cf91a4bd6a29f3
@@ -205,7 +196,6 @@ query-11,dinners by batali,cooking+recipe1m+5e56c96066b42690ff9a8304d6a68029
 query-11,dinners by batali,cooking+recipe1m+618c22ac2d3cbdce43c8cc8d1096acd5
 query-11,dinners by batali,cooking+recipe1m+63ef99d745ba8e104f80433f819031b6
 query-11,dinners by batali,cooking+recipe1m+6766f9a021e4296fb1e2e20eb87e7051
-query-11,dinners by batali,cooking+recipe1m+6c3fb8ea69b2bb894716d9c27b4f0ae2
 query-11,dinners by batali,cooking+recipe1m+6f9e0003000cc959d42239ca2c42fe2d
 query-11,dinners by batali,cooking+recipe1m+7351371ec921824a2d1b2237e20369c2
 query-11,dinners by batali,cooking+recipe1m+7830c900afe9a966789bbea32b97b829
@@ -220,7 +210,6 @@ query-11,dinners by batali,cooking+recipe1m+8df9a1df958d1bff45426a3c315aa3cf
 query-11,dinners by batali,cooking+recipe1m+8f1365742fd4612e829b8667f3629d74
 query-11,dinners by batali,cooking+recipe1m+914c28011caa4b1a082e973ad715ca5e
 query-11,dinners by batali,cooking+recipe1m+931f1a01844ff2da2c04a3093b23520f
-query-11,dinners by batali,cooking+recipe1m+93a796ac84091f2756b14ddd15b343d1
 query-11,dinners by batali,cooking+recipe1m+9abb164b80328dd71f5dc6e57df9c9af
 query-11,dinners by batali,cooking+recipe1m+9c8338d6c44cf1961f0c1e6102d79716
 query-11,dinners by batali,cooking+recipe1m+9ca5ec865cdec4621d77078d0aaa2d9e
@@ -267,7 +256,6 @@ query-12,traditional japanese soup,cooking+recipe1m+21bdb882b3d39323309f8436d1b7
 query-12,traditional japanese soup,cooking+recipe1m+2503c161d3febeebfca5143e9a158590
 query-12,traditional japanese soup,cooking+recipe1m+35ba35ebd693b6d35218c0ad75ca521c
 query-12,traditional japanese soup,cooking+recipe1m+375236c42912ac9c10a18f4e5cd3d31f
-query-12,traditional japanese soup,cooking+recipe1m+41504065079d2b6e15758ab8cb28c6c0
 query-12,traditional japanese soup,cooking+recipe1m+46016ddc787fdfdeab4c11a7940461de
 query-12,traditional japanese soup,cooking+recipe1m+497c00b5d128cac72b3289a35fedc3af
 query-12,traditional japanese soup,cooking+recipe1m+4a6722f2df4c2b74d0b77f803779ee6f
@@ -332,7 +320,6 @@ query-13,how to make singaporean chicken lunch,cooking+recipe1m+49b75adfd4ed3076
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+4fe1a43393cf14d20429380fe8c8eebd
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+51322a02cdf6f87174cf5adaef2837d0
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+51aa7a1ceb9594ca62951ae46f080de8
-query-13,how to make singaporean chicken lunch,cooking+recipe1m+534e49ad524f4904f898dbc26d887e5a
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+54191c49f51adcdeaa4a2f89c4662867
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+567468fa08f36ff2719aa7902fc06921
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+57759bb8d3ab22fac422f7a0a3a1ffb7
@@ -343,11 +330,9 @@ query-13,how to make singaporean chicken lunch,cooking+recipe1m+61fc46c7f9318d32
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+6756cb31483e31de254ecaa6c4fb9d35
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+67604fd9c0a0792e707970d834882f9b
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+69d4f46e794077cb7ecbc2baa7c502d8
-query-13,how to make singaporean chicken lunch,cooking+recipe1m+733b1c4d9d1e8ce4c427369e7b7bfe4a
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+74ca21a93842da2c51aad4f98ee08b7d
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+79971756971d3db51b5c40cd68f1d8d0
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+7b388581e4927494021e46fc43876bc3
-query-13,how to make singaporean chicken lunch,cooking+recipe1m+7feb44be6c73ad8f4ffe803e7a532d4d
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+81e994ccb7866fb939ad04b29b145982
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+87b068a69cca4e0dba24074ec7be290a
 query-13,how to make singaporean chicken lunch,cooking+recipe1m+89cd16d4dc7eced07852872b7b7cfe0f
@@ -402,7 +387,6 @@ query-14,a romantic dinner,cooking+recipe1m+4b53c601dd7c7732526b7ac82a05683e
 query-14,a romantic dinner,cooking+recipe1m+4dfdec4102b9961c0472092847aede79
 query-14,a romantic dinner,cooking+recipe1m+4e3d6d25b04dcb6816690317bae29755
 query-14,a romantic dinner,cooking+recipe1m+4f1b30b13d557cbae9e5afa8b57a43da
-query-14,a romantic dinner,cooking+recipe1m+509aae87d495eea2963059450b465558
 query-14,a romantic dinner,cooking+recipe1m+50eda338a10cb9ca843ebd66ee782fd1
 query-14,a romantic dinner,cooking+recipe1m+54ab106e14354255d4d0ee6882d4b921
 query-14,a romantic dinner,cooking+recipe1m+5aef13cf3686f80732f5a2aeb1d7de2d
@@ -415,11 +399,9 @@ query-14,a romantic dinner,cooking+recipe1m+7ddf63817af95001a3fc817cf89c8912
 query-14,a romantic dinner,cooking+recipe1m+7efa14c8ce23a38457be005c8a01528f
 query-14,a romantic dinner,cooking+recipe1m+7f4c09bde3091c2d225f908e1b42a0ea
 query-14,a romantic dinner,cooking+recipe1m+840acafc522342edaf21e2b241e20446
-query-14,a romantic dinner,cooking+recipe1m+8473625641f4475ad92bb943e6727ef9
 query-14,a romantic dinner,cooking+recipe1m+8aef7b798b72e54da31b420e40a9829c
 query-14,a romantic dinner,cooking+recipe1m+9829ddf256dcf69b4135f5060435726f
 query-14,a romantic dinner,cooking+recipe1m+a8c85181239f12b0208ed03644579d42
-query-14,a romantic dinner,cooking+recipe1m+bc6a3ebd5aa3d8fd60e7777c59df7e45
 query-14,a romantic dinner,cooking+recipe1m+bc955a9ef75a0af1fd6fff42dfdaa3a0
 query-14,a romantic dinner,cooking+recipe1m+c04728e3c459497dee7611b7ca047bf9
 query-14,a romantic dinner,cooking+recipe1m+c0d0a3ac0604f9096b9e1917e9dc3c67
@@ -435,7 +417,6 @@ query-14,a romantic dinner,cooking+recipe1m+dc2fb2772cfb4fdd1c818de0fd74e927
 query-14,a romantic dinner,cooking+recipe1m+dd12c0b3a8999f09adb3616d1d38a140
 query-14,a romantic dinner,cooking+recipe1m+dd8ad3b314cdcc29b9f4d3f3dbd6eb55
 query-14,a romantic dinner,cooking+recipe1m+e24424ef152592ca08c0da0adcf3fca5
-query-14,a romantic dinner,cooking+recipe1m+e296c7d56e188833f530b03cefd38228
 query-14,a romantic dinner,cooking+recipe1m+e65248fce53ac10c806b34d08fb90935
 query-14,a romantic dinner,cooking+recipe1m+ebd7f3a66c8cadc2c1aca038b9a7d6f2
 query-14,a romantic dinner,cooking+recipe1m+eead683962bc4ecf4f944f5ceb11a3aa
@@ -446,7 +427,6 @@ query-14,a romantic dinner,cooking+recipe1m+f864efc6b4c73f4304e88abf5d8c4c9f
 query-14,a romantic dinner,cooking+recipe1m+f9247e35f35a9727bbcfc4713007cafc
 query-14,a romantic dinner,cooking+recipe1m+fd78934f77bf4915cb69b032ac91609f
 query-15,mexican fiesta recipees,cooking+recipe1m+0013aadcbf68a12968926a0e1fc734cc
-query-15,mexican fiesta recipees,cooking+recipe1m+0013d4f7e33f082ddd30313117cabc0d
 query-15,mexican fiesta recipees,cooking+recipe1m+0272ed59677bfeb63b6c6f0caaec7b9f
 query-15,mexican fiesta recipees,cooking+recipe1m+03118c8cabec4d1c06a1531f867a8384
 query-15,mexican fiesta recipees,cooking+recipe1m+1048b4d9f5f8f2fb15e9d7c4235ec402
@@ -468,7 +448,6 @@ query-15,mexican fiesta recipees,cooking+recipe1m+473eaeb5d4a4bd48d52cb1e21d13ad
 query-15,mexican fiesta recipees,cooking+recipe1m+4b2368f49dc11721fea8d5bae91e2748
 query-15,mexican fiesta recipees,cooking+recipe1m+51a9b42f884d871c043473313a147507
 query-15,mexican fiesta recipees,cooking+recipe1m+5286d8f442d77a1e451d6b75c5c21fda
-query-15,mexican fiesta recipees,cooking+recipe1m+53adc57f695366b347e36c0633937169
 query-15,mexican fiesta recipees,cooking+recipe1m+56f14a95086bf2c3e265f970841da324
 query-15,mexican fiesta recipees,cooking+recipe1m+5da559df1c890f82d880bf4dd7277641
 query-15,mexican fiesta recipees,cooking+recipe1m+604ecd2ca9e5d0b4719b40880d4026cd
@@ -532,7 +511,6 @@ query-16,a modern icebox cake,cooking+recipe1m+7beb3863f5d7e6de02b95630d556fc26
 query-16,a modern icebox cake,cooking+recipe1m+7f70a51ff4ac836e19615bed0af5bf25
 query-16,a modern icebox cake,cooking+recipe1m+8a9fd56e4b17b87df21097d9462c71a6
 query-16,a modern icebox cake,cooking+recipe1m+8ad07e654613b1a50e5f7b8ff797f3ad
-query-16,a modern icebox cake,cooking+recipe1m+9d5d34086d5bb9d5a4d8e685a7c3d682
 query-16,a modern icebox cake,cooking+recipe1m+9e165b46bd1757608c99b1df0eed7e80
 query-16,a modern icebox cake,cooking+recipe1m+a0bff85c8b9af2e74cb6b57d636a1ef9
 query-16,a modern icebox cake,cooking+recipe1m+a4cae531ad97a44fbf3f947501261458
@@ -548,7 +526,6 @@ query-16,a modern icebox cake,cooking+recipe1m+cb62220d2d1b64f25bf6af0ff0324b59
 query-16,a modern icebox cake,cooking+recipe1m+cc4c288f1db55c30dd286ddc5ec0166c
 query-16,a modern icebox cake,cooking+recipe1m+d28912da02bf36a5d46dedb6d642f898
 query-16,a modern icebox cake,cooking+recipe1m+d489f4e66e8d30f74603e79d085a9589
-query-16,a modern icebox cake,cooking+recipe1m+d5887f25e3d10b1cdafd786b8283c049
 query-16,a modern icebox cake,cooking+recipe1m+df8fdbb7492e146ed9ecacfee765cc9f
 query-16,a modern icebox cake,cooking+recipe1m+e0c830bbaa83bd3b6974ba7125327d14
 query-16,a modern icebox cake,cooking+recipe1m+e920823d815601af9a781b2ac621a4d8
@@ -581,7 +558,6 @@ query-17,food for diwali,cooking+recipe1m+84cf8914417454f268869b95907d3135
 query-17,food for diwali,cooking+recipe1m+874073f8d73debdb6a0b286f0aa33cc1
 query-17,food for diwali,cooking+recipe1m+95feacdd9e0f6ac0810b4691507eb503
 query-17,food for diwali,cooking+recipe1m+99262df79963b37f7105c23585c46f98
-query-17,food for diwali,cooking+recipe1m+a4fd1e5782bc6ff90e4449fcd7fe15b5
 query-17,food for diwali,cooking+recipe1m+a6691e1e31a85c20167bad21ea92c3bc
 query-17,food for diwali,cooking+recipe1m+ab3323a64f837943ce70949ff31a8188
 query-17,food for diwali,cooking+recipe1m+b1b2f704c98eb5ea5fda437fb7ef6c33
@@ -603,10 +579,8 @@ query-18,i want a fancy eggs recipe,cooking+recipe1m+0b98011da282465ebe608e67200
 query-18,i want a fancy eggs recipe,cooking+recipe1m+0bd95b9092b9f88ae0b334e295f2a369
 query-18,i want a fancy eggs recipe,cooking+recipe1m+1547e472206d92ebe287933243cecc0c
 query-18,i want a fancy eggs recipe,cooking+recipe1m+168221979aa075d65eb7942d0576d914
-query-18,i want a fancy eggs recipe,cooking+recipe1m+1ebf9c179714d4c24a9f7eb839fd2ea3
 query-18,i want a fancy eggs recipe,cooking+recipe1m+1f581da22c1597c735daa0dbebd7f7c8
 query-18,i want a fancy eggs recipe,cooking+recipe1m+236873a42d55f53b80b69e7a941d4b60
-query-18,i want a fancy eggs recipe,cooking+recipe1m+27e2d8b40f6dc0c0d952339f36228d5a
 query-18,i want a fancy eggs recipe,cooking+recipe1m+296dc4db6de9ed4dec4a556eab1a8ad5
 query-18,i want a fancy eggs recipe,cooking+recipe1m+2ebaa2bbd4706e099aee3f3a08a9f8b0
 query-18,i want a fancy eggs recipe,cooking+recipe1m+30964c1e5798f6f3b8d0e45a0b07d9d6
@@ -618,7 +592,6 @@ query-18,i want a fancy eggs recipe,cooking+recipe1m+415d1db7b7666c2c110d4ecc9e8
 query-18,i want a fancy eggs recipe,cooking+recipe1m+42af335084e46ea06a105adf0a27974b
 query-18,i want a fancy eggs recipe,cooking+recipe1m+49470b3c6f853aa4b1421ac2227faaa9
 query-18,i want a fancy eggs recipe,cooking+recipe1m+4a8356e1a3745f8f06c96e01d4556578
-query-18,i want a fancy eggs recipe,cooking+recipe1m+4baaeca0c867babe85a55e9a4627a3c5
 query-18,i want a fancy eggs recipe,cooking+recipe1m+4d4f6419f7b5eec2244e708849a12a00
 query-18,i want a fancy eggs recipe,cooking+recipe1m+529ce50f86d10c0511b9fd5073a82343
 query-18,i want a fancy eggs recipe,cooking+recipe1m+55eb1eff6c851bd4b0ab60d984307899
@@ -631,7 +604,6 @@ query-18,i want a fancy eggs recipe,cooking+recipe1m+717eac461353a295fb559fd1d2a
 query-18,i want a fancy eggs recipe,cooking+recipe1m+76a4758b54b39419132e2570b201736d
 query-18,i want a fancy eggs recipe,cooking+recipe1m+79e5d66c1896b549fcae93886965d7d4
 query-18,i want a fancy eggs recipe,cooking+recipe1m+7d93757bc82516ed58ec72f6b39c3f94
-query-18,i want a fancy eggs recipe,cooking+recipe1m+808e4985297b2905a57c8bf6f33e6a75
 query-18,i want a fancy eggs recipe,cooking+recipe1m+8541f9a45b7aad65caa089b8eb2dc1f1
 query-18,i want a fancy eggs recipe,cooking+recipe1m+8598e8d0a36342aceb9f80a481b5c8bf
 query-18,i want a fancy eggs recipe,cooking+recipe1m+85b5e616376bd831bbcd8f9f3ca8e84c
@@ -669,7 +641,6 @@ query-18,i want a fancy eggs recipe,cooking+recipe1m+e237c955209d6917fc525eb45e1
 query-18,i want a fancy eggs recipe,cooking+recipe1m+e46fc90863501b2540dffe243174149c
 query-18,i want a fancy eggs recipe,cooking+recipe1m+ef0aa89d95ebead7bfe6c10cf559c76b
 query-18,i want a fancy eggs recipe,cooking+recipe1m+f0323cc08814ed79d457e5dde4d49312
-query-18,i want a fancy eggs recipe,cooking+recipe1m+f62f2bd328dfbe580161f56196a3de9c
 query-18,i want a fancy eggs recipe,cooking+recipe1m+f65981db3430ce7839d6e18c3f590604
 query-18,i want a fancy eggs recipe,cooking+recipe1m+f6a761bbb0dca16ffbfb78583b968b9c
 query-18,i want a fancy eggs recipe,cooking+recipe1m+f9d40f76a12cd8ceb09c921f3326ec92
@@ -677,7 +648,6 @@ query-18,i want a fancy eggs recipe,cooking+recipe1m+fb3d480d467437b183f3e155d85
 query-18,i want a fancy eggs recipe,cooking+recipe1m+fc7dbbc4c870f9a5451f0fcff9f6ba80
 query-18,i want a fancy eggs recipe,cooking+recipe1m+fcbe1cf358b2f77fc05bba5af3b24f42
 query-19,how to make low fat ice cream,cooking+recipe1m+00e4b775b6d836ae2b6e4eb6713d69a8
-query-19,how to make low fat ice cream,cooking+recipe1m+027444b8957868dfd890fbfb1a7e81c9
 query-19,how to make low fat ice cream,cooking+recipe1m+06cc46973e632efa274ce601d7429c17
 query-19,how to make low fat ice cream,cooking+recipe1m+0b7a2657ddbedb038bba81c79bdb677d
 query-19,how to make low fat ice cream,cooking+recipe1m+0f1a1d68c5bc43cd1e9b14ddb2e04ba8
@@ -715,7 +685,6 @@ query-19,how to make low fat ice cream,cooking+recipe1m+b6c03fb497c5dc234e8a22c0
 query-19,how to make low fat ice cream,cooking+recipe1m+b9af6430f1ca909160180ce92ebf976f
 query-19,how to make low fat ice cream,cooking+recipe1m+b9d8871c3af795759513079887fcd85e
 query-19,how to make low fat ice cream,cooking+recipe1m+ba862ab94cba92b624992fca809862dc
-query-19,how to make low fat ice cream,cooking+recipe1m+bdc43ff89a50c6f4ef068b738c83f035
 query-19,how to make low fat ice cream,cooking+recipe1m+bf22db39e7319408bf63a4d509571548
 query-19,how to make low fat ice cream,cooking+recipe1m+c1aedcc8dae47667861b8587d34681c4
 query-19,how to make low fat ice cream,cooking+recipe1m+c2c204ca0de27b584cebf5f7cbe44033
@@ -745,8 +714,6 @@ query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+1b4c1ae
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+1cc64c7099eaf0b19d44018551d46618
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+2631b371c85804a921ef503a57470a62
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+270c091f2a9e4274c89f13a4733e372d
-query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+2c8c7b8b53226f488858c50102da7838
-query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+2cc29eccaaae2477382b3f353f676a27
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+32777e2f907abc6c2b3571abdc42acf9
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+3670d43234d2fcd83e2a1800aa976482
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+371e2681ec0e9a37b69fd61fa4f9979b
@@ -776,7 +743,6 @@ query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+737dc4b
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+73d52a32dc19fdef848d4446549a7793
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+74b6062e7d9dbc3208ea858741c97c53
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+7889b380de8479edd30ca89e3e05e8bb
-query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+7eae9fea22a9b6f655cd716139292e3b
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+80cd8625f7a514c7c331bfb8753b46a1
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+8b8073304b3841776bd4400a3828b340
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+8ed0675ea98f13dccf397ece4b5aa5d9
@@ -788,7 +754,6 @@ query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+b0b2ec9
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+b5f1777ee59d0809b4cd6a70c1a86603
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+bf195d48ba84889ea166377fb1032f55
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+c06cc41e2a0539c854ec4e23fcc8f2e1
-query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+c322434936e2830454e82ceb3bc2a510
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+c3224e4aa0f82826f045ebe9d43240e9
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+c419826eb5ea507e27ef7724a221a1e3
 query-2,any recommendations for a gluten free appetizer,cooking+recipe1m+c7411e2861a8545cd94a991f49c733a0
@@ -886,7 +851,6 @@ query-21,make vegetarian tikka masala,cooking+recipe1m+ef1efb20523588eb3fd9c7893
 query-21,make vegetarian tikka masala,cooking+recipe1m+f2120a717969fa661ff9fdbb72bd1adf
 query-21,make vegetarian tikka masala,cooking+recipe1m+f42ebc8a4a6ddaa00a5d6db7ab3fbd2f
 query-21,make vegetarian tikka masala,cooking+recipe1m+fa0dcae1d039d4548893b2167447803a
-query-21,make vegetarian tikka masala,cooking+recipe1m+fd0042147e68e61d5448e3ca0390f2d5
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+04f24f7945f2be7ebc0c624b43bdac7b
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+070611285393ad47418f64d38e42e631
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+096dc69be28054b43302042470a89bbc
@@ -901,7 +865,6 @@ query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+4289d06fde
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+46a8e02c17d8fea9e9a3cc80c4107513
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+4bc14932e6eb5fe81a07a260fe433bac
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+4f473aaffcf7925a50a722cdccf89651
-query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+55b74ced25448e5fb405d40c564b2a54
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+5941f6196ca42babff64a9f92a74911d
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+5fb4fd31748da4f21254cf297c5a42d1
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+61aaa28930057e7c64fa0485e8f64f9f
@@ -931,7 +894,6 @@ query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+d04cfd5b2f
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+d3fac0ff67da9780472aa60dfdd5b247
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+dc353a5635a8f846a131160c4c383b54
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+ddb8abd0d53ff67118680ec7bc4378ef
-query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+dec87e02179be9c203dafa7e82fd2605
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+e0fe9ee7e1de57919d3ce484a760077d
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+e49b0eaa08b6f6cf3ce8cd2b1c4b6398
 query-22,i want to make chia pudding recipe low carb,cooking+recipe1m+e6286eb6cb715acf8abd536afdd22bfc
@@ -1062,7 +1024,6 @@ query-24,can i have classic dairy free scones,cooking+recipe1m+fe91e2ef435bc9945
 query-25,how to make spiked eggnog,cooking+recipe1m+0017d4f9dcff6e591769413ef9e916d8
 query-25,how to make spiked eggnog,cooking+recipe1m+088aa8d97ec389876b3538d00f9f2d71
 query-25,how to make spiked eggnog,cooking+recipe1m+0ae66f905e3d84740d445304c610f2c5
-query-25,how to make spiked eggnog,cooking+recipe1m+0de262ebdc714b3a56fb1a428f98f857
 query-25,how to make spiked eggnog,cooking+recipe1m+0f045bc313b43cfb45604e008560f72d
 query-25,how to make spiked eggnog,cooking+recipe1m+1b0099a1eb45485f252254c5ef279e08
 query-25,how to make spiked eggnog,cooking+recipe1m+221c0898bf7735d115ff3ae41ce7caeb
@@ -1073,12 +1034,10 @@ query-25,how to make spiked eggnog,cooking+recipe1m+3c97d62fd7f22585c7ab3c4d0b2f
 query-25,how to make spiked eggnog,cooking+recipe1m+3f458100334094b8c0884feb609898fb
 query-25,how to make spiked eggnog,cooking+recipe1m+3f4ac4ea822b8e468cb5f7e4545bce79
 query-25,how to make spiked eggnog,cooking+recipe1m+43333aefac9294cc8275486cc367fdbe
-query-25,how to make spiked eggnog,cooking+recipe1m+4c21f059fc4f2fc4c931b3837c72202c
 query-25,how to make spiked eggnog,cooking+recipe1m+50cd6dd5d1b9292ca63bee27f8c4fbd2
 query-25,how to make spiked eggnog,cooking+recipe1m+5aaea9e3577ab120977d0ab7783b50b2
 query-25,how to make spiked eggnog,cooking+recipe1m+6d8249cc34f97b5d98b34bd77bf56002
 query-25,how to make spiked eggnog,cooking+recipe1m+6dd1b09b8d0e80c27285d6713982450f
-query-25,how to make spiked eggnog,cooking+recipe1m+6de0e3d7f5cfe34be2dc8c61fe4a9691
 query-25,how to make spiked eggnog,cooking+recipe1m+6ed1d53552b832f14071cbacbb9c5fb1
 query-25,how to make spiked eggnog,cooking+recipe1m+8f780c5965c0607425c89a106a613595
 query-25,how to make spiked eggnog,cooking+recipe1m+90f74f07cb1d8867d581b7fad9e5b1b1
@@ -1096,7 +1055,6 @@ query-25,how to make spiked eggnog,cooking+recipe1m+b8c87ba59ec927a99e741b652384
 query-25,how to make spiked eggnog,cooking+recipe1m+ba06174c960efd2a33e2f71ac5eda0d4
 query-25,how to make spiked eggnog,cooking+recipe1m+bc298deeed973f353ac1be63a8d5a53c
 query-25,how to make spiked eggnog,cooking+recipe1m+c305b6e0d8d2bf835ae6a00edfb02082
-query-25,how to make spiked eggnog,cooking+recipe1m+c401e8e81d59e4ba4823fc0ec5fee3db
 query-25,how to make spiked eggnog,cooking+recipe1m+c445cdb02045ce8399b98179fc313667
 query-25,how to make spiked eggnog,cooking+recipe1m+c58d31a059d89f3b61fc98e54e87fd12
 query-25,how to make spiked eggnog,cooking+recipe1m+c6db8e937ccd914a5a62b9a6fd2e4f1f
@@ -1134,14 +1092,12 @@ query-26,how to prepare spicy oysters,cooking+recipe1m+68c442e793e23db76b6f3b7ea
 query-26,how to prepare spicy oysters,cooking+recipe1m+6ff60f73cd4c38676abdf042254fbac9
 query-26,how to prepare spicy oysters,cooking+recipe1m+73ab1e24212f6e1ee701e510eb8d17dc
 query-26,how to prepare spicy oysters,cooking+recipe1m+75fbb1dcdcf3e35788bb3986850d704e
-query-26,how to prepare spicy oysters,cooking+recipe1m+7d0c35f08223bef4220a306346b76e1e
 query-26,how to prepare spicy oysters,cooking+recipe1m+7d38b5fc495dfe5f8a6e21812edcc2ba
 query-26,how to prepare spicy oysters,cooking+recipe1m+7d5ca132efa9ffb65c604ebbf5a04110
 query-26,how to prepare spicy oysters,cooking+recipe1m+7dfd25b436242a3682dd8ed4a8511a16
 query-26,how to prepare spicy oysters,cooking+recipe1m+82271319080787b4873529414b5ba714
 query-26,how to prepare spicy oysters,cooking+recipe1m+8a412deca526c09dc79a3ea31a63b46a
 query-26,how to prepare spicy oysters,cooking+recipe1m+9481accd15db920ae49af83bdfad71d0
-query-26,how to prepare spicy oysters,cooking+recipe1m+94828faa4d4ad536cd149b93d8b9a389
 query-26,how to prepare spicy oysters,cooking+recipe1m+952e15077dd2b07d24817633996313d5
 query-26,how to prepare spicy oysters,cooking+recipe1m+a03088a2b6a6d3813214fe5222e20ab1
 query-26,how to prepare spicy oysters,cooking+recipe1m+a0d22feccdd72c907b614bdfae6d5302
@@ -1196,7 +1152,6 @@ query-27,how to quickly make baby food,cooking+recipe1m+4429f6ee4a7463ac6ade85d4
 query-27,how to quickly make baby food,cooking+recipe1m+453af3fc980ed05205a1f9a279c68d10
 query-27,how to quickly make baby food,cooking+recipe1m+542d792ae58ee4aef15cf0960cc90bd4
 query-27,how to quickly make baby food,cooking+recipe1m+543c8d8d011ea42fe9136f5176a51983
-query-27,how to quickly make baby food,cooking+recipe1m+5c333aad540838fdb2753bc31ff3c698
 query-27,how to quickly make baby food,cooking+recipe1m+5fd4e2d74501934f0aebd3b6d45d7a42
 query-27,how to quickly make baby food,cooking+recipe1m+6229c2a73bf61a59015770c8fd15d80e
 query-27,how to quickly make baby food,cooking+recipe1m+68f154aa1211b9e1d49e2d510253c0bc
@@ -1246,7 +1201,6 @@ query-28,make lunch meal prep fast,cooking+recipe1m+0e34a45b1f492e91dfe02d07369d
 query-28,make lunch meal prep fast,cooking+recipe1m+0f48a85ee6c04f1ef6790369e533dc3c
 query-28,make lunch meal prep fast,cooking+recipe1m+1183b19edca64a7a9abd55292830ffba
 query-28,make lunch meal prep fast,cooking+recipe1m+176be4db2e122df316efe7e29b99ac6a
-query-28,make lunch meal prep fast,cooking+recipe1m+18db4dd1e7d8bf21303678c50060326f
 query-28,make lunch meal prep fast,cooking+recipe1m+1a7b5dd6ac99ec990c945b96c06ad976
 query-28,make lunch meal prep fast,cooking+recipe1m+1ab161f47a3bdfc85c234a1dbff5b55c
 query-28,make lunch meal prep fast,cooking+recipe1m+23fa5c80d1a695b80e59068d25e9b126
@@ -1256,7 +1210,6 @@ query-28,make lunch meal prep fast,cooking+recipe1m+2d04c2dad320796aa20aafe6bf61
 query-28,make lunch meal prep fast,cooking+recipe1m+30e5febf268d04d0abdfef4f1a5f0ad1
 query-28,make lunch meal prep fast,cooking+recipe1m+327fc0d45c6193b846ac7df3c7f6efe3
 query-28,make lunch meal prep fast,cooking+recipe1m+35dc890fb59f596e122771da5f3fb09c
-query-28,make lunch meal prep fast,cooking+recipe1m+3a25f740498086d9a608b5044d4d7b7b
 query-28,make lunch meal prep fast,cooking+recipe1m+3b97d41fa58f34bd2b21c56d7749f514
 query-28,make lunch meal prep fast,cooking+recipe1m+3bea9173b6bd4470fca9b4bcbca4620c
 query-28,make lunch meal prep fast,cooking+recipe1m+3f0c91244cbc35dec951ec1a4b81b1dd
@@ -1289,7 +1242,6 @@ query-28,make lunch meal prep fast,cooking+recipe1m+b9d26fb477f068f17fb85ca2b1dd
 query-28,make lunch meal prep fast,cooking+recipe1m+baaa00bf0e77a29de532311519d1d55b
 query-28,make lunch meal prep fast,cooking+recipe1m+c22522439e0824eb0dbcef2ea1ad1277
 query-28,make lunch meal prep fast,cooking+recipe1m+c47097d622856bddea390545aab764c8
-query-28,make lunch meal prep fast,cooking+recipe1m+c6be63ef729962eaea80cbb27281c099
 query-28,make lunch meal prep fast,cooking+recipe1m+c9cdbccdc2a5e4af7cbca9ea38bf592b
 query-28,make lunch meal prep fast,cooking+recipe1m+cb286a69e602c6ac9e8d81ce58b3485e
 query-28,make lunch meal prep fast,cooking+recipe1m+df891db1ce0bac382c8a7cf5e31355bc
@@ -1383,7 +1335,6 @@ query-30,how to make light muffins,cooking+recipe1m+2d6a2df29c80113890d29b27ccd3
 query-30,how to make light muffins,cooking+recipe1m+3072af57742544c00f77439d4422ec4a
 query-30,how to make light muffins,cooking+recipe1m+3a040a50acd0c3a866e55562a84cfd5a
 query-30,how to make light muffins,cooking+recipe1m+3a32a42740e9f7b5dc08ca85dc9f5f9a
-query-30,how to make light muffins,cooking+recipe1m+3c323818efb7c9a49b6ddd7bae27c250
 query-30,how to make light muffins,cooking+recipe1m+3fe135e65112aa3e21ba92a7cd4ad021
 query-30,how to make light muffins,cooking+recipe1m+4b133526024dfa15220c5e4d8d41e0ee
 query-30,how to make light muffins,cooking+recipe1m+4bbc96b760fd2744ad462982233c72ce
@@ -1392,7 +1343,6 @@ query-30,how to make light muffins,cooking+recipe1m+530813ba7a96657295b3011c21ee
 query-30,how to make light muffins,cooking+recipe1m+568143d7f7e72000b3ba645e63c39f18
 query-30,how to make light muffins,cooking+recipe1m+56f33e16980f4edbe4053ba1fce47dde
 query-30,how to make light muffins,cooking+recipe1m+5c1b404f3f4fe0071ec7f81597572956
-query-30,how to make light muffins,cooking+recipe1m+5cbb5e74fd74d0cc76827fe99d4f3a35
 query-30,how to make light muffins,cooking+recipe1m+60ce4fed886bd0294f656cab657d10f0
 query-30,how to make light muffins,cooking+recipe1m+64ac4f8e7402817868a87cac5301bc9c
 query-30,how to make light muffins,cooking+recipe1m+6702881f42673a9e91b09304bf8ec7a6
@@ -1436,7 +1386,6 @@ query-30,how to make light muffins,cooking+recipe1m+f6dddf5315915db8487afe6372fd
 query-30,how to make light muffins,cooking+recipe1m+f8530d44d9279593a0b28e7835dd4e72
 query-30,how to make light muffins,cooking+recipe1m+ff6c781f6b3f45ecf49116b62216ca90
 query-31,make fried halloumi bites,cooking+recipe1m+06547add668373162a274a903c2179c5
-query-31,make fried halloumi bites,cooking+recipe1m+0b32a7f7d29d7828cfe48fd757af1cf7
 query-31,make fried halloumi bites,cooking+recipe1m+100e62c158c14c8064585c75fdc5b6e1
 query-31,make fried halloumi bites,cooking+recipe1m+11fc928922c51f87135bb7898a8916ac
 query-31,make fried halloumi bites,cooking+recipe1m+27ac1ea5f07b267ba1956e9ce3de46d9
@@ -1489,7 +1438,6 @@ query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+45b289e95b
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+4b642bfb3ef450eaf6cbfadf08614ee5
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+5120889f7d1d31d8c302fb876cdcb6d3
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+536fdfccc4e4a6049d6e23fbdf048ce3
-query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+551b190799cdd1993f7979c1b563339c
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+577acdc9c84331a9a03bb4454916d322
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+61d5bad045cd1d1345b9c04d5f9b2c14
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+6351945266c3df83fc2fa6dc3101bb49
@@ -1506,7 +1454,6 @@ query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+8c45c292ff
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+8f5720914e175186502b3fe8558e8179
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+8fdf89ed467ffec5e8616b390dde90c8
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+9672bd36a3246f17daa34e677f4837be
-query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+96d77c6899cd2e64819c50e6a378905f
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+972c6b676bbfb6a7aa74efe674574f9b
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+98b9835f586beb3f463977156d918afa
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+9a3fd41cae435a808c2230a924a5b236
@@ -1517,7 +1464,6 @@ query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+a4ec45adb3
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+a60cbadd6ca9caf3a88c540312553e99
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+a6d5caf1789db2a52f0458eaec72fefa
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+aaa0567a6e1c07d60433d589bb59620e
-query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+ab1668c3c9bd7349af9c4e3ed6d782ad
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+ae2efa48238c03f49b9104d91a927a65
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+aea34d75ce9bb23f4ffd165320c7abc5
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+b16e6ff98bbd1239b482c71c9c5d3b98
@@ -1528,7 +1474,6 @@ query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+bb3383a695
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+bbb0a9bd2f9d59d82c0a11df324ced7c
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+c36d176407c7149e17d1d4f513169259
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+cae788a54b38a86c9b2e7387e76b1c24
-query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+cc00b7a2c4e4a7f9bdc18724ba1653ca
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+cd3e2e7a36571375689ae801dde18e70
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+cdfd4ec2e80e124474d39091ee1ed16c
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+d0b790be58c3849e587f504d0ada757f
@@ -1537,18 +1482,15 @@ query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+db2c5a80d5
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+e117bb8b27864c0d5e7de99255b885dc
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+e3d077357afe851f4caa92358a2f1bf0
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+e9d71711c9c4922c3b696e662b5a781a
-query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+ea36f135b0a0289419440c62580a1952
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+f803e7f1caf125973daccd3fa876f860
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+f98b30463bfba96fb504dff82c7dc754
 query-32,show me a creamy mushroom stroganoff recipe,cooking+recipe1m+ff03f9d7cc869fac3786ef2a06503628
-query-33,can i have tender cooked pork,cooking+recipe1m+0715ad0ec2c9dab59d0a1cd985a1112d
 query-33,can i have tender cooked pork,cooking+recipe1m+07582419b8f2919ade6c28274c3e126b
 query-33,can i have tender cooked pork,cooking+recipe1m+082698af6f718fd7c2fd21cd45acdefa
 query-33,can i have tender cooked pork,cooking+recipe1m+0aab57a158a44348cf887676f3aed0fd
 query-33,can i have tender cooked pork,cooking+recipe1m+0c4ee1ad50d118d98c7a35bdbb5b1392
 query-33,can i have tender cooked pork,cooking+recipe1m+0cfc72b7eb2eb51de3b2a0630c0dcfd1
 query-33,can i have tender cooked pork,cooking+recipe1m+1164e7760f6b7a6722c313e0ddecb9aa
-query-33,can i have tender cooked pork,cooking+recipe1m+12c93391976a0e90fb0fee4fd1d5f97e
 query-33,can i have tender cooked pork,cooking+recipe1m+16eebe045de1c58018d8779885558000
 query-33,can i have tender cooked pork,cooking+recipe1m+218e26cd9d3de175e548d15476d7fe15
 query-33,can i have tender cooked pork,cooking+recipe1m+2361473457a6c3aebd18512ed6540784
@@ -1576,11 +1518,9 @@ query-33,can i have tender cooked pork,cooking+recipe1m+5b56438e1970a3e7e2737371
 query-33,can i have tender cooked pork,cooking+recipe1m+5de88487c83ec9c9b6eb2065a9f0ca25
 query-33,can i have tender cooked pork,cooking+recipe1m+6301d74f83a9f9682e3b055921b3ed6c
 query-33,can i have tender cooked pork,cooking+recipe1m+6389c17dff1f2388f4e4bd905184ce89
-query-33,can i have tender cooked pork,cooking+recipe1m+65a47c764833ffef244709fc2fcabc3e
 query-33,can i have tender cooked pork,cooking+recipe1m+6ed8e03e5e56f796a6d6eeb603786a6e
 query-33,can i have tender cooked pork,cooking+recipe1m+6f55e194cf67aa7d21b7aa10097b1dac
 query-33,can i have tender cooked pork,cooking+recipe1m+6fd56e06249d600c525c805ddce1d8bf
-query-33,can i have tender cooked pork,cooking+recipe1m+720b5efff8b05e9eaec5c521f7f75540
 query-33,can i have tender cooked pork,cooking+recipe1m+848c886ec001f46829400634f2590ee1
 query-33,can i have tender cooked pork,cooking+recipe1m+875459df7a3467b9f1c5628c4711150f
 query-33,can i have tender cooked pork,cooking+recipe1m+8788f0a16e7369717999dfdd43466ffa
@@ -1595,11 +1535,9 @@ query-33,can i have tender cooked pork,cooking+recipe1m+a621ce617988498d6bcfbb20
 query-33,can i have tender cooked pork,cooking+recipe1m+a769beea623a71ce2acff81b7ce30b3b
 query-33,can i have tender cooked pork,cooking+recipe1m+a929989b20d44e3fb911e367f0863fc3
 query-33,can i have tender cooked pork,cooking+recipe1m+a9b1b38ca443670e2aecf247d8edc98b
-query-33,can i have tender cooked pork,cooking+recipe1m+aa6d617e9ba220155cabe8024f234138
 query-33,can i have tender cooked pork,cooking+recipe1m+ab09220aac0079953eba2f2779220fba
 query-33,can i have tender cooked pork,cooking+recipe1m+ae011fb00383879b32f2f9ac3d35a937
 query-33,can i have tender cooked pork,cooking+recipe1m+b1292b5273fc8fb2a95ef965ba70891a
-query-33,can i have tender cooked pork,cooking+recipe1m+b435c366fdf38f2cd2e19ae50f615b98
 query-33,can i have tender cooked pork,cooking+recipe1m+b71622d99ff702065715ad5021ad17f6
 query-33,can i have tender cooked pork,cooking+recipe1m+cce02dcee3403cc800e0bfa0ecb7902f
 query-33,can i have tender cooked pork,cooking+recipe1m+cfaa25a0f8729d6baa8942d9ac0b1c7f
@@ -1671,13 +1609,11 @@ query-34,can i have soup good for the summer,cooking+recipe1m+b6802be1192f386ee8
 query-34,can i have soup good for the summer,cooking+recipe1m+b812eb8a76990048c631c3c2fd7f067d
 query-34,can i have soup good for the summer,cooking+recipe1m+b8cafcf85d0caf3c6f40685696ae155b
 query-34,can i have soup good for the summer,cooking+recipe1m+d2316735c5cfdbaf544b90fb6a440938
-query-34,can i have soup good for the summer,cooking+recipe1m+d6ddb11d733b601295f6453bc7e8de1b
 query-34,can i have soup good for the summer,cooking+recipe1m+d7015f64444304604fe2dc6fc6fe1cd2
 query-34,can i have soup good for the summer,cooking+recipe1m+d8c84c6f14b9b71d0b2d22cf9a5d6ae6
 query-34,can i have soup good for the summer,cooking+recipe1m+d988383f655564d0789812e410286c75
 query-34,can i have soup good for the summer,cooking+recipe1m+e04d44ba40c52dfbf00654923ec3a9cc
 query-34,can i have soup good for the summer,cooking+recipe1m+e147121d49f39054c3145265d2063ee4
-query-34,can i have soup good for the summer,cooking+recipe1m+eb14c77c4c5b71032697ec353d633d0d
 query-34,can i have soup good for the summer,cooking+recipe1m+f3dc805a07c3d6ad021858b74498bba7
 query-34,can i have soup good for the summer,cooking+recipe1m+fca92ebffe5b1fa364b95baf02078537
 query-34,can i have soup good for the summer,cooking+recipe1m+fe40e43afe65c1807fcab16ca4eec3c0
@@ -1692,7 +1628,6 @@ query-35,how to make boiled easter eggs,cooking+recipe1m+1dd055b6dac250607e42652
 query-35,how to make boiled easter eggs,cooking+recipe1m+216c614547c641be5ada3b682642b96c
 query-35,how to make boiled easter eggs,cooking+recipe1m+25656bd1960aad6b5d657a7b47b8ab12
 query-35,how to make boiled easter eggs,cooking+recipe1m+25cbf61acd91062a8a68fe5e550c7fcc
-query-35,how to make boiled easter eggs,cooking+recipe1m+299825d5d4bb5d6a2e079aff0b48bef8
 query-35,how to make boiled easter eggs,cooking+recipe1m+2d895dd60975e42c761a43c9864f1637
 query-35,how to make boiled easter eggs,cooking+recipe1m+2f65a0dd21065fb6c99e36d0e11eb535
 query-35,how to make boiled easter eggs,cooking+recipe1m+31253779134c134ee259803628e30952
@@ -1714,7 +1649,6 @@ query-35,how to make boiled easter eggs,cooking+recipe1m+54435f28f10a9457c5eda17
 query-35,how to make boiled easter eggs,cooking+recipe1m+5521a6a3188481fac48a86403ef09c54
 query-35,how to make boiled easter eggs,cooking+recipe1m+5e779aeaf2d68d1904fe5c13297f1ed5
 query-35,how to make boiled easter eggs,cooking+recipe1m+657ebc43e50a4c8f37605c5efc691bfd
-query-35,how to make boiled easter eggs,cooking+recipe1m+65fa9ff3b4f2610fa2dd7dc82f382b21
 query-35,how to make boiled easter eggs,cooking+recipe1m+671624fd19afdd981d7b3a85d34140b1
 query-35,how to make boiled easter eggs,cooking+recipe1m+6ef7bc642f4a17994867a96dff5b497e
 query-35,how to make boiled easter eggs,cooking+recipe1m+6f33533e1302d18cdfb666f1eddc26db
@@ -1725,7 +1659,6 @@ query-35,how to make boiled easter eggs,cooking+recipe1m+75d8ae6b40b3ae5810d02a4
 query-35,how to make boiled easter eggs,cooking+recipe1m+75dd82043097b2f476b4a331a129275e
 query-35,how to make boiled easter eggs,cooking+recipe1m+75f99d6fca4effa01e78728e0f9573ed
 query-35,how to make boiled easter eggs,cooking+recipe1m+76547c69da38aba25e964ab97f22bfa7
-query-35,how to make boiled easter eggs,cooking+recipe1m+77d6b8097f060e0c796a92a8c1db0621
 query-35,how to make boiled easter eggs,cooking+recipe1m+7d96d99b0cd3b079c66b6d1fb33f9143
 query-35,how to make boiled easter eggs,cooking+recipe1m+880b787182c59550cefc244fe01eaca9
 query-35,how to make boiled easter eggs,cooking+recipe1m+896fa78cf521b59f04e7e0d808e70d1e
@@ -1780,7 +1713,6 @@ query-36,suggestions for road trip food,cooking+recipe1m+8a0d15c791e91ca127ef8fc
 query-36,suggestions for road trip food,cooking+recipe1m+8af471300ed16d7bef1ddd934efa28f0
 query-36,suggestions for road trip food,cooking+recipe1m+90f2b4cb7d8b89b529b77ab8b159f7f2
 query-36,suggestions for road trip food,cooking+recipe1m+948fc5071811483b0781d63f8449e7ae
-query-36,suggestions for road trip food,cooking+recipe1m+a30d5b49c89884ec08f11de4c2cbfc9b
 query-36,suggestions for road trip food,cooking+recipe1m+a8d26815da605f5042ad24c851ad3ebf
 query-36,suggestions for road trip food,cooking+recipe1m+aa39f33d848ff0d9e7e57283f51da854
 query-36,suggestions for road trip food,cooking+recipe1m+af69cae41185dd5ce8cbf54c3cb587b4
@@ -1840,7 +1772,6 @@ query-37,how to make polish pierogi with cheese,cooking+recipe1m+b6390ab220cf9c0
 query-37,how to make polish pierogi with cheese,cooking+recipe1m+b745d76716bd4a75e7b1a3c16ad98ec6
 query-37,how to make polish pierogi with cheese,cooking+recipe1m+ba6daed1a98306f378408949e32fde20
 query-37,how to make polish pierogi with cheese,cooking+recipe1m+c0ab171503471ceea23196860da8d4c1
-query-37,how to make polish pierogi with cheese,cooking+recipe1m+c2b2c0c51389fb7bf75576f6f027b21a
 query-37,how to make polish pierogi with cheese,cooking+recipe1m+c36aefae72c7a70cd4ad2bde59b2cae7
 query-37,how to make polish pierogi with cheese,cooking+recipe1m+c5cb3027c7e1d9d1209b53aae615ce73
 query-37,how to make polish pierogi with cheese,cooking+recipe1m+cef27e535c51e9214d401284d7382d66
@@ -1848,7 +1779,6 @@ query-37,how to make polish pierogi with cheese,cooking+recipe1m+da348379437a5e4
 query-37,how to make polish pierogi with cheese,cooking+recipe1m+da8d9fd14b8eb8567b64377e063210e8
 query-37,how to make polish pierogi with cheese,cooking+recipe1m+daedbac5ffbe9f5f0143495e7c1c9af7
 query-37,how to make polish pierogi with cheese,cooking+recipe1m+e647c854324e3a32e78593aa1aab4aba
-query-37,how to make polish pierogi with cheese,cooking+recipe1m+e8ddb31f38740fd4afde25595e80ba4b
 query-37,how to make polish pierogi with cheese,cooking+recipe1m+e8ee826f4b12f4b7f9df7104c16459ba
 query-37,how to make polish pierogi with cheese,cooking+recipe1m+ed00d1eecf00b3cd3d050e6a2927564c
 query-37,how to make polish pierogi with cheese,cooking+recipe1m+f573ad7db3c1cf14779f569fd0866099
@@ -1866,7 +1796,6 @@ query-38,how can i make one pot ramen,cooking+recipe1m+223837a3c9b5ba9024041e82a
 query-38,how can i make one pot ramen,cooking+recipe1m+267d9582c05d3ef8d5010436c8d44684
 query-38,how can i make one pot ramen,cooking+recipe1m+27112f340d1f46db964c4fdd112bcb3e
 query-38,how can i make one pot ramen,cooking+recipe1m+2aa80de32711704643e4906c01a93ecf
-query-38,how can i make one pot ramen,cooking+recipe1m+2f4677939a4f92c370b2487f8615de73
 query-38,how can i make one pot ramen,cooking+recipe1m+41843b76d357b3e902f565f7784f1b09
 query-38,how can i make one pot ramen,cooking+recipe1m+41ec1b13a59fba6189102d4674f4ed2c
 query-38,how can i make one pot ramen,cooking+recipe1m+469e2d280d675491f7fbe857c46e6da1
@@ -1880,7 +1809,6 @@ query-38,how can i make one pot ramen,cooking+recipe1m+6576e60eb90639d03e521abd0
 query-38,how can i make one pot ramen,cooking+recipe1m+68e78e5071e57f3bb9b27d2bc24ebb1b
 query-38,how can i make one pot ramen,cooking+recipe1m+6d07f39db819ad52401c43da3b27f1c1
 query-38,how can i make one pot ramen,cooking+recipe1m+6d23191d2c25363b163cb9a7f01b0ca5
-query-38,how can i make one pot ramen,cooking+recipe1m+6dbe22bed72103fcfa0c2f084a1bf8d2
 query-38,how can i make one pot ramen,cooking+recipe1m+6dcfd5a9597f9156b621a3ff5131e9cd
 query-38,how can i make one pot ramen,cooking+recipe1m+71c338ba140689b746aa4c3ac010edb4
 query-38,how can i make one pot ramen,cooking+recipe1m+71e64d6af36afd1896d96444fc3e0095
@@ -1902,7 +1830,6 @@ query-38,how can i make one pot ramen,cooking+recipe1m+a5113abad2bcf6d783ecb4c6b
 query-38,how can i make one pot ramen,cooking+recipe1m+a5ae12f15ad38381ac14925e42898ee8
 query-38,how can i make one pot ramen,cooking+recipe1m+b30abcb30a41e0ea7e15bb001a382af8
 query-38,how can i make one pot ramen,cooking+recipe1m+b34a7aef05f3a969e2efa1aacc0c16e0
-query-38,how can i make one pot ramen,cooking+recipe1m+b80c877b99c276f12aec102e1f0b9f25
 query-38,how can i make one pot ramen,cooking+recipe1m+b8eab47969bec2de6800357b4b6a04fd
 query-38,how can i make one pot ramen,cooking+recipe1m+bf19cab058e48fd100a9c2ebb81ec399
 query-38,how can i make one pot ramen,cooking+recipe1m+c302b63266cc87342099e15e048c6812
@@ -2041,7 +1968,6 @@ query-40,how to make salty brownies,cooking+recipe1m+5a017a95b42b4dc74788f921506
 query-40,how to make salty brownies,cooking+recipe1m+63638943638f89dcac29dee1c0d2fd7f
 query-40,how to make salty brownies,cooking+recipe1m+720a37f9f63137bc335b62a26051014d
 query-40,how to make salty brownies,cooking+recipe1m+72af6a5692771d89a6bec4fd3b248590
-query-40,how to make salty brownies,cooking+recipe1m+75cfd06012d5663a935b9ddbf61371d2
 query-40,how to make salty brownies,cooking+recipe1m+79362b44051a532b26289e646ea2702d
 query-40,how to make salty brownies,cooking+recipe1m+7a34219a13b6537733a77fb1343b4e99
 query-40,how to make salty brownies,cooking+recipe1m+810feaa0c58edab71fee89aebea996bf
@@ -2082,7 +2008,6 @@ query-41,gingerbread cookies,cooking+recipe1m+29b3da6e81e08563637091f9877ff07e
 query-41,gingerbread cookies,cooking+recipe1m+2a1a75f19ffe2989d47432bc216069f0
 query-41,gingerbread cookies,cooking+recipe1m+2e6e1936e5baac011c6a77bc0acdc8fc
 query-41,gingerbread cookies,cooking+recipe1m+317c2138f0014bdf6be72883f5b7e5fa
-query-41,gingerbread cookies,cooking+recipe1m+32e16f6d51dc43404114b372e4b6b7cd
 query-41,gingerbread cookies,cooking+recipe1m+35f73200cf2eff5f1db61e3b7a3e450c
 query-41,gingerbread cookies,cooking+recipe1m+3eb5be98519bfaa2784cb85508a8c131
 query-41,gingerbread cookies,cooking+recipe1m+419a0affcc0e35a54b178816b7f4b788
@@ -2118,7 +2043,6 @@ query-41,gingerbread cookies,cooking+recipe1m+a43595cc009a096d83d387f9cfee3875
 query-41,gingerbread cookies,cooking+recipe1m+b086ec21e37206a1966f3ccfc860121e
 query-41,gingerbread cookies,cooking+recipe1m+b1ee4220845bc6f5ac3222f123dfcde0
 query-41,gingerbread cookies,cooking+recipe1m+b9be5e718562c3c6c420b451355f89a1
-query-41,gingerbread cookies,cooking+recipe1m+bb81239ad6b210e3a3db218fdf2f8cf7
 query-41,gingerbread cookies,cooking+recipe1m+bd0e993c0bf1078e6701f2827afae1b3
 query-41,gingerbread cookies,cooking+recipe1m+c82f40ebbf221bf082a824a5372ed043
 query-41,gingerbread cookies,cooking+recipe1m+cc59cdb4e33f82e34e93d4382fea5069
@@ -2182,7 +2106,6 @@ query-43,easy granola recipe,cooking+recipe1m+07ac56be295b18d7474d4fe50bba3ef3
 query-43,easy granola recipe,cooking+recipe1m+0906e6df75f0480946dcc8e5e9be514a
 query-43,easy granola recipe,cooking+recipe1m+0b793efaaaa568fd903aa9d54e945074
 query-43,easy granola recipe,cooking+recipe1m+18791b443199897c7dfb0c86ba59ad03
-query-43,easy granola recipe,cooking+recipe1m+1c50b15cfa1fcc7eaa5132d235a1f061
 query-43,easy granola recipe,cooking+recipe1m+1d1b3c6e2ad4eed25b203db9bd0c7a6e
 query-43,easy granola recipe,cooking+recipe1m+1e5cdc59349ddf0708a571d52800403d
 query-43,easy granola recipe,cooking+recipe1m+2ca99e70639ebc71647448f60987b452
@@ -2230,7 +2153,6 @@ query-44,chili sin carne,cooking+recipe1m+16ce89feb259158272763f7c7c4ea349
 query-44,chili sin carne,cooking+recipe1m+17336e21e3c1d874245d6277073ed105
 query-44,chili sin carne,cooking+recipe1m+1817477ef5c26ef0db77cb38c5434136
 query-44,chili sin carne,cooking+recipe1m+1a76053acdac84c19578be6d511cbaa4
-query-44,chili sin carne,cooking+recipe1m+1b6efe509edada4e36c5886d4d700ef1
 query-44,chili sin carne,cooking+recipe1m+23555da3bdfcb0bcdad17d475995c68e
 query-44,chili sin carne,cooking+recipe1m+2a0c85644c142b32932dc2c24c18f4a9
 query-44,chili sin carne,cooking+recipe1m+31f598317b36309b11fec7c8b0b4a703
@@ -2241,19 +2163,16 @@ query-44,chili sin carne,cooking+recipe1m+3f9fe6d02f09f011cf461280a24d1a68
 query-44,chili sin carne,cooking+recipe1m+4041ca7bbacfc825e9da7cb56a073bd7
 query-44,chili sin carne,cooking+recipe1m+4204a25afb8484f5c9ef45eba7795ed8
 query-44,chili sin carne,cooking+recipe1m+43e55c392265eaac81058c7ffea62193
-query-44,chili sin carne,cooking+recipe1m+48baed894e2689ead841d52ea1d50086
 query-44,chili sin carne,cooking+recipe1m+4c32656a360f2a49876216e243e634ad
 query-44,chili sin carne,cooking+recipe1m+4f65dc8013cf44058c9d005a040370d4
 query-44,chili sin carne,cooking+recipe1m+528ef07a22d0b78b9eb835e87eb671b8
 query-44,chili sin carne,cooking+recipe1m+554f873337e8ac0ef5ab6e22eee946c0
 query-44,chili sin carne,cooking+recipe1m+5c7c24363784cb92f3d18aa845f21878
 query-44,chili sin carne,cooking+recipe1m+636740e46c5334fc63f6dbaf2fa966f6
-query-44,chili sin carne,cooking+recipe1m+659aa47cc1c27a5d7ad26793c9be1602
 query-44,chili sin carne,cooking+recipe1m+65b42e93976b68029a66bda446ed9d9b
 query-44,chili sin carne,cooking+recipe1m+6994981b54a5c6f24d9fd5486890cc42
 query-44,chili sin carne,cooking+recipe1m+6dcfdcbeee5b7b054c0515be7457d2c7
 query-44,chili sin carne,cooking+recipe1m+70128997b7a6141b6aa238a6a9c1c9fe
-query-44,chili sin carne,cooking+recipe1m+787f2a143a9821a2ec3b69f6c91a257c
 query-44,chili sin carne,cooking+recipe1m+8166df1e0e9f0323240221a2b6e8c9a1
 query-44,chili sin carne,cooking+recipe1m+81b8c0f7b2ebdf0f0257f15a6b2aae29
 query-44,chili sin carne,cooking+recipe1m+84481342a8ae94685c8f990ba664bab4
@@ -2263,10 +2182,8 @@ query-44,chili sin carne,cooking+recipe1m+9540fdf994cc177dfdbf1d21cf2fdba4
 query-44,chili sin carne,cooking+recipe1m+a1fb6cd3308c61659f10b2b126fcb101
 query-44,chili sin carne,cooking+recipe1m+a227c2ad97a86d1984dffe0dbf4328e6
 query-44,chili sin carne,cooking+recipe1m+ad451d19ce5f7b2bfc18fecbb8e14948
-query-44,chili sin carne,cooking+recipe1m+ae98cae20332a91cbf2875c62ae66605
 query-44,chili sin carne,cooking+recipe1m+c134b9fef80f3c8fbca86770781be5f1
 query-44,chili sin carne,cooking+recipe1m+c8d3f3190f86a973b261aa4c35fabb30
-query-44,chili sin carne,cooking+recipe1m+d42f14662fe970505a9ef8d178d91509
 query-44,chili sin carne,cooking+recipe1m+d6b6102b6515a551e011d5ed202adf99
 query-44,chili sin carne,cooking+recipe1m+d9bd0fc8a1d20cef855b438a6728c586
 query-44,chili sin carne,cooking+recipe1m+da4ce89aeca1cc893ae97be12f501e90
@@ -2275,7 +2192,6 @@ query-44,chili sin carne,cooking+recipe1m+df01a9d58ad6b2998a07538579e9a43c
 query-44,chili sin carne,cooking+recipe1m+e1ddd7ba9fdda2dfc8f7d77f6e79c83e
 query-44,chili sin carne,cooking+recipe1m+e55b716bcdd81c09462ba9a186dceb99
 query-44,chili sin carne,cooking+recipe1m+e5e129dfd211641ec933b9a620747421
-query-44,chili sin carne,cooking+recipe1m+e8eb3e0fc52c0b3df60fa7697af4f1e3
 query-44,chili sin carne,cooking+recipe1m+e97ebd7ceccdb74db4730e899812c7d8
 query-44,chili sin carne,cooking+recipe1m+ee9527c1b4803e38d73a5ed3580db414
 query-44,chili sin carne,cooking+recipe1m+efd0f7001cb9c5a5468ba3e8802815f5
@@ -2297,7 +2213,6 @@ query-45,savory belgian waffles,cooking+recipe1m+41017ce69d0af22ede119a6cc44ad71
 query-45,savory belgian waffles,cooking+recipe1m+43ffb2153dc9a436a4f29d1a6b2b72cb
 query-45,savory belgian waffles,cooking+recipe1m+460e92849555f8f8f91f9976504681f7
 query-45,savory belgian waffles,cooking+recipe1m+487d622b003eac589272b8746dd6c156
-query-45,savory belgian waffles,cooking+recipe1m+48abd3ec71cf8a42601ba8a09bc31dd1
 query-45,savory belgian waffles,cooking+recipe1m+4b2105057ec5540e60727e06ac482d09
 query-45,savory belgian waffles,cooking+recipe1m+4be8ff31745003653cefb4743755ccc0
 query-45,savory belgian waffles,cooking+recipe1m+4c5430819511d4c64fae7944e9b02d99
@@ -2320,7 +2235,6 @@ query-45,savory belgian waffles,cooking+recipe1m+82a375c710a1a761941ec6b54cc36ef
 query-45,savory belgian waffles,cooking+recipe1m+836ed8a0b193fbc436f1b18bcf00863e
 query-45,savory belgian waffles,cooking+recipe1m+89db37ac5588b4bc2742fa1144e9d9f1
 query-45,savory belgian waffles,cooking+recipe1m+89dce7410522fc3a4725bae24b5f9c30
-query-45,savory belgian waffles,cooking+recipe1m+8e08949e9d3df10cb6a394d07d9264f9
 query-45,savory belgian waffles,cooking+recipe1m+963bd80cf16de941c8c0a3f1aaf7f78b
 query-45,savory belgian waffles,cooking+recipe1m+97b6fa5af97967a4ea545cd53f01d038
 query-45,savory belgian waffles,cooking+recipe1m+a0d1b4d7070c4bca90a27624c2b2835a
@@ -2330,7 +2244,6 @@ query-45,savory belgian waffles,cooking+recipe1m+a2d275b7359eda4cb2e42cc8360fb35
 query-45,savory belgian waffles,cooking+recipe1m+a5d886662db174eac0363d7f8e1bd4bd
 query-45,savory belgian waffles,cooking+recipe1m+a60cd11b60b801e9f014a441c859ef71
 query-45,savory belgian waffles,cooking+recipe1m+aa938c612a2add1ae8a58f07a6186915
-query-45,savory belgian waffles,cooking+recipe1m+adbc608c163f53477e20fd202b420815
 query-45,savory belgian waffles,cooking+recipe1m+b489f3a33718446545dbf5c49f98fb5a
 query-45,savory belgian waffles,cooking+recipe1m+b80a4a8cc6eed3eef7528703abdb3c07
 query-45,savory belgian waffles,cooking+recipe1m+bc169561eab5a131d5eace306118392c
@@ -2382,9 +2295,7 @@ query-46,how to make medium rare salmon,cooking+recipe1m+680bc8362b2382ec5360d49
 query-46,how to make medium rare salmon,cooking+recipe1m+6d34f2c95eddd45f4007ef62ddb427af
 query-46,how to make medium rare salmon,cooking+recipe1m+6ed245df625ed1652a09a6d99eda96a5
 query-46,how to make medium rare salmon,cooking+recipe1m+73e29f6258e874f92cbafa9958e6afde
-query-46,how to make medium rare salmon,cooking+recipe1m+74777c2f50f8707d8e74c906be0359d7
 query-46,how to make medium rare salmon,cooking+recipe1m+76af1de152dab2623fea062a7382c166
-query-46,how to make medium rare salmon,cooking+recipe1m+77ed4c5d21516f3369e942a824264191
 query-46,how to make medium rare salmon,cooking+recipe1m+7e952e5b3f11b7c224ef6471aa8a5607
 query-46,how to make medium rare salmon,cooking+recipe1m+83012e94abc9ade4f6149590e86100fc
 query-46,how to make medium rare salmon,cooking+recipe1m+912035af5c529f3e7a801b9ebe0c7824
@@ -2407,7 +2318,6 @@ query-46,how to make medium rare salmon,cooking+recipe1m+b7aa68069be9c08f5bfc01e
 query-46,how to make medium rare salmon,cooking+recipe1m+b816f56551aed0df136722c3478d547e
 query-46,how to make medium rare salmon,cooking+recipe1m+b884a14e4e2e3df5c6f76e3091d09209
 query-46,how to make medium rare salmon,cooking+recipe1m+b8a929598491824be16f602ed8f574dd
-query-46,how to make medium rare salmon,cooking+recipe1m+b8f4da75e1f74b95df49499f9d2053f6
 query-46,how to make medium rare salmon,cooking+recipe1m+bd24684e5ce934ab65363ddfa48e3599
 query-46,how to make medium rare salmon,cooking+recipe1m+be28556df29fa4f9e9558861262b18a5
 query-46,how to make medium rare salmon,cooking+recipe1m+bfb7a745025824d0ba0745ca71c4bdb3
@@ -2440,17 +2350,14 @@ query-47,a recipe with a whole chicken,cooking+recipe1m+206a367bbe9d2ee572da112c
 query-47,a recipe with a whole chicken,cooking+recipe1m+22596b441e695fe3e9b96df4691dcc37
 query-47,a recipe with a whole chicken,cooking+recipe1m+22da8def3abc9aed85842c0a6601caf5
 query-47,a recipe with a whole chicken,cooking+recipe1m+233b30645844977d54ccd7aede26a606
-query-47,a recipe with a whole chicken,cooking+recipe1m+23e8d73a5cb8dd71ab1fa97f373b5ebb
 query-47,a recipe with a whole chicken,cooking+recipe1m+24aff0813972f94dbd678ac8fc95a8c4
 query-47,a recipe with a whole chicken,cooking+recipe1m+2788d25f3edff9659a838c9c115fe04f
-query-47,a recipe with a whole chicken,cooking+recipe1m+2d8f3412c1fa7ab58495603de0653fbf
 query-47,a recipe with a whole chicken,cooking+recipe1m+3062fb16cef1d0cdbc8951ffd0798080
 query-47,a recipe with a whole chicken,cooking+recipe1m+32c41b23d50ad37ae1f92a4c9a247000
 query-47,a recipe with a whole chicken,cooking+recipe1m+33c1506cd326eb425948b63d3761f8ca
 query-47,a recipe with a whole chicken,cooking+recipe1m+34d77035e2ad091fdd7c91e23972b16f
 query-47,a recipe with a whole chicken,cooking+recipe1m+3504d1c30bb100f8f6787929a79b3147
 query-47,a recipe with a whole chicken,cooking+recipe1m+3874aae9276d2ab44a344d1d2b86b62c
-query-47,a recipe with a whole chicken,cooking+recipe1m+3f6848e3a591d01b7014784f7799d774
 query-47,a recipe with a whole chicken,cooking+recipe1m+4127a33588c29d8f1b20e62f407b3640
 query-47,a recipe with a whole chicken,cooking+recipe1m+42421a62c3ce300014c3919690e28f35
 query-47,a recipe with a whole chicken,cooking+recipe1m+42d5c79ba8428ee7f1bc50b084f372a2
@@ -2473,7 +2380,6 @@ query-47,a recipe with a whole chicken,cooking+recipe1m+68520b035105ac0483eaf5a0
 query-47,a recipe with a whole chicken,cooking+recipe1m+7071437569b288a46bf5e5100f2089d0
 query-47,a recipe with a whole chicken,cooking+recipe1m+7427ff92b97c81e546bc8d7078c4f5cd
 query-47,a recipe with a whole chicken,cooking+recipe1m+7813dfb1a1942c06f8f35f4819323c54
-query-47,a recipe with a whole chicken,cooking+recipe1m+7ae0d6e402582ee49d01493e67f90b66
 query-47,a recipe with a whole chicken,cooking+recipe1m+7b74f982f2062873585322eb5f832256
 query-47,a recipe with a whole chicken,cooking+recipe1m+7bc049c76c19e4538b7c7ff64a3f7d53
 query-47,a recipe with a whole chicken,cooking+recipe1m+7fc769208f395dc293ef220ad9241ad4
@@ -2499,10 +2405,8 @@ query-47,a recipe with a whole chicken,cooking+recipe1m+be34ef3321280c234a6871c5
 query-47,a recipe with a whole chicken,cooking+recipe1m+be49b633c7c06cb9d11784d96452cce5
 query-47,a recipe with a whole chicken,cooking+recipe1m+bfdf5bb136762849694fc0b50c4909a1
 query-47,a recipe with a whole chicken,cooking+recipe1m+c2baf7fe7be4980d260fa5957ca609f5
-query-47,a recipe with a whole chicken,cooking+recipe1m+cb08c3bec999586dc3d50bca6efbf95b
 query-47,a recipe with a whole chicken,cooking+recipe1m+cb1207870e8bda638523f65e3a8cf34f
 query-47,a recipe with a whole chicken,cooking+recipe1m+cbeb940d673dced982c7db0cefccbb92
-query-47,a recipe with a whole chicken,cooking+recipe1m+d12d411e999f086d7e8201f3d790a133
 query-47,a recipe with a whole chicken,cooking+recipe1m+d428c3876f090753fcc81af616833746
 query-47,a recipe with a whole chicken,cooking+recipe1m+d64758fecd86127bce9f5e2293583e06
 query-47,a recipe with a whole chicken,cooking+recipe1m+d7eb63a47a18e4d35556689f0c8f77ac
@@ -2548,7 +2452,6 @@ query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+60391aa4286050
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+62f1a1bb0d46824d816687dfd779c9b7
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+683411f6d8f64c26a9d0c71303b5df20
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+6997109947b8607a901cc74d5beefb47
-query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+6aa69bc2bb2d620db2db27e98700b210
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+6cda46f2053986e0f12f115f9e7e229a
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+6d4d20e4e12b91c4bae42e6cddcc74af
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+70203ae5746d33bf6e4143f298a4a45a
@@ -2570,10 +2473,8 @@ query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+ba28e78ffdfe81
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+bee64a620b16425a33b4b7cd5b6e4e30
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+c376a82ee45cffc12ed5b531485e4237
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+c6bd3be737663b09afb6bd2cd7b3e631
-query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+d26f47b3d559731288553a09b6f8c7cf
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+d368b633b59b8544ec4cbce57f3d4ead
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+d48a9ff0c542939066c4e40c0b3edaf1
-query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+d727a56b26fbebea3ae79c1c6281456b
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+dabb684149b2c147867597750cca50c8
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+de1bc8fabbdd1f97d3d5467f45a635b8
 query-48,how to make a refreshing sweet smoothie,cooking+recipe1m+dee0711cf7c6de2bcc52255db5026003
@@ -2600,7 +2501,6 @@ query-49,a beefy burger,cooking+recipe1m+3fefcb40c6f390cc658acd467a3fc714
 query-49,a beefy burger,cooking+recipe1m+413646dc28683869f306909ba9159376
 query-49,a beefy burger,cooking+recipe1m+42541cbb7e87da8d10ee803ac16a1e9d
 query-49,a beefy burger,cooking+recipe1m+4371399f89d0b7344c9a38fe79914e78
-query-49,a beefy burger,cooking+recipe1m+4de5a47b53a2fd9b9f95295a33a983a1
 query-49,a beefy burger,cooking+recipe1m+4ed449c18da2084adc3de935417f3cf8
 query-49,a beefy burger,cooking+recipe1m+5e772d019895ec6ebac3bcfb75e00c8d
 query-49,a beefy burger,cooking+recipe1m+5f8281a7136db896e9d38e7a265dd32d
@@ -2616,7 +2516,6 @@ query-49,a beefy burger,cooking+recipe1m+980ba697b494940fcf02d505598230b8
 query-49,a beefy burger,cooking+recipe1m+9ee9fbc6eacc770eaed6ae4a2c4c67a4
 query-49,a beefy burger,cooking+recipe1m+a78568a4864207b19587511e2451b836
 query-49,a beefy burger,cooking+recipe1m+a81bb54b539bf8963a7cac6bf7da7347
-query-49,a beefy burger,cooking+recipe1m+aa8ecbfb05f03b2f5ee13cfc7c320656
 query-49,a beefy burger,cooking+recipe1m+ab5ae8c621e476281200c3ee994a1056
 query-49,a beefy burger,cooking+recipe1m+ab61b68467c6bcc9833a768181b5bf77
 query-49,a beefy burger,cooking+recipe1m+ad92507f9a8caf0d30c46f5382d7a7d8
@@ -2625,7 +2524,6 @@ query-49,a beefy burger,cooking+recipe1m+b8998346767fea7f0bf70b12d3a17202
 query-49,a beefy burger,cooking+recipe1m+bf02f400764ffc51bae58a439c21d547
 query-49,a beefy burger,cooking+recipe1m+bfbdf5d330a961ddb3b05ec8d3371a63
 query-49,a beefy burger,cooking+recipe1m+c0a4e7f2b5b91e92050c054ac9410247
-query-49,a beefy burger,cooking+recipe1m+cd6b383391b75d4996f49a72adb99b6d
 query-49,a beefy burger,cooking+recipe1m+ce7bf4edff590f85cc1ce54033d70f9e
 query-49,a beefy burger,cooking+recipe1m+d4d3bdce7665f8cdad00c8d94828589f
 query-49,a beefy burger,cooking+recipe1m+d5de6733f6223befbdca9ae67feef7e3
@@ -2637,8 +2535,6 @@ query-49,a beefy burger,cooking+recipe1m+e63656bfb2a4a7759f99b4c626fa4bda
 query-49,a beefy burger,cooking+recipe1m+e7ba6171642d1439e382e6871abd825f
 query-49,a beefy burger,cooking+recipe1m+f0778e0ceb95a64166f93564bb22181b
 query-49,a beefy burger,cooking+recipe1m+f14d7eadc92bdc4604aa80886943537b
-query-49,a beefy burger,cooking+recipe1m+f23220b8080cac11b96658180bf0e18a
-query-49,a beefy burger,cooking+recipe1m+f2ac512289612da301ac9027106cd371
 query-49,a beefy burger,cooking+recipe1m+fc0f69f4a10a46746006340cd7ccb6c6
 query-49,a beefy burger,cooking+recipe1m+fd67e16741af999b2aebd311c02bd6d2
 query-5,I want a scary pumpkin pie,cooking+recipe1m+0297cde686e0b265ea0ae9d63745b49f
@@ -2681,7 +2577,6 @@ query-5,I want a scary pumpkin pie,cooking+recipe1m+733212d34b48d986fae62ff8bbc4
 query-5,I want a scary pumpkin pie,cooking+recipe1m+783b4cc56737fac258e6971c277fa5d6
 query-5,I want a scary pumpkin pie,cooking+recipe1m+7d9601c8e479b392659bd2691bc09156
 query-5,I want a scary pumpkin pie,cooking+recipe1m+7e666f575d8554c2a7e6efa152870acc
-query-5,I want a scary pumpkin pie,cooking+recipe1m+7eb722ff00018a9da2f0340a2aeff9a4
 query-5,I want a scary pumpkin pie,cooking+recipe1m+8073d5f7ab454614e4e2c96b518acbc5
 query-5,I want a scary pumpkin pie,cooking+recipe1m+8110032a37c0f6fc57f89dbf574f34b8
 query-5,I want a scary pumpkin pie,cooking+recipe1m+8501008e8285e6d9ab0e8c6417583f1e
@@ -2701,7 +2596,6 @@ query-5,I want a scary pumpkin pie,cooking+recipe1m+bf92ef3566664b9735206ab8684a
 query-5,I want a scary pumpkin pie,cooking+recipe1m+c9b88449a1cedf9986b01ad79675d17f
 query-5,I want a scary pumpkin pie,cooking+recipe1m+d13bd623fa35f4d8beb9f17b7f2776f7
 query-5,I want a scary pumpkin pie,cooking+recipe1m+d57ca311944679765321e0a357c3f1a6
-query-5,I want a scary pumpkin pie,cooking+recipe1m+d679262582693a5813d5baae23247d40
 query-5,I want a scary pumpkin pie,cooking+recipe1m+e1b6d4cf995aa00d501b75a2cdbc366e
 query-5,I want a scary pumpkin pie,cooking+recipe1m+e613a7afa3087181c79c89b4a4c5bda2
 query-5,I want a scary pumpkin pie,cooking+recipe1m+e6a70b5d8657bac2297bbff47d0e160c
@@ -2729,8 +2623,6 @@ query-50,i would like basic clafoutis with some fresh fruit,cooking+recipe1m+3fc
 query-50,i would like basic clafoutis with some fresh fruit,cooking+recipe1m+40f09d537e5c4be9a0cd11760ff7354a
 query-50,i would like basic clafoutis with some fresh fruit,cooking+recipe1m+41a9374ad00ae87cf189337f751a929e
 query-50,i would like basic clafoutis with some fresh fruit,cooking+recipe1m+41f681fa8ebd27c88c39b73434a90794
-query-50,i would like basic clafoutis with some fresh fruit,cooking+recipe1m+455c0a57a692f86d26797e69d4c8fc2f
-query-50,i would like basic clafoutis with some fresh fruit,cooking+recipe1m+4feb42a671c49cc8babf61b4c2b98301
 query-50,i would like basic clafoutis with some fresh fruit,cooking+recipe1m+526999c4bcf329119e95f9590ff39e42
 query-50,i would like basic clafoutis with some fresh fruit,cooking+recipe1m+53b664c3227c56861465bf8611a92f56
 query-50,i would like basic clafoutis with some fresh fruit,cooking+recipe1m+5498ae28110a354c8fd26983c32ad484
@@ -2806,7 +2698,6 @@ query-52,turkish chicken shish kebab,cooking+recipe1m+0288e672f8f2f9e3d59fec1afc
 query-52,turkish chicken shish kebab,cooking+recipe1m+041ff814d3b3c6ff8ead2307202dc4f6
 query-52,turkish chicken shish kebab,cooking+recipe1m+0ca3adaa05c070b828ad3de213c30715
 query-52,turkish chicken shish kebab,cooking+recipe1m+0ca59f40899880bb3f44de45ed7ca4ec
-query-52,turkish chicken shish kebab,cooking+recipe1m+0dc24db014ad146f9999c925a2489097
 query-52,turkish chicken shish kebab,cooking+recipe1m+0e48f14b3ba4f838daec44c803141249
 query-52,turkish chicken shish kebab,cooking+recipe1m+14cfa1e0dcb61e7c18e1d20db95ecb3f
 query-52,turkish chicken shish kebab,cooking+recipe1m+1aebfac981e2fcd6ab8e477c2592f04c
@@ -2829,9 +2720,7 @@ query-52,turkish chicken shish kebab,cooking+recipe1m+70aa7db55f17b4c46d31460219
 query-52,turkish chicken shish kebab,cooking+recipe1m+80155f0af2bd2b454fa1d7086e8f7984
 query-52,turkish chicken shish kebab,cooking+recipe1m+82bd34790fa12f359ab9775766eec0d7
 query-52,turkish chicken shish kebab,cooking+recipe1m+9675ce8094df7c69baf6565b9ebb79cc
-query-52,turkish chicken shish kebab,cooking+recipe1m+9f9318f6f561c5ef47eb7baf4f665c4d
 query-52,turkish chicken shish kebab,cooking+recipe1m+9fefe40a7ef8b8151a2dd3009d3f3a47
-query-52,turkish chicken shish kebab,cooking+recipe1m+a1d754f95ce8eccc3cf9e8ba926dcabd
 query-52,turkish chicken shish kebab,cooking+recipe1m+a31ad80aba9fc795eb6637d19e5ac7d8
 query-52,turkish chicken shish kebab,cooking+recipe1m+a3e9c8b4d062fa969ce717870552992d
 query-52,turkish chicken shish kebab,cooking+recipe1m+a8840812555d26b759cc470722e20e42
@@ -2848,7 +2737,6 @@ query-52,turkish chicken shish kebab,cooking+recipe1m+e44220d038da12220551c92d2d
 query-52,turkish chicken shish kebab,cooking+recipe1m+e91a0781443f013e75b486540b68d27c
 query-52,turkish chicken shish kebab,cooking+recipe1m+f2c9dcc7e46e069d499c48878562f116
 query-52,turkish chicken shish kebab,cooking+recipe1m+f719a115e7454592674e3a14c2b46267
-query-52,turkish chicken shish kebab,cooking+recipe1m+ffd3a8028b214ecdd5cb89a33ae5964f
 query-53,how to make old fashioned pie pastry,cooking+recipe1m+09be020ca0f4c8722b5fa7c802198e73
 query-53,how to make old fashioned pie pastry,cooking+recipe1m+0cceba334a8ca5f5d651f910bf63c24d
 query-53,how to make old fashioned pie pastry,cooking+recipe1m+0daddf1809dcf9f3bedc5e1755bfd09c
@@ -2870,7 +2758,6 @@ query-53,how to make old fashioned pie pastry,cooking+recipe1m+561806b81dab34d13
 query-53,how to make old fashioned pie pastry,cooking+recipe1m+59c9cdd209eb0d1bcd2359bc70a8d0da
 query-53,how to make old fashioned pie pastry,cooking+recipe1m+5db43e828dee1187f8ff6bccfab0703f
 query-53,how to make old fashioned pie pastry,cooking+recipe1m+5dce2a897e8c3991e8130dca0b1ca2c2
-query-53,how to make old fashioned pie pastry,cooking+recipe1m+614d6a8fc53cf95f6c5c6e1257e8d2c1
 query-53,how to make old fashioned pie pastry,cooking+recipe1m+63cee781779405331a0ca7c495b91556
 query-53,how to make old fashioned pie pastry,cooking+recipe1m+6971d8f6e98cafc670ae389f45240eed
 query-53,how to make old fashioned pie pastry,cooking+recipe1m+6d7dffbd0bea5c0e94a7f727295ff35a
@@ -2917,7 +2804,6 @@ query-53,how to make old fashioned pie pastry,cooking+recipe1m+eda1e2d34a30a2d00
 query-53,how to make old fashioned pie pastry,cooking+recipe1m+edfb7051951bf39ceafa0dc1fa8b4263
 query-53,how to make old fashioned pie pastry,cooking+recipe1m+f3845a90017b2a6d69f740b80fdaee0c
 query-53,how to make old fashioned pie pastry,cooking+recipe1m+f4f6a41ed4f346f819cf4d222ef31956
-query-53,how to make old fashioned pie pastry,cooking+recipe1m+f9ff77783d8a92c7a0c4eb211c252438
 query-54,how to bake a multilayer cake,cooking+recipe1m+05f3fe550173ba6d4293916d69495cc9
 query-54,how to bake a multilayer cake,cooking+recipe1m+15a257777887d9a57f0c6a75b792841d
 query-54,how to bake a multilayer cake,cooking+recipe1m+1be2b6a1d3d7fe838d6179772e3ff090
@@ -2925,7 +2811,6 @@ query-54,how to bake a multilayer cake,cooking+recipe1m+214d10d46617a995aea640a4
 query-54,how to bake a multilayer cake,cooking+recipe1m+22a6b2509a959066b805bd85f469c71f
 query-54,how to bake a multilayer cake,cooking+recipe1m+281fbeb0eb4ad477e3877dfaed072f3b
 query-54,how to bake a multilayer cake,cooking+recipe1m+32430f86767ee83b55ee5f14a6b7dce5
-query-54,how to bake a multilayer cake,cooking+recipe1m+366fb2d86b06a67d2c77995eb90e7616
 query-54,how to bake a multilayer cake,cooking+recipe1m+36a45efa5989ced087d2fcb4a31ceb59
 query-54,how to bake a multilayer cake,cooking+recipe1m+379739d2fd092dec2ce2dc73a79a63c8
 query-54,how to bake a multilayer cake,cooking+recipe1m+3a1c7dc83a9d64ae37b6efbac447de15
@@ -2964,7 +2849,6 @@ query-54,how to bake a multilayer cake,cooking+recipe1m+a7ac6de0c51aef4d940f7a3b
 query-54,how to bake a multilayer cake,cooking+recipe1m+aed775fb85142923f08663b670792eed
 query-54,how to bake a multilayer cake,cooking+recipe1m+af803ea326527d967eb426337228d4ef
 query-54,how to bake a multilayer cake,cooking+recipe1m+b3d32855c1ca17c5a1f2b0c7aa5ca5dc
-query-54,how to bake a multilayer cake,cooking+recipe1m+bb71a4a97a629ba10d13657021602a97
 query-54,how to bake a multilayer cake,cooking+recipe1m+bd41eefb7cd7fff2ce931cfcce149a7e
 query-54,how to bake a multilayer cake,cooking+recipe1m+c36283da7ac195236a7925f1ab6ecc3b
 query-54,how to bake a multilayer cake,cooking+recipe1m+c8ddccd683bd38a261302b7392abc74d
@@ -3007,10 +2891,8 @@ query-55,i want a deep fried chicken recipe,cooking+recipe1m+2902e065627248a7d1f
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+295740db0ff6c6b58f2fae5b74a4f38b
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+31214137b16f52319e43a433bdf190e6
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+3643b4c028cd66a76aa49f5fee007a38
-query-55,i want a deep fried chicken recipe,cooking+recipe1m+38a292ade53b4e80356f679ee72804c8
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+39848916ab39b00362e2de422f53f100
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+3bbd8c38383a0a1ee0cc098652dd4c9f
-query-55,i want a deep fried chicken recipe,cooking+recipe1m+40cc6de85d0e5ac1656ceee55df4a999
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+40fd7e7e93e4b69538d720d4ad97c919
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+42bdde223fdbe00906c53d89b7075bee
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+44aeb68d6281d4acafa5e99bac63e19d
@@ -3019,7 +2901,6 @@ query-55,i want a deep fried chicken recipe,cooking+recipe1m+55ba44f951f1c5db6a4
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+584a86226bfc953d04f57e7add279cdd
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+5bcade0098a7656c036f41691b40d9bc
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+5c8808afb6084fef3b8bc28b6e24a0bc
-query-55,i want a deep fried chicken recipe,cooking+recipe1m+5e0bcbd34cbd405ec36c1ebff7c6e2e6
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+6b4e12e943ada096b62a03eed3977ffe
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+6c57f72bf753dc28c907d737950d8ab5
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+6c8665cef92a0261456fb48f98218a7f
@@ -3029,7 +2910,6 @@ query-55,i want a deep fried chicken recipe,cooking+recipe1m+78a41112609861f8107
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+7c22a2381fb0f8452d71d7597a9e5514
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+8fb4ec85cfd26f56a6c1177bd29f83b8
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+9263bd2f72aaf2ac3550cbcd7930e9e9
-query-55,i want a deep fried chicken recipe,cooking+recipe1m+942aae05d5d6504914f1633656ac3866
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+94a21186e0ddf9f518aaf8915e2f57be
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+983f71befeb2c63a7d7848d3d8ee197e
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+99680b9f027b836546d1041bbca83580
@@ -3042,7 +2922,6 @@ query-55,i want a deep fried chicken recipe,cooking+recipe1m+c08adc936dea92a0a4a
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+c54babee1a897e3829d29c215613911c
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+c7f70bc9c01da29cfbcfaaeb31e393fe
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+cbcc15b1a61afd041f47f6539888d3ae
-query-55,i want a deep fried chicken recipe,cooking+recipe1m+d5800744034b2b1f7328be7aa56da339
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+d86ae6734a7381d962e5d01628bf742d
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+d86dda807c999eee0af4151058e8a207
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+d8aaf5631ea9c872a42c05d4d8d11af5
@@ -3051,10 +2930,8 @@ query-55,i want a deep fried chicken recipe,cooking+recipe1m+e085f7be822e0b499de
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+e0ef5426fd4f5e04b1be56e92101e34a
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+e1900a04d3cc5d7707463f7f0202207e
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+ed623f2f1caa22aa4e44303b1a8b1fd9
-query-55,i want a deep fried chicken recipe,cooking+recipe1m+f2994deffa0ef7101751722258bfd122
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+f566084abec1afe28cc288374b4ca7ff
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+fb62a0b4420ae6659fc6de3d7c8c0f21
-query-55,i want a deep fried chicken recipe,cooking+recipe1m+fd8808e0107e84b1e705e3d24e23fb80
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+fe4e725c1066885745953c5896f4d42d
 query-55,i want a deep fried chicken recipe,cooking+recipe1m+ff51795d45d51180f843c3507bfdf4bd
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+00e1907c3fc8b6993b9e2b36f199a856
@@ -3067,18 +2944,14 @@ query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+0f566f5c
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+10d663907e2a69c17c8211adb551c37d
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+13b187fe0c87b1b3b81c3fbde0b406b4
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+1550b72e1eba046d3b84077c8d7e6ed7
-query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+159caeb3dc320149f3b39d3e7f95b119
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+1b87defc90bf5746e90ff740b26069fb
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+231165c462b47b1cb712e09af0625efe
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+2421f1fa7c4f239fe2aee18310997888
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+2891fbe0e1598d331272342c7178ae21
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+36c863ab1abccf0d663ff0c5d3a1aca2
-query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+3c945a45668e3d80724bc4ef21ecce15
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+3e1fa112a03b5be9e53bce6a06d5755e
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+3fc682ff84c7552a1964f5c49b6b35f7
-query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+4664a1880a4335d6e7ee34ed1bec70c4
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+4fb9e4d485f3a76048865ffd24245323
-query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+523cefc73d963373273d78c2a4ce7156
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+57d06d9b7b883a9665b4caa1b8b991bb
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+57d7fd76ceb1cd6ea7b60f5ae4240710
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+5f38481ac84c8ae88f1186ded1b33118
@@ -3110,15 +2983,11 @@ query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+ebd2e433
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+ef6d40bc45e643faea4e845f5c165633
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+f1985210f2afd7d5d1a9ab125b7f3f28
 query-56,i would like a fresh and healthy oatmeal bowl,cooking+recipe1m+fa95b15f0011d2e448918df78bab0abc
-query-57,i want a quick rice salad,cooking+recipe1m+0411718791afed720205482b19eec7f7
 query-57,i want a quick rice salad,cooking+recipe1m+0902816aaa76a13d821760d923eafa1d
 query-57,i want a quick rice salad,cooking+recipe1m+0b7ea7139b35e9257d1a2c47bac09964
 query-57,i want a quick rice salad,cooking+recipe1m+0fe2534c0cd368ea281ebe9b9385af59
-query-57,i want a quick rice salad,cooking+recipe1m+11b57903aa1ff0e2092cd666cd79cae8
 query-57,i want a quick rice salad,cooking+recipe1m+134c53e83e00bb8aca244f2403ffa8f0
 query-57,i want a quick rice salad,cooking+recipe1m+17cac1b50ce1f57c6da05a67f38bcd28
-query-57,i want a quick rice salad,cooking+recipe1m+1b517481567be32a59ad989e433594d3
-query-57,i want a quick rice salad,cooking+recipe1m+1dd4444e7f6493cbf976fc1c92d85b0b
 query-57,i want a quick rice salad,cooking+recipe1m+1f213f6eed6ce3a2adcce516f09e5619
 query-57,i want a quick rice salad,cooking+recipe1m+2316d913ad2a06427d3e982be4ac471c
 query-57,i want a quick rice salad,cooking+recipe1m+24d63b722ad211785614dfef7c51637c
@@ -3127,12 +2996,10 @@ query-57,i want a quick rice salad,cooking+recipe1m+2914acc6c25131ee5e62621a7fc2
 query-57,i want a quick rice salad,cooking+recipe1m+2b0b3f006ee1263d6b27a4c2186f0835
 query-57,i want a quick rice salad,cooking+recipe1m+3179389856686fdf847a9838ac044c1c
 query-57,i want a quick rice salad,cooking+recipe1m+38db1639e1e3bd744a52ed1552ff5ebb
-query-57,i want a quick rice salad,cooking+recipe1m+3b9a70673f60fc49a87b6eb230cc808c
 query-57,i want a quick rice salad,cooking+recipe1m+3d6bbb1a4d2a22ae30779d9384c34404
 query-57,i want a quick rice salad,cooking+recipe1m+3f598774382d3629b5e7efed9cca015c
 query-57,i want a quick rice salad,cooking+recipe1m+3f8b7abeb35d1ae436b82d53eefbaf14
 query-57,i want a quick rice salad,cooking+recipe1m+4007afde120284d66d97d82bcac68689
-query-57,i want a quick rice salad,cooking+recipe1m+4927019c4c61cfdded33349db5b2cb8b
 query-57,i want a quick rice salad,cooking+recipe1m+5101f7fb97a693edd99450a20dddfcc4
 query-57,i want a quick rice salad,cooking+recipe1m+5329ed51e38f5f1c74e334064a94f19b
 query-57,i want a quick rice salad,cooking+recipe1m+55b759709a4f2bbfb67cdc338fa450f7
@@ -3140,7 +3007,6 @@ query-57,i want a quick rice salad,cooking+recipe1m+564f24708d32ea559291bb067abf
 query-57,i want a quick rice salad,cooking+recipe1m+5cd18e83b2961002f8f4556decc97f1a
 query-57,i want a quick rice salad,cooking+recipe1m+5d54cb698ea6baa6139028c41d33d824
 query-57,i want a quick rice salad,cooking+recipe1m+6d3a01e522b7c44089a3b039137a5914
-query-57,i want a quick rice salad,cooking+recipe1m+6e094dc7b91ec1781f72d97f1be144ea
 query-57,i want a quick rice salad,cooking+recipe1m+73831c329550cfa59a4c41655c7280fc
 query-57,i want a quick rice salad,cooking+recipe1m+745e368a6477e18eef620329742afeec
 query-57,i want a quick rice salad,cooking+recipe1m+76efe469449f19aec8ccfe5eca9f8f9e
@@ -3151,7 +3017,6 @@ query-57,i want a quick rice salad,cooking+recipe1m+7b721ecc3d93d011a031a5eea28b
 query-57,i want a quick rice salad,cooking+recipe1m+7fad5e1c6e7dbb8950245fa258a36f06
 query-57,i want a quick rice salad,cooking+recipe1m+804e3224a37754cc79b5bbfca75c5b65
 query-57,i want a quick rice salad,cooking+recipe1m+80e54440bee64026029d527cbeb92d92
-query-57,i want a quick rice salad,cooking+recipe1m+87f42462c10a43bba0dad4b915d52247
 query-57,i want a quick rice salad,cooking+recipe1m+899b5bc4e9645972b23108821d5774d2
 query-57,i want a quick rice salad,cooking+recipe1m+94e5ad8ee4c185b33387b10d392d2a34
 query-57,i want a quick rice salad,cooking+recipe1m+9bc05ed24147ebe6fd41975f3fdb4d20
@@ -3165,8 +3030,6 @@ query-57,i want a quick rice salad,cooking+recipe1m+aefc4a6974c974977f00cf2b5e71
 query-57,i want a quick rice salad,cooking+recipe1m+b06448ccfb9107e314c6f25cef667b4b
 query-57,i want a quick rice salad,cooking+recipe1m+b26ab44017c13c8b58a47a624097865e
 query-57,i want a quick rice salad,cooking+recipe1m+b44bf935a20d912df370f0154ac17aea
-query-57,i want a quick rice salad,cooking+recipe1m+b4f010bf7a8f9694bc5c2ccdc3539b9d
-query-57,i want a quick rice salad,cooking+recipe1m+b881d99ee7968c8faa5641a96438f2df
 query-57,i want a quick rice salad,cooking+recipe1m+b9e2a8c28e2b73c28bb95ea962b8738a
 query-57,i want a quick rice salad,cooking+recipe1m+bfe80fff287f46ba530e5f82c0246288
 query-57,i want a quick rice salad,cooking+recipe1m+c7e044c6ef85b9a7d1b93b235c3f9ee2
@@ -3177,10 +3040,8 @@ query-57,i want a quick rice salad,cooking+recipe1m+d46c04df0c7ceded8d4acc684603
 query-57,i want a quick rice salad,cooking+recipe1m+e09e80dc5baa2de03a3c2cf6eaa1a0fa
 query-57,i want a quick rice salad,cooking+recipe1m+e67dfca86899433b755580363a9ee14f
 query-57,i want a quick rice salad,cooking+recipe1m+e6c6df55fc5c92de247b5dd167cc6a6f
-query-57,i want a quick rice salad,cooking+recipe1m+e92b2c15d53fc2cd931d4437ff6522f5
 query-57,i want a quick rice salad,cooking+recipe1m+ec7e75d55ac7e0c99a259d63cf234953
 query-57,i want a quick rice salad,cooking+recipe1m+ef6dfcd9ecf1aa792eeb06e903988387
-query-57,i want a quick rice salad,cooking+recipe1m+f20abe2aca86ac34020ab195113bc7d4
 query-57,i want a quick rice salad,cooking+recipe1m+f64d9656d705cc296ba61147c1022354
 query-57,i want a quick rice salad,cooking+recipe1m+fd79925c8844e4560feae1801fabac2d
 query-58,japanese rice balls,cooking+recipe1m+017fe706ff0706871ba62a68bfba7c39
@@ -3226,7 +3087,6 @@ query-58,japanese rice balls,cooking+recipe1m+9eae192e37b76a2edfb4d25e557a15ec
 query-58,japanese rice balls,cooking+recipe1m+9f20bca76c5a38403b7ddfe6517321ad
 query-58,japanese rice balls,cooking+recipe1m+ab76afb794f221560cf56272d4468ea1
 query-58,japanese rice balls,cooking+recipe1m+ad25f290a849bad4134fd3401bedb978
-query-58,japanese rice balls,cooking+recipe1m+b0d2126c2e129a006cffb633d1d3c86a
 query-58,japanese rice balls,cooking+recipe1m+b4a4778fc7cfedceabbf502a220a1671
 query-58,japanese rice balls,cooking+recipe1m+b7063285776697400ede72cee44452f7
 query-58,japanese rice balls,cooking+recipe1m+ba1d84f97935d8b0cd87400bbb71e8c7
@@ -3243,7 +3103,6 @@ query-58,japanese rice balls,cooking+recipe1m+e3981599a6b1d850f34febc2a1475f10
 query-58,japanese rice balls,cooking+recipe1m+e6b9337a8905278390faa7654327fe45
 query-58,japanese rice balls,cooking+recipe1m+e8ebe5a22f038d159fb43abe01341204
 query-58,japanese rice balls,cooking+recipe1m+eb078e615abf35f4fe9e7c1105f77b1c
-query-58,japanese rice balls,cooking+recipe1m+eb70cffdce3c96521600df2ce1cfa8b0
 query-58,japanese rice balls,cooking+recipe1m+f075aa6457fe4dfffa42ecd5848b6bf9
 query-58,japanese rice balls,cooking+recipe1m+f367fced22e30a91c81e0b92bc0d02c4
 query-58,japanese rice balls,cooking+recipe1m+f3759ed25d93aa847d400fab3ae40afd
@@ -3291,11 +3150,9 @@ query-59,a fresh drink for a sunny day,cooking+recipe1m+b13c509ab427720b69407ad2
 query-59,a fresh drink for a sunny day,cooking+recipe1m+b41a8631422d27702634d14e636a7dac
 query-59,a fresh drink for a sunny day,cooking+recipe1m+b75c7b4a92d58ceaad2b5b31cd3bcd38
 query-59,a fresh drink for a sunny day,cooking+recipe1m+b7688fbfa278c6be0ca72759cfa4b15e
-query-59,a fresh drink for a sunny day,cooking+recipe1m+be2c12c86b34c91a747cae1ae85058ca
 query-59,a fresh drink for a sunny day,cooking+recipe1m+bffc4024e5684ac8e0abde8376fee550
 query-59,a fresh drink for a sunny day,cooking+recipe1m+c0617c5886d62fc637fd162fae181f24
 query-59,a fresh drink for a sunny day,cooking+recipe1m+c5e52ddce81e36afe133ce1d4d0f48b2
-query-59,a fresh drink for a sunny day,cooking+recipe1m+c76f872a3d85572d4097f93cf8c6b1b4
 query-59,a fresh drink for a sunny day,cooking+recipe1m+c7ffd9fdc33fbf56377c0719e1c842f9
 query-59,a fresh drink for a sunny day,cooking+recipe1m+cbccccf38ad857331c4a997585beef50
 query-59,a fresh drink for a sunny day,cooking+recipe1m+d169457b480a4f4050414ec1150e7722
@@ -3304,21 +3161,17 @@ query-59,a fresh drink for a sunny day,cooking+recipe1m+d835e67bb98788920a452798
 query-59,a fresh drink for a sunny day,cooking+recipe1m+e16110d76cec4704c063a16d95ffe6a3
 query-59,a fresh drink for a sunny day,cooking+recipe1m+e1fe932a349e1a04a48f83e8f04e09d6
 query-59,a fresh drink for a sunny day,cooking+recipe1m+e79156c527414d0422369222dbb97831
-query-59,a fresh drink for a sunny day,cooking+recipe1m+eaf858d0a387ec3d89224528f25645b6
 query-59,a fresh drink for a sunny day,cooking+recipe1m+ee3bb08df98be27f648e7035eaa62c17
 query-59,a fresh drink for a sunny day,cooking+recipe1m+efae54be30a0541eb48de34e2bc13a83
 query-59,a fresh drink for a sunny day,cooking+recipe1m+f0f60ed28acf510498654950f7b69782
 query-59,a fresh drink for a sunny day,cooking+recipe1m+f25afea7fa93bb4e9dcc4a8cbcdeef18
 query-59,a fresh drink for a sunny day,cooking+recipe1m+f53adb9f90bf4843c579af93a8d82b48
-query-59,a fresh drink for a sunny day,cooking+recipe1m+f5dac34c632602ed793ddea1dcb92597
 query-59,a fresh drink for a sunny day,cooking+recipe1m+fb1e97fa6990da34e6a9c4e740f88f0b
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+00e4eca4fbc0f44abea4cf760c33434d
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+023d568925dd2eaecba76ac95459dae7
-query-6,ideas for easy to carry tailgate food,cooking+recipe1m+030c8ee0d5be6db0762311f371ce9559
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+04e8f0f3d7d8dac88a2cfc56ac9cfdc9
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+0aac2350992d3ee07030cde77e42d13b
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+0b9e52a86b98123fdf077ac9aac48a73
-query-6,ideas for easy to carry tailgate food,cooking+recipe1m+0ebbc7a6cf43001f8e93e2cf4ce8f069
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+12c22d4287200ee40f2662d70212db4c
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+163a7f3a9ea6c3f0d7b7c2d524a0541f
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+16c6364c8d54bf5ae76def8d1064d1a2
@@ -3331,12 +3184,10 @@ query-6,ideas for easy to carry tailgate food,cooking+recipe1m+2c147517b4c3462b3
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+2f3b1001023714c5e42061abf0ee14c3
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+3eb63b6a7cd7e591e9ef5644103016d6
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+3ff990f0191219eb26599b492cdac245
-query-6,ideas for easy to carry tailgate food,cooking+recipe1m+4019daf77ea7588ff458fe7de11664c9
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+4142185fa493b127374e19f1bcc6b942
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+54e3503384b3776b1794829fbaa48c5c
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+55ed3c05527dfd352eba09ed6108e263
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+5a2a160b00af47f09b4e3e0c0c0ca0d5
-query-6,ideas for easy to carry tailgate food,cooking+recipe1m+5ca14d9f0c7c661f034c0b12dd63d4e8
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+6117e9b1f55baa8d5089703f2736d367
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+6542c96faeb4c6a73cdb466986bce524
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+6955d150a65939e4f8eb7a76abe3aa8d
@@ -3368,7 +3219,6 @@ query-6,ideas for easy to carry tailgate food,cooking+recipe1m+b32dbe43566c15c50
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+b602445760edb83b7cd133c3a2475be6
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+bb05940de6c992f860534732e8b0f98e
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+bb650b6086d3c6a7218a81de60d101fc
-query-6,ideas for easy to carry tailgate food,cooking+recipe1m+c255cd2b1814236119012fa3ad64fcd5
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+c352e16031ed5f43c66c0c62525e84fb
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+c72adec190762cbc39d5405606f913d1
 query-6,ideas for easy to carry tailgate food,cooking+recipe1m+ce5c9ca49840033c6ece6af0e92518e2
@@ -3397,7 +3247,6 @@ query-60,i want some comfort food,cooking+recipe1m+38f0e2e291201490941beb1cd89bd
 query-60,i want some comfort food,cooking+recipe1m+4da9df60326b3d94b94dc45df132d88a
 query-60,i want some comfort food,cooking+recipe1m+5057050d0f2aa634e6e29bde15010e0c
 query-60,i want some comfort food,cooking+recipe1m+52887c81809bef5aadf99ca1bc1dee5a
-query-60,i want some comfort food,cooking+recipe1m+58832636331165a09bded74c03e8df99
 query-60,i want some comfort food,cooking+recipe1m+5a80675970544399265204e5334014fc
 query-60,i want some comfort food,cooking+recipe1m+604b49d511350accf0022ed98bd3aed5
 query-60,i want some comfort food,cooking+recipe1m+6456ba1aa172a0de1f720cfd6acfaeef
@@ -3408,7 +3257,6 @@ query-60,i want some comfort food,cooking+recipe1m+7c75a14ed25ca257d5ce9493efdd3
 query-60,i want some comfort food,cooking+recipe1m+7fe9d13a32e9940663d43608c601a12d
 query-60,i want some comfort food,cooking+recipe1m+82287172423fc8745cfbf447fb2c3004
 query-60,i want some comfort food,cooking+recipe1m+82d919e0e2c6bbbd1ddafe399f805bf6
-query-60,i want some comfort food,cooking+recipe1m+87874ea103e6e4a4bc96fbf8db168078
 query-60,i want some comfort food,cooking+recipe1m+88df003c0236e9ecbe3961aee31c4edf
 query-60,i want some comfort food,cooking+recipe1m+8b76797fde6b14f950a7fcddff11b39e
 query-60,i want some comfort food,cooking+recipe1m+9042634a4297a5deaf2661459e8ce4f5
@@ -3428,12 +3276,10 @@ query-60,i want some comfort food,cooking+recipe1m+aeb93ab347010835f2558875d8893
 query-60,i want some comfort food,cooking+recipe1m+aec4043f3d0807814e492f884f8645dd
 query-60,i want some comfort food,cooking+recipe1m+b00ec77bdd9cae79050de51b3ab1e904
 query-60,i want some comfort food,cooking+recipe1m+b1835e771b77878f30257c4fb0e2bc54
-query-60,i want some comfort food,cooking+recipe1m+b68290e6650a03102c26e18c1b198469
 query-60,i want some comfort food,cooking+recipe1m+bace8be5d31374d09be296e4ca97a5b8
 query-60,i want some comfort food,cooking+recipe1m+bfb8095249215a9e1b95839bfea6cf6f
 query-60,i want some comfort food,cooking+recipe1m+c462fdeb72f7ba0fbcd7e868de5a133e
 query-60,i want some comfort food,cooking+recipe1m+c80428c8f4762284b783ee0d2df8e337
-query-60,i want some comfort food,cooking+recipe1m+cf6b0080a909d6abfad66366c1e93b85
 query-60,i want some comfort food,cooking+recipe1m+d1777b4112b1ed9db3b990068981693d
 query-60,i want some comfort food,cooking+recipe1m+d363ddc12a86ecfa530efb69e58694f5
 query-60,i want some comfort food,cooking+recipe1m+d40e147450ee01c1e2bcb2d894c5d897
@@ -3465,7 +3311,6 @@ query-61,suggestions for a summer grill recipe,cooking+recipe1m+3bec12c91515d843
 query-61,suggestions for a summer grill recipe,cooking+recipe1m+3fe1e2862d18ed5cbaf4e4a7ce85011c
 query-61,suggestions for a summer grill recipe,cooking+recipe1m+40194f09331c6c66e6933a77732d2d2a
 query-61,suggestions for a summer grill recipe,cooking+recipe1m+416e907a3777dc4c880793dddd584246
-query-61,suggestions for a summer grill recipe,cooking+recipe1m+42333f949b913448ceea46ba3c37b428
 query-61,suggestions for a summer grill recipe,cooking+recipe1m+478cf4958c657a769d5001f35d061e11
 query-61,suggestions for a summer grill recipe,cooking+recipe1m+48176546e9e0b38034ad49b58714f606
 query-61,suggestions for a summer grill recipe,cooking+recipe1m+5ac7916a4b37d4701f035cae001874b1
@@ -3515,13 +3360,10 @@ query-62,vegetarian stuffed mushrooms,cooking+recipe1m+25111dea2a142df7eaadaee78
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+269fa5b3f7a889f5d4830fab9bd1f936
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+273b398de3e84f7545930f2ce11a71a3
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+2d2b4e671d1b68efcf7d4b17962ebfcc
-query-62,vegetarian stuffed mushrooms,cooking+recipe1m+33bda93113334cd1f6e7d33862a10f4a
-query-62,vegetarian stuffed mushrooms,cooking+recipe1m+35c230839e3006ff2e145bb217e8a290
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+37c50f563614db5779147cad24c30495
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+3a11c9474de90cd2959deb9b8120ff4d
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+3f46453d51c6f4f022c125d1d7616ce9
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+414e4fbc1eaa5cee8763abc75649c6c0
-query-62,vegetarian stuffed mushrooms,cooking+recipe1m+463cfb67ca97911ccbff33972cec8997
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+49b4cd3593cac302f28deb9d87b8159c
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+52465f530bd4ac369ac89282e4bbe179
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+59e33663e6507977266b72a8a03af23e
@@ -3533,7 +3375,6 @@ query-62,vegetarian stuffed mushrooms,cooking+recipe1m+7488ceb165ae196dd37ac19da
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+79cf497dcf6de71f2389d4d7bfda196b
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+7c40947a6a452ed6e2a2aa28819b730a
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+80118ef606620acdd0786b085d8825bd
-query-62,vegetarian stuffed mushrooms,cooking+recipe1m+80cae5057018d8ca1208fa22007ae4a2
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+86670896b63b05107ee08037b69b00b0
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+88d9fc033932b5ebe935b8c1c9800da2
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+941a610e84683473ad4397ff51154b41
@@ -3542,7 +3383,6 @@ query-62,vegetarian stuffed mushrooms,cooking+recipe1m+af2afc3271a40357399fdbcd6
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+b02d5a52f8bf30b4d02654beddc3b23f
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+b24891f1d69905cc3a1020d75361ece3
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+b78b08fc4fa8a924d52c8892fd9cf8f1
-query-62,vegetarian stuffed mushrooms,cooking+recipe1m+b874f8508e9af5320e7e00fcbbbf3dc4
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+bd912fc61b29b5fe723b4f9fa6bd7797
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+bdcf4bd146fe9970b0f1c8e2cfe23325
 query-62,vegetarian stuffed mushrooms,cooking+recipe1m+c5e8f95c943507705d7bc231da6c71f4
@@ -3572,7 +3412,6 @@ query-63,sourdough bread sandwiches,cooking+recipe1m+20be28d0eefb0bbd2158ce3fa59
 query-63,sourdough bread sandwiches,cooking+recipe1m+2548f117adb6367bce107d67f1cc84e0
 query-63,sourdough bread sandwiches,cooking+recipe1m+343f8906ef5ff44e7d8215a00774019c
 query-63,sourdough bread sandwiches,cooking+recipe1m+34bd4f63716d61aefb8a701295a5eb16
-query-63,sourdough bread sandwiches,cooking+recipe1m+39f809bd3deb22184498fd29c097d856
 query-63,sourdough bread sandwiches,cooking+recipe1m+3d23679650a79682c5e633ff7828f794
 query-63,sourdough bread sandwiches,cooking+recipe1m+4042ae9eeeaff40ddc6ae25d27296f91
 query-63,sourdough bread sandwiches,cooking+recipe1m+41bd1df90097964722d5f7c7ccc2daeb
@@ -3631,7 +3470,6 @@ query-64,recommendations for a mediterranean potluck,cooking+recipe1m+153835c955
 query-64,recommendations for a mediterranean potluck,cooking+recipe1m+169de5f69af9f661191bd72db2d07265
 query-64,recommendations for a mediterranean potluck,cooking+recipe1m+1b037f6a3c42feeeef949def7f2dba6b
 query-64,recommendations for a mediterranean potluck,cooking+recipe1m+1d2a0865d0e2fce7692a9db012396ec3
-query-64,recommendations for a mediterranean potluck,cooking+recipe1m+1d458c1e8648aa2ed7c57ce961f45006
 query-64,recommendations for a mediterranean potluck,cooking+recipe1m+1e1de3ede7d6aa98de6f7f4ebbcc86f5
 query-64,recommendations for a mediterranean potluck,cooking+recipe1m+2328c3f16d806063bacefd944e81ebfd
 query-64,recommendations for a mediterranean potluck,cooking+recipe1m+2507d8b96456c832cebbd3ab085a2f4f
@@ -3689,11 +3527,9 @@ query-64,recommendations for a mediterranean potluck,cooking+recipe1m+eefd7fd5cf
 query-64,recommendations for a mediterranean potluck,cooking+recipe1m+ef145183510ca90bd6dcfbb4018a79ed
 query-64,recommendations for a mediterranean potluck,cooking+recipe1m+f114178c1aa881075832381422d9ea6c
 query-64,recommendations for a mediterranean potluck,cooking+recipe1m+fbcc4b043dc5f02147ff0bdea6775215
-query-64,recommendations for a mediterranean potluck,cooking+recipe1m+fe5c09f259c6aaf70e9790f5c01a3f14
 query-65,make a continental breakfast,cooking+recipe1m+09f3f67d402e127c0c7884e6c3e11a3d
 query-65,make a continental breakfast,cooking+recipe1m+0b426a36db9cb5b80301706282a1b823
 query-65,make a continental breakfast,cooking+recipe1m+0c8cc55f702515e263112a1c7b9e17da
-query-65,make a continental breakfast,cooking+recipe1m+1065a4c9ee2c4d73bf26b2baefdd4d74
 query-65,make a continental breakfast,cooking+recipe1m+138efdd1d378cef3ac44535e80bca11e
 query-65,make a continental breakfast,cooking+recipe1m+1550b72e1eba046d3b84077c8d7e6ed7
 query-65,make a continental breakfast,cooking+recipe1m+16ae3fbc2bb443042c749907ee0d72fc
@@ -3712,8 +3548,6 @@ query-65,make a continental breakfast,cooking+recipe1m+47e665e9e74b59a69ea01d930
 query-65,make a continental breakfast,cooking+recipe1m+48c7ecbffd67da311df6f5b7c5bd9b5a
 query-65,make a continental breakfast,cooking+recipe1m+4b1fc12ecc76434053ae1b026aacea83
 query-65,make a continental breakfast,cooking+recipe1m+523336e20b05a5615fdf0a80d0109bf3
-query-65,make a continental breakfast,cooking+recipe1m+53f6d2efe9d3169e87403c66fb88e558
-query-65,make a continental breakfast,cooking+recipe1m+5b70fc928aa2e49a70191df92454227a
 query-65,make a continental breakfast,cooking+recipe1m+5ccfdda48e58ef8b3ff0ceac4fbc0da9
 query-65,make a continental breakfast,cooking+recipe1m+67cc9e23d34706c41475d8f666a0e713
 query-65,make a continental breakfast,cooking+recipe1m+6ab98330ebef3a3bd2c97cd53c604abf
@@ -3740,14 +3574,11 @@ query-65,make a continental breakfast,cooking+recipe1m+a01e79bd736b2f12201201456
 query-65,make a continental breakfast,cooking+recipe1m+a2b5a31167b95f76c61467b8d0741b0a
 query-65,make a continental breakfast,cooking+recipe1m+a6c781b1d0e81cd4eb15a5e97f5f9092
 query-65,make a continental breakfast,cooking+recipe1m+a9b70dbbb1404bc0448394771a93ca5b
-query-65,make a continental breakfast,cooking+recipe1m+b51a010287b17b89a9fad4c8c7b8f347
-query-65,make a continental breakfast,cooking+recipe1m+b625d12ac89904c121358f8f31049027
 query-65,make a continental breakfast,cooking+recipe1m+b6af1ca56527e2a78261fd8719e994b5
 query-65,make a continental breakfast,cooking+recipe1m+ba721351f07af7336ba30d98eddde7b9
 query-65,make a continental breakfast,cooking+recipe1m+bca2ff871012cb7aa7f9573f69634eb4
 query-65,make a continental breakfast,cooking+recipe1m+c05543c200063e34352e985a6cb23aaf
 query-65,make a continental breakfast,cooking+recipe1m+c0d8554f19d19c3f15dbd09899ea21b3
-query-65,make a continental breakfast,cooking+recipe1m+c15359854ebf880e45c1fcb4165d647f
 query-65,make a continental breakfast,cooking+recipe1m+c6c9b9bb128c711c93b7df1dd2ea1799
 query-65,make a continental breakfast,cooking+recipe1m+c9ff3bc6f87660bb27ddb286ab4ad3a5
 query-65,make a continental breakfast,cooking+recipe1m+cb93978ad2480b3d1890ac6a58e940a9
@@ -3760,7 +3591,6 @@ query-65,make a continental breakfast,cooking+recipe1m+d493a42c06918c58b1f323896
 query-65,make a continental breakfast,cooking+recipe1m+d517470823acd52619304d1926fee092
 query-65,make a continental breakfast,cooking+recipe1m+d6293aa204fc6ff723249d38a949e63e
 query-65,make a continental breakfast,cooking+recipe1m+d6d078297b238e91defa37e85ab50a24
-query-65,make a continental breakfast,cooking+recipe1m+d74d9896921daccaa64e8c93da0a8781
 query-65,make a continental breakfast,cooking+recipe1m+d8e1c41ed97bf152d35a5401182f451c
 query-65,make a continental breakfast,cooking+recipe1m+da0bfaa1e34f78d19715cd7ac36260ab
 query-65,make a continental breakfast,cooking+recipe1m+db30b58fb5bb79adf0ed255b0a770cfe
@@ -3771,14 +3601,12 @@ query-65,make a continental breakfast,cooking+recipe1m+e79fa80ba5d83b6b93f4cbbd8
 query-65,make a continental breakfast,cooking+recipe1m+eb9d666e7ba7e9a5ce23d042e47dfa6e
 query-65,make a continental breakfast,cooking+recipe1m+ec2c8d72824e02f9610710daaa364d5a
 query-65,make a continental breakfast,cooking+recipe1m+ec8d4de936902677e7653c4341e27682
-query-65,make a continental breakfast,cooking+recipe1m+f7f459ee813788a15e46c2cfbe5eb064
 query-65,make a continental breakfast,cooking+recipe1m+fa0af9522c1f62e5f68876f9fe53959a
 query-65,make a continental breakfast,cooking+recipe1m+ffb5d4c2256a0cc747b65e3ec5b48437
 query-66,homemade remedy for a cold,cooking+recipe1m+0134a6cf7cfc3409d0db2e9cccaadf9c
 query-66,homemade remedy for a cold,cooking+recipe1m+02eb76371279289b24bebf047493643e
 query-66,homemade remedy for a cold,cooking+recipe1m+05001f299c7cd6af99621b5b83e00662
 query-66,homemade remedy for a cold,cooking+recipe1m+064dd4b80fc49c42c83205ca66c47427
-query-66,homemade remedy for a cold,cooking+recipe1m+0a1002fd60019c1f9c5e2f9359ebaa47
 query-66,homemade remedy for a cold,cooking+recipe1m+16c02467fe27c5f63935b6d2947c19d7
 query-66,homemade remedy for a cold,cooking+recipe1m+17b6b703f553c568eb2e0bafe6420cde
 query-66,homemade remedy for a cold,cooking+recipe1m+18d702a6cb391b66dc314e29ce2553bf
@@ -3811,11 +3639,8 @@ query-66,homemade remedy for a cold,cooking+recipe1m+923c4ede46391d2ae1c34d7a9d6
 query-66,homemade remedy for a cold,cooking+recipe1m+93675fd58367b6886f13c19fbc3886df
 query-66,homemade remedy for a cold,cooking+recipe1m+9b046fce2574c362063549c2183ef81f
 query-66,homemade remedy for a cold,cooking+recipe1m+a294b0ca84eae14f1b10c49bb0aa1b07
-query-66,homemade remedy for a cold,cooking+recipe1m+a32f732c0af040dc2914f6ef3a0921d2
-query-66,homemade remedy for a cold,cooking+recipe1m+b178adcaf0a0b79ff95bbba4c386cdbe
 query-66,homemade remedy for a cold,cooking+recipe1m+be691c16c1caec8e8f3c19b1178c17b3
 query-66,homemade remedy for a cold,cooking+recipe1m+c5f25b0b93bc4d8710ede4ac54995b70
-query-66,homemade remedy for a cold,cooking+recipe1m+c7e3ee024652211888de1b4f67bc564e
 query-66,homemade remedy for a cold,cooking+recipe1m+cc7513c841f64d2a2af41cc44f74620f
 query-66,homemade remedy for a cold,cooking+recipe1m+cec17512cb04c00755921e02e36896b3
 query-66,homemade remedy for a cold,cooking+recipe1m+d645735291adf7c673dc1db4208b2aad
@@ -3837,13 +3662,11 @@ query-67,fast and easy picnic foods,cooking+recipe1m+197ec839f22783b4c430c7aed5d
 query-67,fast and easy picnic foods,cooking+recipe1m+2272e75e3a3ad4eadbd323e67d61b9b0
 query-67,fast and easy picnic foods,cooking+recipe1m+25b8d780e3e95e820d718ec0edd8cd5f
 query-67,fast and easy picnic foods,cooking+recipe1m+28ac813273717920da340e7c6f67b4ab
-query-67,fast and easy picnic foods,cooking+recipe1m+28bd92f0ced7e2da6a90d94cdb089bbf
 query-67,fast and easy picnic foods,cooking+recipe1m+2d632a90e8b386cbb01914d3687aadcc
 query-67,fast and easy picnic foods,cooking+recipe1m+2eba0e97d25975e3f3b9870d1a906174
 query-67,fast and easy picnic foods,cooking+recipe1m+2ed12bdc2bbee566b52d7a406a2f31d5
 query-67,fast and easy picnic foods,cooking+recipe1m+3009a6bb97332279784fc97764fd4720
 query-67,fast and easy picnic foods,cooking+recipe1m+30e3d3ad0f1d041c5431aeedb77237ba
-query-67,fast and easy picnic foods,cooking+recipe1m+3d0785cf3ea6937992bc7d8aba727abd
 query-67,fast and easy picnic foods,cooking+recipe1m+3e316f54c516a3f6247a7b828a26322b
 query-67,fast and easy picnic foods,cooking+recipe1m+4015b17cc49ee652b8cef7cadf93a9b2
 query-67,fast and easy picnic foods,cooking+recipe1m+44b9e4a116a20d612c6084e0f37369ec
@@ -3857,7 +3680,6 @@ query-67,fast and easy picnic foods,cooking+recipe1m+6955d150a65939e4f8eb7a76abe
 query-67,fast and easy picnic foods,cooking+recipe1m+6db6d3466235ee111c3a46c79157a56b
 query-67,fast and easy picnic foods,cooking+recipe1m+6e3b57d17ad5b0a098b413606bb2ebf2
 query-67,fast and easy picnic foods,cooking+recipe1m+76a3eafe7cd71c8f15bca386fc63b751
-query-67,fast and easy picnic foods,cooking+recipe1m+81ee1a75a85c6a9bf13397d7acc0d050
 query-67,fast and easy picnic foods,cooking+recipe1m+861e0789056e4cb3f8398c52dd29ec49
 query-67,fast and easy picnic foods,cooking+recipe1m+86484017157b3dd4040be0df97ffb610
 query-67,fast and easy picnic foods,cooking+recipe1m+88df003c0236e9ecbe3961aee31c4edf
@@ -3872,7 +3694,6 @@ query-67,fast and easy picnic foods,cooking+recipe1m+972ee48ccc7f8cd8282d0a01ebe
 query-67,fast and easy picnic foods,cooking+recipe1m+9ca25342cd3c7c8a1b2466652a36cd8c
 query-67,fast and easy picnic foods,cooking+recipe1m+9cfb68d5250f18917141edc14857e8f1
 query-67,fast and easy picnic foods,cooking+recipe1m+a289c3825d31b29ef02ebd5aa25ede91
-query-67,fast and easy picnic foods,cooking+recipe1m+a3d0fc3f3e6ed7c82d3ea6fc54b7ce32
 query-67,fast and easy picnic foods,cooking+recipe1m+a5dd7d44cbf8539c7c0d10c9857e672c
 query-67,fast and easy picnic foods,cooking+recipe1m+aad1ab91a2978da7194f2708dec4badf
 query-67,fast and easy picnic foods,cooking+recipe1m+ac98d296f6a1c36eb2427eb0deb6167b
@@ -3901,7 +3722,6 @@ query-67,fast and easy picnic foods,cooking+recipe1m+fbc9cb64d38884ae55f126febfa
 query-67,fast and easy picnic foods,cooking+recipe1m+fd23c0090b0edc93d6888a445125bd83
 query-68,lunch ideas for fat loss,cooking+recipe1m+0032725ffc085c3f0edd0f8f8f8117e3
 query-68,lunch ideas for fat loss,cooking+recipe1m+021a3f08a35b3ecb79117fa67e4b2343
-query-68,lunch ideas for fat loss,cooking+recipe1m+084475459733c92e3b4483e715fe7dfe
 query-68,lunch ideas for fat loss,cooking+recipe1m+0c76065410f3de3b124b4f6cce40a235
 query-68,lunch ideas for fat loss,cooking+recipe1m+0e34a45b1f492e91dfe02d07369d3ef7
 query-68,lunch ideas for fat loss,cooking+recipe1m+1030d31bf53a5b9366b8fa5c9a21db78
@@ -3910,7 +3730,6 @@ query-68,lunch ideas for fat loss,cooking+recipe1m+1a213fc15e0297b65a190edb035ff
 query-68,lunch ideas for fat loss,cooking+recipe1m+251c6654013b7b097e05b6f8581da260
 query-68,lunch ideas for fat loss,cooking+recipe1m+2705110749c2088de29a4d77b6d750fd
 query-68,lunch ideas for fat loss,cooking+recipe1m+284b92f0cd88bd488980a8945d544a1b
-query-68,lunch ideas for fat loss,cooking+recipe1m+2b78bd4a59ceb4df819ef431ba473419
 query-68,lunch ideas for fat loss,cooking+recipe1m+2f83f094c3713340b5cf0eb3982b11f5
 query-68,lunch ideas for fat loss,cooking+recipe1m+2fcf3381da4812535f7da5ebc32952ff
 query-68,lunch ideas for fat loss,cooking+recipe1m+2ff7cd920f9077fbedb7ea95eb1dae53
@@ -3919,19 +3738,15 @@ query-68,lunch ideas for fat loss,cooking+recipe1m+33a2556ebd38e7cb62665ab2aed77
 query-68,lunch ideas for fat loss,cooking+recipe1m+3519f3cea1d210648f7663b68e915e55
 query-68,lunch ideas for fat loss,cooking+recipe1m+3bb446dda9d1ccd79617447fea4ada31
 query-68,lunch ideas for fat loss,cooking+recipe1m+4893b1d53b2c206bec32d1def751f7dd
-query-68,lunch ideas for fat loss,cooking+recipe1m+4be56c01638b4ab9f5d46a0100903ee7
 query-68,lunch ideas for fat loss,cooking+recipe1m+4c9ae6502c6d6fc0b3d0cebf730abe85
 query-68,lunch ideas for fat loss,cooking+recipe1m+4d041b87d64f2871ac724be442ba9327
 query-68,lunch ideas for fat loss,cooking+recipe1m+4f0ed7ca67c74040ef63eeada9c59ee1
 query-68,lunch ideas for fat loss,cooking+recipe1m+53385072f32fca33e20c16f700eafa1c
-query-68,lunch ideas for fat loss,cooking+recipe1m+5a2863ce9dcaa452eafa0ffb04800906
 query-68,lunch ideas for fat loss,cooking+recipe1m+5d87867b9c1976481774dfb1cf908bd9
 query-68,lunch ideas for fat loss,cooking+recipe1m+66981b60788d6b830302776c5673fd88
-query-68,lunch ideas for fat loss,cooking+recipe1m+6e658e4377fd009f816647af4103b1ff
 query-68,lunch ideas for fat loss,cooking+recipe1m+70ad6daaffed063677804c47c46ed32b
 query-68,lunch ideas for fat loss,cooking+recipe1m+73221c3f81944f00434f1aee4e2e5d43
 query-68,lunch ideas for fat loss,cooking+recipe1m+78fbbc3b2d8bfd198305583ba5bb1819
-query-68,lunch ideas for fat loss,cooking+recipe1m+7a10768794c1ace142b0012a65884ef9
 query-68,lunch ideas for fat loss,cooking+recipe1m+7b0bff0e65737259f3e1b73af482f766
 query-68,lunch ideas for fat loss,cooking+recipe1m+7cedba1cd8096bbd36c9f701d8fe18b7
 query-68,lunch ideas for fat loss,cooking+recipe1m+7d3af86d0acf82935179ca293821ee31
@@ -3959,12 +3774,10 @@ query-68,lunch ideas for fat loss,cooking+recipe1m+c22ef36f06c37be63e56fd307ca67
 query-68,lunch ideas for fat loss,cooking+recipe1m+d723127a31a21260856640249f00ba2f
 query-68,lunch ideas for fat loss,cooking+recipe1m+d7cf586fea2ad06f8d1a011896409066
 query-68,lunch ideas for fat loss,cooking+recipe1m+e3951994d431147f6a46747b36d2f7ae
-query-68,lunch ideas for fat loss,cooking+recipe1m+e5898da1a667b60e74e27ef1ca81efcf
 query-68,lunch ideas for fat loss,cooking+recipe1m+e706c6b7c12ed5ce8880708cb2cf19ab
 query-68,lunch ideas for fat loss,cooking+recipe1m+ec0a6de1688d9cac93a36a5ebacd2d3f
 query-68,lunch ideas for fat loss,cooking+recipe1m+ec7f1e49c347f40cd72a91dab90f47f2
 query-68,lunch ideas for fat loss,cooking+recipe1m+f2402938aa527276d3df4c3cde58f12e
-query-68,lunch ideas for fat loss,cooking+recipe1m+f369cd6da975b9f07d7af94eefee1997
 query-68,lunch ideas for fat loss,cooking+recipe1m+f5784941d3ab8bfee2ad5ffd6f211398
 query-68,lunch ideas for fat loss,cooking+recipe1m+f6afd3fe4a482f5af8f9b49ebd5b55ed
 query-68,lunch ideas for fat loss,cooking+recipe1m+f75e3b54a1e6acddc8176f0d5f2ceedd
@@ -3993,8 +3806,6 @@ query-69,plant based food recipes,cooking+recipe1m+35efc12cafbbfe0b10e2e2947bb9d
 query-69,plant based food recipes,cooking+recipe1m+407523868d231d855890c9c08ce8751b
 query-69,plant based food recipes,cooking+recipe1m+44b3cccb198367c557046e0095fef7b4
 query-69,plant based food recipes,cooking+recipe1m+47dedab647865160fb3199d93725eee3
-query-69,plant based food recipes,cooking+recipe1m+48d5ee0e354a8b6bd9e9d82ca82712c1
-query-69,plant based food recipes,cooking+recipe1m+511edbe1bc0a823344f1ea7f114b00ed
 query-69,plant based food recipes,cooking+recipe1m+51c6499fdd8a85da8844fe5a078d6103
 query-69,plant based food recipes,cooking+recipe1m+5c3b6949320a92a4d18a071dbb7e970e
 query-69,plant based food recipes,cooking+recipe1m+5ecf66797b6c4fc59ca34eb68b689eb3
@@ -4008,14 +3819,12 @@ query-69,plant based food recipes,cooking+recipe1m+786fd2416ed7daf0c341fff10d114
 query-69,plant based food recipes,cooking+recipe1m+79d42c23a5f92cfb245a45f8ad291585
 query-69,plant based food recipes,cooking+recipe1m+7bdc14c4cfe0607c4de0f0b87c025eab
 query-69,plant based food recipes,cooking+recipe1m+7f20dbb7215e58aced82bb0228192589
-query-69,plant based food recipes,cooking+recipe1m+838aea7381584eab127a660d5b4a5702
 query-69,plant based food recipes,cooking+recipe1m+8629769d23633548265c0461bccae27e
 query-69,plant based food recipes,cooking+recipe1m+8a4f3d93b083c4408d5acc764605d10e
 query-69,plant based food recipes,cooking+recipe1m+9028541b40a6b061ad078d65a285b505
 query-69,plant based food recipes,cooking+recipe1m+91d9afc1c2ccb2dd0353199cb45291c9
 query-69,plant based food recipes,cooking+recipe1m+963189818748666cb8ed93e7fb28f6ff
 query-69,plant based food recipes,cooking+recipe1m+9cae0f194c1ae0b2d2e545544c7e8213
-query-69,plant based food recipes,cooking+recipe1m+9d7fd77dcb0ed38297b39d3e6be1fc1c
 query-69,plant based food recipes,cooking+recipe1m+9f494649865915d54467b38050062c3f
 query-69,plant based food recipes,cooking+recipe1m+a5720a97be3568629d39ea86d0a1e0ed
 query-69,plant based food recipes,cooking+recipe1m+a99794ab32e36bc8e09e6d1c20c07d61
@@ -4044,7 +3853,6 @@ query-69,plant based food recipes,cooking+recipe1m+eedf1b42a563f273fffca755b314b
 query-69,plant based food recipes,cooking+recipe1m+f3c46de7e87a8191417c37485e26f2dc
 query-69,plant based food recipes,cooking+recipe1m+f41afc5076ebaade5eca162dad5499ae
 query-7,I want to make halloween candy,cooking+recipe1m+0003337e9b486449ab73322bba12ab28
-query-7,I want to make halloween candy,cooking+recipe1m+085be95d09e0841d72233304d98bb84c
 query-7,I want to make halloween candy,cooking+recipe1m+12d19a9b8a29d6d809045058ababd3be
 query-7,I want to make halloween candy,cooking+recipe1m+13c5850bb85c949dc56edc6eb90461e9
 query-7,I want to make halloween candy,cooking+recipe1m+13d39476949631cc3bfd20c92fc6f521
@@ -4054,7 +3862,6 @@ query-7,I want to make halloween candy,cooking+recipe1m+1de6e66220bea4f10f2dd8c6
 query-7,I want to make halloween candy,cooking+recipe1m+214e8962660401268c4053b4ce2c1931
 query-7,I want to make halloween candy,cooking+recipe1m+22a5c9979cafc3507c6f73348a1fd663
 query-7,I want to make halloween candy,cooking+recipe1m+2bdf59e8959b31141e0da5bf2042602f
-query-7,I want to make halloween candy,cooking+recipe1m+2c5d1cefae71bc1f37836bdd84a1b14b
 query-7,I want to make halloween candy,cooking+recipe1m+2e15087bbaf4ad6f3af5a317c192885f
 query-7,I want to make halloween candy,cooking+recipe1m+2f332fbcaa49160da0040bd20b051a24
 query-7,I want to make halloween candy,cooking+recipe1m+3530bf8f37f3e473579c52148af055ae
@@ -4067,7 +3874,6 @@ query-7,I want to make halloween candy,cooking+recipe1m+8571b533f0ebf107adb54d77
 query-7,I want to make halloween candy,cooking+recipe1m+8be8e1b5b93c0b558d1b2596c4964de8
 query-7,I want to make halloween candy,cooking+recipe1m+900309e7b2d7aea512a77c9980261331
 query-7,I want to make halloween candy,cooking+recipe1m+90203616d11ae8354fc05a2c10c922d6
-query-7,I want to make halloween candy,cooking+recipe1m+933333151c6b4b7da87232d822c3aa72
 query-7,I want to make halloween candy,cooking+recipe1m+958d738ffcba37b1a0ec1eca87aed419
 query-7,I want to make halloween candy,cooking+recipe1m+9665c9e463e5b702cf32c2f8d707dbd7
 query-7,I want to make halloween candy,cooking+recipe1m+9c17fc5ea8cadaafb119a23d6a54ecf2
@@ -4084,7 +3890,6 @@ query-7,I want to make halloween candy,cooking+recipe1m+c17df4fd13a6fa30dc6a8e2b
 query-7,I want to make halloween candy,cooking+recipe1m+c8b6595799e275528460f9a35e0ab659
 query-7,I want to make halloween candy,cooking+recipe1m+c96b5a8313a08107e7cc00032fae3a35
 query-7,I want to make halloween candy,cooking+recipe1m+ceb1051adf3022bf005f35d50b20f653
-query-7,I want to make halloween candy,cooking+recipe1m+ceb77e2b7a31a8b1ca05a2c0f023b468
 query-7,I want to make halloween candy,cooking+recipe1m+d0523d2b23efe3dfbe919b400dfe6af9
 query-7,I want to make halloween candy,cooking+recipe1m+d13bd623fa35f4d8beb9f17b7f2776f7
 query-7,I want to make halloween candy,cooking+recipe1m+d2172ab11517702caabae58da7bc55ea
@@ -4102,7 +3907,6 @@ query-7,I want to make halloween candy,cooking+recipe1m+fc4d087f3e690776b2014c39
 query-7,I want to make halloween candy,cooking+recipe1m+fd5a7d60a5f665ac3d11091d4451b983
 query-70,jain vegetarianism recipes,cooking+recipe1m+01b3249e9256f34f59927429bf99f85b
 query-70,jain vegetarianism recipes,cooking+recipe1m+01b435c26bec136b5ac02bf4a33f0953
-query-70,jain vegetarianism recipes,cooking+recipe1m+08cfaf01709d8c2620f493f2e846e059
 query-70,jain vegetarianism recipes,cooking+recipe1m+0a9680345aa507664efc7298d2feac13
 query-70,jain vegetarianism recipes,cooking+recipe1m+0edac4ceee74dc36b860e61e1256f58d
 query-70,jain vegetarianism recipes,cooking+recipe1m+151a24a13dd25030ef95baf8d3d2dd43
@@ -4117,10 +3921,8 @@ query-70,jain vegetarianism recipes,cooking+recipe1m+2c2372bce9051728ce035a8320e
 query-70,jain vegetarianism recipes,cooking+recipe1m+2ddfebd3471783443ddb8e54ccba6458
 query-70,jain vegetarianism recipes,cooking+recipe1m+345140e87042dab601ca2c6d607960de
 query-70,jain vegetarianism recipes,cooking+recipe1m+3c5bb106a1247d2bb70ab4eb5d78d624
-query-70,jain vegetarianism recipes,cooking+recipe1m+3e9f81ed8633e8e12fff613ac6886fae
 query-70,jain vegetarianism recipes,cooking+recipe1m+411a5a98628eb5c03ac212929b640dad
 query-70,jain vegetarianism recipes,cooking+recipe1m+470216cf0a3ff917dfba857e32ba9677
-query-70,jain vegetarianism recipes,cooking+recipe1m+4721cf1377643faea3fec76955bae92d
 query-70,jain vegetarianism recipes,cooking+recipe1m+4996a82927f8bf05d8d1486d5eced2ff
 query-70,jain vegetarianism recipes,cooking+recipe1m+4e5f1ad079eb16d895f620d0834f81f5
 query-70,jain vegetarianism recipes,cooking+recipe1m+50e86da8518b6584853a3d92804eb461
@@ -4128,7 +3930,6 @@ query-70,jain vegetarianism recipes,cooking+recipe1m+50ead52f07daf6bd05799d58250
 query-70,jain vegetarianism recipes,cooking+recipe1m+5290360dc76176858692be6f3b730ba3
 query-70,jain vegetarianism recipes,cooking+recipe1m+53c8a6bb19a84e2d5241f9d76b750f1e
 query-70,jain vegetarianism recipes,cooking+recipe1m+5e3644b4ac1caef8d5df1ee8a20cc8a9
-query-70,jain vegetarianism recipes,cooking+recipe1m+60bda8aa6286ad20119da90d596e0345
 query-70,jain vegetarianism recipes,cooking+recipe1m+6202a7b31c2c3af743fa040155ae166f
 query-70,jain vegetarianism recipes,cooking+recipe1m+63731d301542127e4e75a17cbf386dc7
 query-70,jain vegetarianism recipes,cooking+recipe1m+6411e930bbeaeda341b9b3932a5db8db
@@ -4148,11 +3949,9 @@ query-70,jain vegetarianism recipes,cooking+recipe1m+844f8253097400d5684741ba5bf
 query-70,jain vegetarianism recipes,cooking+recipe1m+8a2bbbc779fab0d66eeb69d311c41104
 query-70,jain vegetarianism recipes,cooking+recipe1m+8d8131351c677bbd7ca2136985b11430
 query-70,jain vegetarianism recipes,cooking+recipe1m+94c394b6194c4943f47d47e97fcf2c2a
-query-70,jain vegetarianism recipes,cooking+recipe1m+9a4e2982b81641a5bfb2dd92f594041d
 query-70,jain vegetarianism recipes,cooking+recipe1m+9aa8622792616068bdf01034ad5d10a4
 query-70,jain vegetarianism recipes,cooking+recipe1m+9c94f80c0b1724bae2a2c03a9bcb991b
 query-70,jain vegetarianism recipes,cooking+recipe1m+9f0d68e9a36f3a282003ad7a53a802a9
-query-70,jain vegetarianism recipes,cooking+recipe1m+a17c68508164a135b60e6623bd9d9da2
 query-70,jain vegetarianism recipes,cooking+recipe1m+a3ad8b4fc8693fc6e13ba51f6c0d3eb6
 query-70,jain vegetarianism recipes,cooking+recipe1m+a5934a98bc8c21619e507676c714186b
 query-70,jain vegetarianism recipes,cooking+recipe1m+a5c3935c376bf7e8b017071ca8dda005
@@ -4172,10 +3971,8 @@ query-70,jain vegetarianism recipes,cooking+recipe1m+da95f5ed969d9970b3c051a2994
 query-70,jain vegetarianism recipes,cooking+recipe1m+db9659ac3e7058b8eee5c4a8e5f31b73
 query-70,jain vegetarianism recipes,cooking+recipe1m+df9a4c64f8091cd77919c304b74bb128
 query-70,jain vegetarianism recipes,cooking+recipe1m+e57d18dd024694b39abd35efdc6179b2
-query-70,jain vegetarianism recipes,cooking+recipe1m+ee808079139a50afc40827ee4d13682c
 query-70,jain vegetarianism recipes,cooking+recipe1m+ef4e2765bd41bbde63ea9e25f598fedb
 query-70,jain vegetarianism recipes,cooking+recipe1m+f05a4068533fe2a9de9f7fbd8d68d791
-query-70,jain vegetarianism recipes,cooking+recipe1m+f248d0c4e262107b037cf53f06f83c73
 query-70,jain vegetarianism recipes,cooking+recipe1m+f26858fef2d252c4a0158dfd21c26ff6
 query-70,jain vegetarianism recipes,cooking+recipe1m+f41f9a60620031037525f495eb84c15a
 query-70,jain vegetarianism recipes,cooking+recipe1m+f53e5bd2a17e96882ccd4eef66c2d009
@@ -4188,10 +3985,8 @@ query-71,meals pair with wine,cooking+recipe1m+233161009ab89caa301e6247c597fe54
 query-71,meals pair with wine,cooking+recipe1m+26a26cbb9bf25083cd17cda058f8f4f8
 query-71,meals pair with wine,cooking+recipe1m+2d72d41b89ca6cfd58b4407f645148da
 query-71,meals pair with wine,cooking+recipe1m+30512dfffa17f143da29fe4384195282
-query-71,meals pair with wine,cooking+recipe1m+374be11b2f67301302d902e8eb354d7c
 query-71,meals pair with wine,cooking+recipe1m+3999cbfafbd3ce328a8b36522c89e696
 query-71,meals pair with wine,cooking+recipe1m+40d3628bc2382217396cad5e126cac06
-query-71,meals pair with wine,cooking+recipe1m+410f5785969e7f3d2a347b249dd8f317
 query-71,meals pair with wine,cooking+recipe1m+425fcc72045ddc8b8b8248b9062e0e3d
 query-71,meals pair with wine,cooking+recipe1m+4335ad9061fb76d5c577991543066802
 query-71,meals pair with wine,cooking+recipe1m+49c9a2b49e2d1d68c55d14390abada0a
@@ -4209,7 +4004,6 @@ query-71,meals pair with wine,cooking+recipe1m+6858b624fe7bcfcd12129abb91d993e1
 query-71,meals pair with wine,cooking+recipe1m+6a2927f4f1402529f284b92e97415bce
 query-71,meals pair with wine,cooking+recipe1m+6a9ae1a2a462d26d2991132f59ea8f35
 query-71,meals pair with wine,cooking+recipe1m+7a4cbedd1c38631cd414d7729eef1284
-query-71,meals pair with wine,cooking+recipe1m+7aeae58c15cebf7c666fb70514221726
 query-71,meals pair with wine,cooking+recipe1m+86933f59ccd325f506b14ad135b90c26
 query-71,meals pair with wine,cooking+recipe1m+88f019bb9f042100e0c9464e1a02715f
 query-71,meals pair with wine,cooking+recipe1m+894836ed00c38742a43cfa60034426dd
@@ -4228,13 +4022,11 @@ query-71,meals pair with wine,cooking+recipe1m+b3dd338f51b368e2aeb423bc2c53ff04
 query-71,meals pair with wine,cooking+recipe1m+b73d943484d8787c349ebbda8ab2e0da
 query-71,meals pair with wine,cooking+recipe1m+b880d5a20685ad78c9c59799d69d4ec0
 query-71,meals pair with wine,cooking+recipe1m+c2dff97c19d7ca82d32c47b68e652f6e
-query-71,meals pair with wine,cooking+recipe1m+ca69e70e6ce06fdd5edbfe106c96f6ec
 query-71,meals pair with wine,cooking+recipe1m+cb5b504fcabaf99a038d5bace9d28fcc
 query-71,meals pair with wine,cooking+recipe1m+cd528ace54a08960fb913f03605dd59a
 query-71,meals pair with wine,cooking+recipe1m+ce65c62cb4873b3dbdcf27b194cf1f62
 query-71,meals pair with wine,cooking+recipe1m+d150ab69845d5999f5e4960cb7d0b614
 query-71,meals pair with wine,cooking+recipe1m+d24a2d63153b92caad859c4cc6657b24
-query-71,meals pair with wine,cooking+recipe1m+d6aea842bf4d4d5a0ea8b7b57bdd48f5
 query-71,meals pair with wine,cooking+recipe1m+d7ac5412fdc0a33f46a88d3388059211
 query-71,meals pair with wine,cooking+recipe1m+e01741492bfc2a47da256958837aae06
 query-71,meals pair with wine,cooking+recipe1m+e437af91b40dc55d64a7a4073f7aa343
@@ -4243,7 +4035,6 @@ query-71,meals pair with wine,cooking+recipe1m+eaf7868e6c5a5a9ad07126968f7b2002
 query-71,meals pair with wine,cooking+recipe1m+ecc16912146a667fc6eb7ea85071128f
 query-71,meals pair with wine,cooking+recipe1m+ecdc83f375f6f5d752ffb13d7cb73e3a
 query-71,meals pair with wine,cooking+recipe1m+efa79710d2eab2fe38d064f1ebcc052e
-query-71,meals pair with wine,cooking+recipe1m+f05da4efdcd64508db82046c2608d451
 query-71,meals pair with wine,cooking+recipe1m+f5dbab0d423f2a659d8b0f56c88a5e76
 query-71,meals pair with wine,cooking+recipe1m+fe822302bcb89baf6bebf3bda0ab088b
 query-71,meals pair with wine,cooking+recipe1m+ff7684106c4c590b18e12870d0514ef3
@@ -4277,7 +4068,6 @@ query-72,classic johnny marzetti recipe ,cooking+recipe1m+d4d80ad47ababc27e0b6e6
 query-72,classic johnny marzetti recipe ,cooking+recipe1m+ddfb9d1aeb47971d084f7c4bac2b0b6c
 query-72,classic johnny marzetti recipe ,cooking+recipe1m+e1ab828993e4779402c435da310a5f93
 query-72,classic johnny marzetti recipe ,cooking+recipe1m+e54c1cf52aaa3b136000deebbbcac8ee
-query-72,classic johnny marzetti recipe ,cooking+recipe1m+eaf08b4e676652f06d9b87884fa388e8
 query-72,classic johnny marzetti recipe ,cooking+recipe1m+f590a712038961d3b6e20a36f687b9e2
 query-72,classic johnny marzetti recipe ,cooking+recipe1m+f6339110be98420b2955c69e8a73e7ab
 query-73,yakamein noodle soup,cooking+recipe1m+005d7b7bf040672e1dffbd82fd364d14
@@ -4304,7 +4094,6 @@ query-73,yakamein noodle soup,cooking+recipe1m+7afc67b7d58e258bd1916d98e0f736f7
 query-73,yakamein noodle soup,cooking+recipe1m+805fc3d534b4f45b9821a84de671c796
 query-73,yakamein noodle soup,cooking+recipe1m+812ae8c860ff25f625cff87919388379
 query-73,yakamein noodle soup,cooking+recipe1m+8256bae18ba476f9cafbfd4563ad0e79
-query-73,yakamein noodle soup,cooking+recipe1m+8357915fe6581e702b63d25eab3a34ca
 query-73,yakamein noodle soup,cooking+recipe1m+8548a0482dec0cf71528c7732a798fac
 query-73,yakamein noodle soup,cooking+recipe1m+879eea73a1c3b3d7a511929374fa0da9
 query-73,yakamein noodle soup,cooking+recipe1m+89107d5167714118ee0f52539183760c
@@ -4365,7 +4154,6 @@ query-74,original watermelon agua fresca,cooking+recipe1m+b138e6361c34542564f4bd
 query-74,original watermelon agua fresca,cooking+recipe1m+b50bf6b0fe4886346fc3ee3d84561fb1
 query-74,original watermelon agua fresca,cooking+recipe1m+c48581de852b4336786ca1901ec9456f
 query-74,original watermelon agua fresca,cooking+recipe1m+c7948db0700385cde359241d83baced8
-query-74,original watermelon agua fresca,cooking+recipe1m+c9117ef93736b3b3b2cc5e8cfb529be4
 query-74,original watermelon agua fresca,cooking+recipe1m+ca52c64eef34d6e1cc52b93169cd7852
 query-74,original watermelon agua fresca,cooking+recipe1m+d38c4f3f149a5f53319eabdd9d9f346f
 query-74,original watermelon agua fresca,cooking+recipe1m+d99a7734f6fa85254ef04ea1d975283f
@@ -4415,7 +4203,6 @@ query-75,a rich buttery punjabi dish,cooking+recipe1m+8f6e4b6d53dd8a0cd5fc45046c
 query-75,a rich buttery punjabi dish,cooking+recipe1m+94076b9fd53edc4e749e91e9482d5b2f
 query-75,a rich buttery punjabi dish,cooking+recipe1m+99db126555e77566d81851039c0c9dbb
 query-75,a rich buttery punjabi dish,cooking+recipe1m+9ba4d4ccfd5ae4d5dccac66300ddd39d
-query-75,a rich buttery punjabi dish,cooking+recipe1m+9c6c2a09d638bcdb738066ad372ff4ee
 query-75,a rich buttery punjabi dish,cooking+recipe1m+9f0f9436ba75284d690d1e777d24e3a0
 query-75,a rich buttery punjabi dish,cooking+recipe1m+af3ae35e6cf01d10469cd715da69b83e
 query-75,a rich buttery punjabi dish,cooking+recipe1m+b0e5dc6d1d1f8660325a834a6cc345f1
@@ -4449,7 +4236,6 @@ query-76,make high protein bibimbap,cooking+recipe1m+47b8fe12d193e4a98857f6a30b0
 query-76,make high protein bibimbap,cooking+recipe1m+4f50c1f564dd16b22efe4a77a6ae729e
 query-76,make high protein bibimbap,cooking+recipe1m+50d8d7f8bcde7531834c0ee06dd4ef86
 query-76,make high protein bibimbap,cooking+recipe1m+5729e0ac0842acb4a385bb82a1511b60
-query-76,make high protein bibimbap,cooking+recipe1m+573710de9caf7730af5bddd18e979339
 query-76,make high protein bibimbap,cooking+recipe1m+66b504808d655b49f85095fd206d1685
 query-76,make high protein bibimbap,cooking+recipe1m+679278f0c9bd7c64b4060ea67168fa47
 query-76,make high protein bibimbap,cooking+recipe1m+69345f206a373c7bb7982813e2d35f3f
@@ -4467,7 +4253,6 @@ query-76,make high protein bibimbap,cooking+recipe1m+a7e05481305e31d4c6aea3da29b
 query-76,make high protein bibimbap,cooking+recipe1m+ae0aeda4fef2e68deb2920fe91d3185c
 query-76,make high protein bibimbap,cooking+recipe1m+b3b932e20987770b94a5cfbbfef58e38
 query-76,make high protein bibimbap,cooking+recipe1m+b65d3c5555c05a8cde9aeae62c9fb8b4
-query-76,make high protein bibimbap,cooking+recipe1m+bb12309d33999bbb5e6b3c4224115310
 query-76,make high protein bibimbap,cooking+recipe1m+bc918ebc1de2d3cfbc694271a5ceb1cb
 query-76,make high protein bibimbap,cooking+recipe1m+c42dd3822373be492c1f601d23819590
 query-76,make high protein bibimbap,cooking+recipe1m+d05fb7537a4a2e1dae74c8d4fa12163e
@@ -4489,7 +4274,6 @@ query-77,protein rich vegetable meal,cooking+recipe1m+30e7425106aa8b3bb5d35b5b31
 query-77,protein rich vegetable meal,cooking+recipe1m+3105ffec5428aaa0f754542fd3c4a8df
 query-77,protein rich vegetable meal,cooking+recipe1m+33351fa4779a0bfc3455e17fc6f0d3f0
 query-77,protein rich vegetable meal,cooking+recipe1m+38409e8d80cf803ef71692e78b1cf55b
-query-77,protein rich vegetable meal,cooking+recipe1m+39f0393f4e8700d0328fcacebbfe3d03
 query-77,protein rich vegetable meal,cooking+recipe1m+3b6caf4323979bac3dd01fbdaf4c9504
 query-77,protein rich vegetable meal,cooking+recipe1m+46388f59da545249e017473b80ea7a5c
 query-77,protein rich vegetable meal,cooking+recipe1m+48811744b64a601dbbed6426db078ee4
@@ -4509,7 +4293,6 @@ query-77,protein rich vegetable meal,cooking+recipe1m+75a6966add9bc1fcb13afa8778
 query-77,protein rich vegetable meal,cooking+recipe1m+83850952ac5293c65525f4e4d98d389a
 query-77,protein rich vegetable meal,cooking+recipe1m+8ebfdd7709df63f2a101e70513ca5d73
 query-77,protein rich vegetable meal,cooking+recipe1m+9870a3458f38550d418c8c3ef9a80716
-query-77,protein rich vegetable meal,cooking+recipe1m+9ace4cd6fc94c42682acfb3ffc003420
 query-77,protein rich vegetable meal,cooking+recipe1m+9aeda4e252f794114136e2093025d6e2
 query-77,protein rich vegetable meal,cooking+recipe1m+9b4c038543001c3a32d58de1c3b209f5
 query-77,protein rich vegetable meal,cooking+recipe1m+9ce1f16c0b04e15730dbc7b3cba07371
@@ -4521,7 +4304,6 @@ query-77,protein rich vegetable meal,cooking+recipe1m+a5bb17cc6e049d18d725bbbae7
 query-77,protein rich vegetable meal,cooking+recipe1m+a7f8d36453f89f68517e8f6aae669c60
 query-77,protein rich vegetable meal,cooking+recipe1m+a8626cc50028d205edeff0181b9c0391
 query-77,protein rich vegetable meal,cooking+recipe1m+aa423b5e38570034f9c77ecf0ed21013
-query-77,protein rich vegetable meal,cooking+recipe1m+b0079fbd33069ca3a64ebd1a85edcfb8
 query-77,protein rich vegetable meal,cooking+recipe1m+b1677eaf6746c221dda1f5d8fa06289a
 query-77,protein rich vegetable meal,cooking+recipe1m+bfb8095249215a9e1b95839bfea6cf6f
 query-77,protein rich vegetable meal,cooking+recipe1m+c30ca39eeebfa4aa8c7d2b47f9b1db22
@@ -4578,7 +4360,6 @@ query-78,original sloppy joe burger,cooking+recipe1m+615dbbf15815053cf45e4cd4d66
 query-78,original sloppy joe burger,cooking+recipe1m+61b3a3142c920bf5ceb5b4327485580b
 query-78,original sloppy joe burger,cooking+recipe1m+61d536d55159bd0ab1257fe637b0a518
 query-78,original sloppy joe burger,cooking+recipe1m+70d377044c8b166dd256b5e1e0e43083
-query-78,original sloppy joe burger,cooking+recipe1m+7595c1ed90ef7458604f932771bd4e17
 query-78,original sloppy joe burger,cooking+recipe1m+78fb58abd8c2d8eeaa9a1408d0eb569c
 query-78,original sloppy joe burger,cooking+recipe1m+7c97aaa16d478677330feabb624f17d6
 query-78,original sloppy joe burger,cooking+recipe1m+7e6791d1fa85cd6b69e2c6c837610d6c
@@ -4587,13 +4368,11 @@ query-78,original sloppy joe burger,cooking+recipe1m+90029907f28ede0b0fb5df52f84
 query-78,original sloppy joe burger,cooking+recipe1m+9b1eb3c9fb2a05a3422d60a0f487f151
 query-78,original sloppy joe burger,cooking+recipe1m+9b4e9b9825d46b67285d20e6254355d7
 query-78,original sloppy joe burger,cooking+recipe1m+9f7aa9e6c5ff86fd8357bcc338aa537b
-query-78,original sloppy joe burger,cooking+recipe1m+a318d657041c2f16268596123d0900f9
 query-78,original sloppy joe burger,cooking+recipe1m+a3a8395d6924b0ce5fe181518a52aa77
 query-78,original sloppy joe burger,cooking+recipe1m+a43b8e218b0a23ab68669168f3e5cf54
 query-78,original sloppy joe burger,cooking+recipe1m+a751693a443a90389807ef0f2a6772c3
 query-78,original sloppy joe burger,cooking+recipe1m+ab417e3b9387e23196bd49b3314fd884
 query-78,original sloppy joe burger,cooking+recipe1m+ac36ee5e5dda0630faaaffa0c6baffec
-query-78,original sloppy joe burger,cooking+recipe1m+b349d2714b9187197a51436c3fe15cb0
 query-78,original sloppy joe burger,cooking+recipe1m+b44f039ca1ef0cc077c3799334b493c2
 query-78,original sloppy joe burger,cooking+recipe1m+bd3c4016dda7b9156f9ca860b02c073a
 query-78,original sloppy joe burger,cooking+recipe1m+c2f0fd84b664bd56e277119e17c4dfde
@@ -4603,7 +4382,6 @@ query-78,original sloppy joe burger,cooking+recipe1m+cda44e709f7a4379ab2b82ba2c5
 query-78,original sloppy joe burger,cooking+recipe1m+dd0ac1a9d304a5adfd1b7d557540da99
 query-78,original sloppy joe burger,cooking+recipe1m+e87cfc4530d2b04fd64420441ce64962
 query-78,original sloppy joe burger,cooking+recipe1m+eb74a2eec0eedb5f8a75a30b0f84e142
-query-78,original sloppy joe burger,cooking+recipe1m+ef0d73ef2ef5e594107a22ce32514977
 query-78,original sloppy joe burger,cooking+recipe1m+f001cb9467719809d6f8fc9b46575829
 query-78,original sloppy joe burger,cooking+recipe1m+f4fa56011dbf73f24ac7ca4254c0a28b
 query-78,original sloppy joe burger,cooking+recipe1m+f6d8d91d5cc965b1f00dc5409f67c9c3
@@ -4626,9 +4404,7 @@ query-79,oven baked potatoes,cooking+recipe1m+3fbefeeebf0c58a7022f3a2ab2ea065f
 query-79,oven baked potatoes,cooking+recipe1m+41131b782d6dae181ef969ee8445d42b
 query-79,oven baked potatoes,cooking+recipe1m+4344bb77b25356a387d89deb385c8621
 query-79,oven baked potatoes,cooking+recipe1m+4470b3396b6b4ad3f6a336bcf301bcd9
-query-79,oven baked potatoes,cooking+recipe1m+4694b76e48fdb45261aba46501be5e70
 query-79,oven baked potatoes,cooking+recipe1m+501793570a897ea6d54e0c72ed249431
-query-79,oven baked potatoes,cooking+recipe1m+54c8454e045607ca684d3ba722874c5a
 query-79,oven baked potatoes,cooking+recipe1m+57d3eca92bc8153e306703326d252c02
 query-79,oven baked potatoes,cooking+recipe1m+5964b52f6ea7ad8bc8c33f4d3d050830
 query-79,oven baked potatoes,cooking+recipe1m+596c390bc92aa7793eddf9bd063b82ca
@@ -4646,9 +4422,7 @@ query-79,oven baked potatoes,cooking+recipe1m+8b192881e09a124394d62313d1cd4d30
 query-79,oven baked potatoes,cooking+recipe1m+8e0ada3cf5b1cf9d33346d3d9f355b3e
 query-79,oven baked potatoes,cooking+recipe1m+91b91057a963b9383ce677e428999db7
 query-79,oven baked potatoes,cooking+recipe1m+92f499d1c69eb15ac9adce5c340089b1
-query-79,oven baked potatoes,cooking+recipe1m+953c196d5669f43441935760486e8cdd
 query-79,oven baked potatoes,cooking+recipe1m+984de82657bf8ea3619f00ede300c598
-query-79,oven baked potatoes,cooking+recipe1m+9bfb013ff3a03fcd15ebec287173ee30
 query-79,oven baked potatoes,cooking+recipe1m+9f777e2fdc816e314caae2fde495e4a1
 query-79,oven baked potatoes,cooking+recipe1m+a35e085806b6c1dabaac677aaf948be3
 query-79,oven baked potatoes,cooking+recipe1m+a77687f12106085866255e6a4d2b1fa1
@@ -4678,7 +4452,6 @@ query-79,oven baked potatoes,cooking+recipe1m+e36729d678dd1832e9ec397d4ad45286
 query-79,oven baked potatoes,cooking+recipe1m+e5cb2c9923f227efb35a0ce60ff83566
 query-79,oven baked potatoes,cooking+recipe1m+e747e5f79c086f59495da839f4db35ea
 query-79,oven baked potatoes,cooking+recipe1m+eb308cd41c8a70dfb4fc0d2ed09cb0cc
-query-79,oven baked potatoes,cooking+recipe1m+edc8ab69112603097247c12c4cd4829e
 query-79,oven baked potatoes,cooking+recipe1m+f20034cc5727bf7e3b2fdcdc4a33b98b
 query-79,oven baked potatoes,cooking+recipe1m+f51ba92eeb302936f0e37f4960bc322c
 query-79,oven baked potatoes,cooking+recipe1m+f97a4c59d24973dca086e44aa32ff9a8
@@ -4726,7 +4499,6 @@ query-8,how to make a gluten free peach crisp,cooking+recipe1m+e66b4dc560b3c12ef
 query-8,how to make a gluten free peach crisp,cooking+recipe1m+eb272444d2b2a0ce887cc90382a726ee
 query-8,how to make a gluten free peach crisp,cooking+recipe1m+ed2d98ca02190c588ac75c557d3d07ab
 query-8,how to make a gluten free peach crisp,cooking+recipe1m+f11da0826e2451cc9fb181572f16a9e4
-query-8,how to make a gluten free peach crisp,cooking+recipe1m+f7820c87ec90de613c700d322220f896
 query-80,i want a crispy burrito,cooking+recipe1m+061aa44ef3efb3d388ed608fa06b59b4
 query-80,i want a crispy burrito,cooking+recipe1m+0aa61c3d6fa139a64151d742877b602b
 query-80,i want a crispy burrito,cooking+recipe1m+0afd0d23007fdbcc53f06557b1ea640f
@@ -4791,14 +4563,11 @@ query-81,colorful vegatable salad,cooking+recipe1m+24145c52bc9f75374b000b5877f16
 query-81,colorful vegatable salad,cooking+recipe1m+2533f806bb8fa2ca49abdb9dc39ef721
 query-81,colorful vegatable salad,cooking+recipe1m+2ce3eb2c214941e777569fca9da5cf99
 query-81,colorful vegatable salad,cooking+recipe1m+2e04db5a85220d2d5d8afa6fad82684f
-query-81,colorful vegatable salad,cooking+recipe1m+38ded5030ba340ab12496ac9a34ed150
 query-81,colorful vegatable salad,cooking+recipe1m+3a18df9e727fb1172732df4cb52d25c9
-query-81,colorful vegatable salad,cooking+recipe1m+3bcf272dc4c6bf715a7db42ceb6f2ea1
 query-81,colorful vegatable salad,cooking+recipe1m+43f2626a96cc4b116840d830be063874
 query-81,colorful vegatable salad,cooking+recipe1m+4bdaa0f49a580c98f7bcfe236014b9a5
 query-81,colorful vegatable salad,cooking+recipe1m+50c56855fa0557e43efe7c5237968dbd
 query-81,colorful vegatable salad,cooking+recipe1m+55b8eac0b612c5d45bdbe05a87e13570
-query-81,colorful vegatable salad,cooking+recipe1m+5a33d2bd16651837ac22778a17d432ca
 query-81,colorful vegatable salad,cooking+recipe1m+5adb1d5c775e9d99a6e372a8ee6ed181
 query-81,colorful vegatable salad,cooking+recipe1m+653cdb1d7c906a0f7ee46484b990a837
 query-81,colorful vegatable salad,cooking+recipe1m+70bbe487dfc0133810d35f587a38eb5e
@@ -4842,7 +4611,6 @@ query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+019f33b5107d6b00193
 query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+038a984fa89f500a5f014a15890df7f6
 query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+0b3bf33506b1cbec753c485f4a3abc0d
 query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+137357d3f9f914b612e8d2ebd65994a0
-query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+145b6b981d398f90e299fe6b26c66362
 query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+153215de1ae0438dddf92316de3701a9
 query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+1c479afeb21b9ea54aecfd15cc10aa5f
 query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+22a5237ade569051d86a77408b6cae94
@@ -4865,7 +4633,6 @@ query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+76f4d328f56f589076e
 query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+77efb23085a72cad2bbe197f331f97c2
 query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+786f76bafcfc3af908eb0cad0fec2b31
 query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+79360d11155df20d64a2e2f64ab13bce
-query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+889e643a13761e64db39a1a22a15d36e
 query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+8a8ac658a67f1a6788cffacd42b9ba52
 query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+8b31c7520e8510cc4604bd15599d4649
 query-82,slow-cooked fall-off-the-bone ribs,cooking+recipe1m+8b53cc7f95588be1fd5079f3072ea0aa
@@ -4905,16 +4672,13 @@ query-83,fluffy cinnamon rolls,cooking+recipe1m+15bf08cb875bf36384bb35be73f86ae0
 query-83,fluffy cinnamon rolls,cooking+recipe1m+173a2f30cef1de561193a03c6e8eedda
 query-83,fluffy cinnamon rolls,cooking+recipe1m+17fdb9efb1d0122dae3eaadc700968e5
 query-83,fluffy cinnamon rolls,cooking+recipe1m+1b32b6067de046c4454a358da91a123f
-query-83,fluffy cinnamon rolls,cooking+recipe1m+1bcd06081ff5f727acb176597d25ff4a
 query-83,fluffy cinnamon rolls,cooking+recipe1m+262dccc5d62a1cf77fb90f56298246b6
 query-83,fluffy cinnamon rolls,cooking+recipe1m+2680e2cc632eaa11996fc945be4e2912
-query-83,fluffy cinnamon rolls,cooking+recipe1m+26c69e649f64fd5f4837933881072350
 query-83,fluffy cinnamon rolls,cooking+recipe1m+285eeba2a366e2274489ee3c12a1adab
 query-83,fluffy cinnamon rolls,cooking+recipe1m+29f04999d9ce40cb6dedf37e0da4b4c0
 query-83,fluffy cinnamon rolls,cooking+recipe1m+2f2388877c00963fd2e7558f60193c23
 query-83,fluffy cinnamon rolls,cooking+recipe1m+3ab48aeec60eb4c30e66768ffccbc109
 query-83,fluffy cinnamon rolls,cooking+recipe1m+3d2a27ebe7a0fcf7f13455719ba5506b
-query-83,fluffy cinnamon rolls,cooking+recipe1m+41cfadb01e2fbb2daf06ae5c8bb0781a
 query-83,fluffy cinnamon rolls,cooking+recipe1m+425ab0ee7a9b6617780e7d5b69920f78
 query-83,fluffy cinnamon rolls,cooking+recipe1m+4626d0cb487de49b29333796fcd890a9
 query-83,fluffy cinnamon rolls,cooking+recipe1m+4db14f25ae6159efa6d26e9da2296622
@@ -4929,7 +4693,6 @@ query-83,fluffy cinnamon rolls,cooking+recipe1m+6e2739d0b140f27c87c5f194bb822283
 query-83,fluffy cinnamon rolls,cooking+recipe1m+6e2df00d8fbc92998864dd02c328f5ec
 query-83,fluffy cinnamon rolls,cooking+recipe1m+71ef365fe57c81c3fd07f6eaec4fca77
 query-83,fluffy cinnamon rolls,cooking+recipe1m+7a8a9eb7433bf31b5d221d6467245203
-query-83,fluffy cinnamon rolls,cooking+recipe1m+7bc85b6ad4719b7c66cba8add5c0ade7
 query-83,fluffy cinnamon rolls,cooking+recipe1m+85b26083c8df45987b3840d8b52657d1
 query-83,fluffy cinnamon rolls,cooking+recipe1m+872467adcd57da939d37af28ae16b9e8
 query-83,fluffy cinnamon rolls,cooking+recipe1m+87c1e53b31aeb1e223089f02a675055b
@@ -4938,7 +4701,6 @@ query-83,fluffy cinnamon rolls,cooking+recipe1m+8c6aea9e9f45528b67619c0abd14670d
 query-83,fluffy cinnamon rolls,cooking+recipe1m+8e9f72413c88f60f7dd31baed1cf1880
 query-83,fluffy cinnamon rolls,cooking+recipe1m+8f98fc902e70032e48af3bb8719b3a0c
 query-83,fluffy cinnamon rolls,cooking+recipe1m+9173cb8f0a395ab9415325dbd8af61e5
-query-83,fluffy cinnamon rolls,cooking+recipe1m+94969aa2977d70319800e76c748aa6ae
 query-83,fluffy cinnamon rolls,cooking+recipe1m+95a746605cafb02be3c180373f86db05
 query-83,fluffy cinnamon rolls,cooking+recipe1m+9b72c06333c601599bcb15321698aa71
 query-83,fluffy cinnamon rolls,cooking+recipe1m+a16495ce4b554cc39a8ba6108b7a931a
@@ -4954,7 +4716,6 @@ query-83,fluffy cinnamon rolls,cooking+recipe1m+c0ad65459983133d12b9972b9c87d8ca
 query-83,fluffy cinnamon rolls,cooking+recipe1m+c5fd3dae28ebea98cde3e5b7440a5574
 query-83,fluffy cinnamon rolls,cooking+recipe1m+ca2fb3854ec78f2cd771d129685f42fc
 query-83,fluffy cinnamon rolls,cooking+recipe1m+cb710fdb85154ffc79564e14962dc29d
-query-83,fluffy cinnamon rolls,cooking+recipe1m+ccb02ad8f0efed980d3668f57cfc212c
 query-83,fluffy cinnamon rolls,cooking+recipe1m+d1bb07e4c44cea63a9594aaf2067be67
 query-83,fluffy cinnamon rolls,cooking+recipe1m+d6b8a3a612481ce7b952c37dd3869e13
 query-83,fluffy cinnamon rolls,cooking+recipe1m+d8954cde405f0cfe744754bc86df9154
@@ -4973,7 +4734,6 @@ query-84,toasted garlic bread pizza,cooking+recipe1m+045d0ffc04350bbccbf483291b3
 query-84,toasted garlic bread pizza,cooking+recipe1m+07dcec0b9ae8e68e7434f49ac7d82537
 query-84,toasted garlic bread pizza,cooking+recipe1m+0dbe33f95442c3866632eed58e5bd014
 query-84,toasted garlic bread pizza,cooking+recipe1m+0f5a30ab5e13f747512a13d2ced2c373
-query-84,toasted garlic bread pizza,cooking+recipe1m+15c87977fa7ef4c83d23983f96d76a28
 query-84,toasted garlic bread pizza,cooking+recipe1m+19a5a850128ce2180b199fe687ebf504
 query-84,toasted garlic bread pizza,cooking+recipe1m+1a6829784dbf7b0f63348fbc7a474f8a
 query-84,toasted garlic bread pizza,cooking+recipe1m+1c2f78fec752ed8e05a05e22a6b56313
@@ -5040,7 +4800,6 @@ query-85,a fast dessert for valentines day,cooking+recipe1m+20a29fbf15650bb31676
 query-85,a fast dessert for valentines day,cooking+recipe1m+256e24577b1223eb42c9a353d55dda7e
 query-85,a fast dessert for valentines day,cooking+recipe1m+3404d06f7f301b6f7f2060ff507a8c73
 query-85,a fast dessert for valentines day,cooking+recipe1m+36222b3c777526c9dce41a8254fcde05
-query-85,a fast dessert for valentines day,cooking+recipe1m+373090049926ccc310d24a2f91021753
 query-85,a fast dessert for valentines day,cooking+recipe1m+3969391b661ae6cab42d9ec924acb016
 query-85,a fast dessert for valentines day,cooking+recipe1m+46df4845bc4822ed35b50decdc7d9abe
 query-85,a fast dessert for valentines day,cooking+recipe1m+48cbc22d37b6465fd6efd2021834d20e
@@ -5048,7 +4807,6 @@ query-85,a fast dessert for valentines day,cooking+recipe1m+4b81951f981c5a94bea4
 query-85,a fast dessert for valentines day,cooking+recipe1m+4d32014305d991f701c93853170f4de6
 query-85,a fast dessert for valentines day,cooking+recipe1m+4f345e0726214d94a77e4b60c92c5c8b
 query-85,a fast dessert for valentines day,cooking+recipe1m+50dec7b21cf907efbe6a410f4f2491db
-query-85,a fast dessert for valentines day,cooking+recipe1m+52ba77825a3e8c7e87f680d5076272a9
 query-85,a fast dessert for valentines day,cooking+recipe1m+58675ca5038f851d78ade24a7f444617
 query-85,a fast dessert for valentines day,cooking+recipe1m+5a0cf178babbd21f832f8e9bebc29ffd
 query-85,a fast dessert for valentines day,cooking+recipe1m+5b58830dce675210724031c1c8121093
@@ -5079,13 +4837,11 @@ query-85,a fast dessert for valentines day,cooking+recipe1m+de5f7af794462fdf2bbe
 query-85,a fast dessert for valentines day,cooking+recipe1m+de76d8f7dbae020085d0df957c33b6a2
 query-85,a fast dessert for valentines day,cooking+recipe1m+e1d1a63db7e8ec4145f077abd87b89a6
 query-85,a fast dessert for valentines day,cooking+recipe1m+e2ab47721870fdf19b30d2307694f899
-query-85,a fast dessert for valentines day,cooking+recipe1m+e59829cacaabfec935ad1b061e360407
 query-85,a fast dessert for valentines day,cooking+recipe1m+e5e94760fb4e794499b5a0f3f4a1302b
 query-85,a fast dessert for valentines day,cooking+recipe1m+eecd585821cce88c7dd46b45edfba614
 query-85,a fast dessert for valentines day,cooking+recipe1m+eee0ca2995d4204e214fc735f9adc910
 query-85,a fast dessert for valentines day,cooking+recipe1m+f9255217cc8eeb455d8d540d4417f727
 query-85,a fast dessert for valentines day,cooking+recipe1m+fd553d2683c3c2184b861200dc5591c9
-query-85,a fast dessert for valentines day,cooking+recipe1m+fdd34f6ff09fafab61a6b18c282dbe99
 query-85,a fast dessert for valentines day,cooking+recipe1m+fec4376f75fbc9664c09bc3a9d450f6b
 query-86,thick butternut squash soup,cooking+recipe1m+00d9999226b93286c5d8ab3afccbd665
 query-86,thick butternut squash soup,cooking+recipe1m+072ebbec7dd443fe8173538c68deebf3
@@ -5108,10 +4864,8 @@ query-86,thick butternut squash soup,cooking+recipe1m+4b6d44db57958488a98f5f7b25
 query-86,thick butternut squash soup,cooking+recipe1m+4da22934dc7a296b4a0bb1ef0fbaa4f2
 query-86,thick butternut squash soup,cooking+recipe1m+4fcefbf03a35e1e362b3379b62d1e0af
 query-86,thick butternut squash soup,cooking+recipe1m+5132ab977c7bf1e1a6338afc2991d1e2
-query-86,thick butternut squash soup,cooking+recipe1m+51d7f7b524612d805c974a4f4d2bae02
 query-86,thick butternut squash soup,cooking+recipe1m+56ecee5d9845c182c7503f9b3cf44c78
 query-86,thick butternut squash soup,cooking+recipe1m+5bfcade847e1627529bb009f1224b2fc
-query-86,thick butternut squash soup,cooking+recipe1m+60b010ad79f24d2663a580f29aec2efd
 query-86,thick butternut squash soup,cooking+recipe1m+60c7610acc773278c7fbe49235fcb267
 query-86,thick butternut squash soup,cooking+recipe1m+63fd991e3c6e482badb30e66e2292156
 query-86,thick butternut squash soup,cooking+recipe1m+768b7199c1788489849a43975e0de30e
@@ -5141,11 +4895,8 @@ query-86,thick butternut squash soup,cooking+recipe1m+cc6c9356283e35ef2bf0d230c3
 query-86,thick butternut squash soup,cooking+recipe1m+cd93d5e940de653f0d61b678a8d2cf0b
 query-86,thick butternut squash soup,cooking+recipe1m+d2c6d6d8fb06be809b79e8ed7edcfcfe
 query-86,thick butternut squash soup,cooking+recipe1m+d3fd36fb632a1d5912811b7a93d12a9a
-query-86,thick butternut squash soup,cooking+recipe1m+d748e164308205690082ac6f0c2a3d4c
 query-86,thick butternut squash soup,cooking+recipe1m+d9cf201bad15a258898c2b3ea0655e30
-query-86,thick butternut squash soup,cooking+recipe1m+dabcf60b15eea67e5d9fbebbd4dc3c10
 query-86,thick butternut squash soup,cooking+recipe1m+e3737f28f5e1bf073a498b3a64f2aef2
-query-86,thick butternut squash soup,cooking+recipe1m+e6b93549fb670fa96be630f472fbb285
 query-86,thick butternut squash soup,cooking+recipe1m+ee5d053b30aec4a9473cb2c3a0dfcc69
 query-86,thick butternut squash soup,cooking+recipe1m+f300d441fe15bda08f61c1c535ff4f54
 query-86,thick butternut squash soup,cooking+recipe1m+f336607f20dea3c9e18bed2e8e9f1635
@@ -5198,15 +4949,12 @@ query-88,a savory bagel,cooking+recipe1m+3b46b487e55e37b479f3ddc3fcde0488
 query-88,a savory bagel,cooking+recipe1m+3fee86aa8ad8bdf12aca5c1be7f9cee4
 query-88,a savory bagel,cooking+recipe1m+40f204a8a11ae4efab70091bbf1319f4
 query-88,a savory bagel,cooking+recipe1m+414904ee65c7c1a7743a0029204d8132
-query-88,a savory bagel,cooking+recipe1m+48ba55173e2f51ccd3b701dedf208342
 query-88,a savory bagel,cooking+recipe1m+49c34132ac4552fb73ca3a09b90e21f5
 query-88,a savory bagel,cooking+recipe1m+4c3dab08fe3c84bd1c456a877e891dc6
-query-88,a savory bagel,cooking+recipe1m+4d9fee56e32216feff4e85ba5ba98508
 query-88,a savory bagel,cooking+recipe1m+4f170f13068cccadca43f45bfed6af4c
 query-88,a savory bagel,cooking+recipe1m+513f886774a259842a21d9347c111220
 query-88,a savory bagel,cooking+recipe1m+548a86b6b1d8844865b790d10266d08f
 query-88,a savory bagel,cooking+recipe1m+5496d84a6c41166aa5b3bc4f6a7538b8
-query-88,a savory bagel,cooking+recipe1m+572ac71b072a04aae7ca8059e74cc047
 query-88,a savory bagel,cooking+recipe1m+57bd92044eb93dd653a5934a2f881e16
 query-88,a savory bagel,cooking+recipe1m+5aabe968f187e7f3a5e1e2df083031e1
 query-88,a savory bagel,cooking+recipe1m+6f412345c299d146db428e672c4e6818
@@ -5224,7 +4972,6 @@ query-88,a savory bagel,cooking+recipe1m+9942f7ad0168386223559cd8070dff22
 query-88,a savory bagel,cooking+recipe1m+9ccf48f7ab0a7752285e1f350c9efdff
 query-88,a savory bagel,cooking+recipe1m+9ebf8671d1afae231ef24695bed16196
 query-88,a savory bagel,cooking+recipe1m+a3dab5bc92b72a9416cc2fd45608089a
-query-88,a savory bagel,cooking+recipe1m+a5adf8051e358d482988c35556b685b0
 query-88,a savory bagel,cooking+recipe1m+a783557dd4f5e6fe576b57de45005966
 query-88,a savory bagel,cooking+recipe1m+ad47f90b8206d77cd36b5df1f0ec6bb4
 query-88,a savory bagel,cooking+recipe1m+b57977051a6017cd89fcdca2a971a79d
@@ -5276,7 +5023,6 @@ query-89,fried chinese dumplings,cooking+recipe1m+919fca20ca5ea742770ec02f4619ce
 query-89,fried chinese dumplings,cooking+recipe1m+9bc1c6a88999f41c84e47ff93aa61fbe
 query-89,fried chinese dumplings,cooking+recipe1m+9db402657e61690589c94532f58feefb
 query-89,fried chinese dumplings,cooking+recipe1m+a89c2f7e0fd465a8b699ba9b9ca733a2
-query-89,fried chinese dumplings,cooking+recipe1m+af0fd36019b2de13c9761ef64353f2a6
 query-89,fried chinese dumplings,cooking+recipe1m+af9e10ed09263f3cf787ae9fbb71ce98
 query-89,fried chinese dumplings,cooking+recipe1m+b41a2f3ef146593b6b0e84ea74a00484
 query-89,fried chinese dumplings,cooking+recipe1m+b73349ea11bbfb993119285404646e92
@@ -5352,7 +5098,6 @@ query-90,softly baked cookies,cooking+recipe1m+282d33f421f27d1bf754c8c0990ff9ba
 query-90,softly baked cookies,cooking+recipe1m+3a1b0d21899e03a6ecf77a3d73484679
 query-90,softly baked cookies,cooking+recipe1m+3e63d4d9ac3c06ff443dadce14ed2be3
 query-90,softly baked cookies,cooking+recipe1m+40d6f731c37eb7585f3543ca6821fee0
-query-90,softly baked cookies,cooking+recipe1m+412335fbe34eee11be552a3961595c25
 query-90,softly baked cookies,cooking+recipe1m+42410dbcf2f536113bf607286b62adfe
 query-90,softly baked cookies,cooking+recipe1m+43ab2d31d6e058332c7762430b4825b5
 query-90,softly baked cookies,cooking+recipe1m+477a35a201169e7ef4c235629f6eac62
@@ -5362,21 +5107,18 @@ query-90,softly baked cookies,cooking+recipe1m+4990cca1eeccea447e3519d351a2db6c
 query-90,softly baked cookies,cooking+recipe1m+54362a0398d63f64b358b0a9d2a8c32d
 query-90,softly baked cookies,cooking+recipe1m+56fd25fbacf5e3b1a9d3c0aef9ccfc01
 query-90,softly baked cookies,cooking+recipe1m+5e208f633351777621abc1bfba3a3e51
-query-90,softly baked cookies,cooking+recipe1m+5ec7dbfa1047fdfd4f4a39161b74d2cd
 query-90,softly baked cookies,cooking+recipe1m+5f1be6923bf723be8cba345c9e6ae725
 query-90,softly baked cookies,cooking+recipe1m+5fb55377da3764fdb89414a5d4839a99
 query-90,softly baked cookies,cooking+recipe1m+5ff07cff39530f2768ffde964a716547
 query-90,softly baked cookies,cooking+recipe1m+616948f4924e1cb27c5d1e4e45d06c83
 query-90,softly baked cookies,cooking+recipe1m+617af90877d91f2dc3445878b3b2f5fe
 query-90,softly baked cookies,cooking+recipe1m+67dfe92ed735c076baa759dd44be0067
-query-90,softly baked cookies,cooking+recipe1m+69018994ad73ece198fd3bb0169c0d22
 query-90,softly baked cookies,cooking+recipe1m+6d4932102cefd40ed15049eefacbf19f
 query-90,softly baked cookies,cooking+recipe1m+6d8774fa71fc84e8e383395af2f73bc2
 query-90,softly baked cookies,cooking+recipe1m+6e01fc050df6716d9158eaabc668187c
 query-90,softly baked cookies,cooking+recipe1m+6e7f92e7af10ac9538fddbff10c9c063
 query-90,softly baked cookies,cooking+recipe1m+702dfe83564131cf981246d3f302c4f7
 query-90,softly baked cookies,cooking+recipe1m+71135b10d030bd3cae1898831b94dffb
-query-90,softly baked cookies,cooking+recipe1m+7359e93af67be63aac199adbe781518e
 query-90,softly baked cookies,cooking+recipe1m+763eb77d13721f12ada462bdfb65bf57
 query-90,softly baked cookies,cooking+recipe1m+791e3985a04a48abb436c2e095de4630
 query-90,softly baked cookies,cooking+recipe1m+7cd06b4df1ece23ee75c28e0c0c10296
@@ -5385,7 +5127,6 @@ query-90,softly baked cookies,cooking+recipe1m+7e304ebd75c068dc2626fbfe0502752f
 query-90,softly baked cookies,cooking+recipe1m+7ed17617d6f35885cab7df5d2049ba66
 query-90,softly baked cookies,cooking+recipe1m+8109b2abb4c41942fa55e4e36fc6189e
 query-90,softly baked cookies,cooking+recipe1m+83aa8e4c708330c360430a26db25831b
-query-90,softly baked cookies,cooking+recipe1m+8527dc5a30a9b2abf0304f12750582d2
 query-90,softly baked cookies,cooking+recipe1m+85d808bc8fb798d963ba326975241469
 query-90,softly baked cookies,cooking+recipe1m+8633f8520804e8a7c51aa1383ab88aef
 query-90,softly baked cookies,cooking+recipe1m+883bc7ab577d2c01ab6c51d833b6f71c
@@ -5400,13 +5141,11 @@ query-90,softly baked cookies,cooking+recipe1m+995f361ad228916430a6aba398adaaf9
 query-90,softly baked cookies,cooking+recipe1m+99988e5d68ecec06685e3c089166fdcd
 query-90,softly baked cookies,cooking+recipe1m+9f3fef29bcc7ae51662a41bf9d572a30
 query-90,softly baked cookies,cooking+recipe1m+a1c390c3a325ed4c1bf77011d91def73
-query-90,softly baked cookies,cooking+recipe1m+a874c9ebe509d7c77fddc52a1c3be74a
 query-90,softly baked cookies,cooking+recipe1m+afa92b8e2d2eeec1a1c0a9fa68e5e43b
 query-90,softly baked cookies,cooking+recipe1m+bb837b5e6bc10f238313c87351083312
 query-90,softly baked cookies,cooking+recipe1m+be69125faca1c7fb2e4c55d3446a50e9
 query-90,softly baked cookies,cooking+recipe1m+bf29d6366713a458c637229d54e0a3e6
 query-90,softly baked cookies,cooking+recipe1m+d26b92080bca9663be31fba9d8a978d5
-query-90,softly baked cookies,cooking+recipe1m+d3d943e93028e1d80f1cacb0fd3b3aa0
 query-90,softly baked cookies,cooking+recipe1m+d409af5b4a5ff00a6dc118435ee45ecc
 query-90,softly baked cookies,cooking+recipe1m+da9618b26e1b19e83ac2ef397f75a3e0
 query-90,softly baked cookies,cooking+recipe1m+db337faa6be6fc3975156daa8389187a
@@ -5419,14 +5158,10 @@ query-90,softly baked cookies,cooking+recipe1m+f21cae799c7c7555c3d2360e67cd4cfc
 query-90,softly baked cookies,cooking+recipe1m+f5d1eb5c447168b8a123e0fd5d72bc89
 query-90,softly baked cookies,cooking+recipe1m+f79e9808b9b800d782ed4535f126b586
 query-90,softly baked cookies,cooking+recipe1m+fd3ce1363c82f77cfc0fd137ded3766d
-query-90,softly baked cookies,cooking+recipe1m+fdcb157bb5b53a47679f5349620b48ec
 query-90,softly baked cookies,cooking+recipe1m+ff1adf36aa4fbbb0c5d01692b4d04f43
-query-90,softly baked cookies,cooking+recipe1m+ff472d9e7966e83a8f931159acb58c5a
 query-91,creamy white mousse,cooking+recipe1m+00b2961131e37b5bc170531b58ac1fd3
-query-91,creamy white mousse,cooking+recipe1m+01a02c7040115baef5d0c5e8391787bb
 query-91,creamy white mousse,cooking+recipe1m+02d918e6420a35a39abfda79ed7de3c1
 query-91,creamy white mousse,cooking+recipe1m+06f262f96af83fbc587323443ddf584b
-query-91,creamy white mousse,cooking+recipe1m+085c7215d7bcd7c88e6d3d596874fecf
 query-91,creamy white mousse,cooking+recipe1m+0c5b73b86c90fce8fbcd22334764f1fa
 query-91,creamy white mousse,cooking+recipe1m+0e49bf3757f17fd4a4d9276479c98aa0
 query-91,creamy white mousse,cooking+recipe1m+16c68ca358ec731f9f5ca598162c8df8
@@ -5436,7 +5171,6 @@ query-91,creamy white mousse,cooking+recipe1m+1c2b86dbd730ac345b30aaf30474b3f0
 query-91,creamy white mousse,cooking+recipe1m+201a2cfe10ce3afd1ff42b134b72b7df
 query-91,creamy white mousse,cooking+recipe1m+2309082254ee285948eea1a33aa67c8d
 query-91,creamy white mousse,cooking+recipe1m+23995f0e69a0b9980180801d427109cc
-query-91,creamy white mousse,cooking+recipe1m+2738848a310844bbc9e8512cca171546
 query-91,creamy white mousse,cooking+recipe1m+2892eb222e6ea45bc83cc8804b1a9865
 query-91,creamy white mousse,cooking+recipe1m+2a3243bd8d0fc767c9b12523415887ca
 query-91,creamy white mousse,cooking+recipe1m+2fa70b35ec8201e169dea8e8cbed4806
@@ -5454,7 +5188,6 @@ query-91,creamy white mousse,cooking+recipe1m+66326b728fb4dcc0976c71a4c7f0cb99
 query-91,creamy white mousse,cooking+recipe1m+684e52ee89aff2f6cf23d78e9ba10433
 query-91,creamy white mousse,cooking+recipe1m+6af1f93bfc91bd94675bf985ba1622d6
 query-91,creamy white mousse,cooking+recipe1m+6fa026f68ba7cef8270e9c38fb1f7dbc
-query-91,creamy white mousse,cooking+recipe1m+794919d9f94b267816bdc74f8ad2387e
 query-91,creamy white mousse,cooking+recipe1m+7a131c8cdd7b5584afcc16b51eb0100b
 query-91,creamy white mousse,cooking+recipe1m+7b2709bbc0f43cdd1856d68ec4202200
 query-91,creamy white mousse,cooking+recipe1m+7eaad023660e50ac1c7e6addcb4bd613
@@ -5467,7 +5200,6 @@ query-91,creamy white mousse,cooking+recipe1m+93c71b96af45a9cebf1c03cd7a4fd756
 query-91,creamy white mousse,cooking+recipe1m+965f166ba9d42f06b064ef273a878793
 query-91,creamy white mousse,cooking+recipe1m+9a432bff5b47be0d37559e9a56dfd93f
 query-91,creamy white mousse,cooking+recipe1m+a009a22dc44e004f89f8f8eaf216e9b8
-query-91,creamy white mousse,cooking+recipe1m+a019fc6464cfec71f58a7d61406e5d60
 query-91,creamy white mousse,cooking+recipe1m+a03d89cea00289e98e4b679f26bcf0b8
 query-91,creamy white mousse,cooking+recipe1m+a147b9949a0554ce05fe66cd98c8f14c
 query-91,creamy white mousse,cooking+recipe1m+a5798cc0b73b41b43d20757770e37f45
@@ -5496,7 +5228,6 @@ query-91,creamy white mousse,cooking+recipe1m+f06330e3279506bf11988264c341a2d9
 query-91,creamy white mousse,cooking+recipe1m+f1789c265b559200b737c12bd4a558b2
 query-91,creamy white mousse,cooking+recipe1m+f28f39c3002ee629aafc063eb29b5fdc
 query-91,creamy white mousse,cooking+recipe1m+f9c3d6e1af441bf07394432ac629f5a7
-query-91,creamy white mousse,cooking+recipe1m+ff851e61b445c5adc4dcd5287febbd8a
 query-91,creamy white mousse,cooking+recipe1m+ffb3fd25536574a66f7aaa2ffb5817e6
 query-92,a fast icecream recipe,cooking+recipe1m+05dcc2b4220b3200866351d68b967f78
 query-92,a fast icecream recipe,cooking+recipe1m+0a330a344266e1917078b66d06c1868c
@@ -5518,7 +5249,6 @@ query-92,a fast icecream recipe,cooking+recipe1m+37bde5c936d00230273b196cb4f4a71
 query-92,a fast icecream recipe,cooking+recipe1m+4224a23544be2b31f6ba9e2691fd808f
 query-92,a fast icecream recipe,cooking+recipe1m+47d0758f01f2abae4890375631262f05
 query-92,a fast icecream recipe,cooking+recipe1m+47f7bcc330753cbf202b62ff358a4b4f
-query-92,a fast icecream recipe,cooking+recipe1m+4b01c366eeaf52f15bda2a11b994f864
 query-92,a fast icecream recipe,cooking+recipe1m+4fc812fd99d9e3766c6d6b7fe4cec7d6
 query-92,a fast icecream recipe,cooking+recipe1m+5a0882446653a523b7fe2bb0f09d8635
 query-92,a fast icecream recipe,cooking+recipe1m+61e24838461a9499910f774ec029b2ef
@@ -5571,12 +5301,10 @@ query-93,italian refreshing pasta salad,cooking+recipe1m+2628b435fd5d2461b679a44
 query-93,italian refreshing pasta salad,cooking+recipe1m+2956f585a373a77495c136022e0d80aa
 query-93,italian refreshing pasta salad,cooking+recipe1m+2f0d980ef1e480aa90f84f85143c3f2e
 query-93,italian refreshing pasta salad,cooking+recipe1m+31cf719f6e1842da795416ced89aa703
-query-93,italian refreshing pasta salad,cooking+recipe1m+335ec6d056b6bbf11634531b0689a23c
 query-93,italian refreshing pasta salad,cooking+recipe1m+3aa99f22085e8ab4f5f8e4f1a36d2df9
 query-93,italian refreshing pasta salad,cooking+recipe1m+3b272756918d8647cf65bd167e06b8f7
 query-93,italian refreshing pasta salad,cooking+recipe1m+3c9c6b878c715ed7a7cedef9ac1e8012
 query-93,italian refreshing pasta salad,cooking+recipe1m+3dcd05bfb6a34221641ea533604e5516
-query-93,italian refreshing pasta salad,cooking+recipe1m+44975d6c6e35b7df5a8e4d4772fd46c5
 query-93,italian refreshing pasta salad,cooking+recipe1m+48cdd425914cb72bece81b59344e84f1
 query-93,italian refreshing pasta salad,cooking+recipe1m+4b78f40f3eb638a00d5a785e750c410d
 query-93,italian refreshing pasta salad,cooking+recipe1m+4b891a0d6189e7c9d33bf9c9c84879da
@@ -5612,15 +5340,11 @@ query-93,italian refreshing pasta salad,cooking+recipe1m+b2c7e7bf1d80c026dca014a
 query-93,italian refreshing pasta salad,cooking+recipe1m+b4b15242fa08c04fd0b6857e4b9d1b9c
 query-93,italian refreshing pasta salad,cooking+recipe1m+b67edc21adc40ac1cd5cc9f9ecbb1f4d
 query-93,italian refreshing pasta salad,cooking+recipe1m+b6cce41a216fffa7472bb9958a54f0a1
-query-93,italian refreshing pasta salad,cooking+recipe1m+ba8edac83a3f4a70e50835c2c086a79b
 query-93,italian refreshing pasta salad,cooking+recipe1m+c04e21ed4fdddab37c75c16d33485114
 query-93,italian refreshing pasta salad,cooking+recipe1m+c0800dd990a91c12200b330077092b27
 query-93,italian refreshing pasta salad,cooking+recipe1m+c2482e218781182ce6795f426ad98d9b
-query-93,italian refreshing pasta salad,cooking+recipe1m+c338a40fbe9aee836b651f37308426b0
 query-93,italian refreshing pasta salad,cooking+recipe1m+c5688ae700f4ac41cc17a53bb6076707
 query-93,italian refreshing pasta salad,cooking+recipe1m+c9eb2b8af9546bf69460f7104cf8302d
-query-93,italian refreshing pasta salad,cooking+recipe1m+cc5a88ce338e1e56256597c99e245b06
-query-93,italian refreshing pasta salad,cooking+recipe1m+d6cd2a08e4d7102e5369f060acd88d7e
 query-93,italian refreshing pasta salad,cooking+recipe1m+dc06ae30981f6418c21afba03ac81795
 query-93,italian refreshing pasta salad,cooking+recipe1m+dcfa57fda3b149fceed7b9dff8acb947
 query-93,italian refreshing pasta salad,cooking+recipe1m+de2170f3f6ed9d5762cdcad9a89b1df8
@@ -5652,7 +5376,6 @@ query-94,homemade tomato sauce,cooking+recipe1m+4a36df362845e9e192a2ab1c54ab9628
 query-94,homemade tomato sauce,cooking+recipe1m+4fb235020b361cdde6976656fdb5ed1c
 query-94,homemade tomato sauce,cooking+recipe1m+51195d2373c4216aec08168494304366
 query-94,homemade tomato sauce,cooking+recipe1m+58ac6a03628389793035a224c0f40ee0
-query-94,homemade tomato sauce,cooking+recipe1m+595f28b15c342d357ee1f9958ed091ec
 query-94,homemade tomato sauce,cooking+recipe1m+5d7d81874971c60cb69e1751c8f32cd7
 query-94,homemade tomato sauce,cooking+recipe1m+5d8a5c62d9c79c647fb8afe33175693d
 query-94,homemade tomato sauce,cooking+recipe1m+5de9bae656f7b38c322ee359bae50191
@@ -5664,7 +5387,6 @@ query-94,homemade tomato sauce,cooking+recipe1m+6acfb3d03394a4eb6452a2e256340d0d
 query-94,homemade tomato sauce,cooking+recipe1m+7130db6bcd25fd53f3e5936887be9317
 query-94,homemade tomato sauce,cooking+recipe1m+7db3ae00af5227f0dbbfd049c732f92e
 query-94,homemade tomato sauce,cooking+recipe1m+7eac320949150a04748cddfe1ae3b310
-query-94,homemade tomato sauce,cooking+recipe1m+8286d9d098a75c609e851f74165e7dc7
 query-94,homemade tomato sauce,cooking+recipe1m+872d019bcf2ff754bea5afa06e541f00
 query-94,homemade tomato sauce,cooking+recipe1m+896f9315e4ed60cdf35adef5c50ed8be
 query-94,homemade tomato sauce,cooking+recipe1m+9357e14847289b7479e2baefdd5a452d
@@ -5696,7 +5418,6 @@ query-95,spicy vegetarian indian curry,cooking+recipe1m+1fc20ed4344b36395d81c7d1
 query-95,spicy vegetarian indian curry,cooking+recipe1m+2c4f3a3def013832a359a05c5ceb88f4
 query-95,spicy vegetarian indian curry,cooking+recipe1m+31d7129c1ea17235a333991883823082
 query-95,spicy vegetarian indian curry,cooking+recipe1m+331942a96a6e72b04f8eb8c28b543420
-query-95,spicy vegetarian indian curry,cooking+recipe1m+36f55d35964f04bc01e3bea9a52cc677
 query-95,spicy vegetarian indian curry,cooking+recipe1m+3b13dbf1280c9e730cb48877962202e0
 query-95,spicy vegetarian indian curry,cooking+recipe1m+3c4d98ad3b4363fedfa0d9cdab68fb2c
 query-95,spicy vegetarian indian curry,cooking+recipe1m+4642d05d0cc8a812777612a17fed91d2
@@ -5727,7 +5448,6 @@ query-95,spicy vegetarian indian curry,cooking+recipe1m+8ecb966dcb7ef5309a666f17
 query-95,spicy vegetarian indian curry,cooking+recipe1m+91b967d550eb111405a968c295408007
 query-95,spicy vegetarian indian curry,cooking+recipe1m+977f6dc7c523f00870faaaa33cbb2cab
 query-95,spicy vegetarian indian curry,cooking+recipe1m+9ee07f86cab22859289a20e10e76bb42
-query-95,spicy vegetarian indian curry,cooking+recipe1m+a619e48ca0295711ef224c86b8bcdbed
 query-95,spicy vegetarian indian curry,cooking+recipe1m+a9326da75ce8fc04862b2bcfdbc8fbab
 query-95,spicy vegetarian indian curry,cooking+recipe1m+a9e861556ba04d2499ff0c9fdf93aaee
 query-95,spicy vegetarian indian curry,cooking+recipe1m+aa6ffe8a6f68eeb6d9d994d63f7ef235
@@ -5735,7 +5455,6 @@ query-95,spicy vegetarian indian curry,cooking+recipe1m+ab9ee68e62e83e24ce08d4f3
 query-95,spicy vegetarian indian curry,cooking+recipe1m+abdb35c765d7d33c6cc423bdda6b7daf
 query-95,spicy vegetarian indian curry,cooking+recipe1m+afc6782d286e64b9b83ea72e6d84a39f
 query-95,spicy vegetarian indian curry,cooking+recipe1m+b32eb4a4d81232c67ead2a928af4b9a0
-query-95,spicy vegetarian indian curry,cooking+recipe1m+b57386090c81a0d737fefa2e353b5e66
 query-95,spicy vegetarian indian curry,cooking+recipe1m+bd5fd6d9be7ff377213a870a2e00b78b
 query-95,spicy vegetarian indian curry,cooking+recipe1m+beac654e374c00f0df7f8f5d37a05a78
 query-95,spicy vegetarian indian curry,cooking+recipe1m+ca3a5611b427211d99b71525e8e1bb6f
@@ -5763,14 +5482,12 @@ query-96,a grilled filling sandwich,cooking+recipe1m+2901890bc62457a9a7f09592f3c
 query-96,a grilled filling sandwich,cooking+recipe1m+29b226e18709a35c0eb024a507b60dab
 query-96,a grilled filling sandwich,cooking+recipe1m+34b2d98b1b93045c9584d102cf53d12f
 query-96,a grilled filling sandwich,cooking+recipe1m+357c2af55f67b0ba5ebe684dcd8f2fa9
-query-96,a grilled filling sandwich,cooking+recipe1m+369378204bf5f77b363194cb63d56a86
 query-96,a grilled filling sandwich,cooking+recipe1m+4084ef8421f5d1550ccd8d1387a5f7ef
 query-96,a grilled filling sandwich,cooking+recipe1m+411676ac2a447d6fa627fec164b908f4
 query-96,a grilled filling sandwich,cooking+recipe1m+43620c11e15df8e3bf01803779c96dcd
 query-96,a grilled filling sandwich,cooking+recipe1m+455edf055e1a6f8d9534840fcef09fd8
 query-96,a grilled filling sandwich,cooking+recipe1m+45bfa814865243ad05ca34e3b85be2da
 query-96,a grilled filling sandwich,cooking+recipe1m+45f44d9f5c720698e8ff1de105930de1
-query-96,a grilled filling sandwich,cooking+recipe1m+4a539ce08068a51fd00632a170f275bb
 query-96,a grilled filling sandwich,cooking+recipe1m+54d6a94c2a0b9c63aba560a192a7d374
 query-96,a grilled filling sandwich,cooking+recipe1m+5854482d0cdb52e249960e43aeedd88e
 query-96,a grilled filling sandwich,cooking+recipe1m+5c03aa5bcc23dfc26e7f0a81afee4fc0
@@ -5778,7 +5495,6 @@ query-96,a grilled filling sandwich,cooking+recipe1m+62b91bdb406029bc5f1529ec79e
 query-96,a grilled filling sandwich,cooking+recipe1m+65c39ef344653cecf729923d925d1e19
 query-96,a grilled filling sandwich,cooking+recipe1m+67b8af53a8d1fb1e7bab73bcf02e3264
 query-96,a grilled filling sandwich,cooking+recipe1m+6848638119e39b2b1e8b35c7c17cf5bf
-query-96,a grilled filling sandwich,cooking+recipe1m+687c827d72c6366b6eae1c23418e06bb
 query-96,a grilled filling sandwich,cooking+recipe1m+6b139f9eb205ac103215ce8ada52c772
 query-96,a grilled filling sandwich,cooking+recipe1m+6fb5caef76fefcabd3011f1f38a75d47
 query-96,a grilled filling sandwich,cooking+recipe1m+7043f7bdffeb8a9d50fd838e81460b9f
@@ -5790,8 +5506,6 @@ query-96,a grilled filling sandwich,cooking+recipe1m+7eb3662edf8e5d18e2a15569544
 query-96,a grilled filling sandwich,cooking+recipe1m+851b70c6e3386b5508c116584254a6c1
 query-96,a grilled filling sandwich,cooking+recipe1m+853b9ee4931642cb0ff5380bcac5f398
 query-96,a grilled filling sandwich,cooking+recipe1m+855ccccba75b191cc8b6c0ec134e2541
-query-96,a grilled filling sandwich,cooking+recipe1m+88446a5f6a7440ae8325fc5ab86be64b
-query-96,a grilled filling sandwich,cooking+recipe1m+9111cc1d74d8a70a7baef688a79f9e47
 query-96,a grilled filling sandwich,cooking+recipe1m+96a4900eccf424087f2bb5f39dbd4f36
 query-96,a grilled filling sandwich,cooking+recipe1m+9910b59c4336e7391997aadcc65b8c8a
 query-96,a grilled filling sandwich,cooking+recipe1m+9b65f7757ee3d48ca0ca7c04ced008a2
@@ -5811,7 +5525,6 @@ query-96,a grilled filling sandwich,cooking+recipe1m+b4ffe21373cd7e9d6f7a5ebf28a
 query-96,a grilled filling sandwich,cooking+recipe1m+b87e3d3b4350691d08e8b3a6a6fc6c69
 query-96,a grilled filling sandwich,cooking+recipe1m+b8ce8f802459741f00c71e84d25b534f
 query-96,a grilled filling sandwich,cooking+recipe1m+c2d5eb7f37af2c5353b9125b09c6031d
-query-96,a grilled filling sandwich,cooking+recipe1m+c3f2d648cb462152b21ccad71a974428
 query-96,a grilled filling sandwich,cooking+recipe1m+c5c4836ea56faedda776438f808580dc
 query-96,a grilled filling sandwich,cooking+recipe1m+c79055fc3befaee5e831215a468bf720
 query-96,a grilled filling sandwich,cooking+recipe1m+c9ffab8e2ddd61f70f1771ebbcff6cd5
@@ -5825,8 +5538,6 @@ query-96,a grilled filling sandwich,cooking+recipe1m+f80333e2b0d80c340383ad720f2
 query-96,a grilled filling sandwich,cooking+recipe1m+f8363c42bb635e0e563e6c2874c0f6ec
 query-96,a grilled filling sandwich,cooking+recipe1m+f8c2aaf33d3c352061eb834740c22f25
 query-96,a grilled filling sandwich,cooking+recipe1m+f9c1b4a7be433b0d69b753c2760f0b36
-query-96,a grilled filling sandwich,cooking+recipe1m+ff1c5e331984662e5e83465523bb8c99
-query-97,healthy sweet potato french fries,cooking+recipe1m+0081139bc6629563f4e4c02dde7aced5
 query-97,healthy sweet potato french fries,cooking+recipe1m+011f60500c96cc84b38788a02df41d69
 query-97,healthy sweet potato french fries,cooking+recipe1m+09c79be395c580502ea95bc00dddcd48
 query-97,healthy sweet potato french fries,cooking+recipe1m+16d43ea1c2dcb6ce22bb0eeacd7dc1cf
@@ -5838,7 +5549,6 @@ query-97,healthy sweet potato french fries,cooking+recipe1m+1fc78a19bbbd54d8fc0b
 query-97,healthy sweet potato french fries,cooking+recipe1m+22f043a31d5b87051966aab37dc7ee87
 query-97,healthy sweet potato french fries,cooking+recipe1m+236fd3951299d0874452c6fcd19fed9e
 query-97,healthy sweet potato french fries,cooking+recipe1m+24ee1b08487d8df7835257ec6362a576
-query-97,healthy sweet potato french fries,cooking+recipe1m+25fb10dd24fa5943c3194a81892eced5
 query-97,healthy sweet potato french fries,cooking+recipe1m+2a2672f64bb7711e6d5916831051b001
 query-97,healthy sweet potato french fries,cooking+recipe1m+2e447db7ac5e9f60084af41a65a22f08
 query-97,healthy sweet potato french fries,cooking+recipe1m+302a7f1bbbf375206eddbf6b6808ca2b
@@ -5864,12 +5574,10 @@ query-97,healthy sweet potato french fries,cooking+recipe1m+81a60e1895e0e0c6cd34
 query-97,healthy sweet potato french fries,cooking+recipe1m+84d7ae4455722ece4d063447f08a267a
 query-97,healthy sweet potato french fries,cooking+recipe1m+896db50116aa5acde3fb1d7938bc118e
 query-97,healthy sweet potato french fries,cooking+recipe1m+8b371d78002dd11e67d06b564bf99f47
-query-97,healthy sweet potato french fries,cooking+recipe1m+8cfd1deeaf76e563b206064742c1083c
 query-97,healthy sweet potato french fries,cooking+recipe1m+9f502797b1bd0b7e8d8cfa8876ef650f
 query-97,healthy sweet potato french fries,cooking+recipe1m+b3115974dd5875f0fd5266aacba63ed8
 query-97,healthy sweet potato french fries,cooking+recipe1m+b63d7b04196cfb385f643de95bf582a1
 query-97,healthy sweet potato french fries,cooking+recipe1m+bd1524dd54eb310df9ad9258e2fc0b4f
-query-97,healthy sweet potato french fries,cooking+recipe1m+bf65f586c6d9e8bd839f4296a6e33c39
 query-97,healthy sweet potato french fries,cooking+recipe1m+c02db66a3f3d0e4d1fb439358e6eb3dd
 query-97,healthy sweet potato french fries,cooking+recipe1m+c982bf4ef8bfbfcaa0ecefb55d0143a7
 query-97,healthy sweet potato french fries,cooking+recipe1m+ca86452ec172bde713da7640ae894b45
@@ -5900,7 +5608,6 @@ query-98,a well balanced meal,cooking+recipe1m+44b9e4a116a20d612c6084e0f37369ec
 query-98,a well balanced meal,cooking+recipe1m+480665ebaf8aa5fe16c1dafabdf0329d
 query-98,a well balanced meal,cooking+recipe1m+507c62896699d950ec1fc623876f563b
 query-98,a well balanced meal,cooking+recipe1m+5213c1e529bf26107696117dbec193a1
-query-98,a well balanced meal,cooking+recipe1m+59f7ae97d723ac6ac60d993e97651884
 query-98,a well balanced meal,cooking+recipe1m+5b5ce5f831fdefcde49192ca7fc4f8db
 query-98,a well balanced meal,cooking+recipe1m+5c1ee07b2fda43b0a84665e4708606ee
 query-98,a well balanced meal,cooking+recipe1m+5c4fd0a6b6a191755fef413b2d055f67
@@ -5932,7 +5639,6 @@ query-98,a well balanced meal,cooking+recipe1m+aca0f7a10a0c0f7c7b0c64760806b7fc
 query-98,a well balanced meal,cooking+recipe1m+aedd4d91e21943ba5aca0c19643df080
 query-98,a well balanced meal,cooking+recipe1m+af386cfdea4f2a62bb5adf8ae3950923
 query-98,a well balanced meal,cooking+recipe1m+b0ddcdfdcfa5053c0cc1d7cd10713abf
-query-98,a well balanced meal,cooking+recipe1m+b8182e1d98c377ccd8a686e8bc92df92
 query-98,a well balanced meal,cooking+recipe1m+b8d013e44c0d4a41e68d111a8e5c025d
 query-98,a well balanced meal,cooking+recipe1m+ba4d39d41c25327a9fcf51c33343d536
 query-98,a well balanced meal,cooking+recipe1m+bc489ff742ff94507939e9d6312f8e63
@@ -5964,10 +5670,8 @@ query-99,make chicken soup with homemade broth,cooking+recipe1m+275bcf48af915e5d
 query-99,make chicken soup with homemade broth,cooking+recipe1m+27b69c09d0b6cec259bbf9eaa37c5fd9
 query-99,make chicken soup with homemade broth,cooking+recipe1m+29a4b7b4ec5c123b5dd4bf9813621235
 query-99,make chicken soup with homemade broth,cooking+recipe1m+2fb586582574526da9326cf9cf2e6c0e
-query-99,make chicken soup with homemade broth,cooking+recipe1m+308d2f73a13d0975a8365cc9be65429c
 query-99,make chicken soup with homemade broth,cooking+recipe1m+370262b78ee62dc22c91024bebf55019
 query-99,make chicken soup with homemade broth,cooking+recipe1m+41147a7c6a472c5bae5c136520d44993
-query-99,make chicken soup with homemade broth,cooking+recipe1m+43d454f95d64e38fc076e0d6f450e1bd
 query-99,make chicken soup with homemade broth,cooking+recipe1m+5891d1cc0698e9399076f5ea0c071a47
 query-99,make chicken soup with homemade broth,cooking+recipe1m+58a9043860088946ea990329af86f80c
 query-99,make chicken soup with homemade broth,cooking+recipe1m+5afde8455986ee83fd884911484a1852
@@ -6002,7 +5706,6 @@ query-99,make chicken soup with homemade broth,cooking+recipe1m+a7ccabaec558e86b
 query-99,make chicken soup with homemade broth,cooking+recipe1m+b164fded131ba738af137042c1c7ddca
 query-99,make chicken soup with homemade broth,cooking+recipe1m+b2452344abcc0bc4eb55952f10108bbf
 query-99,make chicken soup with homemade broth,cooking+recipe1m+b9eeda054ce6b71ed61643594337048b
-query-99,make chicken soup with homemade broth,cooking+recipe1m+bd356a0cf247561c4e9e45b9db26d176
 query-99,make chicken soup with homemade broth,cooking+recipe1m+bfff721dc4a3b02f6327b65f1c9aed34
 query-99,make chicken soup with homemade broth,cooking+recipe1m+c3517a57c45d665921a85f9914fea84c
 query-99,make chicken soup with homemade broth,cooking+recipe1m+cbeb940d673dced982c7db0cefccbb92
