@@ -8,9 +8,9 @@ query-5,help me paint an interior wall,diy,y,y,n,n,maintanence,paint interior wa
 query-6,how do you remove crown mold from a wall,diy,y,n,n,y,home improvement,remov crown mold wall,remove crown mold from a wall
 query-7,how to make homemade toothpaste,diy,n,n,n,y,appearance,homemad toothpast,homemade toothpaste
 query-8,how do I clean the fridge,diy,n,n,y,n,maintanence,clean fridg,clean the fridge
-query-9,how can I screw in a nail,diy,n,y,y,n,maintanence,screw nail,screw in a nail
+query-9,how can I screw a nail,diy,n,y,y,n,maintanence,screw nail,screw in a nail
 query-10,how to style curly hair,diy,y,y,y,n,appearance,style cur hair,style curly hair
-query-11,how to write a biography for a book,diy,y,n,y,n,self improvement,write biographi book,write a biography for a book
+query-11,how to write a biography book,diy,y,n,y,n,self improvement,write biographi book,write a biography book
 query-12,how to grow apples,diy,n,y,n,n,gardening,grow appl,grow apples
 query-13,how to grow strawberries,diy,n,y,n,n,gardening,grow strawberri,grow strawberries
 query-14,how to grow cherry tomatoes,diy,n,y,n,n,gardening,grow cherri tomato,grow cherry tomatoes
@@ -37,7 +37,7 @@ query-34,how to fix a blocked shower drain,diy,y,n,n,n,maintanence,fix block sho
 query-35,how to teach a cat to do tricks,diy,y,n,y,n,pets,teach cat trick,teach a cat to do tricks
 query-36,how to build a hamster cage,diy,n,y,n,n,pets,build hamster cage,build a hamster cage
 query-37,how to run  marathon,diy,y,y,y,n,self improvement,run marathon,run  marathon
-query-38,how to gain musle,diy,n,y,n,n,self improvement,gain muscl,gain musle
+query-38,how to gain muscle,diy,n,y,n,n,self improvement,gain muscl,gain muscle
 query-39,fix a cracked phone screen,diy,y,n,y,n,maintanence,fix crack phone screen,fix a cracked phone screen
 query-40,how to plan a christmas party,diy,n,n,y,n,home improvement,plan christma parti,plan a christmas party
 query-41,how to solve a rubik's cube,diy,y,n,n,n,problem solving,solv rubin cube,solve a rubik's cube
