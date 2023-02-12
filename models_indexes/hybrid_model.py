@@ -17,8 +17,14 @@ from ir_measures import *
 from taskmap_pb2 import TaskMap
 
 sys.path.insert(0, './pygaggle')
-from pygaggle.rerank.base import Query, Text, hits_to_texts
+from pygaggle.rerank.base import Query, Text
 from pygaggle.rerank.transformer import MonoT5
+
+class HybridSearcherOverride(HybridSearcher):
+    def search(self, query_d: str, query_s:str, k0: int = 10, k: int = 10, alpha: float = 0.1, normalization: bool = False, weight_on_dense: bool = False):
+        dense_hits = self.dense_searcher.search(query_d, k0)
+        sparse_hits = self.sparse_searcher.search(query_s, k0)
+        return self._hybrid_results(dense_hits, sparse_hits, alpha, k, normalization, weight_on_dense)
 
 class HybridModel(AbstractModel):
 
@@ -94,12 +100,12 @@ class HybridModel(AbstractModel):
             query_encoder= encoder,
         )
         
-        hsearcher = HybridSearcher(dsearcher, ssearcher)
+        hsearcher = HybridSearcherOverride(dsearcher, ssearcher)
         
         lines = []
         for idx, query in pd_queries.iterrows():
             print(f"Started {idx+1}/100")
-            hits = hsearcher.search(query["raw query"], k=50)
+            hits = hsearcher.search(query_d = query["raw query"], query_s = query["target query"], k0=100, k=50)
             if self.t5:
                 scores = [res.score for res in hits]
                 ids = [hit.docid for hit in hits]
