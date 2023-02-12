@@ -87,7 +87,7 @@ class ColbertModel(AbstractModel):
         lines = []
         for idx, query in pd_queries.iterrows():
             print(f"Started {idx+1}/100")
-            hits = searcher.search(query["raw query"], k=50)
+            hits = searcher.search(query_d = query["raw query"], query_s = query["target query"], k=50)
             if self.t5:
                 scores = [res.score for res in hits]
                 ids = [hit.docid for hit in hits]
