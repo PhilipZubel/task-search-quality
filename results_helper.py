@@ -10,10 +10,12 @@ def get_filepaths(folder):
   file_names = os.listdir(folder)
   return [os.path.join(folder, filename) for filename in file_names]
 
-def get_accuracy(run_filepath, qrels_filepath):
+def get_accuracy(run_filepath, qrels_filepath, metrics=None):
     run = ir_measures.read_trec_run(run_filepath)
     qrles = ir_measures.read_trec_qrels(qrels_filepath)
-    accuracy = ir_measures.calc_aggregate([nDCG@3, nDCG@5, nDCG@10, Precision@3, Precision@5, Precision@10, Recall@10, Recall@20, Recall@50, Judged@10, Judged@20, Judged@50, MAP], qrles, run)
+    if metrics is None:
+        metrics = [nDCG@3, nDCG@5, nDCG@10, Precision@3, Precision@5, Precision@10, Recall@10, Recall@20, Recall@50, Judged@10, Judged@20, Judged@50, MAP]
+    accuracy = ir_measures.calc_aggregate(metrics, qrles, run)
     return accuracy
 
 def get_nDGCs_per_run(run_filepath, qrels_filepath):
@@ -56,7 +58,7 @@ def show_iprecs(results_iprec):
     # iprec = ir_measures.calc_aggregate(precs, qrles, run)
     # return iprec
 
-def get_all_metrics(runs_dir, qrels, path, with_t5 = None):  
+def get_all_metrics(runs_dir, qrels, path, with_t5 = None, metrics = None):  
     if with_t5:
         path += '-t5.csv'
     elif with_t5 == False:
@@ -65,7 +67,6 @@ def get_all_metrics(runs_dir, qrels, path, with_t5 = None):
         path += '.csv'
 
     runs = os.listdir(runs_dir)
-
     results = {}
     for searcher in sorted(runs):
         run = os.path.join(runs_dir, searcher)
@@ -76,7 +77,7 @@ def get_all_metrics(runs_dir, qrels, path, with_t5 = None):
             continue
         if with_t5 == True and "t5" not in searcher_name:
             continue
-        accuracy = get_accuracy(run, qrels)
+        accuracy = get_accuracy(run, qrels, metrics = metrics)
         results[searcher_name] = accuracy
         
     df = pd.DataFrame(results).transpose()
