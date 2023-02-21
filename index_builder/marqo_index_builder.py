@@ -113,8 +113,11 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
             # Build list of documents.
             taskmap_list = self.__get_protobuf_list_messages(path=in_path, proto_message=TaskMap)            
             docs_list = [self.__build_doc(taskmap, how=how, dense=dense) for taskmap in taskmap_list]
-            with open(out_path+".json", 'w') as f:
-                f.write(json.dumps(docs_list, indent=4))
+            batch_sz, batch_id = 100000, 0
+            while batch_sz * batch_id < len(docs_list):
+                with open(f"{out_path}_{batch_id}.json", 'w') as f:
+                    f.write(json.dumps(docs_list[batch_sz*batch_id:batch_sz*(batch_id+1)]))
+                batch_id += 1
 
 
     def __build_marqo_index(self, input_dir, domain, how):
@@ -122,26 +125,30 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
         if not self.mq:
             self.mq = marqo.Client(url='http://localhost:8882')
         
-        # if self.model != "marqo":    
-        #     settings = {
-        #         "index_defaults": {
-        #             "treat_urls_and_pointers_as_images": False,
-        #             "model": "flax-sentence-embeddings/all_datasets_v4_mpnet-base",
-        #             "normalize_embeddings": True,
-        #         },
-        #     }
-        #     self.mq.create_index({domain}-{self.model}, settings_dict=settings)
         self.mq.index(f"{domain}-{how}").delete()
-        self.mq.create_index(f"{domain}-{how}")
-        # input_file = os.path.join(input_dir, "wikihow-taskmaps_108_v2.jsonl")
-        print(input_dir)
-        for file in os.listdir(input_dir):
+        index_name = f"{domain}-{how}"
+        print("Index name:", index_name)
+        self.mq.create_index(index_name)
+
+        files = os.listdir(input_dir)
+        # files = files[8:]
+        for file in files:
             input_file = os.path.join(input_dir, file)
-            # print(input_file)
-            subprocess.run(["curl", "-XPOST", f"http://localhost:8882/indexes/{domain}-{how}/documents?device=cuda&processes=4&batch_size=20",
-                "-H", "Content-Type: application/json", 
-                "-T", input_file,
-                ])    
+            index_data = json.load(open(input_file))
+
+            print(f'Loaded {len(index_data)} items...')
+
+            batch_sz = 10000
+            for i in range(0, len(index_data), batch_sz):
+
+                print(f'Inserting from {i}:{i+batch_sz}')
+                self.mq.index(index_name).add_documents(index_data[i:i+batch_sz], device='cuda', server_batch_size=50, processes=4)
+
+            print('Index complete')
+        # subprocess.run(["curl", "-XPOST", f"http://localhost:8882/indexes/{domain}-{how}/documents?device=cuda&processes=4&batch_size=20",
+        #     "-H", "Content-Type: application/json", 
+        #     "-T", input_file,
+        #     ])    
             # subprocess.run(["curl", "-XPOST", f"http://localhost:8882/indexes/{domain}-{self.model}/documents?device=cuda&processes=4&batch_size=20",
             #     "-H", "Content-Type: application/json", 
             #     "-T", input_file,
@@ -184,18 +191,22 @@ class MarqoIndexBuilder(AbstractIndexBuilder):
                                   domain=domain, how=how)
         
     
-    def query_index(self, domain, q, limit=50, offset=0, how="all", attributes=["*"]):
+    def query_index(self, domain, q, limit=50, offset=0, filters=None):
         if not self.mq:
             self.mq = marqo.Client(url='http://localhost:8882')
-        return self.mq.index(f'{domain}-{how}').search(q, searchable_attributes=attributes, limit=50, offset=0)
+        if filters:
+            print("FILTERS ADDED", filters)
+            return self.mq.index(f'{domain}-separate').search(q, limit=limit, offset=offset, attributes_to_retrieve=filters, searchable_attributes=filters)
+        print("No filters")
+        return self.mq.index(f'{domain}-all').search(q, limit=limit, offset=offset)
     
     # def query_index_filter(self, q:str, filter:str):
     #     return self.mq.index("index-name").search(q=q, filter_string=filter)
     
-    def get_index_stats(self, domain, limit=50, offset=0):
+    def get_index_stats(self, domain, how="all", limit=50, offset=0):
         if not self.mq:
             self.mq = marqo.Client(url='http://localhost:8882')
-        return self.mq.index(f'{domain}').get_stats()
+        return self.mq.index(f'{domain}-{how}').get_stats()
     
     def get_single_document(self, domain, doc_id):
         if not self.mq:

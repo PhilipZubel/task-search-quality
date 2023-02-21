@@ -69,6 +69,8 @@ def get_all_metrics(runs_dir, qrels, path, with_t5 = None):
     results = {}
     for searcher in sorted(runs):
         run = os.path.join(runs_dir, searcher)
+        if not run.endswith(".run"):
+            continue
         searcher_name = searcher[:-4].lower()
         if with_t5 == False and "t5" in searcher_name:
             continue
