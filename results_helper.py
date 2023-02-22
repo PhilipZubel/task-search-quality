@@ -181,6 +181,7 @@ def get_metrics(run_folder, qrels_file, metric, t5 = True):
     
     df_qrles = get_qrles_df(qrels_file)
     scores = []
+    print(run_files())
     for file in run_files:
         model_name = file.split('/')[-1].split(".")[0]
         df_run = get_run_df(file)
