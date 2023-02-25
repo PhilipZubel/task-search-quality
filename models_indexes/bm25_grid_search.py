@@ -15,42 +15,6 @@ from pyserini.search import LuceneSearcher
 from models_datasets.recipe_1m_model import Recipe1MModel
 from models_datasets.wikihow_model import WikihowModel
 
-
-# class Bm25ModelGridCV():
-
-#     def __init__(self, domain:str, queries, cv=4):
-#         self.dataset_model: AbstractModelDataset = self.__get_dataset_model(domain)()
-#         self.cv = cv
-#         self.queries = queries
-#         self.index_dir = os.path.join(self.dataset_model.get_index_path(), "system_index_sparse")
-#         # np.random.seed(42)
-#         # self.split_queries = self.__split_queries()
-
-#     def set_k1_range(self, start, end, step):
-#         """ Default is between 0.1-5.0 with step 0.2"""
-#         self.k1_range = np.arange(start, end, step)
-    
-#     def set_b_range(self, start, end, step):
-#         """ Default is between 0.1-1.0 with step 0.1"""
-#         self.b_range = np.arange(start, end, step)
-    
-
-
-
-
-#     def fit(self):
-#         param_grid = {
-#             'k1': self.k1_range,
-#             'b': self.b_range,
-#         }
-#         searcher = SimpleSearcher(self.index_dir)
-#         # grid_search = GridSearchCV(searcher, param_grid, cv=self.cv, scoring='neg_mean_squared_error')
-#         # grid_search.fit(self.queries["target query"])
-#         # print("Best parameters: ", grid_search.best_params_)
-#         # print("Best score: ", grid_search.best_score_)
-
-
-
 class GridSearchCV():
 
     def __init__(self, domain:str, queries, params, cv=5):
@@ -64,6 +28,7 @@ class GridSearchCV():
         self.judgments = self.__get_ir_measures_qrels(judgments_df)
 
     def predict(self):
+
         averages = []
         p = []
         for b in self.params['b']:
@@ -72,10 +37,68 @@ class GridSearchCV():
             print(f'MAP scores: {scores}')
             p.append(b)
             averages.append(scores)
+        self.best_b = self.__get_best_param(averages, p)
+
+        averages = []
+        p = []
+        for k1 in self.params['k1']:
+            run = self.__get_ir_measures_run(b=self.best_b, k1=k1)
+            scores = self.__get_average_score(run)
+            print(f'MAP scores: {scores}')
+            p.append(k1)
+            averages.append(scores)
+        self.best_k1 = self.__get_best_param(averages, p)
+
+        if "fb_terms" not in self.params:
+            return {
+                "best_k1" : self.best_k1,
+                "best_b" : self.best_b,
+            }
+
+        averages = []
+        p = []
+        for fb_terms in self.params['fb_terms']:
+            run = self.__get_ir_measures_run(b=self.best_b, k1=self.best_k1, fb_terms=fb_terms, rm3=True)
+            scores = self.__get_average_score(run)
+            print(f'MAP scores: {scores}')
+            p.append(fb_terms)
+            averages.append(scores)
+        self.best_fb_terms = self.__get_best_param(averages, p)
+
+        averages = []
+        p = []
+        for fb_docs in self.params['fb_docs']:
+            run = self.__get_ir_measures_run(b=self.best_b, k1=self.best_k1, fb_terms=self.best_fb_terms, fb_docs=fb_docs, rm3=True)
+            scores = self.__get_average_score(run)
+            print(f'MAP scores: {scores}')
+            p.append(fb_docs)
+            averages.append(scores)
+        self.best_fb_docs = self.__get_best_param(averages, p)
+        
+        averages = []
+        p = []
+        for original_query_weight in self.params['original_query_weight']:
+            run = self.__get_ir_measures_run(b=self.best_b, k1=self.best_k1, fb_terms=self.best_fb_terms, fb_docs=self.best_fb_docs, original_query_weight=original_query_weight, rm3=True)
+            scores = self.__get_average_score(run)
+            print(f'MAP scores: {scores}')
+            p.append(original_query_weight)
+            averages.append(scores)
+        self.original_query_weight = self.__get_best_param(averages, p)
+
+        return {
+            "best_k1" : self.best_k1,
+            "best_b" : self.best_b,
+            "best_fb_terms" : self.best_fb_terms,
+            "best_fb_docs" : self.best_fb_docs,
+            "original_query_weight" : self.original_query_weight,
+        }
+        
+    def __get_best_param(self, averages, p):
         averages = np.array(averages)
         p = np.array(p)
         max_idxs = np.argmax(averages, axis=0)
-        return averages, p, max_idxs
+        p_max_values = p[max_idxs]
+        return  round(np.mean(p_max_values), 2)
 
     def __get_average_score(self, run):
         scores = []
@@ -94,11 +117,16 @@ class GridSearchCV():
             df_parts.append(self.queries[rand_ints == i]["id"].tolist())
         return df_parts
 
-    def __get_ir_measures_run(self, k1=0.9, b=0.4):
-        print(f"Generating run... k1={k1}, b={b}")
+    def __get_ir_measures_run(self, k1=0.9, b=0.4, fb_terms=10, fb_docs=10, original_query_weight=0.5, rm3=False): 
         scores_per_query = {}
         searcher = LuceneSearcher(index_dir=self.index_dir)
         searcher.set_bm25(k1=k1, b=b)
+        if rm3:
+            # print(fb_terms,fb_docs,original_query_weight)
+            searcher.set_rm3(fb_terms=fb_terms, fb_docs=fb_docs, original_query_weight=original_query_weight)
+            print(f"Generating run... k1={k1}, b={b}, fb_terms={fb_terms}, fb_docs={fb_docs}, original_query_weight={original_query_weight}")
+        else:
+            print(f"Generating run... k1={k1}, b={b}")
         for idx, query in self.queries.iterrows():
             hits = searcher.search(q=query["target query"], k=50)
             run = []

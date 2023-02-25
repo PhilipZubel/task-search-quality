@@ -20,15 +20,21 @@ from pygaggle.rerank.transformer import MonoT5
 
 class BM25Model(AbstractModel):
 
-    def __init__(self, domain:str, rm3:bool=False, t5:bool=False):
+    def __init__(self, domain:str, rm3:bool=False, t5:bool=False, params=None):
         self.model_name = "bm25"
         if rm3:
             self.model_name += "+rm3"
         if t5:
             self.model_name += "+t5"
+        if params:
+            for key, value in params.items():
+                self.model_name += f"+{key}={value}"
+
         self.domain = domain
         self.rm3 = rm3
         self.t5 = t5
+        self.params = params
+
         self.dataset_model: AbstractModelDataset = self.get_dataset_model(domain)()
         if self.t5:
             self.reranker = MonoT5()
@@ -68,9 +74,15 @@ class BM25Model(AbstractModel):
     def convert_search_results_to_run(self, pd_queries):
         # Initialize searcher
         searcher = LuceneSearcher(index_dir=self.output_index_dir)
-        searcher.set_bm25(b=0.4, k1=0.9)
+        if self.params:
+            searcher.set_bm25(b=self.params["best_b"], k1=self.params["best_k1"])
+        else:
+            searcher.set_bm25(b=0.4, k1=0.9)
         if self.rm3 == True:
-            searcher.set_rm3(fb_terms=10, fb_docs=10, original_query_weight=0.5)
+            if "best_fb_terms" in self.params:
+                searcher.set_rm3(fb_terms=self.params["best_fb_terms"], fb_docs=self.params["best_fb_docs"], original_query_weight=self.params["best_original_query_weight"])
+            else:  
+                searcher.set_rm3(fb_terms=10, fb_docs=10, original_query_weight=0.5)
         
         # retrieve results
         lines = []
