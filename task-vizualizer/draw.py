@@ -1,5 +1,6 @@
 # pip install pydot
 # sudo apt-get install graphviz
+
 import sys
 sys.path.insert(0, 'compiled_protobufs')
 from taskmap_pb2 import TaskMap
@@ -9,15 +10,18 @@ from IPython.display import Image, display
 import pydot
 import requests
 from PIL import Image as Im
+  
+def get_taksgraph_visualization(taskmap:TaskMap):
+    parsed_taskgraph = parse_taskgraph(taskmap)
+    __get_visualization(parsed_taskgraph)
+    __delete_downloaded_images()
 
-def view_pydot(pdot):
+def __view_pydot(pdot):
     plt = Image(pdot.create_png())
     display(plt)
     
-def download_image(url, id=0):
-    # full_path = os.path.join(os.getcwd(), f'picture{id}.jpg')
+def __download_image(url, id=0):
     img_data = requests.get(url).content
-    # print(requests.get(url).status_code)
     filename = f'img_data{id}.jpg'
     with open(filename, 'wb') as handler:
         handler.write(img_data)
@@ -34,12 +38,10 @@ def scale_img_by_width(filename):
 
 
 def parse_taskgraph(taskmap:TaskMap):
-    print(taskmap)
     title = taskmap.title
     steps = [step.response.screen.paragraphs[0] for step in taskmap.steps]
     steps_urls = [step.response.transcript.image_url for step in taskmap.steps]
     steps_urls[-1] = "https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2011/06/Dianes-pasta-410x271.jpg"
-    print(steps_urls)
     requirements = [requirements.name for requirements in taskmap.requirement_list]
     dataset = taskmap.dataset
     
@@ -66,12 +68,12 @@ def parse_taskgraph(taskmap:TaskMap):
     }
 
 
-def get_visualization(parsed_taskgraph):
+def __get_visualization(parsed_taskgraph):
     
     # download images
     for idx, img_url in enumerate(parsed_taskgraph["steps_urls"]):
         if img_url != "":
-            download_image(img_url, idx)
+            __download_image(img_url, idx)
     
     graph = pydot.Dot(parsed_taskgraph["title"], graph_type='digraph', format="jpg")
     steps = parsed_taskgraph["steps"]
@@ -101,7 +103,6 @@ def get_visualization(parsed_taskgraph):
         node.set_fontsize(10)
         nodes.append(node)
         graph.add_node(node)
-        print(idx)
         if  idx < len(steps) - 2 and parsed_taskgraph["steps_urls"][idx] != "":
             imgNode = pydot.Node(f"i{idx}", label="",)
             imgNode.set_image(os.path.join(os.getcwd(), f'img_data{idx}.jpg'))
@@ -129,15 +130,12 @@ def get_visualization(parsed_taskgraph):
     
     edge = pydot.Edge(-2, 0, color="white")
     graph.add_edge(edge)
-    
-    # graph.write_raw('taskgraph.dot')
-    # graph.write_png('taskgraph.png')
-    view_pydot(graph)
 
-def delete_downloaded_images():
+    __view_pydot(graph)
+
+def __delete_downloaded_images():
     # Getting All Files List
     fileList = glob.glob('img_data*.jpg', recursive=False)
-        
     # Remove all files one by one
     for file in fileList:
         try:
@@ -145,11 +143,7 @@ def delete_downloaded_images():
         except OSError:
             print("Error while deleting file")
     
-    
-def get_taksgraph_visualization(taskmap:TaskMap):
-    parsed_taskgraph = parse_taskgraph(taskmap)
-    get_visualization(parsed_taskgraph)
-    delete_downloaded_images()
+
 
 
     

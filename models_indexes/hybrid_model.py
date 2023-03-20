@@ -24,7 +24,32 @@ class HybridSearcherOverride(HybridSearcher):
     def search(self, query_d: str, query_s:str, k0: int = 10, k: int = 10, alpha: float = 0.1, normalization: bool = False, weight_on_dense: bool = False):
         dense_hits = self.dense_searcher.search(query_d, k0)
         sparse_hits = self.sparse_searcher.search(query_s, k0)
-        return self._hybrid_results(dense_hits, sparse_hits, alpha, k, normalization, weight_on_dense)
+        trec_runs = [sparse_hits,dense_hits]
+        return self.__reciprocal_rank_fusion(trec_runs=trec_runs, k=60, max_docs=k)
+        # return self._hybrid_results(dense_hits, sparse_hits, alpha, k, normalization, weight_on_dense)
+
+    def __reciprocal_rank_fusion(self, trec_runs, k=60, max_docs=1000):
+        """
+            Implements a reciprocal rank fusion as define in
+            ``Reciprocal Rank fusion outperforms Condorcet and individual Rank Learning Methods`` by Cormack, Clarke and Buettcher.
+            Parameters:
+                trec_runs: a list of TrecRun objects to fuse
+                k: term to avoid vanishing importance of lower-ranked documents. Default value is 60 (default value used in their paper).
+                max_docs: maximum number of documents in the final ranking
+        """
+
+        doc_scores = {}
+        for hits in trec_runs:
+            for pos, hit in enumerate(hits, start=1):
+                doc_scores[hit.docid] = doc_scores.get(hit.docid, 0.0) + 1.0 / (k + pos)
+
+        # Writes out information for this topic
+        merged_run = []
+        for (docid, score) in sorted(iter(doc_scores.items()), key=lambda x: (-x[1], x[0]))[:max_docs]:
+            merged_run.append([score, docid])
+
+        return merged_run
+
 
 class HybridModel(AbstractModel):
 
@@ -49,29 +74,6 @@ class HybridModel(AbstractModel):
         
     def build_index(self, overwrite=False):
         pass
-        
-    #     if not os.path.isdir(self.output_index_dir):
-    #         os.makedirs(self.output_index_dir)
-            
-    #     if not overwrite and len(os.listdir(self.output_index_dir)) > 0:
-    #         print("Index already built. Call overwrite=True in build_index() to rebuild the index again.")
-    #         return
-            
-    #     index_builder = PyseriniSparseBuilder()
-        
-    #     print("Build documents...")
-    #     print(f"Saving documents to {self.output_temp_dir}...")
-    #     taskmap_dir = self.dataset_model.get_taskgraphs_path()
-    #     dataset_name = self.dataset_model.get_dataset_name()
-    #     index_builder.build_json_docs(input_dir=taskmap_dir,
-    #                                     output_dir=self.output_temp_dir,
-    #                                     dataset_name=dataset_name)
-        
-    #     print("Generate index...")
-    #     print(f"Saving documents to {self.output_index_dir}...")
-    #     index_builder.build_index(input_dir=self.output_temp_dir,
-    #                                 output_dir=self.output_index_dir)
-
 
 
     def dense_hits_to_text(self, hits, scores, ids):
@@ -89,14 +91,14 @@ class HybridModel(AbstractModel):
     
     def convert_search_results_to_run(self, pd_queries):
         # Initialize searcher
-        ssearcher = LuceneSearcher(index_dir="/home/ubuntu/task-search-quality/indexes/diy/system_index_sparse")
+        ssearcher = LuceneSearcher(index_dir=f"/home/ubuntu/task-search-quality/indexes/{self.domain.lower()}/system_index_sparse")
         ssearcher.set_bm25(b=0.4, k1=0.9)
         if self.rm3 == True:
             ssearcher.set_rm3(fb_terms=10, fb_docs=10, original_query_weight=0.5)
         
         encoder = TctColBertQueryEncoder('castorini/tct_colbert-v2-hnp-msmarco')
         dsearcher = FaissSearcher(
-            index_dir = "/home/ubuntu/task-search-quality/indexes/diy/system_index_colbert",
+            index_dir = f"/home/ubuntu/task-search-quality/indexes/{self.domain.lower()}/system_index_colbert",
             query_encoder= encoder,
         )
         
@@ -105,11 +107,11 @@ class HybridModel(AbstractModel):
         lines = []
         for idx, query in pd_queries.iterrows():
             print(f"Started {idx+1}/100")
-            hits = hsearcher.search(query_d = query["raw query"], query_s = query["target query"], k0=100, k=50)
+            hits = hsearcher.search(query_d = query["raw query"], query_s = query["target query"], k0=250, k=50)
             if self.t5:
-                scores = [res.score for res in hits]
-                ids = [hit.docid for hit in hits]
-                retrived_hits = [ssearcher.doc(hit.docid) for hit in hits]
+                scores = [res[0] for res in hits]
+                ids = [hit[1] for hit in hits]
+                retrived_hits = [ssearcher.doc(hit[1]) for hit in hits]
                 print("converted to pygaggle")
                 hits = self.reranker.rerank(Query(query["target query"]), self.dense_hits_to_text(retrived_hits, scores, ids))
             for rank, hit in enumerate(hits[:50]):
@@ -117,10 +119,10 @@ class HybridModel(AbstractModel):
                     id = hit.metadata["docid"]
                     line = f'{query["id"]} Q0 {id} {rank+1} {hit.score} {self.model_name}\n'
                 else:
-                    line = f'{query["id"]} Q0 {hit.docid} {rank+1} {hit.score} {self.model_name}\n'
+                    line = f'{query["id"]} Q0 {hit[1]} {rank+1} {hit[0]} {self.model_name}\n'
                 lines.append(line)
             print(f"Finished {idx+1}/100")
-        lines[-1] = lines[-1].replace("\n","")
+        # lines[-1] = lines[-1].replace("\n","")
         
         if not os.path.isdir(self.run_path):
             os.makedirs(self.run_path)

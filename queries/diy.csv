@@ -4,7 +4,7 @@ query-1,how to learn a new language,diy,n,n,y,n,self improvement,learn new langu
 query-2,how to remove food stains from a carpet,diy,n,y,n,y,maintanence,remov food stain carpet,remove food stains from a carpet
 query-3,how to wash a car with less water,diy,n,n,y,y,maintanence,wash car water,wash a car with less water
 query-4,how do I decorate an office,diy,n,y,y,n,home improvement,decor offic,decorate an office
-query-5,help me paint an interior wall,diy,y,y,n,n,maintanence,paint interior wall,paint an interior wall
+query-5,how to help me paint an interior wall,diy,y,y,n,n,maintanence,paint interior wall,paint an interior wall
 query-6,how do you remove crown mold from a wall,diy,y,n,n,y,home improvement,remov crown mold wall,remove crown mold from a wall
 query-7,how to make homemade toothpaste,diy,n,n,n,y,appearance,homemad toothpast,homemade toothpaste
 query-8,how do I clean the fridge,diy,n,n,y,n,maintanence,clean fridg,clean the fridge
@@ -19,29 +19,29 @@ query-16,how to plant tulips,diy,n,y,n,n,gardening,plant tulip,plant tulips
 query-17,how to wash a cutting board,diy,y,y,y,n,maintanence,wash cut board,wash a cutting board
 query-18,help me learn how to knit clothes,diy,n,y,y,n,home improvement,learn knit cloth,learn how to knit clothes
 query-19,how to wash a stainless steel pan,diy,y,y,n,y,maintanence,wash stainless steel pan,wash a stainless steel pan
-query-20,cut tempered glass,diy,n,y,n,n,home improvement,cut temper glass,cut tempered glass
-query-21,put on a bike chain,diy,n,n,n,y,maintanence,bike chain,bike chain
-query-22,fix a water heater,diy,y,y,n,n,maintanence,fix water heater,fix a water heater
-query-23,build a simple kite,diy,n,y,y,y,crafts,build simpl kite,build a simple kite
-query-24,learn how to juggle three balls,diy,n,n,n,y,self improvement,learn juggl three ball,learn how to juggle three balls
-query-25,chop an onion like a pro,diy,y,y,n,y,self improvement,chop onion pro,chop an onion like a pro
+query-20,how to cut tempered glass,diy,n,y,n,n,home improvement,cut temper glass,cut tempered glass
+query-21,how to put on a bike chain,diy,n,n,n,y,maintanence,bike chain,bike chain
+query-22,how to fix a water heater,diy,y,y,n,n,maintanence,fix water heater,fix a water heater
+query-23,how to build a simple kite,diy,n,y,y,y,crafts,build simpl kite,build a simple kite
+query-24,how to learn how to juggle three balls,diy,n,n,n,y,self improvement,learn juggl three ball,learn how to juggle three balls
+query-25,how to chop an onion like a pro,diy,y,y,n,y,self improvement,chop onion pro,chop an onion like a pro
 query-26,how to hand whistle,diy,n,n,n,y,self improvement,hand whistl,hand whistle
 query-27,how to change a car tire,diy,y,n,n,n,maintanence,chang car tire,change a car tire
-query-28,fix a stuck zipper,diy,y,n,n,n,maintanence,fix stuck zipper,fix a stuck zipper
-query-29,paint a metal fence,diy,n,y,n,n,maintanence,paint metal fenc,paint a metal fence
-query-30,create an outdoor fireplace,diy,y,y,n,n,home improvement,creat outdoor fireplac,create an outdoor fireplace
+query-28,how to fix a stuck zipper,diy,y,n,n,n,maintanence,fix stuck zipper,fix a stuck zipper
+query-29,how topaint a metal fence,diy,n,y,n,n,maintanence,paint metal fenc,paint a metal fence
+query-30,how to create an outdoor fireplace,diy,y,y,n,n,home improvement,creat outdoor fireplac,create an outdoor fireplace
 query-31,how to remove a tree,diy,n,y,y,n,gardening,remov tree,remove a tree
-query-32,paint nails with patterns,diy,n,n,n,y,appearance,paint nail pattern,paint nails with patterns
-query-33,make a gravel garden path,diy,y,y,y,y,home improvement,gravel garden path,gravel garden path
+query-32,how to paint nails with patterns,diy,n,n,n,y,appearance,paint nail pattern,paint nails with patterns
+query-33,how to make a gravel garden path,diy,y,y,y,y,home improvement,gravel garden path,gravel garden path
 query-34,how to fix a blocked shower drain,diy,y,n,n,n,maintanence,fix block shower drain,fix a blocked shower drain
 query-35,how to teach a cat to do tricks,diy,y,n,y,n,pets,teach cat trick,teach a cat to do tricks
 query-36,how to build a hamster cage,diy,n,y,n,n,pets,build hamster cage,build a hamster cage
 query-37,how to run  marathon,diy,y,y,y,n,self improvement,run marathon,run  marathon
 query-38,how to gain muscle,diy,n,y,n,n,self improvement,gain muscl,gain muscle
-query-39,fix a cracked phone screen,diy,y,n,y,n,maintanence,fix crack phone screen,fix a cracked phone screen
+query-39,how to fix a cracked phone screen,diy,y,n,y,n,maintanence,fix crack phone screen,fix a cracked phone screen
 query-40,how to plan a christmas party,diy,n,n,y,n,home improvement,plan christma parti,plan a christmas party
 query-41,how to solve a rubik's cube,diy,y,n,n,n,problem solving,solv rubin cube,solve a rubik's cube
-query-42,learn a chess opening,diy,y,n,y,n,self improvement,learn chess open,learn a chess opening
+query-42,how to learn a chess opening,diy,y,n,y,n,self improvement,learn chess open,learn a chess opening
 query-43,how to replace a window,diy,y,n,n,n,maintanence,replac window,replace a window
 query-44,how to iron a suit,diy,n,n,y,n,appearance,iron suit,iron a suit
 query-45,how to warm up before a run,diy,y,y,y,n,self improvement,warm run,warm up before a run
@@ -51,10 +51,10 @@ query-48,how to change a child's diaper,diy,n,y,n,n,childcare,chang child diaper
 query-49,how to make a bubble bath,diy,n,n,n,y,appearance,bubbl bath,bubble bath
 query-50,how to remove a permanent marker from a whiteboard,diy,y,y,n,y,maintanence,remov perman marker whiteboard,remove a permanent marker from a whiteboard
 query-51,how to replace a toilet seat,diy,y,n,n,n,maintanence,replac toilet seat,replace a toilet seat
-query-52,fix a leaking shower,diy,n,y,y,n,maintanence,fix leak shower,fix a leaking shower
+query-52,how to fix a leaking shower,diy,n,y,y,n,maintanence,fix leak shower,fix a leaking shower
 query-53,how to put up wallpaper,diy,n,y,y,n,home improvement,wallpap,wallpaper
-query-54,hang a shelf,diy,n,n,y,n,home improvement,hang shelf,hang a shelf
-query-55,sell my paintings on the internet,diy,n,y,n,n,crafts,sell paint internet,sell my paintings on the internet
+query-54,how to hang a shelf,diy,n,n,y,n,home improvement,hang shelf,hang a shelf
+query-55,how to sell my paintings on the internet,diy,n,y,n,n,crafts,sell paint internet,sell my paintings on the internet
 query-56,how to make a keychain,diy,n,y,n,n,crafts,keychain,keychain
 query-57,how to make a bath bomb,diy,n,y,n,n,crafts,bath bomb,bath bomb
 query-58,how to make a candles that smell well,diy,y,y,y,y,crafts,candl smell,candles that smell well
@@ -70,7 +70,7 @@ query-67,how to make my own fridge magnets,diy,y,n,n,n,crafts,fridg magnet,fridg
 query-68,how to organize a kitchen,diy,y,n,n,n,maintanence,organ kitchen,organize a kitchen
 query-69,how to make christmas ornaments,diy,n,y,y,n,crafts,christma ornament,christmas ornaments
 query-70,how to build a dog house,diy,y,y,n,n,pets,build dog hous,build a dog house
-query-71,help me clean the oven,diy,n,y,y,n,maintanence,clean oven,clean the oven
+query-71,how to help me clean the oven,diy,n,y,y,n,maintanence,clean oven,clean the oven
 query-72,how to clean the windows,diy,n,y,y,n,maintanence,clean window,clean the windows
 query-73,how to pick a lock with paper clips,diy,n,y,y,n,self improvement,pick lock paper clip,pick a lock with paper clips
 query-74,how to cut my own hair,diy,y,y,y,n,appearance,cut hair,cut my own hair

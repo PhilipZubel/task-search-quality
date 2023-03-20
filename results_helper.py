@@ -172,9 +172,14 @@ def get_ir_measures_qrels(qrels):
 def get_ir_measures_run(run):
     return [ir_measures.ScoredDoc(score["query_id"], score["doc_id"], score["score"]) for index, score in run.iterrows()]
 
-def get_metrics(run_folder, qrels_file, metric, t5 = True):
+def get_metrics(run_folder, qrels_file, metric, t5 = None):
     run_files = get_filepaths(run_folder)
-    if t5:
+
+    # run_files = [f for f in run_files if not "marqo-filters" in f]
+
+    if t5 is None:
+        run_files = [f for f in run_files]
+    elif t5:
         run_files = [f for f in run_files if "t5" in f]
     else:
         run_files = [f for f in run_files if "t5" not in f]

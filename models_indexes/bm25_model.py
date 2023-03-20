@@ -79,7 +79,7 @@ class BM25Model(AbstractModel):
         else:
             searcher.set_bm25(b=0.4, k1=0.9)
         if self.rm3 == True:
-            if "best_fb_terms" in self.params:
+            if self.params and "best_fb_terms" in self.params:
                 searcher.set_rm3(fb_terms=self.params["best_fb_terms"], fb_docs=self.params["best_fb_docs"], original_query_weight=self.params["best_original_query_weight"])
             else:  
                 searcher.set_rm3(fb_terms=10, fb_docs=10, original_query_weight=0.5)
@@ -109,6 +109,7 @@ class BM25Model(AbstractModel):
         
         # print(f"Run file saved at {self.run_path}/{self.model_name}.run")
         with open(os.path.join(self.run_path, f"{self.model_name}.run"), "w") as f:
+            print(os.path.join(self.run_path, f"{self.model_name}.run"))
             f.writelines(lines)
             
     def create_empty_judgments(self, pd_queries, k, n):

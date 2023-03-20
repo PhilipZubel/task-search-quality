@@ -77,20 +77,20 @@ class GridSearchCV():
         
         averages = []
         p = []
-        for original_query_weight in self.params['original_query_weight']:
-            run = self.__get_ir_measures_run(b=self.best_b, k1=self.best_k1, fb_terms=self.best_fb_terms, fb_docs=self.best_fb_docs, original_query_weight=original_query_weight, rm3=True)
+        for best_original_query_weight in self.params['best_original_query_weight']:
+            run = self.__get_ir_measures_run(b=self.best_b, k1=self.best_k1, fb_terms=self.best_fb_terms, fb_docs=self.best_fb_docs, best_original_query_weight=best_original_query_weight, rm3=True)
             scores = self.__get_average_score(run)
             print(f'MAP scores: {scores}')
-            p.append(original_query_weight)
+            p.append(best_original_query_weight)
             averages.append(scores)
-        self.original_query_weight = self.__get_best_param(averages, p)
+        self.best_original_query_weight = self.__get_best_param(averages, p)
 
         return {
             "best_k1" : self.best_k1,
             "best_b" : self.best_b,
             "best_fb_terms" : self.best_fb_terms,
             "best_fb_docs" : self.best_fb_docs,
-            "original_query_weight" : self.original_query_weight,
+            "best_original_query_weight" : self.best_original_query_weight,
         }
         
     def __get_best_param(self, averages, p):
