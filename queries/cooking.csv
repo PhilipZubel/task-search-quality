@@ -1,12 +1,12 @@
 id,raw query,domain,knowledge,complex,many points of view,different key entities,seasonal,regional,target query,short query
 query-0,how to spatchcock a turkey,cooking,n,y,n,n,y,usa,spatchcock turkey,spatchcock a turkey
-query-1,I want an easy to make dessert for christmas,cooking,n,y,y,n,y,-,easi dessert christma,easy to make dessert for christmas
+query-1,i want an easy to make dessert for christmas,cooking,n,y,y,n,y,-,easi dessert christma,easy to make dessert for christmas
 query-2,any recommendations for a gluten free appetizer,cooking,y,n,y,y,n,-,gluten free appet,gluten free appetizer
 query-3,how to make a green goddess salad,cooking,y,y,n,y,n,usa,green goddess salad,green goddess salad
 query-4,how to make a classic english trifle,cooking,y,n,n,y,y,uk,classic english trifl,classic english trifle
-query-5,I want a scary pumpkin pie,cooking,n,y,y,n,y,-,scari pumpkin pie,scary pumpkin pie
+query-5,i want a scary pumpkin pie,cooking,n,y,y,n,y,-,scari pumpkin pie,scary pumpkin pie
 query-6,ideas for easy to carry tailgate food,cooking,y,y,y,n,y,usa,carri tailgat food,easy to carry tailgate food
-query-7,I want to make halloween candy,cooking,n,n,y,n,y,-,halloween candi,halloween candy
+query-7,i want to make halloween candy,cooking,n,n,y,n,y,-,halloween candi,halloween candy
 query-8,how to make a gluten free peach crisp,cooking,y,y,n,y,n,-,gluten free peach,gluten free peach crisp
 query-9,healthy zucchini bread,cooking,y,y,y,n,n,-,healthi zucchini bread,healthy zucchini bread
 query-10,recommend some asian street foods,cooking,y,y,n,y,n,asia,asian street food,asian street foods
@@ -14,7 +14,7 @@ query-11,dinners by batali,cooking,n,y,n,y,n,-,dinner battl,dinners by batali
 query-12,traditional japanese soup,cooking,y,y,n,n,n,japan,tradit japanes soup,traditional japanese soup
 query-13,how to make singaporean chicken lunch,cooking,y,y,n,y,n,singapore,singapor chicken lunch,singaporean chicken lunch
 query-14,a romantic dinner,cooking,n,y,n,y,n,-,romant dinner,romantic dinner
-query-15,mexican fiesta recipees,cooking,y,y,y,y,y,mexico,mexican fiesta recip,mexican fiesta recipees
+query-15,mexican fiesta recipes,cooking,y,y,y,y,y,mexico,mexican fiesta recip,mexican fiesta recipes
 query-16,a modern icebox cake,cooking,y,y,y,n,n,-,modern icebox cake,modern icebox cake
 query-17,food for diwali,cooking,y,y,y,y,y,india,food diwali,food for diwali
 query-18,i want a fancy eggs recipe,cooking,n,n,y,n,n,-,fanci egg,fancy eggs recipe
@@ -86,7 +86,7 @@ query-83,fluffy cinnamon rolls,cooking,n,n,y,y,n,-,fluffi cinnamon roll,fluffy c
 query-84,toasted garlic bread pizza,cooking,n,y,n,y,n,-,toast garlic bread pizza,toasted garlic bread pizza
 query-85,a fast dessert for valentines day,cooking,n,y,n,n,y,-,fast dessert valentin day,fast dessert for valentines day
 query-86,thick butternut squash soup,cooking,n,y,y,n,n,-,thick butternut squash soup,thick butternut squash soup
-query-87,an old fashioned beef stew witha  rich broth,cooking,n,y,y,y,n,-,old fashion beef stew witha rich broth,old fashioned beef stew witha  rich broth
+query-87,an old fashioned beef stew with a rich broth,cooking,n,y,y,y,n,-,old fashion beef stew with a rich broth,old fashioned beef stew with a rich broth
 query-88,a savory bagel,cooking,n,y,y,n,n,usa,savori bagel,savory bagel
 query-89,fried chinese dumplings,cooking,n,n,n,y,n,china,fri chines dumpl,fried chinese dumplings
 query-90,softly baked cookies,cooking,n,y,n,n,n,-,bake cooki,softly baked cookies
