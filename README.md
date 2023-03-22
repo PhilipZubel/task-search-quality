@@ -86,7 +86,8 @@ Run `runs_generation.ipynb` to reproduce the tables below.
 
 ## Results
 
-Overall Results on the Cooking dataset:
+Overall Results on the Cooking dataset. Pairwise t-test is applied against BM25 (optimal) with p-value = 0.05. Values in **bold** indicate that the null hypothesis is rejected.
+
 | Model             | MAP   | P@3   | P@10  | nDCG@3 | nDCG@10 | R@50  | 
 |----------------------------|----------------|----------------|----------------|-----------------|------------------|----------------|
 | **BM25**              | 0.493          | 0.730          | 0.586          | 0.624           | 0.584            | 0.747          | 
@@ -96,13 +97,13 @@ Overall Results on the Cooking dataset:
 | **ANCE**              | **0.431** | **0.783** | 0.559          | **0.713**  | 0.617            | **0.635** |
 | **TCT-ColBERT v2**    | 0.522          | **0.837** | **0.633** | **0.747**  | **0.669**   | 0.726          |
 | **MiniLM-L6**         | **0.453** | 0.713          | **0.555** | 0.617           | 0.574            | 0.731          |
-| **BM25 + RM3 + T5 (optimal)**  | **0.582** | **0.810** | **0.701** | **0.733**  | **0.707**   | 0.774          |
+| **BM25 + RM3 + T5**  | **0.582** | **0.810** | **0.701** | **0.733**  | **0.707**   | 0.774          |
 | **TCT-ColBERT v2 + T5**     | **0.561** | **0.840** | **0.676** | **0.744**  | **0.710**   | 0.726          |
 | **Fusion BM25+RM3/TCT-ColBERT v2** | **0.630** | **0.870** | **0.675** | **0.770**  | **0.706**   | **0.857** |
 | **Fusion BM25+RM3/TCT-ColBERT v2 + T5** | **0.629**                   | **0.830** | **0.683** | **0.741** | **0.711**  | **0.857**   |                |
 | **MiniLM-L6 + T5**          | **0.562** | **0.840** | **0.675** | **0.746**  | **0.707**   | 0.731          |
 
-Overall Results on the DIY dataset:
+Overall Results on the DIY dataset. Pairwise t-test is applied against BM25 (optimal) with p-value = 0.05. Values in **bold** indicate that the null hypothesis is rejected.
 
 
 | **Model**                           | **MAP** | **P@3** | **P@10** | **nDCG@3** | **nDCG@10** | **R@50** |
