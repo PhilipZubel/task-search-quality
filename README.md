@@ -83,7 +83,7 @@ docker rm -f marqo;
 docker run --name marqo --gpus all --privileged -p 8882:8882 --add-host host.docker.internal:host-gateway marqoai/marqo:0.0.12
 ```
 
-Run `main.ipynb` to reproduce results. 
+Run `runs_generation.ipynb` to reproduce the tables below. 
 
 ## Results
 
@@ -123,7 +123,6 @@ Overall Results on the DIY dataset:
 | **MiniLM-L6 + T5**                  | **0.249**   | **0.807**   | **0.777**    | **0.707**      | **0.672**       | 0.324             |
 
 
-
-
-
-
+## Contact
+name: Philip Zubel
+email: philip.zubel@glasgow.ac.uk
