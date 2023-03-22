@@ -1,6 +1,7 @@
-# Search Analysis on Cooking and DIY Tasks
+# Individual Project - Philip Zubel
+## GrillBot: Creating a Complex Query Task-Based Dataset and Implementing an Augmented Task Pipeline
 
-This repository contains the evaluation of state-of-the art ranking models on a handcrafted task-based dataset benchmark. The dataset consists of Cooking and DIY tasks which are based on the [WikiHow](https://github.com/zharry29/wikihow-goal-step) and [Recipe1m+](http://pic2recipe.csail.mit.edu/), queries, and annotations. The two task domains are evaluated separately.
+This repository contains the evaluation of state-of-the art ranking models on a handcrafted task-based dataset benchmark. The dataset consists of Cooking and DIY tasks which are based on the [WikiHow](https://github.com/zharry29/wikihow-goal-step) and [Recipe1m+](http://pic2recipe.csail.mit.edu/), queries, and annotations. The two task domain collections are evaluated separately.
 
 ## Dataset
 The dataset benchmark includes 100 Cooking and 100 DIY topics and includes the following components:
