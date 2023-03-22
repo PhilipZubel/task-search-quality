@@ -1,13 +1,12 @@
 # Search Analysis on Cooking and DIY Tasks
 
-This repository contains the evaluation of state-of-the art ranking models on a handcrafted task-based dataset benchmark. The dataset consists of Cooking and DIY tasks which are based on the WikiHow [link] and Recipe1m+, queries, and annotations. The two task domains are evaluated separately.
+This repository contains the evaluation of state-of-the art ranking models on a handcrafted task-based dataset benchmark. The dataset consists of Cooking and DIY tasks which are based on the [WikiHow](https://github.com/zharry29/wikihow-goal-step) and [Recipe1m+](http://pic2recipe.csail.mit.edu/), queries, and annotations. The two task domains are evaluated separately.
 
 ## Dataset
 The dataset benchmark includes 100 Cooking and 100 DIY topics and includes the following components:
-- Queries
-- Runs
-- Qrels
-- Raw judgments
+- [Queries](./queries)
+- [Qrels](./measurements/judgments)
+- Runs: [Cooking](./measurements/cooking/run_files/), [DIY](./measurements/diy/run_files/)
 
 ## Queries
 
@@ -27,10 +26,10 @@ around the world to cover a variety of cuisines.
 
 
 ## Models
-The following popular ranking algorithms are assessed on the dataset benchmark: BM25, BM25 + RM3, ANCE, TCT-ColBERT v2, MiniLM-L6. These ranking are supported by Pyserini[link] and Marqo[link]. Pygaggle's[link] implementation of T5 reranking is applied on top of each ranking model. Additionally, Reciprocal Rank Fusion (RRF) between BM25 + RM3 and TCT-ColBERT v2 is assessed. 
+The following popular ranking algorithms are assessed on the dataset benchmark: BM25, BM25 + RM3, ANCE, TCT-ColBERT v2, MiniLM-L6. These ranking are supported by [Pyserini](https://github.com/castorini/pyserini) and [Marqo](https://www.marqo.ai/). [Pygaggle](https://github.com/castorini/pygaggle)'s implementation of T5 reranking is applied on top of each ranking model. Additionally, Reciprocal Rank Fusion (RRF) between BM25 + RM3 and TCT-ColBERT v2 is assessed. 
 
 ## Runs
-Initial retreival of depth 50 is evaluated. Reranking is applied on all retrieved documents. The runs of each evaluated architecture can be found here[link].
+Initial retreival of depth 50 is evaluated. Reranking is applied on all retrieved tasks.
 
 ## Annotations
 A total of 12,141 annotations have been created for the two task domains. 
@@ -39,7 +38,7 @@ A total of 12,141 annotations have been created for the two task domains.
 |:-------:|:-----------:|:---------:|:----------:|
 | Score 0 |    2,869    |   3,157   |    6,026   |
 | Score 1 |    1,731    |   1,004   |    2,735   |
-| Score 2 |     2759    |    621    |    3,380   |
+| Score 2 |     2,759    |    621    |    3,380   |
 |  Total  |  **7,359**  | **4,782** | **12,141** |
 
 ## Installation Setup
@@ -124,5 +123,5 @@ Overall Results on the DIY dataset:
 
 
 ## Contact
-name: Philip Zubel
+
 email: philip.zubel@glasgow.ac.uk
