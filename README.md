@@ -7,6 +7,7 @@ This repository contains the evaluation of state-of-the art ranking models on a 
 The dataset benchmark includes 100 Cooking and 100 DIY topics and includes the following components:
 - [Queries](./queries)
 - [Qrels](./measurements/judgments)
+- [Readable Annotations](./measurements/annotations)
 - Runs: [Cooking](./measurements/cooking/run_files/), [DIY](./measurements/diy/run_files/)
 
 ## Queries
