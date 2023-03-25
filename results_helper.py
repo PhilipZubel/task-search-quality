@@ -58,13 +58,15 @@ def show_iprecs(results_iprec):
     # iprec = ir_measures.calc_aggregate(precs, qrles, run)
     # return iprec
 
-def get_all_metrics(runs_dir, qrels, path, with_t5 = None, metrics = None):  
-    if with_t5:
-        path += '-t5.csv'
-    elif with_t5 == False:
-        path += '-base.csv'
-    else:
-        path += '.csv'
+def get_all_metrics(runs_dir, qrels, path=None, with_t5 = None, metrics = None):  
+
+    if path:
+        if with_t5:
+            path += '-t5.csv'
+        elif with_t5 == False:
+            path += '-base.csv'
+        else:
+            path += '.csv'
 
     runs = os.listdir(runs_dir)
     results = {}
@@ -81,7 +83,8 @@ def get_all_metrics(runs_dir, qrels, path, with_t5 = None, metrics = None):
         results[searcher_name] = accuracy
         
     df = pd.DataFrame(results).transpose()
-    df.to_csv(path)
+    if path:
+        df.to_csv(path)
     return df
 
 def get_all_metrics_searcher(runs_dir, qrels, path, s_name = None):  
