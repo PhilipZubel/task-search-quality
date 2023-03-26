@@ -1,5 +1,5 @@
 # Individual Project - Philip Zubel
-## GrillBot: Creating a Complex Query Task-Based Dataset and Implementing an Augmented Task Pipeline
+## Task-Oriented Search: Complex Queries and Task Augmentations
 
 This repository contains the evaluation of state-of-the art ranking models on a handcrafted task-based dataset benchmark. The dataset consists of Cooking and DIY tasks which are based on the [WikiHow](https://github.com/zharry29/wikihow-goal-step) and [Recipe1m+](http://pic2recipe.csail.mit.edu/), queries, and annotations. The two task domain collections are evaluated separately.
 
