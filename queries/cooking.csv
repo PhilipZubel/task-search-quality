@@ -1,5 +1,5 @@
 id,raw query,domain,knowledge,complex,many points of view,different key entities,seasonal,regional,target query,short query
-query-0,how to spatchcock a turkey,cooking,n,y,n,n,y,usa,spatchcock turkey,spatchcock a turkey
+query-0,how to cook a spatchcocked turkey,cooking,n,y,n,n,y,usa,cook spatchcock turkey,cook a spatchcocked turkey
 query-1,i want an easy to make dessert for christmas,cooking,n,y,y,n,y,-,easi dessert christma,easy to make dessert for christmas
 query-2,any recommendations for a gluten free appetizer,cooking,y,n,y,y,n,-,gluten free appet,gluten free appetizer
 query-3,how to make a green goddess salad,cooking,y,y,n,y,n,usa,green goddess salad,green goddess salad
