@@ -1,73 +1,73 @@
 id,raw query,domain,knowledge,complex,many points of view,different key entities,seasonal,regional,target query,short query
-query-0,how to cook a spatchcocked turkey,cooking,n,y,n,n,y,usa,cook spatchcock turkey,cook a spatchcocked turkey
-query-1,i want an easy to make dessert for christmas,cooking,n,y,y,n,y,-,easi dessert christma,easy to make dessert for christmas
-query-2,any recommendations for a gluten free appetizer,cooking,y,n,y,y,n,-,gluten free appet,gluten free appetizer
-query-3,how to make a green goddess salad,cooking,y,y,n,y,n,usa,green goddess salad,green goddess salad
-query-4,how to make a classic english trifle,cooking,y,n,n,y,y,uk,classic english trifl,classic english trifle
-query-5,i want a scary pumpkin pie,cooking,n,y,y,n,y,-,scari pumpkin pie,scary pumpkin pie
-query-6,ideas for easy to carry tailgate food,cooking,y,y,y,n,y,usa,carri tailgat food,easy to carry tailgate food
-query-7,i want to make halloween candy,cooking,n,n,y,n,y,-,halloween candi,halloween candy
-query-8,how to make a gluten free peach crisp,cooking,y,y,n,y,n,-,gluten free peach,gluten free peach crisp
+query-0,cook a spatchcocked turkey,cooking,n,y,n,n,y,usa,cook spatchcock turkey,cook a spatchcocked turkey
+query-1,easy dessert for christmas,cooking,n,y,y,n,y,-,easi dessert christma,easy to make dessert for christmas
+query-2,a gluten free appetizer,cooking,y,n,y,y,n,-,gluten free appet,gluten free appetizer
+query-3,a green goddess salad,cooking,y,y,n,y,n,usa,green goddess salad,green goddess salad
+query-4,a classic english trifle,cooking,y,n,n,y,y,uk,classic english trifl,classic english trifle
+query-5,a scary pumpkin pie,cooking,n,y,y,n,y,-,scari pumpkin pie,scary pumpkin pie
+query-6,easy to carry tailgate food,cooking,y,y,y,n,y,usa,carri tailgat food,easy to carry tailgate food
+query-7,halloween candy,cooking,n,n,y,n,y,-,halloween candi,halloween candy
+query-8,gluten free peach crisp,cooking,y,y,n,y,n,-,gluten free peach,gluten free peach crisp
 query-9,healthy zucchini bread,cooking,y,y,y,n,n,-,healthi zucchini bread,healthy zucchini bread
-query-10,recommend some asian street foods,cooking,y,y,n,y,n,asia,asian street food,asian street foods
+query-10,asian street foods,cooking,y,y,n,y,n,asia,asian street food,asian street foods
 query-11,dinners by batali,cooking,n,y,n,y,n,-,dinner battl,dinners by batali
 query-12,traditional japanese soup,cooking,y,y,n,n,n,japan,tradit japanes soup,traditional japanese soup
-query-13,how to make singaporean chicken lunch,cooking,y,y,n,y,n,singapore,singapor chicken lunch,singaporean chicken lunch
+query-13,a singaporean chicken lunch,cooking,y,y,n,y,n,singapore,singapor chicken lunch,singaporean chicken lunch
 query-14,a romantic dinner,cooking,n,y,n,y,n,-,romant dinner,romantic dinner
-query-15,mexican fiesta recipes,cooking,y,y,y,y,y,mexico,mexican fiesta recip,mexican fiesta recipes
+query-15,a mexican fiesta recipe,cooking,y,y,y,y,y,mexico,mexican fiesta recip,mexican fiesta recipes
 query-16,a modern icebox cake,cooking,y,y,y,n,n,-,modern icebox cake,modern icebox cake
 query-17,food for diwali,cooking,y,y,y,y,y,india,food diwali,food for diwali
-query-18,i want a fancy eggs recipe,cooking,n,n,y,n,n,-,fanci egg,fancy eggs recipe
-query-19,how to make low fat ice cream,cooking,y,y,y,n,n,-,low fat ice cream,low fat ice cream
-query-20,how to prepare napoletana pizza dough,cooking,n,n,n,y,n,italy,napoletana pizza dough,napoletana pizza dough
-query-21,make vegetarian tikka masala,cooking,n,n,n,y,n,india,vegetarian tikka masala,vegetarian tikka masala
-query-22,i want to make chia pudding recipe low carb,cooking,n,n,n,y,n,australia,chia pud low carb,chia pudding recipe low carb
-query-23,how to make overnight oats,cooking,y,n,n,n,n,australia,overnight oat,overnight oats
-query-24,can i have classic dairy free scones,cooking,y,y,n,y,n,uk,classic dairi free scone,classic dairy free scones
-query-25,how to make spiked eggnog,cooking,y,n,n,y,n,canada,spike eggnog,spiked eggnog
-query-26,how to prepare spicy oysters,cooking,n,y,y,n,n,japan,spici oyster,spicy oysters
-query-27,how to quickly make baby food,cooking,y,y,y,n,n,-,babi food,quickly make baby food
-query-28,make lunch meal prep fast,cooking,y,n,y,y,n,-,lunch meal prep fast,lunch meal prep fast
-query-29,make vegetarian eintopf,cooking,y,y,n,n,n,germany,vegetarian eintopf,vegetarian eintopf
-query-30,how to make light muffins,cooking,n,y,n,y,n,-,light muffin,light muffins
-query-31,make fried halloumi bites,cooking,n,n,n,y,n,greece,fri halloumi bite,fried halloumi bites
-query-32,show me a creamy mushroom stroganoff recipe,cooking,n,y,n,y,n,russia,creami mushroom stroganoff,creamy mushroom stroganoff recipe
-query-33,can i have tender cooked pork,cooking,y,y,y,n,n,-,tender cook pork,tender cooked pork
-query-34,can i have soup good for the summer,cooking,n,y,y,n,y,-,soup good summer,soup good for the summer
-query-35,how to make boiled easter eggs,cooking,y,n,n,y,y,-,boil easter egg,boiled easter eggs
-query-36,suggestions for road trip food,cooking,y,n,y,n,n,-,road trip food,road trip food
-query-37,how to make polish pierogi with cheese,cooking,n,n,n,y,n,poland,polish pierogi chees,polish pierogi with cheese
-query-38,how can i make one pot ramen,cooking,y,n,y,y,n,japan,one pot ramen,one pot ramen
-query-39,how to make a traditional greek dinner,cooking,y,y,y,n,n,greece,tradit greek dinner,traditional greek dinner
-query-40,how to make salty brownies,cooking,y,n,y,n,n,-,salti browni,salty brownies
+query-18,fancy eggs recipe,cooking,n,n,y,n,n,-,fanci egg,fancy eggs recipe
+query-19,low fat ice cream,cooking,y,y,y,n,n,-,low fat ice cream,low fat ice cream
+query-20,napoletana pizza dough,cooking,n,n,n,y,n,italy,napoletana pizza dough,napoletana pizza dough
+query-21,vegetarian tikka masala,cooking,n,n,n,y,n,india,vegetarian tikka masala,vegetarian tikka masala
+query-22,a chia pudding recipe low carb,cooking,n,n,n,y,n,australia,chia pud low carb,chia pudding recipe low carb
+query-23,overnight oats,cooking,y,n,n,n,n,australia,overnight oat,overnight oats
+query-24,classic dairy free scones,cooking,y,y,n,y,n,uk,classic dairi free scone,classic dairy free scones
+query-25,spiked eggnog,cooking,y,n,n,y,n,canada,spike eggnog,spiked eggnog
+query-26,spicy oysters,cooking,n,y,y,n,n,japan,spici oyster,spicy oysters
+query-27,quickly make baby food,cooking,y,y,y,n,n,-,babi food,quickly make baby food
+query-28,lunch meal prep fast,cooking,y,n,y,y,n,-,lunch meal prep fast,lunch meal prep fast
+query-29,vegetarian eintopf,cooking,y,y,n,n,n,germany,vegetarian eintopf,vegetarian eintopf
+query-30,light muffins,cooking,n,y,n,y,n,-,light muffin,light muffins
+query-31,fried halloumi bites,cooking,n,n,n,y,n,greece,fri halloumi bite,fried halloumi bites
+query-32,creamy mushroom stroganoff recipe,cooking,n,y,n,y,n,russia,creami mushroom stroganoff,creamy mushroom stroganoff recipe
+query-33,tender cooked pork,cooking,y,y,y,n,n,-,tender cook pork,tender cooked pork
+query-34,soup good for the summer,cooking,n,y,y,n,y,-,soup good summer,soup good for the summer
+query-35,boiled easter eggs,cooking,y,n,n,y,y,-,boil easter egg,boiled easter eggs
+query-36,road trip food,cooking,y,n,y,n,n,-,road trip food,road trip food
+query-37,polish pierogi with cheese,cooking,n,n,n,y,n,poland,polish pierogi chees,polish pierogi with cheese
+query-38,one pot ramen,cooking,y,n,y,y,n,japan,one pot ramen,one pot ramen
+query-39,a traditional greek dinner,cooking,y,y,y,n,n,greece,tradit greek dinner,traditional greek dinner
+query-40,salty brownies,cooking,y,n,y,n,n,-,salti browni,salty brownies
 query-41,gingerbread cookies,cooking,y,n,n,n,y,-,gingerbread cooki,gingerbread cookies
-query-42,how to make a mango and avocado salad,cooking,n,n,n,y,n,-,mango avocado salad,mango and avocado salad
+query-42,mango and avocado salad,cooking,n,n,n,y,n,-,mango avocado salad,mango and avocado salad
 query-43,easy granola recipe,cooking,n,y,y,n,n,-,easi granola,easy granola recipe
 query-44,chili sin carne,cooking,y,y,n,n,n,mexico,chili sin carn,chili sin carne
 query-45,savory belgian waffles,cooking,y,n,y,n,n,belgium,savori belgian waffl,savory belgian waffles
-query-46,how to make medium rare salmon,cooking,y,y,y,n,n,-,medium rare salmon,medium rare salmon
+query-46,medium rare salmon,cooking,y,y,y,n,n,-,medium rare salmon,medium rare salmon
 query-47,a recipe with a whole chicken,cooking,y,n,n,n,n,-,chicken,chicken
-query-48,how to make a refreshing sweet smoothie,cooking,y,y,y,n,n,-,refresh sweet smoothi,refreshing sweet smoothie
+query-48,a refreshing sweet smoothie,cooking,y,y,y,n,n,-,refresh sweet smoothi,refreshing sweet smoothie
 query-49,a beefy burger,cooking,n,y,n,n,n,usa,beefi burger,beefy burger
-query-50,i would like basic clafoutis with some fresh fruit,cooking,y,n,y,y,n,france,basic clafouti fresh fruit,basic clafoutis with some fresh fruit
-query-51,how to make african meat samosas,cooking,y,n,y,y,n,kenya/south africa,african meat samosa,african meat samosas
+query-50,basic clafoutis with some fresh fruit,cooking,y,n,y,y,n,france,basic clafouti fresh fruit,basic clafoutis with some fresh fruit
+query-51,african meat samosas,cooking,y,n,y,y,n,kenya/south africa,african meat samosa,african meat samosas
 query-52,turkish chicken shish kebab,cooking,y,n,n,y,n,turkey,turkish chicken shish kebab,turkish chicken shish kebab
-query-53,how to make old fashioned pie pastry,cooking,y,y,y,y,n,-,old fashion pie pastri,old fashioned pie pastry
-query-54,how to bake a multilayer cake,cooking,y,n,n,n,n,-,bake multiplay cake,bake a multilayer cake
-query-55,i want a deep fried chicken recipe,cooking,y,n,n,y,n,-,fri chicken,deep fried chicken recipe
-query-56,i would like a fresh and healthy oatmeal bowl,cooking,y,y,y,y,n,-,healthi oatmeal bowl,fresh and healthy oatmeal bowl
-query-57,i want a quick rice salad,cooking,n,y,n,y,n,-,quick rice salad,quick rice salad
+query-53,old fashioned pie pastry,cooking,y,y,y,y,n,-,old fashion pie pastri,old fashioned pie pastry
+query-54,a multilayer cake,cooking,y,n,n,n,n,-,bake multiplay cake,bake a multilayer cake
+query-55,a deep fried chicken recipe,cooking,y,n,n,y,n,-,fri chicken,deep fried chicken recipe
+query-56,a fresh and healthy oatmeal bowl,cooking,y,y,y,y,n,-,healthi oatmeal bowl,fresh and healthy oatmeal bowl
+query-57,a quick rice salad,cooking,n,y,n,y,n,-,quick rice salad,quick rice salad
 query-58,japanese rice balls,cooking,n,y,n,y,n,japan,japanes rice ball,japanese rice balls
 query-59,a fresh drink for a sunny day,cooking,y,n,y,y,y,-,fresh drink sunni day,fresh drink for a sunny day
-query-60,i want some comfort food,cooking,n,y,y,n,n,-,comfort food,comfort food
-query-61,suggestions for a summer grill recipe,cooking,n,y,n,y,y,-,summer grill,summer grill recipe
+query-60,comfort food,cooking,n,y,y,n,n,-,comfort food,comfort food
+query-61,a summer grill recipe,cooking,n,y,n,y,y,-,summer grill,summer grill recipe
 query-62,vegetarian stuffed mushrooms,cooking,n,n,y,y,n,-,vegetarian stuf mushroom,vegetarian stuffed mushrooms
 query-63,sourdough bread sandwiches,cooking,y,n,n,y,n,-,sourdough bread sandwich,sourdough bread sandwiches
-query-64,recommendations for a mediterranean potluck,cooking,y,y,y,n,n,south europe,mediterranean potluck,mediterranean potluck
-query-65,make a continental breakfast,cooking,y,y,n,n,n,-,continent breakfast,continental breakfast
+query-64,a mediterranean potluck,cooking,y,y,y,n,n,south europe,mediterranean potluck,mediterranean potluck
+query-65,a continental breakfast,cooking,y,y,n,n,n,-,continent breakfast,continental breakfast
 query-66,homemade remedy for a cold,cooking,n,y,n,y,n,-,homemad remedi cold,homemade remedy for a cold
 query-67,fast and easy picnic foods,cooking,y,y,n,y,y,-,easi picnic food,fast and easy picnic foods
-query-68,lunch ideas for fat loss,cooking,y,y,n,n,n,-,lunch fat loss,lunch ideas for fat loss
+query-68,lunch for fat loss,cooking,y,y,n,n,n,-,lunch fat loss,lunch ideas for fat loss
 query-69,plant based food recipes,cooking,n,y,n,n,n,-,plant base food recip,plant based food recipes
 query-70,jain vegetarianism recipes,cooking,y,y,n,n,n,-,join vegetarian recip,jain vegetarianism recipes
 query-71,meals pair with wine,cooking,y,y,n,n,n,-,meal pair wine,meals pair with wine
@@ -79,7 +79,7 @@ query-76,make high protein bibimbap,cooking,n,y,n,y,n,south korea,high protein b
 query-77,protein rich vegetable meal,cooking,y,y,n,y,n,-,protein rich veget meal,protein rich vegetable meal
 query-78,original sloppy joe burger,cooking,y,y,n,y,n,usa,origin sloppi joe burger,original sloppy joe burger
 query-79,oven baked potatoes,cooking,n,n,n,y,n,-,bake potato,oven baked potatoes
-query-80,i want a crispy burrito,cooking,y,y,y,n,n,mexico,crispi burrito,crispy burrito
+query-80,a crispy burrito,cooking,y,y,y,n,n,mexico,crispi burrito,crispy burrito
 query-81,colorful vegatable salad,cooking,n,y,y,n,n,-,color veget salad,colorful vegatable salad
 query-82,slow-cooked fall-off-the-bone ribs,cooking,y,y,y,y,n,-,cook fall bone rib,slow-cooked fall-off-the-bone ribs
 query-83,fluffy cinnamon rolls,cooking,n,n,y,y,n,-,fluffi cinnamon roll,fluffy cinnamon rolls
@@ -98,4 +98,4 @@ query-95,spicy vegetarian indian curry,cooking,n,y,y,y,n,india,spici vegetarian 
 query-96,a grilled filling sandwich,cooking,n,y,y,y,n,-,grill fill sandwich,grilled filling sandwich
 query-97,healthy sweet potato french fries,cooking,n,y,n,y,n,usa,healthi sweet potato french fri,healthy sweet potato french fries
 query-98,a well balanced meal,cooking,y,y,n,n,n,-,balanc meal,balanced meal
-query-99,make chicken soup with homemade broth,cooking,n,y,n,y,n,-,chicken soup homemad broth,chicken soup with homemade broth
+query-99,chicken soup with homemade broth,cooking,n,y,n,y,n,-,chicken soup homemad broth,chicken soup with homemade broth
